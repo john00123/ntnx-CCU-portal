@@ -52,7 +52,7 @@ const popupData ={
     // change plan
     `
     <h2>Congratulations</h2>
-    <p> You have successfully made changes on this cluster's licenses. A new cluster summary file is been downloaded, use this file to update the license state of your cluster.</p> 
+    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> A <code style='font-size:14px;'>new cluster summary file</code> is been downloaded, use this file to update the license state of your cluster.</p> 
       `,
   ],
 
