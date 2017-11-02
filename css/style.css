@@ -35,6 +35,29 @@
   pointer-events: none;
 }
 
+.deck1 {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.element-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.blackbox {
+  background-color: #F2F4F6;
+  top: 0;
+}
+
 html {
   font: 400 14px/10px "nutanix_soft", san-serif;
   text-rendering: optimizeSpeed;

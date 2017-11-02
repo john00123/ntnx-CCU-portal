@@ -52,7 +52,7 @@ const popupData ={
     // change plan
     `
     <h2>Congratulations</h2>
-    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> A <code style='font-size:14px;'>new cluster summary file</code> is been downloaded, use this file to update the license state of your cluster.</p> 
+    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> A <code style='font-size:14px;'>new cluster summary file</code> is been downloaded, use this file to update the license state of your cluster.</p>
       `,
   ],
 
@@ -81,7 +81,7 @@ const layer2Data = {
       <div class="popup-body panels">
 
         <div class='panel1'>
-        <p style='margin-bottom:20px; margin-top:-3px; color:#22272E'> Licensing costs have been calculated based on <kbd class='tooltip-trigger'>cluster's capacity </kbd></p>
+        <p style='margin-bottom:20px; margin-top:-3px; color:#22272E'> Licensing costs have been calculated based on <kbd class='tooltip-trigger'>dev app's capacity </kbd></p>
 
         <h4 style='margin-bottom:15px;'>Acropolis License </h4>
 

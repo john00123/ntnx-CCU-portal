@@ -1,0 +1,15 @@
+.deck1{
+  @include size(auto, 100%);
+  @include flex(flex-start, space-between, row);
+  flex-wrap: wrap;
+}
+
+.element-head{
+  @include flex(center, space-between, row);
+}
+
+.blackbox{
+  background-color: $background-color-3;
+  top:0;
+  
+}

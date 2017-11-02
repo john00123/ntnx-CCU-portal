@@ -2,6 +2,7 @@
 @import '../../_ntnx/variables';
 @import '../../_ntnx/mixins';
 @import 'home.scss';
+@import 'element.scss';
 
 
 html {
@@ -120,7 +121,6 @@ h4{
     }
   }
 }
-
 
 span{
   line-height: 10px;
