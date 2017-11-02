@@ -1,0 +1,1065 @@
+//Comment for compiler
+@import '../../_ntnx/variables';
+@import '../../_ntnx/mixins';
+
+
+html {
+  @include font;
+  background-color: $light-grey-3;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  @include size(100%, 100%);
+}
+
+.main-container{
+  @include flex(center, center, row);
+}
+
+
+.banner{
+  @include size(40px, 100%);
+  @include flex(center,'','');
+  padding:8px 20px;
+  line-height: 10px;
+  color: $dark-green-3;
+  font-weight: 400;
+  z-index: 1;
+  background-color: $light-green-3;
+}
+
+
+aside{
+@include size(102%, 240px);
+display: block;
+background-color: white;
+float: left;
+
+h1{
+  margin-top: 30px;
+  margin-left: 20px;
+  font:$h1;
+}
+
+h4{
+  margin-left: 20px;
+  margin-top: 20px;
+  font:$h3-alt;
+  color:$font-color-4;
+}
+
+
+.separator{
+  @include size(1px, 30px);
+  background-color: $border-color-2;
+  margin: 20px 20px -10px 20px;
+  flex-shrink: 0;
+}
+
+ul{
+  margin-top:20px;
+}
+
+  li{
+    display: block;
+    @include flex(center, flex-start, '');
+    padding-left: 20px;
+    @include size(32px, 100%);
+
+    font-weight: 500;
+    color:$font-color-2;
+    &:hover{
+      color:$blue-1;
+      cursor: pointer;
+    }
+  }
+
+  .sidebar-selected{
+    color:initial;
+    background-color: $semi-white-blue;
+    position: relative;
+    &:after{
+      content:'';
+      display: block;
+      @include size(100%, 2px);
+      background-color: $blue-1;
+      position: absolute;
+      top:0;
+      right: 0;
+    }
+    &:hover{
+      color:initial;
+    }
+  }
+
+}
+
+header img{
+  margin-right: 20px;
+}
+
+button{
+  outline: none;
+}
+
+h4{
+  font:$h3-alt;
+  line-height: 9pt;
+  display: block;
+  height: 10px;
+  font-weight: 500;
+  code{
+    font-weight: 400;
+    color:$font-color-3;
+    padding-left: 10px;
+    kbd{
+      margin: 0 7px;
+    }
+  }
+}
+
+
+span{
+  line-height: 10px;
+  height: 10px;
+  display: block;
+}
+
+header {
+  @include size(60px, 100%);
+  @include padding();
+  @include flex(center, flex-start, row);
+  background-color: $background-color-1;
+  color: $font-color-4;
+  font-weight: 500;
+  a{
+    height: 10px;
+    line-height: 9pt;}
+
+  a:not(:last-child){
+    margin-right: 20px;
+  }
+  .right{
+    text-align: right;
+    flex-grow: 1;
+  }
+}
+
+//container
+.container {
+  @include size(auto, auto);
+  @include flex(center, flex-start, column);
+  // max-width: 1280px;
+  margin: 8px auto;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+//actions
+.actions {
+  @include flex(center, flex-start, row);
+  @include size(auto, 100%);
+  margin-top: -8px;
+
+  .primary {
+    @include primary;
+    position: relative;
+    padding-left: 30px;
+
+      &::before, &::after {
+      position: absolute;
+      content: " ";
+      background-color: #fff;
+      width: 8px;
+      height: 2px;
+      left: 16px;
+      top: 50%;
+      margin-top: -1px;
+      border-radius: 1px
+      }
+
+      &::after {
+          -webkit-transform: rotate(90deg);
+          transform: rotate(90deg)
+      }
+  }
+
+  .secondary {
+    @include secondary-alt;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .spacer{
+    flex-grow: 1;
+  }
+}
+
+.btn-disabled{
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.grower{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 2;
+  z-index: 20px;
+}
+
+.banner-info{
+  background-color: $light-blue-3;
+  color:$dark-blue-2;
+  @include size(40px, 100%);
+  @include flex(center,'','');
+  padding:8px 20px;
+  line-height: 10px;
+  font-weight: 400;
+  z-index: 1;
+  white-space: pre-wrap;
+}
+
+.tooltip-trigger{
+  position: relative;
+  width: 92px;
+  text-align: left;
+  color:$blue-1;
+  border-bottom: 1px dotted $blue-1;
+  &:hover{
+  cursor: default;
+  }
+
+  &::before, &::after{
+    font-size: 12px;
+    opacity: 0;
+    z-index: 20;
+    pointer-events: none;
+  }
+
+
+  &::before{
+  position: absolute;
+  @include shadow;
+
+  content:
+  "Total Sockets         100\A
+  Total HDD             200\A
+  Totla SSD              300 ";
+  color:white;
+  background-color: $background-color-1;
+  padding: 15px;
+  width: 120px;
+
+  left: 0px;
+  top: 23px;
+  margin-top: -1px;
+  border-radius: 4px;
+    white-space: pre-wrap;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    top:20px;
+    transform: rotate(45deg) scale(0.8);
+    border-radius: 1.5px;
+    left: 15px;
+    background-color: $background-color-1;
+    height: 10px;
+    width: 10px;
+    display: block;
+  }
+
+  &:hover::after, &:hover::before{
+  opacity: 1; }
+}
+
+
+.tooltip-trigger2{
+  @extend .tooltip-trigger;
+    &::before{
+      content:"CCU is a license  \A
+      currency\A
+      across product our portfolio offerings";
+      left: -120px;
+    }
+}
+
+.tooltip-trigger3{
+  @extend .tooltip-trigger;
+
+  position: relative;
+  width: auto;
+  text-align: right;
+  color:$dark-blue-2;
+  border-bottom: 1px dotted $dark-blue-2;
+    &::before{
+      content:"3 new nodes were added to this cluster";
+      line-height: 1.2;
+      left: -120px;
+      text-align: left;
+    }
+}
+
+.actions-dropdown{
+  position: relative;
+  width: 92px;
+  text-align: left;
+
+
+  &::before, &::after {
+  position: absolute;
+  content: " ";
+  background-color: $font-color-1;
+  width: 5px;
+  height: 1.5px;
+  right: 19px;
+  top: 55%;
+  margin-top: -1px;
+  border-radius: 1px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  }
+
+  &::after {
+      right: 16px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  }
+
+  &:hover{
+  &::before, &::after {background-color: $blue-1;}
+  }
+}
+
+.black-span-btn{
+  color:$font-color-1;
+
+}
+/* ==========================================================================
+Cards
+========================================================================== */
+.deck {
+  @include size(auto, 100%);
+  @include flex(flex-start, space-between, row);
+  flex-wrap: wrap;
+}
+
+.card {
+  @include secondary-alt;
+  width: calc(33% - 10px);
+  font: $h3-alt;
+  padding: 0;
+  margin: $medium 0 0;
+
+  &:hover{
+      color:initial;
+      cursor: default;
+    }
+
+  p {
+    margin-top: 12px;
+    color: $font-color-2;
+    code{
+      background-color: $light-blue-3;
+      color:$dark-blue-3;
+      border-radius: 3px;
+      padding: 0 5px;
+    }
+  }
+
+}
+
+.card-title {
+  @include flex(center, space-between, row);
+  padding: 14px 20px;
+  color: $font-color-1;
+  border-bottom: 1px solid $border-color-3;
+
+  .balance{
+    @include flex(center, space-between, row);
+  }
+  a{
+    @include transition(opacity);
+    opacity: 0;
+    will-change: opacity;
+    color:$blue-1;
+
+    &:hover{
+    text-decoration: underline;
+    }
+  }
+}
+
+.card-body {
+  padding: 23px 20px;
+}
+
+
+/* ==========================================================================
+Table
+========================================================================== */
+.table{
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.table:hover{
+  @include shadow;
+  tr:last-child{
+    border-bottom: none;
+    border-radius: 0px 0px 4px 4px;
+    td{
+      border-bottom: 1px solid transparent;
+      border-radius: 0px 0px 4px 4px;
+    }
+  }
+  thead tr:first-child{
+    background: none;
+  }
+}
+
+th{
+  font:$h4;
+  color:$font-color-2;
+  font-weight: 500;
+}
+th:not(:last-child){
+  border-right: 1px solid $border-color-3;
+}
+
+
+
+th, td{
+  height: 40px;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid $border-color-3;
+  code{
+    background-color: $light-blue-3;
+    border-radius: 2px;
+    padding: 1px 5px;
+    color: $dark-blue-3;
+    font-size: 12px;
+    margin-right: 15px;
+  }
+  a{
+    color:$font-color-3;
+    margin-left: 5px;
+  }
+}
+
+th:not(:first-child), td:not(:first-child){
+  text-align: right;
+  vertical-align: middle;
+  width: 110px;
+  padding-right: 20px;
+}
+//
+// th:nth-child(2), td:nth-child(2){
+//   text-align: left;
+// }
+
+tr:hover{
+  background-color: $semi-white-blue;
+  cursor: default;
+  td {
+    box-shadow: 0 -1px 0 $semi-white-blue;
+    border-color: $semi-white-blue;
+    border-top: 1px double $semi-white-blue !important;
+    z-index: 2;
+  }
+}
+
+
+td{
+  white-space: nowrap;
+}
+
+td:last-child{
+  margin-left: -50px;
+  position: relative;
+  right: 15px;
+}
+
+.tusage td:last-child{
+  right: 0;
+}
+
+td kbd{
+  margin-left: 10px;
+  color:$grey-2;
+  position:absolute;
+  font-size: 11px;
+  height: 8px;
+  width: 20px;
+  right: 5px;
+
+  &::before{
+    color:$grey-2;
+    content: '•';
+    position: absolute;
+    top:-4px;
+  }
+  &::after{
+    color:$grey-2;
+    content: '•';
+    position: absolute;
+    top:4px;
+    right:0px;
+  }
+  &:hover, &:hover::before, &:hover::after{
+    color:$blue-1;
+    cursor: pointer;
+  }
+}
+
+.table-header:hover{
+  background-color: white;
+  cursor: initial;
+}
+
+.prev-bills td:first-child{
+  &:hover{
+    color:$blue-1;
+  }
+}
+
+.floater{
+  display: none;
+  width: 130px;
+  @include secondary;
+  @include shadow;
+  position: absolute;
+  top:34px;
+  left:0px;
+
+  z-index: 3000;
+
+  a {
+    margin-left: 0;
+    line-height: 30px;
+    text-decoration: none;
+    color:$font-color-1;
+    &:hover{
+      color:$blue-1;
+    }
+  }
+
+  &:hover{
+    color:$blue-1;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    top:-4px;
+    transform: rotate(45deg) scale(0.8);
+    border-radius: 1.5px;
+    left: 65px;
+    background-color: white;
+    box-shadow: -1px -1px 0 0 $border-color-2;
+    height: 10px;
+    width: 10px;
+    display: block;
+  }
+}
+.link{
+  @include link;
+}
+
+/* ==========================================================================
+Popup
+========================================================================== */
+.overlay{
+  @include size(100%, 100vw);
+  @include flex(center, center, column);
+  @include absolute();
+  background-color: rgba(0,0,0,0.4);
+  // overflow: hidden;
+  z-index: 100;
+  @include transition(opacity);
+}
+
+.popup{
+  @include size(auto,400px);
+  @include shadow;
+}
+
+.flexbox-stretch{
+  display: flex;
+  width:100%;
+  align-items: stretch;
+  flex-grow: 1;
+  color: $font-color-3;
+  justify-content: space-between;
+
+}
+
+
+.popup-header{
+  @include flex(center, center ,row);
+  @include size(auto, 100%);
+  position:relative;
+  background-color: white;
+  border-radius: 4px 4px 0 0;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid $border-color-3;
+  line-height: 10px;
+
+  &:hover::before, &:hover::after{
+    background-color:$font-color-1;
+  }
+
+  &:hover{
+    cursor: pointer;
+  }
+
+  &::before, &::after{
+  content:'';
+  @include absolute(18px,'',23px);
+  @include size(14px, 2px);
+  border-radius: 3px;
+  display: block;
+  background-color: $font-color-3;
+  }
+
+  &::before{
+    transform: rotate(45deg);
+  }
+  &::after{
+    transform: rotate(-45deg);
+  }
+}
+
+.popup-body{
+  @include size(auto,100%);
+  @include flex(center, flex-start, column);
+  @include inputs;
+  padding: 30px 20px;
+  background-color: white;
+  max-height: 500px;
+
+  overflow-y: scroll;
+
+  h1{
+    font: $h3;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    margin-top: -8px;
+    width: 100%;
+  }
+
+  h2{
+    font:$h2;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    font: $h3;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: -8px;
+    width: 100%;
+    code{
+      background-color: $light-blue-3;
+      color:$dark-blue-3;
+      border-radius: 3px;
+      padding: 0 5px;
+    }
+  }
+
+  p{
+    line-height: 1.5;
+    margin-bottom: -6px;
+    color: $font-color-2;
+  }
+
+  .separator{
+    @include size(1px, 100%);
+    background-color: $border-color-3;
+    margin: 30px 0;
+    flex-shrink: 0;
+  }
+
+  .file-button{
+    @include size(32px, auto);
+    @include secondary;
+    border-radius: 0 4px 4px 0;
+    flex-shrink: 0;
+  }
+
+  .primary{
+    @include size(32px, 100%);
+    @include primary;
+    margin-top: 20px;
+    flex-shrink: 0;
+  }
+
+  .secondary{
+    @include size(32px, 100%);
+    @include secondary;
+    margin-top: 20px;
+    flex-shrink: 0;
+  }
+
+  input.confirm-deletion{
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+
+  .delete{
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+    background-color: $red-1;
+    &:hover{
+      background-color: $dark-red-3;
+    }
+  }
+
+
+  code{
+    background-color: $light-blue-3;
+    color:$dark-blue-3;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 12px;
+    text-align: left;
+    margin: 0 auto 10px 0;
+  }
+
+  .money{
+    font:$h1;
+    font-weight: 200;
+    color:$font-color-1;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background: none;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+    &::after{
+      content: ' CCUs';
+    }
+  }
+
+
+
+  .term{
+    @include secondary;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding:0;
+    height: 32px;
+    border-radius: 0 4px 4px 0;
+    border-left: none;
+    line-height: 30px;
+    padding-left: 10px;
+    width: 30%;
+  }
+  input[type="number"], .term {
+    margin-bottom: 10px !important;
+  }
+
+}
+
+.panels{
+  @include flex(flex-start,'',row);
+  margin: 0;
+  padding: 0;
+  @include size(100%, 100%);
+
+  .panel1{
+    @include size(auto, 300px);
+    padding: 20px;
+  }
+
+  a{
+    color:$blue-1;
+  }
+
+  //sidebar
+
+
+  .license-pair{
+    margin-bottom: 5px;
+  }
+  .panel2{
+    @include size(330px, 200px);
+    min-height: 250px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    background-color: $background-color-3;
+
+    p{
+      display: flex;
+      font-size: 12px;
+    }
+
+    code{
+      border: 0;
+      flex-grow: 1;
+      text-align: right;
+      background-color: inherit;
+    }
+
+    .flexbox-stretch{
+      flex-grow: 0;
+    }
+
+    h4{
+      display: flex;
+      code{
+        color:$font-color-1;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+    }
+
+    .separator{
+      background-color: $border-color-2;
+      opacity: 0.3;
+      margin: 10px 0;
+    }
+
+    code{
+      color:$font-color-1;
+    }
+
+  }
+
+}
+
+.banner{
+  @include size(40px, 100%);
+  @include flex(center,'','');
+  padding:8px 20px;
+  line-height: 10px;
+  color: $dark-green-3;
+  font-weight: 400;
+  z-index: 1;
+  background-color: $light-green-3;
+}
+
+.error-ban{
+  color:$dark-red-3;
+  background-color: $light-red-3;
+}
+
+
+.popup-footer{
+  @include flex(center,flex-end,row);
+  @include size(72px, 100%);
+  border-radius:
+  0   0
+  4px 4px;
+  border-top: 1px solid $border-color-3;
+  background-color: white;
+  padding: 20px;
+
+  .primary{
+    @include primary;
+    border: 1px solid transparent;
+    height: 32px;
+    flex-shrink: 0;
+  }
+
+  .secondary{
+    @include secondary;
+    height: 32px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+}
+
+#redeem-input{
+  @include transition(all);
+}
+
+input[type="file"]{
+  display: none;
+}
+
+.upload-file{
+  width: 100%;
+  flex-shrink: 0;
+  @include flex(center, space-between, row);
+  .file-button{
+    @include secondary;
+    @include size(32px, auto);
+    border-radius: 0 4px 4px 0;
+    border-left:none;
+    border-color: $border-color-1;
+  }
+
+
+
+  input#path2.path{
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+
+
+.tax-block{
+  @include size(14px, 100%);
+  @include flex(center, center, row);
+  input{
+    maring:0;
+  }
+  p{
+    flex-grow: 1;
+    height: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    line-height: 9pt;
+  }
+}
+
+.show{
+  animation: shows 600ms $animation 100ms forwards;
+}
+
+.peek{
+  animation: hides 600ms $animation forwards;
+}
+
+.appear{
+  animation: appear 600ms $animation 100ms forwards;
+}
+
+.disappear{
+  animation: disappear 600ms $animation forwards;
+}
+
+
+
+.second{
+  &::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.30);
+    border-radius: 4px;
+  }
+  animation: layer 600ms $animation 100ms forwards;
+}
+
+
+/* ==========================================================================
+Animation
+========================================================================== */
+
+@keyframes appear {
+  0%{
+    opacity: 0;
+    transform:translate3d(0, 50px, 0);
+  }
+
+  100%{
+    opacity: 1;
+    transform:translate3d(0, 0, 0);
+  }
+}
+
+@keyframes disappear {
+  from{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  to{
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+}
+
+@keyframes shows {
+  0%{ opacity: 1;}
+  99%{ opacity: 1; }
+  100%{ opacity: 1; }
+}
+
+@keyframes hides {
+  from{ opacity: 1;}
+  to{ opacity: 0;}
+}
+
+
+@keyframes layer{
+  from{
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  to{
+    opacity: 1;
+    transform: scale(0.95) translate3d(0, -45px, 0);
+  }
+}
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+
+// @media (max-width: 1024px) {
+//   .deck {
+//     .card {
+//       width: calc(50% - 10px);
+//     }
+//   }
+// }
+
+@media (max-width: 980px) {
+  .deck {
+    .card {
+      width: 100%;
+    }
+  }
+
+  .container{
+    min-width: 320px;
+  }
+
+  th:not(:first-child), td:not(:first-child){
+    width: 65px;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+aside{
+  display: none;}
+}
+
+@media (max-width: 420px) {
+  h4 code{display: none;}
+  td a{display: none;}
+  td code{display: none;}
+}
