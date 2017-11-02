@@ -442,7 +442,7 @@ header .right {
 }
 
 .tooltip-trigger2::before {
-  content: "CCU is a license  \A currency\A across product our portfolio offerings";
+  content: "CCU is a license  \A currency\A across products in our portfolio offerings";
   left: -120px;
 }
 
@@ -525,6 +525,7 @@ Cards
   font: 400 14px/10px "nutanix_soft", san-serif;
   padding: 0;
   margin: 20px 0 0;
+  min-height: 84px;
 }
 
 .card:hover {

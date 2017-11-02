@@ -1,7 +1,7 @@
 const cardData ={
-  cardInfo : ['CCUs Available','CCUs Consumed','Enviroment information'],
+  cardInfo : [,`<kbd class='tooltip-trigger2'>CCUs</kbd> Consumed`,'Enviroment information'],
   cardBody :[13000,50000 ,50 + ' Clusters Licensed', ],
-  cardSecondary : ['Consumed CCUs','Available CCUs','Last updated Oct 2016'],
+  cardSecondary : ['Consumed CCUs',`Available <kbd class='tooltip-trigger2' style='line-height:1.2;'>CCUs</kbd>`,'Last updated Oct 2016'],
 }
 
 const usageData ={

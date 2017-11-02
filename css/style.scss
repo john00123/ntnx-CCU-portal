@@ -291,7 +291,7 @@ header {
     &::before{
       content:"CCU is a license  \A
       currency\A
-      across product our portfolio offerings";
+      across products in our portfolio offerings";
       left: -120px;
     }
 }
@@ -362,6 +362,7 @@ Cards
   font: $h3-alt;
   padding: 0;
   margin: $medium 0 0;
+  min-height: 84px;
 
   &:hover{
       color:initial;
