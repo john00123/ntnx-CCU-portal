@@ -1,6 +1,7 @@
 //Comment for compiler
 @import '../../_ntnx/variables';
 @import '../../_ntnx/mixins';
+@import 'home.scss';
 
 
 html {
@@ -136,7 +137,14 @@ header {
   font-weight: 500;
   a{
     height: 10px;
-    line-height: 9pt;}
+    line-height: 9pt;
+    color: #9AA5B5;
+    text-decoration: none;
+
+    &:hover{
+      color:white;
+    }
+  }
 
   a:not(:last-child){
     margin-right: 20px;
