@@ -57,8 +57,14 @@
   font-weight: 600;
 }
 
+.gear {
+  opacity: 0.6;
+  transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 .gear:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
 .blackbox {
@@ -120,11 +126,13 @@ p a:hover {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  height: 50px;
+  height: 60px;
   width: 100%;
   box-sizing: border-box;
   background-color: #F2F4F6;
   padding: 20px;
+  font-weight: 500;
+  color: #627386;
 }
 
 .close {
@@ -194,12 +202,7 @@ p a:hover {
   font-size: 12px;
   line-height: 9pt;
   margin-right: 10px;
-}
-
-.page-body .circle p kbd {
-  font-weight: 500;
-  margin-right: 10px;
-  border-radius: 2px;
+  text-align: center;
 }
 
 .future-option {

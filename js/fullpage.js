@@ -1,8 +1,24 @@
 function dropdown(){$('.blackbox').toggle()}
 function fullpage(){
   $('.page').fadeToggle();
-  $('html').toggleClass('overflow');
   selection(0);
+  $('html').toggleClass('overflow');
+}
+
+function applyLicense(){
+  $('.see-licenses').click(function(){
+    $('.page-header').after(`<div class='banner'>License has been successfully applied.</div>`);
+    $('.banner').css('height','50px');
+    $('.banner').toggle();
+    $('.banner').slideDown();
+    $('.banner').css('border-top','1px solid #CEF6DE')
+
+    setTimeout(function(){
+      $('.banner').slideUp(); setTimeout(function(){ $('.banner').remove();},300);
+    },7000);
+
+    $('.page-body').html('<h1>This is something else</h1>');
+  });
 }
 
 function selection(i){
@@ -27,11 +43,13 @@ function selection(i){
 }
 
 dropdown()
-// fullpage()
+fullpage()
+$('html').toggleClass('overflow');
 $('.gear').click(dropdown);
 $('.license, .close').click(fullpage);
 $('.license').click(dropdown);
-
 selection(0);
+
 $('.summary').click(function(){selection(1)});
 $('.portal').click(function(){selection(2)});
+$('.up-file').click(function(){popupContent(4)});

@@ -13,8 +13,11 @@
 }
 
 .gear{
+  opacity: 0.6;
+  @include transition(opacity);
   &:hover{
     cursor: pointer;
+    opacity: 1;
   }
 }
 
@@ -65,9 +68,11 @@ p a{
 
 .page-header{
   @include flex(center, space-between, row);
-  @include size(50px, 100%);
+  @include size(60px, 100%);
   background-color: $background-color-3;
   padding:20px;
+  font-weight: 500;
+  color:$font-color-2;
 }
 
 .close{
@@ -75,6 +80,7 @@ p a{
   @include size(14px, 14px);
 
   &:hover{ cursor: pointer; }
+
   &:before, &:after{
     @include size(14px, 2px);
     content: '';
@@ -113,13 +119,7 @@ p a{
     font-size: 12px;
     line-height:9pt;
     margin-right: 10px;
-    }
-
-    kbd{
-      font-weight: 500;
-      margin-right: 10px;
-
-      border-radius: 2px;
+    text-align: center;
     }
 
   }

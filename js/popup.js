@@ -6,7 +6,8 @@ const popupData ={
     'License Cluster',
     'Reclaiming CCUs',
     'Next Steps',
-    'CCUs Reclaimed'
+    'CCUs Reclaimed',
+    'Upload License File'
   ],
 
   body: [
@@ -21,7 +22,7 @@ const popupData ={
       This helps us find all available licenses for a selected cluster
     </p>
 
-    <input type="file" id='file' accept=".xml">
+    <input type="file" id='file'>
     <label for='path2'>Select file</label>
 
     <div class='upload-file'>
@@ -40,7 +41,7 @@ const popupData ={
       This helps us find all available licenses for a selected cluster
     </p>
 
-    <input type="file" id='file' accept=".xml">
+    <input type="file" id='file'>
     <label for='path2'>Select file</label>
 
     <div class='upload-file'>
@@ -54,6 +55,40 @@ const popupData ={
     <h2>Congratulations</h2>
     <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> A <code style='font-size:14px;'>new license summary file</code> is been downloaded, use this file to update the license state of your cluster.</p>
       `,
+
+    `
+    <h3 style='margin-bottom:0px'>
+      Select your license summary file
+    </h3>
+
+    <p style='margin-bottom:20px; width:100%'>
+      This helps us find all available licenses for a selected cluster
+    </p>
+
+    <input type="file" id='file'>
+    <label for='path2'>Select file</label>
+
+    <div class='upload-file'>
+      <input class='path' readonly type='text' id='path2'></input>
+      <label class='file-button' for='file'>Select File</label>
+    </div>`,
+
+    `
+    <h3 style='margin-bottom:0px'>
+      Select your license file
+    </h3>
+
+    <p style='margin-bottom:20px; width:100%'>
+      This will update your cluster licensing state
+    </p>
+
+    <input type="file" id='file'>
+    <label for='path2'>Select file</label>
+
+    <div class='upload-file'>
+      <input class='path' readonly type='text' id='path2'></input>
+      <label class='file-button' for='file'>Select File</label>
+    </div>`,
   ],
 
   footer:[
@@ -66,7 +101,7 @@ const popupData ={
     `<button class="secondary cancel"> Cancel </button>
      <button class="primary congrats"> Save Changes </button>`,
 
-    `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
+    `<button class="primary see-licenses btn-disabled"> Apply </button>`,
 
     `<button class="primary add-node btn-disabled">Next</button>`,
   ]

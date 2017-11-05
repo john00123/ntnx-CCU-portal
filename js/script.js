@@ -35,7 +35,7 @@ function tableData(){
     $('.usage').append(
       `<tr>
         <td> ${usageData.Type[i]}</td>
-        <td> ${usageData.Purchased[i]}</td>
+        <!--<td> ${usageData.Purchased[i]}</td>-->
         <td> ${usageData.Ammounts[i]}</td>
         <td> ${usageData.Expiration[i]}</td>
     </tr>`);
@@ -74,6 +74,10 @@ function uploadPath(){
 }
 
 
+
+
+
+
 //popup data
 
 function popupContent(i){
@@ -89,8 +93,13 @@ function popupContent(i){
   multiPopup();
   uploadFile();
   popAnimate();
+  applyLicense();
   // countNumbers();
 }
+
+
+
+
 
 
 //popup animation
@@ -106,7 +115,7 @@ function popAnimate(){
 
 
 
-  $('.popup-header, .cancel').click(function(){
+  $('.popup-header, .cancel, .see-licenses').click(function(){
     $('.popup').addClass('disappear');
     $('.overlay').fadeOut();
     $('.overlay').removeClass('show');
