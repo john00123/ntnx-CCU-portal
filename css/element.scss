@@ -8,8 +8,136 @@
   @include flex(center, space-between, row);
 }
 
+.cluster-name{
+  font-weight: 600;
+}
+
+.gear{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
 .blackbox{
+  padding: 0px 20px;
   background-color: $background-color-3;
+  width: 350px;
+  top:35px;
+  left:-370px;
+  position: absolute;
+  @include flex(flex-start, space-between, row);
+  line-height: 1.75;
+  color:$font-color-3;
+  background-color: $semi-black;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+a{
+  &:hover{
+    color:white;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+p a{
+  @include link;
+  &:hover{
+    color:$blue-1;
+    // border-bottom: 1px solid $blue-1;
+  }
+}
+
+// --- Fullpage
+.overflow{
+  overflow: hidden;
+}
+
+.page{
+  @include size(100%, 100%);
+  position: fixed;
   top:0;
-  
+  left:0;
+  background-color: white;
+  @include transition(translate);
+}
+
+.page-header{
+  @include flex(center, space-between, row);
+  @include size(50px, 100%);
+  background-color: $background-color-3;
+  padding:20px;
+}
+
+.close{
+  position: relative;
+  @include size(14px, 14px);
+
+  &:hover{ cursor: pointer; }
+  &:before, &:after{
+    @include size(14px, 2px);
+    content: '';
+    top:0px;
+    right:7px;
+    display: block;
+    position: absolute;
+    border-radius: 2px;
+    background-color: $font-color-2;
+  }
+
+  &:before{ transform: rotate(45deg);}
+  &:after{ transform: rotate(-45deg);}
+  &:hover::before, &:hover::after{ background-color: $font-color-1;}
+}
+
+.page-body{
+  @include flex(center, center, column);
+  @include size(100%, 100%);
+
+  h1{
+    font:$h1;
+    margin-bottom: 30px;
+  }
+
+  .circle p{
+    position: relative;
+    line-height: 3;
+
+    code{
+    @include size(20px,20px);
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25pc;
+    font-size: 12px;
+    line-height:9pt;
+    margin-right: 10px;
+    }
+
+    kbd{
+      font-weight: 500;
+      margin-right: 10px;
+
+      border-radius: 2px;
+    }
+
+  }
+}
+.future-option{
+  background-color: $white;
+  color:$font-color-3;
+  border: 1px solid $light-grey-2;
+}
+
+.past-option{
+  background-color: $white;
+  color:$blue-1;
+  border: 1px solid $light-blue-2;
+}
+
+.current-option{
+  background-color: $blue-1;
+  color:white;
+  border: none;
 }

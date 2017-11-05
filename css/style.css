@@ -53,9 +53,171 @@
   flex-direction: row;
 }
 
+.cluster-name {
+  font-weight: 600;
+}
+
+.gear:hover {
+  cursor: pointer;
+}
+
 .blackbox {
+  padding: 0px 20px;
   background-color: #F2F4F6;
+  width: 350px;
+  top: 35px;
+  left: -370px;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  line-height: 1.75;
+  color: #7C8D9F;
+  background-color: #1B2025;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+p a {
+  color: #22A5F7;
+  font: 400 14px/10px "nutanix_soft", san-serif;
+  text-decoration: none;
+}
+
+p a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: #22A5F7;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
   top: 0;
+  left: 0;
+  background-color: white;
+  transition: translate 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #F2F4F6;
+  padding: 20px;
+}
+
+.close {
+  position: relative;
+  height: 14px;
+  width: 14px;
+  box-sizing: border-box;
+}
+
+.close:hover {
+  cursor: pointer;
+}
+
+.close:before, .close:after {
+  height: 14px;
+  width: 2px;
+  box-sizing: border-box;
+  content: '';
+  top: 0px;
+  right: 7px;
+  display: block;
+  position: absolute;
+  border-radius: 2px;
+  background-color: #627386;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.close:hover::before, .close:hover::after {
+  background-color: #22272E;
+}
+
+.page-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page-body h1 {
+  font: 200 29px/20px "nutanix_soft", san-serif;
+  margin-bottom: 30px;
+}
+
+.page-body .circle p {
+  position: relative;
+  line-height: 3;
+}
+
+.page-body .circle p code {
+  height: 20px;
+  width: 20px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25pc;
+  font-size: 12px;
+  line-height: 9pt;
+  margin-right: 10px;
+}
+
+.page-body .circle p kbd {
+  font-weight: 500;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.future-option {
+  background-color: #FFFFFF;
+  color: #7C8D9F;
+  border: 1px solid #D5DAE0;
+}
+
+.past-option {
+  background-color: #FFFFFF;
+  color: #22A5F7;
+  border: 1px solid #d3edfd;
+}
+
+.current-option {
+  background-color: #22A5F7;
+  color: white;
+  border: none;
 }
 
 html {
