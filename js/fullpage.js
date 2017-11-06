@@ -11,7 +11,7 @@ const pageData = `<div class="data-main-content">
 
     <div class="multi-button">
       <div class="data-button-grouping">
-        <button class='secondary' style='margin-top:20px;'> Change License </button><button class='primary' style='margin-top:20px; margin-left:10px;'> Reclaim </button>
+        <button class='secondary' style='margin-top:20px;'> Change License </button><button class='primary reclaim-task2' style='margin-top:20px; margin-left:10px;'> Reclaim </button>
       </div>
     </div>
   </article>
@@ -31,6 +31,37 @@ const pageData = `<div class="data-main-content">
   </article>
 </div>`
 
+
+const page={
+  title:['Reclaim unused'],
+  body:
+  [
+  `
+    <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary'>cluster summary file.</a></p>
+
+    <p class='statement'><code class='option'>2</code>Reclaim it through the<a class='portal' href='home.html' target='_blank'> license page</a> action menu.</p>`
+
+  ],
+  footer:[`<button class="secondary cancel" style="margin-right:0"> Done </button>`],
+}
+
+
+function popupRender(i,j,k){
+  $('.page-body').append(
+    `<div class="overlay" style='opacity:0'>
+      <div class="popup" style='opacity:0'>
+        <div class="popup-header">${page.title[i]}</div>
+        <div class="popup-body">${page.body[j]}</div>
+        <div class="popup-footer">${page.footer[k]}</div>
+      </div>
+    </div>`
+  );
+  multiPopup();
+  uploadFile();
+  popAnimate();
+  applyLicense();
+  // countNumbers();
+}
 
 
 function dropdown(){$('.blackbox').toggle()}
@@ -61,6 +92,7 @@ function applyLicense(){
   $('.see-licenses').click(function(){
       banner(bannerData.license);
       $('.page-body').html(pageData);
+      $('.reclaim-task2').click(function(){popupRender(0,0,0)});
   });
 }
 function selection(i){
@@ -84,11 +116,12 @@ function selection(i){
   .removeClass('future-option past-option').addClass('current-option');
 }
 
-dropdown()
-fullpage()
+dropdown();
+fullpage();
 // //
 //   $('.page-body').html(pageData);
 // //
+// popupRender(0,0,0);
 
 $('html').toggleClass('overflow');
 $('.gear').click(dropdown);

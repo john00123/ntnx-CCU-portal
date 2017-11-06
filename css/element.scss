@@ -153,6 +153,29 @@ p a{
 
 }
 
+.popup-body{
+  .statement{
+  width: 100%;
+  text-align: left;
+
+  }
+  .statement:not(:last-child){
+      margin-bottom: 10px;
+  }
+}
+
+.option{
+  background-color: $white !important;
+  color:$font-color-3 !important;
+  border: 1px solid $light-grey-2 !important;
+  border-radius: 25pc !important;
+  margin-right: 10px!important;
+  text-align: center;
+  height: 20px !important;
+  width: 20px !important;
+  box-sizing: content-box!important;
+}
+
 .data-block{
   @include size(500px, 400px);
   @include flex(center, flex-start, column);

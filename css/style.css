@@ -234,6 +234,27 @@ p a:hover {
   height: calc(100vh - 50px);
 }
 
+.popup-body .statement {
+  width: 100%;
+  text-align: left;
+}
+
+.popup-body .statement:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.option {
+  background-color: #FFFFFF !important;
+  color: #7C8D9F !important;
+  border: 1px solid #D5DAE0 !important;
+  border-radius: 25pc !important;
+  margin-right: 10px !important;
+  text-align: center;
+  height: 20px !important;
+  width: 20px !important;
+  box-sizing: content-box !important;
+}
+
 .data-block {
   height: 500px;
   width: 400px;
