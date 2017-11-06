@@ -54,7 +54,7 @@
 }
 
 .cluster-name {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .gear {
@@ -85,9 +85,12 @@
   border-bottom-left-radius: 4px;
 }
 
+a {
+  transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 a:hover {
   color: white;
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -221,6 +224,122 @@ p a:hover {
   background-color: #22A5F7;
   color: white;
   border: none;
+}
+
+.data-main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: "";
+  height: calc(100vh - 50px);
+}
+
+.data-block {
+  height: 500px;
+  width: 400px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.data-block:not(:nth-of-type(1)) {
+  border-left: 1px solid #F2F4F6;
+}
+
+.data-block h1 {
+  margin-bottom: 80px;
+}
+
+.data-block h5 {
+  margin-top: 20px;
+}
+
+.data-block p {
+  font-size: 12px;
+}
+
+.data-block .secondary {
+  border: 1px solid #D5DAE0;
+  border-radius: 4px;
+  padding: 11px 15px;
+  color: #22272E;
+  font: 400 14px/10px "nutanix_soft", san-serif;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  margin: 0;
+  outline: none;
+  padding: 0 16px;
+}
+
+.data-block .secondary:hover {
+  color: #22A5F7;
+  cursor: pointer;
+}
+
+.data-block .secondary:active {
+  color: #91d2fb;
+}
+
+.data-block .secondary span {
+  height: 10px;
+  display: block;
+  font-weight: 500;
+  line-height: 9pt;
+}
+
+.data-block select.secondary {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  height: 32px;
+  line-height: 30px;
+}
+
+.data-block .img-license {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 125px;
+  width: 180px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #627386;
+  background-image: url("../img/license.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.data-block .img-license code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 12px 0 0 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.data-block .addon {
+  background-image: url("../img/addon.svg");
+}
+
+.data-block .addon code {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 20px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 html {
