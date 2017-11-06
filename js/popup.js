@@ -55,7 +55,7 @@ const popupData ={
     // change plan
     `
     <h2>Congratulations</h2>
-    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> A <code style='font-size:14px;'>new license summary file</code> is been downloaded, use this file to update the license state of your cluster.</p>
+    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> Use this <a class='csum' href='dev_app_12_12_2020.xml' download>new license summary file</a> to update the license state of your cluster.</p>
       `,
 
     `
@@ -273,5 +273,6 @@ function layer2(i){
       $('.overlay').fadeOut('slow');
       setTimeout(function(){popupContent(2).fadeIn();},200);
     },600);
+
   });
 }
