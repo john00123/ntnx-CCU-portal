@@ -17,7 +17,7 @@
 
 .boxxy {
   height: 50px;
-  width: 40%;
+  width: 650px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
@@ -271,7 +271,6 @@ p a:hover {
   background-color: #FFFFFF;
   margin: 0;
   outline: none;
-  padding: 0 16px;
 }
 
 .data-block .secondary:hover {
@@ -290,12 +289,34 @@ p a:hover {
   line-height: 9pt;
 }
 
-.data-block select.secondary {
-  appearance: none;
-  -webkit-appearance: none;
-  background-color: white;
-  height: 32px;
-  line-height: 30px;
+.data-block .primary {
+  margin: 0;
+  border-radius: 4px;
+  padding: 11px 15px;
+  color: #FFFFFF;
+  font: 400 14px/10px "nutanix_soft", san-serif;
+  border: none;
+  text-decoration: none;
+  background-color: #22A5F7;
+  outline: none;
+}
+
+.data-block .primary:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #1f88de;
+}
+
+.data-block .primary:active {
+  color: #FFFFFF;
+  background-color: #1b6dc6;
+}
+
+.data-block .primary span {
+  height: 10px;
+  display: block;
+  font-weight: 500;
+  line-height: 9pt;
 }
 
 .data-block .img-license {
@@ -326,6 +347,11 @@ p a:hover {
   margin: 12px 0 0 25px;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+.data-block .exp {
+  font: 400 12px/8px "nutanix_soft", san-serif;
+  color: #7C8D9F;
 }
 
 .data-block .addon {

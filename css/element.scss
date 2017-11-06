@@ -174,18 +174,8 @@ p a{
     font-size: 12px;
   }
 
-  .secondary{
-    @include secondary
-    padding: 0 16px;
-  }
-
-  select.secondary{
-    appearance: none;
-     -webkit-appearance: none;
-    background-color: white;
-    height: 32px;
-    line-height: 30px;
-  }
+  .secondary{ @include secondary }
+  .primary {@include primary;}
 
   .img-license{
     @include flex(center, center, column);
@@ -207,6 +197,12 @@ p a{
       text-transform: uppercase;
       font-weight: 400;
     }
+
+  }
+
+  .exp{
+    font:$h4;
+    color:$font-color-3;
   }
 
   .addon{

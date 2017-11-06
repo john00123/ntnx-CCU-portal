@@ -1,3 +1,38 @@
+const pageData = `<div class="data-main-content">
+  <article class="data-block">
+    <h1>Acropolis License</h1>
+
+    <div class="icon-group">
+      <div class="img-license" style='transform:translateX(-10px);'> <code>Pro</code> </div>
+    </div>
+
+    <h5 class='exp' >Expires 12/12/2020</h5>
+    <div class="separator"></div>
+
+    <div class="multi-button">
+      <div class="data-button-grouping">
+        <button class='secondary' style='margin-top:20px;'> Change License </button><button class='primary' style='margin-top:20px; margin-left:10px;'> Reclaim </button>
+      </div>
+    </div>
+  </article>
+
+  <article class="data-block">
+    <h1>Add-On</h1>
+    <div class="icon-group">
+      <div class="img-license addon"> <code>File Server</code> </div>
+    </div>
+    <h5 class='exp'>Expires 12/12/2020</h5>
+    <div class="separator"></div>
+    <div class="multi-button">
+      <div class="data-button-grouping">
+        <button class='secondary' style='margin-top:20px;'> Change Add-ons </button>
+      </div>
+    </div>
+  </article>
+</div>`
+
+
+
 function dropdown(){$('.blackbox').toggle()}
 function fullpage(){
   $('.page').fadeToggle();
@@ -5,22 +40,29 @@ function fullpage(){
   $('html').toggleClass('overflow');
 }
 
-function applyLicense(){
-  $('.see-licenses').click(function(){
-    $('.page-header').after(`<div class='banner'>License has been successfully applied.</div>`);
-    $('.banner').css('height','50px');
-    $('.banner').toggle();
-    $('.banner').slideDown();
-    $('.banner').css('border-top','1px solid #CEF6DE')
+const bannerData ={
+  license: 'Congratulations licenses have been successfully applied.',
 
-    setTimeout(function(){
-      $('.banner').slideUp(); setTimeout(function(){ $('.banner').remove();},300);
-    },7000);
-
-    $('.page-body').html('<h1>This is something else</h1>');
-  });
 }
 
+function banner(i){
+  $('.page-header').after(`<div class='banner'>${i}</div>`);
+  $('.banner').css('height','50px');
+  $('.banner').toggle();
+  setTimeout(function(){$('.banner').slideDown();},400);
+  $('.banner').css('border-top','1px solid #CEF6DE');
+
+  setTimeout(function(){
+    $('.banner').slideUp(); setTimeout(function(){ $('.banner').remove();},300);
+  },5000);
+}
+
+function applyLicense(){
+  $('.see-licenses').click(function(){
+      banner(bannerData.license);
+      $('.page-body').html(pageData);
+  });
+}
 function selection(i){
   if(i == 0){
     $(`.circle p code:not(${i})`)
@@ -44,6 +86,10 @@ function selection(i){
 
 dropdown()
 fullpage()
+// //
+//   $('.page-body').html(pageData);
+// //
+
 $('html').toggleClass('overflow');
 $('.gear').click(dropdown);
 $('.license, .close').click(fullpage);
