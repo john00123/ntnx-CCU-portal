@@ -164,6 +164,32 @@ p a{
   }
 }
 
+
+.preview{
+  @include size(143px, 330px);
+  border-radius: 4px;
+  background: url(../img/preview.png);
+  background-size: cover;
+  display: block;
+  position: relative;
+  margin-left: 25px;
+
+  // &::after{
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   height: 32px;
+  //   width: 100%;
+  //   content:'Portal page screen reference';
+  //   background-color:$semi-white-blue;
+  //   padding: 10px 15px;
+  //   box-sizing: border-box;
+  //   color:$blue-1;
+  //   border-radius: 0 0 4px 4px;
+  //
+  // }
+}
+
 .option{
   background-color: $white !important;
   color:$font-color-3 !important;
@@ -196,6 +222,7 @@ p a{
   p{
     font-size: 12px;
   }
+
 
   .secondary{ @include secondary }
   .primary {@include primary;}

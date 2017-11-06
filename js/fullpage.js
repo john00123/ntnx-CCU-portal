@@ -39,7 +39,10 @@ const page={
   `
     <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary'>cluster summary file.</a></p>
 
-    <p class='statement'><code class='option'>2</code>Reclaim it through the<a class='portal' href='home.html' target='_blank'> license page</a> action menu.</p>`
+    <p class='statement'><code class='option'>2</code>Reclaim it through the<a class='portal' href='home.html' target='_blank'> license page</a> action menu.</p>
+    <div class='preview'></div>
+    `
+
 
   ],
   footer:[`<button class="secondary cancel" style="margin-right:0"> Done </button>`],

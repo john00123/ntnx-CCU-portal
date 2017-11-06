@@ -243,6 +243,18 @@ p a:hover {
   margin-bottom: 10px;
 }
 
+.preview {
+  height: 143px;
+  width: 330px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: url(../img/preview.png);
+  background-size: cover;
+  display: block;
+  position: relative;
+  margin-left: 25px;
+}
+
 .option {
   background-color: #FFFFFF !important;
   color: #7C8D9F !important;
