@@ -260,6 +260,7 @@ function countNumbers2(){
 
 
 $(document).ready(function() {
+
   cardsData();
   sideBarSelection();
   tableData();
@@ -276,6 +277,8 @@ $(document).ready(function() {
       countNumbers2();
     $('.popup-header').text('License new hardware');
     });
-
   });
+  if($('body').hasClass('index')){
+    popupContent(6);
+  }
 });

@@ -1805,6 +1805,14 @@ input[type="file"] {
   border-radius: 4px;
 }
 
+.video {
+  height: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #1E85EF;
+  border-radius: 4px;
+}
+
 /* ==========================================================================
 Animation
 ========================================================================== */

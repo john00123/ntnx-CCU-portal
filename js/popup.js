@@ -7,7 +7,9 @@ const popupData ={
     'Reclaiming CCUs',
     'Next Steps',
     'CCUs Reclaimed',
-    'Upload License File'
+    'Upload License File',
+    '',
+    'New! Cloud consumption units',
   ],
 
   body: [
@@ -72,7 +74,7 @@ const popupData ={
       <input class='path' readonly type='text' id='path2'></input>
       <label class='file-button' for='file'>Select File</label>
     </div>`,
-
+    ``,
     `
     <h3 style='margin-bottom:0px'>
       Select your license file
@@ -89,6 +91,14 @@ const popupData ={
       <input class='path' readonly type='text' id='path2'></input>
       <label class='file-button' for='file'>Select File</label>
     </div>`,
+
+    `
+    <video class='video' width="320" height="240" controls>
+    <source src="img/ccu.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    `
   ],
 
   footer:[
@@ -104,6 +114,8 @@ const popupData ={
     `<button class="primary see-licenses btn-disabled"> Apply </button>`,
 
     `<button class="primary add-node btn-disabled">Next</button>`,
+
+    `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
   ]
 }
 
