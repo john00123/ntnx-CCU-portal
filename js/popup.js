@@ -74,7 +74,21 @@ const popupData ={
       <input class='path' readonly type='text' id='path2'></input>
       <label class='file-button' for='file'>Select File</label>
     </div>`,
-    ``,
+    `  <h3 style='margin-bottom:0px'>
+        Select your license summary file
+      </h3>
+
+      <p style='margin-bottom:20px; width:100%'>
+        This helps us find all available licenses for a selected cluster
+      </p>
+
+      <input type="file" id='file'>
+      <label for='path2'>Select file</label>
+
+      <div class='upload-file'>
+        <input class='path' readonly type='text' id='path2'></input>
+        <label class='file-button' for='file'>Select File</label>
+      </div>`,
     `
     <h3 style='margin-bottom:0px'>
       Select your license file
