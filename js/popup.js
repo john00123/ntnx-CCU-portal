@@ -208,7 +208,7 @@ const layer2Data = {
     <p style='margin-bottom:20px;'> Their expiration date is 12/12/2020</p>
     <h3> You have reclaimed all the unused CCUs available on this cluster, and has been credited to your account.</h3>
   </div>
-  <div class="popup-footer">${popupData.footer[4]}</div>
+  <div class="popup-footer">${popupData.footer[3]}</div>
 `,]
 }
 
