@@ -1,987 +1,1146 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1241px" height="585px" viewBox="0 0 1241 585" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 7</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="299" height="285" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-2"></path>
-        <rect id="path-3" x="0" y="245" width="299" height="40"></rect>
-        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-4">
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
-        <rect id="path-5" x="245" y="257" width="34" height="19" rx="3"></rect>
-        <rect id="path-6" x="21" y="261" width="8" height="8" rx="4"></rect>
-        <rect id="path-7" x="0" y="0" width="299" height="285" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-8"></path>
-        <rect id="path-9" x="0" y="82" width="299" height="40"></rect>
-        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-10">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-11" x="0" y="122" width="299" height="20"></rect>
-        <filter x="-0.2%" y="-2.5%" width="100.3%" height="105.0%" filterUnits="objectBoundingBox" id="filter-12">
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-13" x="0" y="42" width="299" height="40"></rect>
-        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-14">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-15" x="0" y="2" width="299" height="40"></rect>
-        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-16">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner4"></feOffset>
-            <feComposite in="shadowOffsetInner4" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner4"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner4" result="shadowMatrixInner4"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner4"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-17" x="0" y="80" width="8" height="8" rx="4"></rect>
-        <rect id="path-18" x="0" y="120" width="8" height="8" rx="4"></rect>
-        <rect id="path-19" x="0" y="41" width="8" height="8" rx="4"></rect>
-        <rect id="path-20" x="0" y="0" width="8" height="8" rx="4"></rect>
-        <rect id="path-21" x="0" y="80" width="8" height="8" rx="4"></rect>
-        <rect id="path-22" x="0" y="120" width="8" height="8" rx="4"></rect>
-        <rect id="path-23" x="0" y="41" width="8" height="8" rx="4"></rect>
-        <rect id="path-24" x="0" y="0" width="8" height="8" rx="4"></rect>
-        <rect id="path-25" x="0" y="80" width="8" height="8" rx="4"></rect>
-        <rect id="path-26" x="0" y="120" width="8" height="8" rx="4"></rect>
-        <rect id="path-27" x="0" y="41" width="8" height="8" rx="4"></rect>
-        <rect id="path-28" x="0" y="0" width="8" height="8" rx="4"></rect>
-        <rect id="path-29" x="0" y="0" width="299" height="285" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-30"></path>
-        <rect id="path-31" x="0" y="82" width="299" height="40"></rect>
-        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-32">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-33" x="0" y="122" width="299" height="20"></rect>
-        <filter x="-0.2%" y="-2.5%" width="100.3%" height="105.0%" filterUnits="objectBoundingBox" id="filter-34">
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-35" x="0" y="42" width="299" height="40"></rect>
-        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-36">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-37" x="0" y="2" width="299" height="40"></rect>
-        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-38">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-            <feComposite in="shadowOffsetInner3" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner3"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner3" result="shadowMatrixInner3"></feColorMatrix>
-            <feOffset dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner4"></feOffset>
-            <feComposite in="shadowOffsetInner4" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner4"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0" type="matrix" in="shadowInnerInner4" result="shadowMatrixInner4"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner3"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner4"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-39" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-40"></path>
-        <rect id="path-41" x="0" y="2" width="148" height="30"></rect>
-        <filter x="-0.3%" y="-1.7%" width="100.7%" height="103.3%" filterUnits="objectBoundingBox" id="filter-42">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
-        <rect id="path-43" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-44"></path>
-        <rect id="path-45" x="0" y="0" width="297" height="69"></rect>
-        <rect id="path-47" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-48"></path>
-        <rect id="path-49" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-50"></path>
-        <rect id="path-51" x="0" y="0" width="297" height="65"></rect>
-        <rect id="path-53" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-54"></path>
-        <rect id="path-55" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-56"></path>
-        <rect id="path-57" x="0" y="3" width="148" height="30"></rect>
-        <filter x="-0.3%" y="-1.7%" width="100.7%" height="103.3%" filterUnits="objectBoundingBox" id="filter-58">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
-        <rect id="path-59" x="15" y="14" width="8" height="8" rx="4"></rect>
-        <rect id="path-60" x="15" y="43" width="8" height="8" rx="4"></rect>
-        <rect id="path-61" x="15" y="73" width="8" height="8" rx="4"></rect>
-        <rect id="path-62" x="0" y="32" width="148" height="30"></rect>
-        <filter x="-0.3%" y="-1.7%" width="100.7%" height="103.3%" filterUnits="objectBoundingBox" id="filter-63">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-64" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-65"></path>
-        <rect id="path-66" x="150" y="68" width="148" height="30"></rect>
-        <filter x="-0.3%" y="-1.7%" width="100.7%" height="103.3%" filterUnits="objectBoundingBox" id="filter-67">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
-            </feMerge>
-        </filter>
-        <rect id="path-68" x="150" y="39" width="148" height="30"></rect>
-        <filter x="-0.3%" y="-1.7%" width="100.7%" height="103.3%" filterUnits="objectBoundingBox" id="filter-69">
-            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
-        <rect id="path-70" x="0" y="0" width="142" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79540467,0 4.00224879,0 L137.997751,0 C140.208132,0 142,1.78679466 142,3.9992748 L142,30 L0,30 L0,3.9992748 Z" id="path-71"></path>
-        <rect id="path-72" x="0" y="0" width="142" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79540467,0 4.00224879,0 L137.997751,0 C140.208132,0 142,1.78679466 142,3.9992748 L142,30 L0,30 L0,3.9992748 Z" id="path-73"></path>
-        <rect id="path-74" x="0" y="0" width="142" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79540467,0 4.00224879,0 L137.997751,0 C140.208132,0 142,1.78679466 142,3.9992748 L142,30 L0,30 L0,3.9992748 Z" id="path-75"></path>
-        <rect id="path-76" x="0" y="0" width="142" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79540467,0 4.00224879,0 L137.997751,0 C140.208132,0 142,1.78679466 142,3.9992748 L142,30 L0,30 L0,3.9992748 Z" id="path-77"></path>
-        <rect id="path-78" x="0" y="0" width="299" height="135" rx="4"></rect>
-        <path d="M0,3.9992748 C0,1.79053632 1.79369141,0 4.00065742,0 L294.999343,0 C297.208845,0 299,1.78679466 299,3.9992748 L299,30 L0,30 L0,3.9992748 Z" id="path-79"></path>
-        <rect id="path-80" x="0" y="0" width="297" height="70"></rect>
-    </defs>
-    <g id="Dashboard-PE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Dashboard-PE-Color" transform="translate(-20.000000, -85.000000)">
-            <g id="Group-7" transform="translate(19.000000, 85.000000)">
-                <g id="LATENCY" transform="translate(629.000000, 300.000000)">
-                    <g id="2-x-2">
-                        <g>
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="284" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Cluster Latency</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Rectangle-2" fill-opacity="1" fill="black">
-                        <use filter="url(#filter-4)" xlink:href="#path-3"></use>
-                    </g>
-                    <g id="Rectangle-89">
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
-                        <rect stroke="#DBDFE1" stroke-width="1" x="245.5" y="257.5" width="33" height="18" rx="3"></rect>
-                    </g>
-                    <text id="YES" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="10" font-weight="500" line-spacing="7" fill="#89949B">
-                        <tspan x="252.5" y="271">YES</tspan>
-                    </text>
-                    <text id="Rebuild-capacity-ava" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="40" fill="#3F4142">
-                        <tspan x="34" y="252">Rebuild capacity available</tspan>
-                    </text>
-                    <g id="Rectangle">
-                        <use fill="#C2D69E" fill-rule="evenodd" xlink:href="#path-6"></use>
-                        <rect stroke="#8CA75E" stroke-width="1" x="21.5" y="261.5" width="7" height="7" rx="3.5"></rect>
-                    </g>
-                    <g id="Green-2" transform="translate(0.000000, 83.000000)">
-                        <g id="Black" transform="translate(72.021127, 30.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#C2D69E">
-                                <tspan x="51.9788732" y="28">OK</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0.478873239" y="47">DATA RESILENCY POSSIBLE</tspan>
-                            </text>
-                        </g>
-                    </g>
-                    <g id="Green-2" transform="translate(0.000000, 83.000000)">
-                        <g id="Black" transform="translate(72.021127, 30.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#C2D69E">
-                                <tspan x="51.9788732" y="28">OK</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0.478873239" y="47">DATA RESILENCY POSSIBLE</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="HEALTH" transform="translate(629.000000, 0.000000)">
-                    <g id="2-x-2">
-                        <g>
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="284" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Health</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Details" transform="translate(0.000000, 132.000000)">
-                        <g id="Rectangle-2" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-10)" xlink:href="#path-9"></use>
-                        </g>
-                        <g id="Rectangle-2-Copy" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-12)" xlink:href="#path-11"></use>
-                        </g>
-                        <g id="Rectangle-2" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-14)" xlink:href="#path-13"></use>
-                        </g>
-                        <g id="Rectangle-2" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-16)" xlink:href="#path-15"></use>
-                        </g>
-                        <g id="Red" transform="translate(181.000000, 0.000000)">
-                            <g stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 18.000000)">
-                                <g id="Rectangle-Copy-6">
-                                    <use fill="#CE6062" fill-rule="evenodd" xlink:href="#path-17"></use>
-                                    <rect stroke="#AB4749" stroke-width="1" x="0.5" y="80.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle-Copy-7">
-                                    <use fill="#CE6062" fill-rule="evenodd" xlink:href="#path-18"></use>
-                                    <rect stroke="#AB4749" stroke-width="1" x="0.5" y="120.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle-Copy-5">
-                                    <use fill="#CE6062" fill-rule="evenodd" xlink:href="#path-19"></use>
-                                    <rect stroke="#AB4749" stroke-width="1" x="0.5" y="41.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle-Copy-4">
-                                    <use fill="#CE6062" fill-rule="evenodd" xlink:href="#path-20"></use>
-                                    <rect stroke="#AB4749" stroke-width="1" x="0.5" y="0.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                            </g>
-                            <text id="0-0-0-0" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="40" fill="#6F787E">
-                                <tspan x="12.632" y="9">0</tspan>
-                                <tspan x="12.632" y="49">0</tspan>
-                                <tspan x="12.632" y="89">0</tspan>
-                                <tspan x="12.632" y="129">0</tspan>
-                            </text>
-                        </g>
-                        <text id="Hosts-VMs-Disks-Remo" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="40" fill="#3F4142">
-                            <tspan x="20" y="9">Hosts</tspan>
-                            <tspan x="20" y="49">VMs</tspan>
-                            <tspan x="20" y="89">Disks</tspan>
-                            <tspan x="20" y="129">Remote Sites</tspan>
-                        </text>
-                        <g id="Green" transform="translate(259.000000, 0.000000)">
-                            <text id="0-0-0-0" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="40" fill="#6F787E">
-                                <tspan x="12.632" y="9">0</tspan>
-                                <tspan x="12.632" y="49">0</tspan>
-                                <tspan x="12.632" y="89">0</tspan>
-                                <tspan x="12.632" y="129">0</tspan>
-                            </text>
-                            <g stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 18.000000)">
-                                <g id="Rectangle">
-                                    <use fill="#C2D69E" fill-rule="evenodd" xlink:href="#path-21"></use>
-                                    <rect stroke="#8CA75E" stroke-width="1" x="0.5" y="80.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle-Copy-9">
-                                    <use fill="#C2D69E" fill-rule="evenodd" xlink:href="#path-22"></use>
-                                    <rect stroke="#8CA75E" stroke-width="1" x="0.5" y="120.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle">
-                                    <use fill="#C2D69E" fill-rule="evenodd" xlink:href="#path-23"></use>
-                                    <rect stroke="#8CA75E" stroke-width="1" x="0.5" y="41.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle">
-                                    <use fill="#C2D69E" fill-rule="evenodd" xlink:href="#path-24"></use>
-                                    <rect stroke="#8CA75E" stroke-width="1" x="0.5" y="0.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                            </g>
-                        </g>
-                        <g id="Yellow" transform="translate(220.000000, 0.000000)">
-                            <text id="0-0-0-0-copy" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="40" fill="#6F787E">
-                                <tspan x="12.632" y="9">0</tspan>
-                                <tspan x="12.632" y="49">0</tspan>
-                                <tspan x="12.632" y="89">0</tspan>
-                                <tspan x="12.632" y="129">0</tspan>
-                            </text>
-                            <g stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 18.000000)">
-                                <g id="Rectangle-Copy-3">
-                                    <use fill="#FFD145" fill-rule="evenodd" xlink:href="#path-25"></use>
-                                    <rect stroke="#FFBD00" stroke-width="1" x="0.5" y="80.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle-Copy-8">
-                                    <use fill="#FFD145" fill-rule="evenodd" xlink:href="#path-26"></use>
-                                    <rect stroke="#FFBD00" stroke-width="1" x="0.5" y="120.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle-Copy-2">
-                                    <use fill="#FFD145" fill-rule="evenodd" xlink:href="#path-27"></use>
-                                    <rect stroke="#FFBD00" stroke-width="1" x="0.5" y="41.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                                <g id="Rectangle-Copy">
-                                    <use fill="#FFD145" fill-rule="evenodd" xlink:href="#path-28"></use>
-                                    <rect stroke="#FFBD00" stroke-width="1" x="0.5" y="0.5" width="7" height="7" rx="3.5"></rect>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Green-Copy" transform="translate(79.000000, 29.000000)" fill="#C2D69E">
-                        <g id="Black" transform="translate(53.000000, 30.000000)">
-                            <path d="M15.6995536,14.1991513 C16.0615118,14.1991513 16.4000013,14.0065867 16.583237,13.6901661 L18.1357759,11.0299723 L19.8846386,14.5752399 C20.0588479,14.9237546 20.4113284,15.143893 20.8008171,15.143893 L20.8053303,15.143893 C21.1898544,15.143893 21.5468481,14.9237546 21.7210574,14.5797601 L24.3675945,9.31497232 L26.7902772,13.7082472 C26.9685484,14.0341605 27.3120025,14.240286 27.6875003,14.240286 L29.6701465,14.240286 C28.7819499,15.6849723 27.5593255,17.3592897 25.8695856,19.2392804 C23.3191795,22.0829982 20.0222911,24.5 18.0211407,24.5 C15.8322415,24.5 12.6590146,22.0829982 10.1086085,19.2487731 C8.38231166,17.3271956 7.14118323,15.6438376 6.25298659,14.1991513 L15.6995536,14.1991513 Z M31.9050803,8.96600554 C31.7814188,9.89718635 31.4930257,10.7777399 31.0714933,11.5805443 C30.9893532,11.7776292 30.8927709,11.9792343 30.7921266,12.1903321 L28.2873038,12.1903321 L25.2196856,6.6226845 C25.0364499,6.28773063 24.6835181,6.08612546 24.3035072,6.09064576 C23.9234962,6.09968635 23.5800421,6.31530443 23.4062842,6.6547786 L20.8053303,11.8187638 L19.1201035,8.41136531 C18.9553719,8.07189114 18.616431,7.85627306 18.2364201,7.84271218 C17.8609223,7.82869926 17.5084418,8.02578413 17.3161798,8.35169742 L15.0997501,12.1491974 L5.11746691,12.1491974 C4.93423122,11.7636162 4.78303921,11.4015406 4.65486449,11.071107 C4.23333215,10.1037638 4,9.03019373 4,7.90690037 C4,3.54074723 7.52570738,0 11.8759754,0 C14.3347636,0 16.5331406,1.13278598 17.9800707,2.9079059 C19.4224875,1.13278598 21.6204132,0 24.0837146,0 C28.4339826,0 31.9601413,3.54074723 31.9601413,7.90690037 L31.9601413,7.92498155 L31.9872205,7.92498155 C32.0012114,7.92046125 32.0287419,8.27846863 31.9050803,8.96600554 L31.9050803,8.96600554 Z" id="Fill-48"></path>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8">
-                                <tspan x="0" y="47">GOOD</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="CRITICAL" transform="translate(943.000000, 0.000000)">
-                    <g id="2-x-2">
-                        <g>
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-29"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="284" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-30"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Critical Alerts</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Group" transform="translate(0.000000, 132.000000)">
-                        <g id="Rectangle-2" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-32)" xlink:href="#path-31"></use>
-                        </g>
-                        <g id="Rectangle-2-Copy" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-34)" xlink:href="#path-33"></use>
-                        </g>
-                        <g id="Rectangle-2" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-36)" xlink:href="#path-35"></use>
-                        </g>
-                        <g id="Rectangle-2" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-38)" xlink:href="#path-37"></use>
-                        </g>
-                        <text id="Snapshot-partially-c" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="40" fill="#3F4142">
-                            <tspan x="20" y="9">Snapshot partially crash consistent</tspan>
-                            <tspan x="20" y="49">Protected VM not found</tspan>
-                            <tspan x="20" y="89">Diskspace usage high</tspan>
-                            <tspan x="20" y="129">Controller VM rebooted</tspan>
-                        </text>
-                        <text id="1h-ago-6h-ago-15h-ag" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="40" fill="#6F787E">
-                            <tspan x="244.728" y="9">1h ago</tspan>
-                            <tspan x="241.872" y="49">6h ago</tspan>
-                            <tspan x="237.588" y="89">15h ago</tspan>
-                            <tspan x="241.668" y="129">5d ago</tspan>
-                        </text>
-                    </g>
-                    <g id="Red" transform="translate(79.000000, 29.000000)">
-                        <g id="Yellow" transform="translate(42.000000, 30.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#CE6062">
-                                <tspan x="18" y="28">4</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0.5" y="47">1 Hour ago</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="WARNING" transform="translate(943.000000, 300.000000)">
-                    <g id="2-x-1-half">
-                        <g id="2-x-1-copy-3" stroke-width="1">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-39"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-40"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Warning Alerts</tspan>
-                                </text>
-                            </g>
-                        </g>
-                        <rect id="Rectangle-3-Copy" fill="#F3F4F5" x="149" y="30" width="1" height="104"></rect>
-                    </g>
-                    <g id="Group-3" transform="translate(150.000000, 51.000000)">
-                        <g id="Rectangle-2" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-42)" xlink:href="#path-41"></use>
-                        </g>
-                        <rect id="Rectangle-2-Copy-2" x="0" y="32" width="148" height="30"></rect>
-                        <text id="License-failure-Time" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="30" fill="#3F4142">
-                            <tspan x="15" y="9">License failure</tspan>
-                            <tspan x="15" y="39">Time Drift Check</tspan>
-                        </text>
-                    </g>
-                    <g id="Yellow" transform="translate(0.000000, 29.000000)">
-                        <g transform="translate(43.000000, 26.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#FFD145">
-                                <tspan x="17" y="28">2</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0.5" y="47">WARNING</tspan>
-                            </text>
-                            <text id="19-days-ago" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="11" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0" y="59">1 hours ago</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="CLUSTER-AVG-IO-LATENCY" transform="translate(315.000000, 300.000000)">
-                    <g id="2-x-1-">
-                        <g id="2-x-1-copy-3">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-43"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-44"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Cluster avg. IO Latency</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Group-4" transform="translate(1.000000, 44.000000)">
-                        <mask id="mask-46" fill="white">
-                            <use xlink:href="#path-45"></use>
-                        </mask>
-                        <use id="Rectangle-3" fill="#FFFFFF" xlink:href="#path-45"></use>
-                        <path d="M-1.00671133,70 L-1,24 L2,21 L4,47 L7,24 L9,20 L10,28 L12,25 L13,30 L15,28 L17,13 L18,14 L19,22 L21,14 L25,28 L26,17 L30,24 L31,11 L35,29 L38,17 L40,27 C40,27 40,19 41,20 C42,21 44,27 44,27 L48,22 L50,28 L51,20 L52,29 L54,30 L56,24 L58,22 L59,27 L61,27 L64,29 C64,29 65,25 66,26 C67,27 70,31 70,31 L71,33 L73,30 L76,31 L78,23 L79,30 L82,29 L84,1 L86,29 L88,27 L89,20 L91,41 L93,28 L93,24 L95,29 L102,29 L103,24 L104,28 L106,29 L107,34 L110,29 L114,22 L115,28 L119,10 L120.899581,27.0962271 L121,28 L124,28 L126,14 L127,29 L130,31 L131,29 L133,42 L134,17 L136,30 L136,35 L139,41 L141,22 L142,28 L145,31 L148,30 L153,31 L155,30 L158,29 L161,25 L163,30 L165,25 L167,29 L171,28 L173,27 L176,35 L178,29 L181,29 L184,19 L185,29 L187,34 L189,28 L191,29 L194,21 L194,28 L199,13 L198,22 L201,25 L202,28 L205,24 L208,37 L212,22 L213,29 L216,26 L219,26 L222,18 L222.640554,23.7649819 L223,27 L228,31 C228,31 229,20 230,21 C231,22 233,24 233,24 L236,9 L237,25 L239,28 L241,20 L245,28 L246,20 L248,27 L251,23 L252,28 L253,23 L255,28 L256,24 C256,24 259,26 259,25 C259,24 260,22 260,22 L261,27 L262,22 L265,23 L266,20 L270,29 C270,29 272,18 272,20 C272,22 274,29 274,29 L276,11 L280,23 L281,14 L285,25 L286,14 L288,24 L289,16 C289,16 291,22 291,21 C291,20 292,11 292,11 L294,27 L296,29 L298,28 L298,70" id="Path-4" stroke="#DA8385" fill="#F7E6E7" mask="url(#mask-46)"></path>
-                    </g>
-                    <g id="Graph-over" transform="translate(0.000000, 10.000000)">
-                        <rect id="Rectangle-3" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="37.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-3-Copy" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="149.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-3-Copy-2" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="260.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-4" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="0.5" y="103.5" width="298" height="1"></rect>
-                        <text id="309,820-IOPS" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" fill="#3F4142">
-                            <tspan x="239.332" y="9">2.19 ms</tspan>
-                        </text>
-                        <text id="325,449-IOPS" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" fill="#89949B">
-                            <tspan x="10" y="33">2.45 ms</tspan>
-                        </text>
-                        <text id="4:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="20" y="119">4:00 PM</tspan>
-                        </text>
-                        <text id="5:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="131" y="119">5:00 PM</tspan>
-                        </text>
-                        <text id="6:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="242" y="119">6:00 PM</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="HYPERVISOR-SUMMARU">
-                    <g id="2-x-1-half" transform="translate(1.000000, 0.000000)">
-                        <g id="2-x-1-copy-3" stroke-width="1">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-47"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-48"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Hypervisor Summary</tspan>
-                                </text>
-                            </g>
-                        </g>
-                        <rect id="Rectangle-3-Copy" fill="#F3F4F5" x="149" y="30" width="1" height="104"></rect>
-                    </g>
-                    <g id="Half-Black" transform="translate(0.000000, 29.000000)">
-                        <g id="Black" transform="translate(35.000000, 32.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="0" y="28">AHV</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0.5" y="47">HYPERVISOR</tspan>
-                            </text>
-                        </g>
-                    </g>
-                    <g id="Black-Copy-11" transform="translate(170.000000, 61.000000)">
-                        <g id="Black">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="29" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="3" y="22">Nutanix</tspan>
-                            </text>
-                            <text id="20150730-VERSION" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0.5" y="47">20150730 VERSION</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="CLUSTER-IO-BANDWIDTH" transform="translate(315.000000, 150.000000)">
-                    <g id="2-x-1-">
-                        <g id="2-x-1-copy-3">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-49"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-50"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Cluster IO Bandwidth</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Group-5" transform="translate(1.000000, 48.000000)">
-                        <mask id="mask-52" fill="white">
-                            <use xlink:href="#path-51"></use>
-                        </mask>
-                        <use id="Rectangle-4" fill="#FFFFFF" xlink:href="#path-51"></use>
-                        <path d="M-1.00169322,66.007936 L-1,43 L5.68434189e-14,43 L5,54 L8,50 L11,44 L14,45 L15,49 L16,54 L19,50 L22,56 L25,51 L27,53 L29,49 L31,50 L32,49 L33,44 L35,41 L37,49 L39,46 L39,41 L41,38 L41,27 L44,23 L46,28 L47,34 L49,24 L53,22 L57,19 L58,24 L63,15 L63,40 L68,42 L69,44 L73,44 L76,51 L80,46 L82,35 L83,34 L83,19 L90,17 L96,18 L97,20 L102,19 L107,22 L111,21 L116,26 L120,19 L126,20 L130,19 L133,22 L137,20 L142,21 L144,24 L151,21 L156,23 L157,20 L160,22 L162,20 L165,15 L170,23 L174,20 L177,22 L180,20 L182,23 L186,18 L187,20 L191,19 L195,19 L200,27 L199,38 L202,41 L203,50 L207,50 L208,55 L212,50 L215,54 L223,43 L226,51 L229,43 L231,46 L233,41 L236,46 L239,27 L242,26 L245,17 L246,20 L247,28 L251,20 L253,24 L258,30 L260,32 L260,39 L260,43 L264,46 L267,41 L272,51 L274,46 L279,51 L281,48 L285,49 L287,55 L290,5 C290,5 291,2 292,3 C293,4 296,8 296,8 L298,3 L298,66.007936" id="Path-3" stroke="#FFD145" fill="#FFF6DC" mask="url(#mask-52)"></path>
-                    </g>
-                    <g id="Graph-over" transform="translate(0.000000, 10.000000)">
-                        <rect id="Rectangle-3" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="37.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-3-Copy" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="149.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-3-Copy-2" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="260.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-4" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="0.5" y="103.5" width="298" height="1"></rect>
-                        <text id="309,820-IOPS" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" fill="#3F4142">
-                            <tspan x="222.832" y="9">10.6 GiBps</tspan>
-                        </text>
-                        <text id="325,449-IOPS" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" fill="#89949B">
-                            <tspan x="10" y="33">12.41 GiBps</tspan>
-                        </text>
-                        <text id="4:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="20" y="119">4:00 PM</tspan>
-                        </text>
-                        <text id="5:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="131" y="119">5:00 PM</tspan>
-                        </text>
-                        <text id="6:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="242" y="119">6:00 PM</tspan>
-                        </text>
-                    </g>
-                </g>
-                <g id="HARDWARE-SUMMARY" transform="translate(1.000000, 450.000000)">
-                    <g id="2-x-1-half">
-                        <g id="2-x-1-copy-3" stroke-width="1">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-53"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-54"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Hardware Summary</tspan>
-                                </text>
-                            </g>
-                        </g>
-                        <rect id="Rectangle-3-Copy" fill="#F3F4F5" x="149" y="30" width="1" height="104"></rect>
-                    </g>
-                    <rect id="Rectangle-2-Copy-5" x="150" y="67" width="148" height="30"></rect>
-                    <text id="NX30450" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="30" fill="#3F4142">
-                        <tspan x="165" y="76">NX30450</tspan>
-                    </text>
-                    <text id="7-BLOCKS" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="30" fill="#6F787E">
-                        <tspan x="227.1" y="76">7 BLOCKS</tspan>
-                    </text>
-                    <g id="Half-Black" transform="translate(10.000000, 29.000000)">
-                        <g id="Black" transform="translate(16.000000, 32.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="2" y="28">14</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0.5" y="47">HOSTS</tspan>
-                            </text>
-                        </g>
-                    </g>
-                    <g id="Half-Black" transform="translate(70.000000, 29.000000)">
-                        <g id="Black" transform="translate(13.000000, 32.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="13.5" y="28">7</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0" y="47">BLOCKS</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="VM-SUMMARY" transform="translate(1.000000, 300.000000)">
-                    <g id="2-x-1-half">
-                        <g id="2-x-1-copy-3" stroke-width="1">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-55"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-56"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">VM Summary</tspan>
-                                </text>
-                            </g>
-                        </g>
-                        <rect id="Rectangle-3-Copy" fill="#F3F4F5" x="149" y="30" width="1" height="104"></rect>
-                    </g>
-                    <g id="Group-2" transform="translate(150.000000, 36.000000)">
-                        <g id="Rectangle-2-Copy-5" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-58)" xlink:href="#path-57"></use>
-                        </g>
-                        <rect id="Rectangle-2-Copy-3" x="0" y="62" width="148" height="30"></rect>
-                        <text id="Off-On-Suspen…" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="30" fill="#3F4142">
-                            <tspan x="28" y="9">Off</tspan>
-                            <tspan x="28" y="39">On</tspan>
-                            <tspan x="28" y="69">Suspen…</tspan>
-                        </text>
-                        <g id="Rectangle">
-                            <use fill="#DBDFE1" fill-rule="evenodd" xlink:href="#path-59"></use>
-                            <rect stroke="#C4C9CD" stroke-width="1" x="15.5" y="14.5" width="7" height="7" rx="3.5"></rect>
-                        </g>
-                        <g id="Rectangle-Copy">
-                            <use fill="#C2D69E" fill-rule="evenodd" xlink:href="#path-60"></use>
-                            <rect stroke="#8CA75E" stroke-width="1" x="15.5" y="43.5" width="7" height="7" rx="3.5"></rect>
-                        </g>
-                        <g id="Rectangle-Copy-2">
-                            <use fill="#FFD145" fill-rule="evenodd" xlink:href="#path-61"></use>
-                            <rect stroke="#DAA200" stroke-width="1" x="15.5" y="73.5" width="7" height="7" rx="3.5"></rect>
-                        </g>
-                        <text id="421-54-0" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="30" fill="#6F787E">
-                            <tspan x="113.796" y="9">421</tspan>
-                            <tspan x="118.044" y="39">54</tspan>
-                            <tspan x="124.632" y="69">0</tspan>
-                        </text>
-                        <g id="Rectangle-2-Copy-4" fill-opacity="1" fill="black">
-                            <use filter="url(#filter-63)" xlink:href="#path-62"></use>
-                        </g>
-                    </g>
-                    <g id="Half-Black" transform="translate(0.000000, 29.000000)">
-                        <g id="Black" transform="translate(41.000000, 32.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="0.5" y="28">475</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="19" y="47">VMs</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="STORAGE" transform="translate(1.000000, 150.000000)">
-                    <g id="2-x-1-half">
-                        <g id="2-x-1-copy-3" stroke-width="1">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-64"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-65"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Storage Summary</tspan>
-                                </text>
-                            </g>
-                        </g>
-                        <rect id="Rectangle-3-Copy" fill="#F3F4F5" x="149" y="30" width="1" height="104"></rect>
-                    </g>
-                    <g id="Rectangle-2-Copy-4" fill-opacity="1" fill="black">
-                        <use filter="url(#filter-67)" xlink:href="#path-66"></use>
-                    </g>
-                    <g id="Rectangle-2-Copy-5" fill-opacity="1" fill="black">
-                        <use filter="url(#filter-69)" xlink:href="#path-68"></use>
-                    </g>
-                    <rect id="Rectangle-2-Copy-3" x="150" y="98" width="148" height="30"></rect>
-                    <text id="Free-Used-Total" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="30" fill="#3F4142">
-                        <tspan x="165" y="45">Free</tspan>
-                        <tspan x="165" y="75">Used</tspan>
-                        <tspan x="165" y="105">Total</tspan>
-                    </text>
-                    <text id="29.12-TiB-19.88-TiB" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="30" fill="#6F787E">
-                        <tspan x="233.112" y="45">29.12 TiB</tspan>
-                        <tspan x="233.184" y="75">19.88 TiB</tspan>
-                        <tspan x="237.408" y="105">49.0 TiB</tspan>
-                    </text>
-                    <g id="Half-Black" transform="translate(0.000000, 29.000000)">
-                        <g id="Black" transform="translate(18.000000, 32.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="7" y="28">59.43</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0" y="47">% OF Free (Physical)</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="CLUSTER-CPU" transform="translate(315.000000, 450.000000)">
-                    <g id="1-x-1-c">
-                        <g id="1-x-1-copy-2">
-                            <g id="Rectangle-1-Copy-7">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-70"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="141" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-71"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L141.5,29.5 L141.5,3.9992748 C141.5,2.06438498 139.933439,0.5 137.997751,0.5 L4.00224879,0.5 C2.07017413,0.5 0.5,2.06805019 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Cluster CPU Usage</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Half-Black" transform="translate(0.000000, 29.000000)">
-                        <g id="Black" transform="translate(25.000000, 32.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="0.5" y="28">32.32</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="8.5" y="47">% OF 1.09 THz</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="CLUSTER-MEMORY" transform="translate(472.000000, 450.000000)">
-                    <g id="1-x-1-c">
-                        <g id="1-x-1-copy-2">
-                            <g id="Rectangle-1-Copy-7">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-72"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="141" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-73"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L141.5,29.5 L141.5,3.9992748 C141.5,2.06438498 139.933439,0.5 137.997751,0.5 L4.00224879,0.5 C2.07017413,0.5 0.5,2.06805019 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Cluster Memory Usa...</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Half-Black" transform="translate(0.000000, 29.000000)">
-                        <g id="Black" transform="translate(25.000000, 32.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="0" y="28">43.56</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="8.5" y="47">% OF 1.09 THz</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="EVENTS" transform="translate(1100.000000, 450.000000)">
-                    <g id="1-x-1-c">
-                        <g id="1-x-1-copy-2">
-                            <g id="Rectangle-1-Copy-7">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-74"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="141" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-75"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L141.5,29.5 L141.5,3.9992748 C141.5,2.06438498 139.933439,0.5 137.997751,0.5 L4.00224879,0.5 C2.07017413,0.5 0.5,2.06805019 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Events</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Black" transform="translate(0.000000, 29.000000)">
-                        <g transform="translate(42.000000, 26.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#3F4142">
-                                <tspan x="0.5" y="28">716</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="10" y="47">EVENT</tspan>
-                            </text>
-                            <text id="19-days-ago" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="11" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="3.5" y="59">1 hour ago</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="INFO-ALERTS" transform="translate(943.000000, 450.000000)">
-                    <g id="1-x-1-c">
-                        <g id="1-x-1-copy-2">
-                            <g id="Rectangle-1-Copy-7">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-76"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="141" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-77"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L141.5,29.5 L141.5,3.9992748 C141.5,2.06438498 139.933439,0.5 137.997751,0.5 L4.00224879,0.5 C2.07017413,0.5 0.5,2.06805019 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Info Alerts</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Gray" transform="translate(0.000000, 29.000000)">
-                        <g id="Black" transform="translate(42.000000, 26.000000)">
-                            <text id="1" font-family="ProximaNovaSoft-Bold, Proxima Nova Soft" font-size="36" font-weight="bold" line-spacing="24" fill="#9AA8B1">
-                                <tspan x="14" y="28">11</tspan>
-                            </text>
-                            <text id="INFO" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="12" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="15" y="47">INFO</tspan>
-                            </text>
-                            <text id="19-days-ago" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="11" font-weight="400" line-spacing="8" fill="#89949B">
-                                <tspan x="0" y="59">7 hours ago</tspan>
-                            </text>
-                        </g>
-                    </g>
-                </g>
-                <g id="CLUSTER-IOPS" transform="translate(315.000000, 0.000000)">
-                    <g id="2-x-1-">
-                        <g id="2-x-1-copy-3">
-                            <g id="Rectangle-1-Copy-3">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-78"></use>
-                                <rect stroke="#DBDFE1" stroke-width="1" x="0.5" y="0.5" width="298" height="134" rx="4"></rect>
-                            </g>
-                            <g id="Tile-head">
-                                <g id="Rectangle-1-Copy-3">
-                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-79"></use>
-                                    <path stroke="#DBDFE1" stroke-width="1" d="M0.5,29.5 L298.5,29.5 L298.5,3.9992748 C298.5,2.06434041 296.934107,0.5 294.999343,0.5 L4.00065742,0.5 C2.06887024,0.5 0.5,2.06764162 0.5,3.9992748 L0.5,29.5 Z"></path>
-                                </g>
-                                <text id="-" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" line-spacing="8" fill="#6F787E">
-                                    <tspan x="10" y="20">Cluster IOPS</tspan>
-                                </text>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Group-6" transform="translate(1.000000, 43.000000)">
-                        <mask id="mask-81" fill="white">
-                            <use xlink:href="#path-80"></use>
-                        </mask>
-                        <use id="Rectangle-5" fill="#FFFFFF" xlink:href="#path-80"></use>
-                        <path d="M-1,71 L-0.998316503,16 L1.0016835,15 L2.0016835,37 L4.0016835,27 L5.0016835,34 L6.0016835,36 L9.0016835,57 L9.0016835,21 L11.0016835,8 L13.0016835,36 L15.0016835,20 L16.0016835,33 L18.0016835,14 L20.0016835,25 L23.0016835,24 L25.0016835,41 L27.0016835,11 L29.0016835,18 L31.0016835,33 L33.3676848,21.9586604 L34.0016835,19 L38.0016835,45 L41.0016835,23 L44.0016835,37 L47.0016835,23 L48.0016835,32 L50.0016835,22 L51.0016835,34 L54.0016835,4 L55.0016835,47 L57.0016835,33 L60.0016835,46 L61.0016835,17 L63.0016835,45 L64.0016835,25 L66.0016835,27 L68.0016835,12 L68.0016835,47 L72.0016835,24 L72.0016835,48 L75.0016835,31 L76.0016835,44 L81.0016835,38 L82.0016835,45 L84.0016835,40 L86.0016835,64 L89.0016835,16 L91.0016835,66 L94.0016835,5 L97.0016835,26 L99.0016835,18 L102.001683,34 L104.001683,23 L106.001683,32 L109.001683,12 L111.001683,30 L113.001683,21 L114.001683,36 L117.001683,23 L118.001683,44 L121.001683,30 C121.001683,30 122.001683,52 122.001683,51 C122.001683,50 124.001683,17 124.001683,17 L126.001683,48 L127.001683,25 L128.001683,44 L130.001683,25 L133.001683,64 L134.001683,24 L137.001683,53 L137.001683,12 L139.001683,44 L141.001683,33 L145.001683,45 L149.001683,17 L154.001683,49 L156.001683,31 L157.001683,43 L159.001683,22 L160.001683,36 L163.001683,25 L163.001683,41 L165.001683,8 L166.001683,51 L171.001683,14 L171.001683,66 L175.001683,23 L176.001683,66 L179.001683,19 L181.001683,29 L182.001683,19 L183.001683,45 L187.001683,15 L190.001683,33 L192.001683,10 L195.001683,30 L199.001683,20 L200.001683,36 L203.340311,24.3148032 L204.001683,22 L207.001683,44 L212.001683,25 L213.001683,28 L214.001683,21 L215.001683,27 L218.001683,9 L220.001683,22 L224.001683,44 L228.001683,18 L230.001683,31 L231.001683,25 L232.001683,36 L235.001683,31 L235.001678,37 L235.001678,44 L237.001683,55 L239.526083,34.8048077 L240.001683,31 L244.001683,24 L246.001683,34 L247.001683,20 L250.001683,30 L252.001683,21 L255.001683,32 L255.001678,17 L259.001683,13 C259.001683,13 260.001683,53 260.001683,52 C260.001683,51 262.001683,21 262.001683,21 L265.001683,37 L266.001683,18 L272.001683,32 L274.001683,5 L276.001683,31 L278.001683,16 L283.001683,30 L285.001683,17 L286.001683,47 L288.001683,10 L289.001683,42 L291.001683,17 L293.001683,39 L294.001683,17 L298.001683,29 L298.001683,71" id="Path-2" stroke="#7DD6F6" fill="#D4F1FC" mask="url(#mask-81)"></path>
-                    </g>
-                    <g id="Graph-over" transform="translate(0.000000, 10.000000)">
-                        <rect id="Rectangle-3" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="37.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-3-Copy" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="149.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-3-Copy-2" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="260.5" y="19.5" width="1" height="84"></rect>
-                        <rect id="Rectangle-4" stroke="#DBDFE1" stroke-width="1" style="mix-blend-mode: multiply;" x="0.5" y="103.5" width="298" height="1"></rect>
-                        <text id="309,820-IOPS" font-family="ProximaNovaSoft-Semibold, Proxima Nova Soft" font-size="12" font-weight="500" fill="#3F4142">
-                            <tspan x="204.48" y="9">309,820 IOPS</tspan>
-                        </text>
-                        <text id="325,449-IOPS" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" fill="#89949B">
-                            <tspan x="10" y="33">325,449 IOPS</tspan>
-                        </text>
-                        <text id="4:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="20" y="119">4:00 PM</tspan>
-                        </text>
-                        <text id="5:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="131" y="119">5:00 PM</tspan>
-                        </text>
-                        <text id="6:00-PM" font-family="ProximaNovaSoft-Medium, Proxima Nova Soft" font-size="10" font-weight="400" line-spacing="7" fill="#89949B">
-                            <tspan x="242" y="119">6:00 PM</tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1241 585" style="enable-background:new 0 0 1241 585;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#DBDFE1;}
+	.st2{fill:#6F787E;}
+	.st3{font-family:'ProximaNovaSoft-Medium';}
+	.st4{font-size:12px;}
+	.st5{filter:url(#filter-4);}
+	.st6{fill:#89949B;}
+	.st7{font-size:10px;}
+	.st8{fill:#3F4142;}
+	.st9{fill:#C2D69E;}
+	.st10{fill:none;stroke:#8CA75E;}
+	.st11{font-family:'ProximaNovaSoft-Bold';}
+	.st12{font-size:36px;}
+	.st13{filter:url(#filter-10);}
+	.st14{filter:url(#filter-12);}
+	.st15{filter:url(#filter-14);}
+	.st16{filter:url(#filter-16);}
+	.st17{fill:#CE6062;}
+	.st18{fill:none;stroke:#AB4749;}
+	.st19{fill:#FFD145;}
+	.st20{fill:none;stroke:#FFBD00;}
+	.st21{filter:url(#filter-32);}
+	.st22{filter:url(#filter-34);}
+	.st23{filter:url(#filter-36);}
+	.st24{filter:url(#filter-38);}
+	.st25{fill:#F3F4F5;}
+	.st26{filter:url(#filter-42);}
+	.st27{fill:none;}
+	.st28{font-size:11px;}
+	.st29{filter:url(#Adobe_OpacityMaskFilter);}
+	.st30{mask:url(#mask-46);fill:#F7E6E7;stroke:#DA8385;}
+	.st31{font-size:29px;}
+	.st32{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st33{mask:url(#mask-52);fill:#FFF6DC;stroke:#FFD145;}
+	.st34{filter:url(#filter-63);}
+	.st35{filter:url(#filter-58);}
+	.st36{fill:#DBDFE1;}
+	.st37{fill:none;stroke:#C4C9CD;}
+	.st38{fill:none;stroke:#DAA200;}
+	.st39{filter:url(#filter-67);}
+	.st40{filter:url(#filter-69);}
+	.st41{fill:#9AA8B1;}
+	.st42{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st43{mask:url(#mask-81);fill:#D4F1FC;stroke:#7DD6F6;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-69" width="100.7%" x="-0.3%" y="-1.7%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-67" width="100.7%" x="-0.3%" y="-1.7%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-63" width="100.7%" x="-0.3%" y="-1.7%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-58" width="100.7%" x="-0.3%" y="-1.7%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-42" width="100.7%" x="-0.3%" y="-1.7%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-4" width="100.3%" x="-0.2%" y="-1.2%">
+	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-38" width="100.3%" x="-0.2%" y="-1.2%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner4"></feOffset>
+	<feComposite  in="shadowOffsetInner4" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner4">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner4" result="shadowMatrixInner4" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner4"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-36" width="100.3%" x="-0.2%" y="-1.2%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="105.0%" id="filter-34" width="100.3%" x="-0.2%" y="-2.5%">
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-32" width="100.3%" x="-0.2%" y="-1.2%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-16" width="100.3%" x="-0.2%" y="-1.2%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner4"></feOffset>
+	<feComposite  in="shadowOffsetInner4" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner4">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner4" result="shadowMatrixInner4" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner4"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-14" width="100.3%" x="-0.2%" y="-1.2%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="105.0%" id="filter-12" width="100.3%" x="-0.2%" y="-2.5%">
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+	</feMerge>
+</filter>
+<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-10" width="100.3%" x="-0.2%" y="-1.2%">
+	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
+	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
+		</feComposite>
+	
+		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
+		</feColorMatrix>
+	<feMerge>
+		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
+		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
+	</feMerge>
+</filter>
+<title>Group 7</title>
+<desc>Created with Sketch.</desc>
+<g id="Dashboard-PE">
+	<g id="Dashboard-PE-Color" transform="translate(-20.000000, -85.000000)">
+		<g id="Group-7" transform="translate(19.000000, 85.000000)">
+			<g id="LATENCY" transform="translate(629.000000, 300.000000)">
+				<g id="_x32_-x-2">
+					<g>
+						<g id="Rectangle-1-Copy-3">
+							<g>
+								<path id="path-1" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v277c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v276c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head">
+							<g id="Rectangle-1-Copy-3_1_">
+								<g>
+									<path id="path-2" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster Latency</text>
+						</g>
+					</g>
+				</g>
+				<g id="Rectangle-2">
+					<g class="st5">
+						<rect id="path-3_1_" y="245" width="299" height="40"/>
+					</g>
+				</g>
+				<g id="Rectangle-89">
+					<g>
+						<path id="path-5" class="st0" d="M248,257h28c1.7,0,3,1.3,3,3v13c0,1.7-1.3,3-3,3h-28c-1.7,0-3-1.3-3-3v-13
+							C245,258.3,246.3,257,248,257z"/>
+					</g>
+					<path class="st1" d="M248.5,257.5h27c1.7,0,3,1.3,3,3v12c0,1.7-1.3,3-3,3h-27c-1.7,0-3-1.3-3-3v-12
+						C245.5,258.8,246.8,257.5,248.5,257.5z"/>
+				</g>
+				<text transform="matrix(1 0 0 1 252.5 271)" class="st6 st3 st7">YES</text>
+				<text transform="matrix(1 0 0 1 34 268)" class="st8 st3 st4">Rebuild capacity available</text>
+				<g id="Rectangle">
+					<g>
+						<path id="path-6" class="st9" d="M25,261L25,261c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+							C21,262.8,22.8,261,25,261z"/>
+					</g>
+					<path class="st10" d="M25,261.5L25,261.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+						C21.5,263.1,23.1,261.5,25,261.5z"/>
+				</g>
+				<g id="Green-2" transform="translate(0.000000, 83.000000)">
+					<g id="Black" transform="translate(72.021127, 30.000000)">
+						<text transform="matrix(1 0 0 1 51.9789 28)" class="st9 st11 st12">OK</text>
+						<text transform="matrix(1 0 0 1 0.4789 47)" class="st6 st3 st4">DATA RESILENCY POSSIBLE</text>
+					</g>
+				</g>
+				<g id="Green-2_1_" transform="translate(0.000000, 83.000000)">
+					<g id="Black_1_" transform="translate(72.021127, 30.000000)">
+						<text transform="matrix(1 0 0 1 51.9789 28)" class="st9 st11 st12">OK</text>
+						<text transform="matrix(1 0 0 1 0.4789 47)" class="st6 st3 st4">DATA RESILENCY POSSIBLE</text>
+					</g>
+				</g>
+			</g>
+			<g id="HEALTH" transform="translate(629.000000, 0.000000)">
+				<g id="_x32_-x-2_1_">
+					<g>
+						<g id="Rectangle-1-Copy-3_2_">
+							<g>
+								<path id="path-7" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v277c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v276c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_1_">
+							<g id="Rectangle-1-Copy-3_3_">
+								<g>
+									<path id="path-8" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Health</text>
+						</g>
+					</g>
+				</g>
+				<g id="Details" transform="translate(0.000000, 132.000000)">
+					<g id="Rectangle-2_1_">
+						<g class="st13">
+							<rect id="path-9_1_" y="82" width="299" height="40"/>
+						</g>
+					</g>
+					<g id="Rectangle-2-Copy">
+						<g class="st14">
+							<rect id="path-11_1_" y="122" width="299" height="20"/>
+						</g>
+					</g>
+					<g id="Rectangle-2_2_">
+						<g class="st15">
+							<rect id="path-13_1_" y="42" width="299" height="40"/>
+						</g>
+					</g>
+					<g id="Rectangle-2_3_">
+						<g class="st16">
+							<rect id="path-15_1_" y="2" width="299" height="40"/>
+						</g>
+					</g>
+					<g id="Red" transform="translate(181.000000, 0.000000)">
+						<g transform="translate(0.000000, 18.000000)">
+							<g id="Rectangle-Copy-6">
+								<g>
+									<path id="path-17" class="st17" d="M4,80L4,80c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,81.8,1.8,80,4,80z"/>
+								</g>
+								<path class="st18" d="M4,80.5L4,80.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,82.1,2.1,80.5,4,80.5z"/>
+							</g>
+							<g id="Rectangle-Copy-7">
+								<g>
+									<path id="path-18" class="st17" d="M4,120L4,120c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,121.8,1.8,120,4,120z"/>
+								</g>
+								<path class="st18" d="M4,120.5L4,120.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,122.1,2.1,120.5,4,120.5z"/>
+							</g>
+							<g id="Rectangle-Copy-5">
+								<g>
+									<path id="path-19" class="st17" d="M4,41L4,41c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,42.8,1.8,41,4,41z"/>
+								</g>
+								<path class="st18" d="M4,41.5L4,41.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,43.1,2.1,41.5,4,41.5z"/>
+							</g>
+							<g id="Rectangle-Copy-4">
+								<g>
+									<path id="path-20" class="st17" d="M4,0L4,0c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0C1.8,8,0,6.2,0,4l0,0C0,1.8,1.8,0,4,0
+										z"/>
+								</g>
+								<path class="st18" d="M4,0.5L4,0.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0C2.1,7.5,0.5,5.9,0.5,4l0,0
+									C0.5,2.1,2.1,0.5,4,0.5z"/>
+							</g>
+						</g>
+						<text transform="matrix(1 0 0 1 12.632 26)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 9)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 66)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 49)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 106)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 89)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 146)" class="st2 st3 st4">0</text>
+					</g>
+					<text transform="matrix(1 0 0 1 20 26)" class="st8 st3 st4">Hosts</text>
+					<text transform="matrix(1 0 0 1 50.3836 9)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 20 66)" class="st8 st3 st4">VMs</text>
+					<text transform="matrix(1 0 0 1 43.4478 49)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 20 106)" class="st8 st3 st4">Disks</text>
+					<text transform="matrix(1 0 0 1 48.7272 89)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 20 146)" class="st8 st3 st4">Remote Sites</text>
+					<g id="Green" transform="translate(259.000000, 0.000000)">
+						<text transform="matrix(1 0 0 1 12.632 26)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 9)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 66)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 49)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 106)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 89)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 146)" class="st2 st3 st4">0</text>
+						<g transform="translate(0.000000, 18.000000)">
+							<g id="Rectangle_1_">
+								<g>
+									<path id="path-21" class="st9" d="M4,80L4,80c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,81.8,1.8,80,4,80z"/>
+								</g>
+								<path class="st10" d="M4,80.5L4,80.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,82.1,2.1,80.5,4,80.5z"/>
+							</g>
+							<g id="Rectangle-Copy-9">
+								<g>
+									<path id="path-22" class="st9" d="M4,120L4,120c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,121.8,1.8,120,4,120z"/>
+								</g>
+								<path class="st10" d="M4,120.5L4,120.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,122.1,2.1,120.5,4,120.5z"/>
+							</g>
+							<g id="Rectangle_2_">
+								<g>
+									<path id="path-23" class="st9" d="M4,41L4,41c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,42.8,1.8,41,4,41z"/>
+								</g>
+								<path class="st10" d="M4,41.5L4,41.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,43.1,2.1,41.5,4,41.5z"/>
+							</g>
+							<g id="Rectangle_3_">
+								<g>
+									<path id="path-24" class="st9" d="M4,0L4,0c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0C1.8,8,0,6.2,0,4l0,0C0,1.8,1.8,0,4,0z
+										"/>
+								</g>
+								<path class="st10" d="M4,0.5L4,0.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0C2.1,7.5,0.5,5.9,0.5,4l0,0
+									C0.5,2.1,2.1,0.5,4,0.5z"/>
+							</g>
+						</g>
+					</g>
+					<g id="Yellow" transform="translate(220.000000, 0.000000)">
+						<text transform="matrix(1 0 0 1 12.632 26)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 9)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 66)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 49)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 106)" class="st2 st3 st4">0</text>
+						<text transform="matrix(1 0 0 1 20 89)" class="st2 st3 st4"> </text>
+						<text transform="matrix(1 0 0 1 12.632 146)" class="st2 st3 st4">0</text>
+						<g transform="translate(0.000000, 18.000000)">
+							<g id="Rectangle-Copy-3">
+								<g>
+									<path id="path-25" class="st19" d="M4,80L4,80c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,81.8,1.8,80,4,80z"/>
+								</g>
+								<path class="st20" d="M4,80.5L4,80.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,82.1,2.1,80.5,4,80.5z"/>
+							</g>
+							<g id="Rectangle-Copy-8">
+								<g>
+									<path id="path-26" class="st19" d="M4,120L4,120c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,121.8,1.8,120,4,120z"/>
+								</g>
+								<path class="st20" d="M4,120.5L4,120.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,122.1,2.1,120.5,4,120.5z"/>
+							</g>
+							<g id="Rectangle-Copy-2">
+								<g>
+									<path id="path-27" class="st19" d="M4,41L4,41c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+										C0,42.8,1.8,41,4,41z"/>
+								</g>
+								<path class="st20" d="M4,41.5L4,41.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+									C0.5,43.1,2.1,41.5,4,41.5z"/>
+							</g>
+							<g id="Rectangle-Copy">
+								<g>
+									<path id="path-28" class="st19" d="M4,0L4,0c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0C1.8,8,0,6.2,0,4l0,0C0,1.8,1.8,0,4,0
+										z"/>
+								</g>
+								<path class="st20" d="M4,0.5L4,0.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0C2.1,7.5,0.5,5.9,0.5,4l0,0
+									C0.5,2.1,2.1,0.5,4,0.5z"/>
+							</g>
+						</g>
+					</g>
+				</g>
+				<g id="Green-Copy" transform="translate(79.000000, 29.000000)">
+					<g id="Black_2_" transform="translate(53.000000, 30.000000)">
+						<path id="Fill-48" class="st9" d="M15.7,14.2c0.4,0,0.7-0.2,0.9-0.5l1.6-2.7l1.7,3.5c0.2,0.3,0.5,0.6,0.9,0.6h0
+							c0.4,0,0.7-0.2,0.9-0.6l2.6-5.3l2.4,4.4c0.2,0.3,0.5,0.5,0.9,0.5h2c-0.9,1.4-2.1,3.1-3.8,5c-2.6,2.8-5.8,5.3-7.8,5.3
+							c-2.2,0-5.4-2.4-7.9-5.3c-1.7-1.9-3-3.6-3.9-5H15.7z M31.9,9c-0.1,0.9-0.4,1.8-0.8,2.6c-0.1,0.2-0.2,0.4-0.3,0.6h-2.5
+							l-3.1-5.6c-0.2-0.3-0.5-0.5-0.9-0.5c-0.4,0-0.7,0.2-0.9,0.6l-2.6,5.2l-1.7-3.4c-0.2-0.3-0.5-0.6-0.9-0.6
+							c-0.4,0-0.7,0.2-0.9,0.5l-2.2,3.8h-10c-0.2-0.4-0.3-0.7-0.5-1.1C4.2,10.1,4,9,4,7.9C4,3.5,7.5,0,11.9,0c2.5,0,4.7,1.1,6.1,2.9
+							C19.4,1.1,21.6,0,24.1,0C28.4,0,32,3.5,32,7.9v0h0C32,7.9,32,8.3,31.9,9L31.9,9z"/>
+						<text transform="matrix(1 0 0 1 0 47)" class="st9 st3 st4">GOOD</text>
+					</g>
+				</g>
+			</g>
+			<g id="CRITICAL" transform="translate(943.000000, 0.000000)">
+				<g id="_x32_-x-2_2_">
+					<g>
+						<g id="Rectangle-1-Copy-3_4_">
+							<g>
+								<path id="path-29" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v277c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v276c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_2_">
+							<g id="Rectangle-1-Copy-3_5_">
+								<g>
+									<path id="path-30" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Critical Alerts</text>
+						</g>
+					</g>
+				</g>
+				<g id="Group" transform="translate(0.000000, 132.000000)">
+					<g id="Rectangle-2_4_">
+						<g class="st21">
+							<rect id="path-31_1_" y="82" width="299" height="40"/>
+						</g>
+					</g>
+					<g id="Rectangle-2-Copy_1_">
+						<g class="st22">
+							<rect id="path-33_1_" y="122" width="299" height="20"/>
+						</g>
+					</g>
+					<g id="Rectangle-2_5_">
+						<g class="st23">
+							<rect id="path-35_1_" y="42" width="299" height="40"/>
+						</g>
+					</g>
+					<g id="Rectangle-2_6_">
+						<g class="st24">
+							<rect id="path-37_1_" y="2" width="299" height="40"/>
+						</g>
+					</g>
+					<text transform="matrix(1 0 0 1 20 25)" class="st8 st3 st4">Snapshot partially crash consistent</text>
+					<text transform="matrix(1 0 0 1 203.9568 9)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 20 65)" class="st8 st3 st4">Protected VM not found</text>
+					<text transform="matrix(1 0 0 1 146.8743 49)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 20 105)" class="st8 st3 st4">Diskspace usage high</text>
+					<text transform="matrix(1 0 0 1 136.3379 89)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 20 145)" class="st8 st3 st4">Controller VM rebooted</text>
+					<text transform="matrix(1 0 0 1 244.728 25)" class="st2 st3 st4">1h ago</text>
+					<text transform="matrix(1 0 0 1 278.9995 9)" class="st2 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 241.8719 65)" class="st2 st3 st4">6h ago</text>
+					<text transform="matrix(1 0 0 1 278.9995 49)" class="st2 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 237.588 105)" class="st2 st3 st4">15h ago</text>
+					<text transform="matrix(1 0 0 1 278.9993 89)" class="st2 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 241.668 145)" class="st2 st3 st4">5d ago</text>
+				</g>
+				<g id="Red_1_" transform="translate(79.000000, 29.000000)">
+					<g id="Yellow_1_" transform="translate(42.000000, 30.000000)">
+						<text transform="matrix(1 0 0 1 18 28)" class="st17 st11 st12">4</text>
+						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">1 Hour ago</text>
+					</g>
+				</g>
+			</g>
+			<g id="WARNING" transform="translate(943.000000, 300.000000)">
+				<g id="_x32_-x-1-half">
+					<g id="_x32_-x-1-copy-3">
+						<g id="Rectangle-1-Copy-3_6_">
+							<g>
+								<path id="path-39" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_3_">
+							<g id="Rectangle-1-Copy-3_7_">
+								<g>
+									<path id="path-40" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Warning Alerts</text>
+						</g>
+					</g>
+					<rect id="Rectangle-3-Copy" x="149" y="30" class="st25" width="1" height="104"/>
+				</g>
+				<g id="Group-3" transform="translate(150.000000, 51.000000)">
+					<g id="Rectangle-2_7_">
+						<g class="st26">
+							<rect id="path-41_1_" y="2" width="148" height="30"/>
+						</g>
+					</g>
+					<rect id="Rectangle-2-Copy-2" y="32" class="st27" width="148" height="30"/>
+					<text transform="matrix(1 0 0 1 15 21)" class="st8 st3 st4">License failure</text>
+					<text transform="matrix(1 0 0 1 91.7384 9)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 15 51)" class="st8 st3 st4">Time Drift Check</text>
+				</g>
+				<g id="Yellow_2_" transform="translate(0.000000, 29.000000)">
+					<g transform="translate(43.000000, 26.000000)">
+						<text transform="matrix(1 0 0 1 17 28)" class="st19 st11 st12">2</text>
+						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">WARNING</text>
+						<text transform="matrix(1 0 0 1 0 59)" class="st6 st3 st28">1 hours ago</text>
+					</g>
+				</g>
+			</g>
+			<g id="CLUSTER-AVG-IO-LATENCY" transform="translate(315.000000, 300.000000)">
+				<g id="_x32_-x-1-">
+					<g id="_x32_-x-1-copy-3_1_">
+						<g id="Rectangle-1-Copy-3_8_">
+							<g>
+								<path id="path-43" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_4_">
+							<g id="Rectangle-1-Copy-3_9_">
+								<g>
+									<path id="path-44" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster avg. IO Latency</text>
+						</g>
+					</g>
+				</g>
+				<g id="Group-4" transform="translate(1.000000, 44.000000)">
+					<g id="Rectangle-3">
+						<rect id="path-45_1_" class="st0" width="297" height="69"/>
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-1.5" y="1" width="300" height="69">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="-1.5" y="1" width="300" height="69" id="mask-46">
+						<g class="st29">
+							<rect id="path-45" class="st0" width="297" height="69"/>
+						</g>
+					</mask>
+					<path id="Path-4" class="st30" d="M-1,70l0-46l3-3l2,26l3-23l2-4l1,8l2-3l1,5l2-2l2-15l1,1l1,8l2-8l4,14l1-11l4,7l1-13l4,18
+						l3-12l2,10c0,0,0-8,1-7s3,7,3,7l4-5l2,6l1-8l1,9l2,1l2-6l2-2l1,5h2l3,2c0,0,1-4,2-3s4,5,4,5l1,2l2-3l3,1l2-8l1,7l3-1l2-28l2,28
+						l2-2l1-7l2,21l2-13v-4l2,5h7l1-5l1,4l2,1l1,5l3-5l4-7l1,6l4-18l1.9,17.1L121,28h3l2-14l1,15l3,2l1-2l2,13l1-25l2,13v5l3,6l2-19
+						l1,6l3,3l3-1l5,1l2-1l3-1l3-4l2,5l2-5l2,4l4-1l2-1l3,8l2-6h3l3-10l1,10l2,5l2-6l2,1l3-8v7l5-15l-1,9l3,3l1,3l3-4l3,13l4-15l1,7
+						l3-3h3l3-8l0.6,5.8L223,27l5,4c0,0,1-11,2-10s3,3,3,3l3-15l1,16l2,3l2-8l4,8l1-8l2,7l3-4l1,5l1-5l2,5l1-4c0,0,3,2,3,1s1-3,1-3
+						l1,5l1-5l3,1l1-3l4,9c0,0,2-11,2-9s2,9,2,9l2-18l4,12l1-9l4,11l1-11l2,10l1-8c0,0,2,6,2,5s1-10,1-10l2,16l2,2l2-1v42"/>
+				</g>
+				<g id="Graph-over" transform="translate(0.000000, 10.000000)">
+					<rect id="Rectangle-4" x="0.5" y="103.5" class="st1" width="298" height="1"/>
+					<text transform="matrix(1 0 0 1 239.332 9)" class="st8 st3 st4">2.19 ms</text>
+					<text transform="matrix(1 0 0 1 10 33)" class="st6 st3 st7">2.45 ms</text>
+					<text transform="matrix(1 0 0 1 20 119)" class="st6 st3 st7">4:00 PM</text>
+					<text transform="matrix(1 0 0 1 131 119)" class="st6 st3 st7">5:00 PM</text>
+					<text transform="matrix(1 0 0 1 242 119)" class="st6 st3 st7">6:00 PM</text>
+				</g>
+			</g>
+			<g id="HYPERVISOR-SUMMARU">
+				<g id="_x32_-x-1-half_1_" transform="translate(1.000000, 0.000000)">
+					<g id="_x32_-x-1-copy-3_2_">
+						<g id="Rectangle-1-Copy-3_10_">
+							<g>
+								<path id="path-47" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_5_">
+							<g id="Rectangle-1-Copy-3_11_">
+								<g>
+									<path id="path-48" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Hypervisor Summary</text>
+						</g>
+					</g>
+					<rect id="Rectangle-3-Copy_2_" x="149" y="30" class="st25" width="1" height="104"/>
+				</g>
+				<g id="Half-Black" transform="translate(0.000000, 29.000000)">
+					<g id="Black_3_" transform="translate(35.000000, 32.000000)">
+						<text transform="matrix(1 0 0 1 0 28)" class="st8 st11 st12">AHV</text>
+						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">HYPERVISOR</text>
+					</g>
+				</g>
+				<g id="Black-Copy-11" transform="translate(170.000000, 61.000000)">
+					<g id="Black_4_">
+						<text transform="matrix(1 0 0 1 3 22)" class="st8 st11 st31">Nutanix</text>
+						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">20150730 VERSION</text>
+					</g>
+				</g>
+			</g>
+			<g id="CLUSTER-IO-BANDWIDTH" transform="translate(315.000000, 150.000000)">
+				<g id="_x32_-x-1-_1_">
+					<g id="_x32_-x-1-copy-3_3_">
+						<g id="Rectangle-1-Copy-3_12_">
+							<g>
+								<path id="path-49" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_6_">
+							<g id="Rectangle-1-Copy-3_13_">
+								<g>
+									<path id="path-50" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster IO Bandwidth</text>
+						</g>
+					</g>
+				</g>
+				<g id="Group-5" transform="translate(1.000000, 48.000000)">
+					<g id="Rectangle-4_1_">
+						<rect id="path-51_1_" class="st0" width="297" height="65"/>
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-1.5" y="2.3" width="300" height="63.7">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="-1.5" y="2.3" width="300" height="63.7" id="mask-52">
+						<g class="st32">
+							<rect id="path-51" class="st0" width="297" height="65"/>
+						</g>
+					</mask>
+					<path id="Path-3" class="st33" d="M-1,66l0-23h1l5,11l3-4l3-6l3,1l1,4l1,5l3-4l3,6l3-5l2,2l2-4l2,1l1-1l1-5l2-3l2,8l2-3v-5l2-3
+						V27l3-4l2,5l1,6l2-10l4-2l4-3l1,5l5-9v25l5,2l1,2h4l3,7l4-5l2-11l1-1V19l7-2l6,1l1,2l5-1l5,3l4-1l5,5l4-7l6,1l4-1l3,3l4-2l5,1
+						l2,3l7-3l5,2l1-3l3,2l2-2l3-5l5,8l4-3l3,2l3-2l2,3l4-5l1,2l4-1h4l5,8l-1,11l3,3l1,9h4l1,5l4-5l3,4l8-11l3,8l3-8l2,3l2-5l3,5
+						l3-19l3-1l3-9l1,3l1,8l4-8l2,4l5,6l2,2v7v4l4,3l3-5l5,10l2-5l5,5l2-3l4,1l2,6l3-50c0,0,1-3,2-2s4,5,4,5l2-5v63"/>
+				</g>
+				<g id="Graph-over_1_" transform="translate(0.000000, 10.000000)">
+					<rect id="Rectangle-4_2_" x="0.5" y="103.5" class="st1" width="298" height="1"/>
+					<text transform="matrix(1 0 0 1 222.832 9)" class="st8 st3 st4">10.6 GiBps</text>
+					<text transform="matrix(1 0 0 1 10 33)" class="st6 st3 st7">12.41 GiBps</text>
+					<text transform="matrix(1 0 0 1 20 119)" class="st6 st3 st7">4:00 PM</text>
+					<text transform="matrix(1 0 0 1 131 119)" class="st6 st3 st7">5:00 PM</text>
+					<text transform="matrix(1 0 0 1 242 119)" class="st6 st3 st7">6:00 PM</text>
+				</g>
+			</g>
+			<g id="HARDWARE-SUMMARY" transform="translate(1.000000, 450.000000)">
+				<g id="_x32_-x-1-half_2_">
+					<g id="_x32_-x-1-copy-3_4_">
+						<g id="Rectangle-1-Copy-3_14_">
+							<g>
+								<path id="path-53" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_7_">
+							<g id="Rectangle-1-Copy-3_15_">
+								<g>
+									<path id="path-54" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Hardware Summary</text>
+						</g>
+					</g>
+					<rect id="Rectangle-3-Copy_4_" x="149" y="30" class="st25" width="1" height="104"/>
+				</g>
+				<rect id="Rectangle-2-Copy-5" x="150" y="67" class="st27" width="148" height="30"/>
+				<text transform="matrix(1 0 0 1 165 86)" class="st8 st3 st4">NX30450</text>
+				<text transform="matrix(1 0 0 1 227.1 86)" class="st2 st3 st4">7 BLOCKS</text>
+				<g id="Half-Black_1_" transform="translate(10.000000, 29.000000)">
+					<g id="Black_5_" transform="translate(16.000000, 32.000000)">
+						<text transform="matrix(1 0 0 1 2 28)" class="st8 st11 st12">14</text>
+						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">HOSTS</text>
+					</g>
+				</g>
+				<g id="Half-Black_2_" transform="translate(70.000000, 29.000000)">
+					<g id="Black_6_" transform="translate(13.000000, 32.000000)">
+						<text transform="matrix(1 0 0 1 13.5 28)" class="st8 st11 st12">7</text>
+						<text transform="matrix(1 0 0 1 0 47)" class="st6 st3 st4">BLOCKS</text>
+					</g>
+				</g>
+			</g>
+			<g id="VM-SUMMARY" transform="translate(1.000000, 300.000000)">
+				<g id="_x32_-x-1-half_3_">
+					<g id="_x32_-x-1-copy-3_5_">
+						<g id="Rectangle-1-Copy-3_16_">
+							<g>
+								<path id="path-55" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_8_">
+							<g id="Rectangle-1-Copy-3_17_">
+								<g>
+									<path id="path-56" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">VM Summary</text>
+						</g>
+					</g>
+					<rect id="Rectangle-3-Copy_5_" x="149" y="30" class="st25" width="1" height="104"/>
+				</g>
+				<g id="Group-2" transform="translate(150.000000, 36.000000)">
+					<g id="Rectangle-2-Copy-4">
+						<g class="st34">
+							<rect id="path-62_1_" y="32" width="148" height="30"/>
+						</g>
+					</g>
+					<g id="Rectangle-2-Copy-5_1_">
+						<g class="st35">
+							<rect id="path-57_1_" y="3" width="148" height="30"/>
+						</g>
+					</g>
+					<rect id="Rectangle-2-Copy-3" y="62" class="st27" width="148" height="30"/>
+					<text transform="matrix(1 0 0 1 28 19.4663)" class="st8 st3 st4">Off</text>
+					<text transform="matrix(1 0 0 1 44.2599 9)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 28 51)" class="st8 st3 st4">On</text>
+					<text transform="matrix(1 0 0 1 43.8879 39)" class="st8 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 28 81)" class="st8 st3 st4">Suspen…</text>
+					<g id="Rectangle_4_">
+						<g>
+							<path id="path-59" class="st36" d="M19,11L19,11c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+								C15,12.8,16.8,11,19,11z"/>
+						</g>
+						<path class="st37" d="M19,11.6L19,11.6c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+							C15.5,13.1,17.1,11.6,19,11.6z"/>
+					</g>
+					<g id="Rectangle-Copy_1_">
+						<g>
+							<path id="path-60" class="st9" d="M19,43L19,43c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+								C15,44.8,16.8,43,19,43z"/>
+						</g>
+						<path class="st10" d="M19,43.5L19,43.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+							C15.5,45.1,17.1,43.5,19,43.5z"/>
+					</g>
+					<g id="Rectangle-Copy-2_1_">
+						<g>
+							<path id="path-61" class="st19" d="M19,73L19,73c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
+								C15,74.8,16.8,73,19,73z"/>
+						</g>
+						<path class="st38" d="M19,73.5L19,73.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
+							C15.5,75.1,17.1,73.5,19,73.5z"/>
+					</g>
+					<text transform="matrix(1 0 0 1 113.796 19.4663)" class="st2 st3 st4">421</text>
+					<text transform="matrix(1 0 0 1 131.9996 9)" class="st2 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 118.044 51)" class="st2 st3 st4">54</text>
+					<text transform="matrix(1 0 0 1 131.9998 39)" class="st2 st3 st4"> </text>
+					<text transform="matrix(1 0 0 1 124.632 81)" class="st2 st3 st4">0</text>
+				</g>
+				<g id="Half-Black_3_" transform="translate(0.000000, 29.000000)">
+					<g id="Black_7_" transform="translate(41.000000, 32.000000)">
+						<text transform="matrix(1 0 0 1 0.5 28)" class="st8 st11 st12">475</text>
+						<text transform="matrix(1 0 0 1 19 47)" class="st6 st3 st4">VMs</text>
+					</g>
+				</g>
+			</g>
+			<g id="STORAGE" transform="translate(1.000000, 150.000000)">
+				<g id="_x32_-x-1-half_4_">
+					<g id="_x32_-x-1-copy-3_6_">
+						<g id="Rectangle-1-Copy-3_18_">
+							<g>
+								<path id="path-64" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_9_">
+							<g id="Rectangle-1-Copy-3_19_">
+								<g>
+									<path id="path-65" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Storage Summary</text>
+						</g>
+					</g>
+					<rect id="Rectangle-3-Copy_6_" x="149" y="30" class="st25" width="1" height="104"/>
+				</g>
+				<g id="Rectangle-2-Copy-4_1_">
+					<g class="st39">
+						<rect id="path-66_1_" x="150" y="68" width="148" height="30"/>
+					</g>
+				</g>
+				<g id="Rectangle-2-Copy-5_2_">
+					<g class="st40">
+						<rect id="path-68_1_" x="150" y="39" width="148" height="30"/>
+					</g>
+				</g>
+				<rect id="Rectangle-2-Copy-3_1_" x="150" y="98" class="st27" width="148" height="30"/>
+				<text transform="matrix(1 0 0 1 165 58)" class="st8 st3 st4">Free</text>
+				<text transform="matrix(1 0 0 1 189.1679 45)" class="st8 st3 st4"> </text>
+				<text transform="matrix(1 0 0 1 165 88)" class="st8 st3 st4">Used</text>
+				<text transform="matrix(1 0 0 1 192.7797 75)" class="st8 st3 st4"> </text>
+				<text transform="matrix(1 0 0 1 165 118)" class="st8 st3 st4">Total</text>
+				<text transform="matrix(1 0 0 1 233.112 58)" class="st2 st3 st4">29.12 TiB</text>
+				<text transform="matrix(1 0 0 1 280.655 45)" class="st2 st3 st4"> </text>
+				<text transform="matrix(1 0 0 1 233.184 88)" class="st2 st3 st4">19.88 TiB</text>
+				<text transform="matrix(1 0 0 1 281.6632 75)" class="st2 st3 st4"> </text>
+				<text transform="matrix(1 0 0 1 237.408 118)" class="st2 st3 st4">49.0 TiB</text>
+				<g id="Half-Black_4_" transform="translate(0.000000, 29.000000)">
+					<g id="Black_8_" transform="translate(18.000000, 32.000000)">
+						<text transform="matrix(1 0 0 1 7 28)" class="st8 st11 st12">59.43</text>
+						<text transform="matrix(1 0 0 1 0 47)" class="st6 st3 st4">% OF Free (Physical)</text>
+					</g>
+				</g>
+			</g>
+			<g id="CLUSTER-CPU" transform="translate(315.000000, 450.000000)">
+				<g id="_x31_-x-1-c">
+					<g id="_x31_-x-1-copy-2">
+						<g id="Rectangle-1-Copy-7">
+							<g>
+								<path id="path-70" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_10_">
+							<g id="Rectangle-1-Copy-3_20_">
+								<g>
+									<path id="path-71" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster CPU Usage</text>
+						</g>
+					</g>
+				</g>
+				<g id="Half-Black_5_" transform="translate(0.000000, 29.000000)">
+					<g id="Black_9_" transform="translate(25.000000, 32.000000)">
+						<text transform="matrix(1 0 0 1 0.5 28)" class="st8 st11 st12">32.32</text>
+						<text transform="matrix(1 0 0 1 8.5 47)" class="st6 st3 st4">% OF 1.09 THz</text>
+					</g>
+				</g>
+			</g>
+			<g id="CLUSTER-MEMORY" transform="translate(472.000000, 450.000000)">
+				<g id="_x31_-x-1-c_1_">
+					<g id="_x31_-x-1-copy-2_1_">
+						<g id="Rectangle-1-Copy-7_1_">
+							<g>
+								<path id="path-72" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_11_">
+							<g id="Rectangle-1-Copy-3_21_">
+								<g>
+									<path id="path-73" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster Memory Usa...</text>
+						</g>
+					</g>
+				</g>
+				<g id="Half-Black_6_" transform="translate(0.000000, 29.000000)">
+					<g id="Black_10_" transform="translate(25.000000, 32.000000)">
+						<text transform="matrix(1 0 0 1 0 28)" class="st8 st11 st12">43.56</text>
+						<text transform="matrix(1 0 0 1 8.5 47)" class="st6 st3 st4">% OF 1.09 THz</text>
+					</g>
+				</g>
+			</g>
+			<g id="EVENTS" transform="translate(1100.000000, 450.000000)">
+				<g id="_x31_-x-1-c_2_">
+					<g id="_x31_-x-1-copy-2_2_">
+						<g id="Rectangle-1-Copy-7_2_">
+							<g>
+								<path id="path-74" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_12_">
+							<g id="Rectangle-1-Copy-3_22_">
+								<g>
+									<path id="path-75" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Events</text>
+						</g>
+					</g>
+				</g>
+				<g id="Black_11_" transform="translate(0.000000, 29.000000)">
+					<g transform="translate(42.000000, 26.000000)">
+						<text transform="matrix(1 0 0 1 0.5 28)" class="st8 st11 st12">716</text>
+						<text transform="matrix(1 0 0 1 10 47)" class="st6 st3 st4">EVENT</text>
+						<text transform="matrix(1 0 0 1 3.5 59)" class="st6 st3 st28">1 hour ago</text>
+					</g>
+				</g>
+			</g>
+			<g id="INFO-ALERTS" transform="translate(943.000000, 450.000000)">
+				<g id="_x31_-x-1-c_3_">
+					<g id="_x31_-x-1-copy-2_3_">
+						<g id="Rectangle-1-Copy-7_3_">
+							<g>
+								<path id="path-76" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_13_">
+							<g id="Rectangle-1-Copy-3_23_">
+								<g>
+									<path id="path-77" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Info Alerts</text>
+						</g>
+					</g>
+				</g>
+				<g id="Gray" transform="translate(0.000000, 29.000000)">
+					<g id="Black_12_" transform="translate(42.000000, 26.000000)">
+						<text transform="matrix(1 0 0 1 14 28)" class="st41 st11 st12">11</text>
+						<text transform="matrix(1 0 0 1 15 47)" class="st6 st3 st4">INFO</text>
+						<text transform="matrix(1 0 0 1 0 59)" class="st6 st3 st28">7 hours ago</text>
+					</g>
+				</g>
+			</g>
+			<g id="CLUSTER-IOPS" transform="translate(315.000000, 0.000000)">
+				<g id="_x32_-x-1-_2_">
+					<g id="_x32_-x-1-copy-3_7_">
+						<g id="Rectangle-1-Copy-3_24_">
+							<g>
+								<path id="path-78" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
+							</g>
+							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
+								/>
+						</g>
+						<g id="Tile-head_14_">
+							<g id="Rectangle-1-Copy-3_25_">
+								<g>
+									<path id="path-79" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
+								</g>
+								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
+							</g>
+							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster IOPS</text>
+						</g>
+					</g>
+				</g>
+				<g id="Group-6" transform="translate(1.000000, 43.000000)">
+					<g id="Rectangle-5">
+						<rect id="path-80_1_" class="st0" width="297" height="70"/>
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="-1.5" y="4" width="300" height="67">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="-1.5" y="4" width="300" height="67" id="mask-81">
+						<g class="st42">
+							<rect id="path-80" class="st0" width="297" height="70"/>
+						</g>
+					</mask>
+					<path id="Path-2" class="st43" d="M-1,71l0-55l2-1l1,22l2-10l1,7l1,2l3,21V21l2-13l2,28l2-16l1,13l2-19l2,11l3-1l2,17l2-30l2,7
+						l2,15l2.4-11l0.6-3l4,26l3-22l3,14l3-14l1,9l2-10l1,12l3-30l1,43l2-14l3,13l1-29l2,28l1-20l2,2l2-15v35l4-23v24l3-17l1,13l5-6
+						l1,7l2-5l2,24l3-48l2,50l3-61l3,21l2-8l3,16l2-11l2,9l3-20l2,18l2-9l1,15l3-13l1,21l3-14c0,0,1,22,1,21s2-34,2-34l2,31l1-23
+						l1,19l2-19l3,39l1-40l3,29V12l2,32l2-11l4,12l4-28l5,32l2-18l1,12l2-21l1,14l3-11v16l2-33l1,43l5-37v52l4-43l1,43l3-47l2,10
+						l1-10l1,26l4-30l3,18l2-23l3,20l4-10l1,16l3.3-11.7L204,22l3,22l5-19l1,3l1-7l1,6l3-18l2,13l4,22l4-26l2,13l1-6l1,11l3-5v6v7
+						l2,11l2.5-20.2L240,31l4-7l2,10l1-14l3,10l2-9l3,11V17l4-4c0,0,1,40,1,39s2-31,2-31l3,16l1-19l6,14l2-27l2,26l2-15l5,14l2-13
+						l1,30l2-37l1,32l2-25l2,22l1-22l4,12v42"/>
+				</g>
+				<g id="Graph-over_2_" transform="translate(0.000000, 10.000000)">
+					<polyline id="Rectangle-3_1_" class="st1" points="38.5,103.5 37.5,103.5 37.5,19.5 					"/>
+					<rect id="Rectangle-4_3_" x="0.5" y="103.5" class="st1" width="298" height="1"/>
+					<text transform="matrix(1 0 0 1 204.48 9)" class="st8 st3 st4">309,820 IOPS</text>
+					<text transform="matrix(1 0 0 1 10 33)" class="st6 st3 st7">325,449 IOPS</text>
+					<text transform="matrix(1 0 0 1 20 119)" class="st6 st3 st7">4:00 PM</text>
+					<text transform="matrix(1 0 0 1 131 119)" class="st6 st3 st7">5:00 PM</text>
+					<text transform="matrix(1 0 0 1 242 119)" class="st6 st3 st7">6:00 PM</text>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
