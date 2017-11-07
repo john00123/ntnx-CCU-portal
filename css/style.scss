@@ -157,7 +157,7 @@ header {
 
 //container
 .container {
-  @include size(auto, auto);
+  @include size(100%, auto);
   @include flex(center, flex-start, column);
   // max-width: 1280px;
   margin: 8px auto;
@@ -315,11 +315,19 @@ button a{
     }
 }
 
+.deck1{
+  display: block;
+  min-height: 100%;
+  width: 100%;
+  background: url('../img/dashboard.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .actions-dropdown{
   position: relative;
   width: 92px;
   text-align: left;
-
 
   &::before, &::after {
   position: absolute;
@@ -1066,6 +1074,7 @@ Media Queries
 
   .container{
     min-width: 320px;
+    min-height: 100%;
   }
 
   th:not(:first-child), td:not(:first-child){
