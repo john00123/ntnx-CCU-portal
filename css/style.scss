@@ -295,7 +295,10 @@ header {
       left: -120px;
     }
 }
-
+button a{
+  color:white;
+  text-decoration: none;
+}
 .tooltip-trigger3{
   @extend .tooltip-trigger;
 

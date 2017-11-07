@@ -789,6 +789,11 @@ header .right {
   left: -120px;
 }
 
+button a {
+  color: white;
+  text-decoration: none;
+}
+
 .tooltip-trigger3 {
   position: relative;
   width: auto;

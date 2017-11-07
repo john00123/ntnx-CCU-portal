@@ -4,9 +4,9 @@
 const popupData ={
   title :[
     'License Cluster',
-    'Reclaiming CCUs',
+    'Reclaiming licenses',
     'Next Steps',
-    'CCUs Reclaimed',
+    'Licenses Reclaimed',
     'Upload License File',
     '',
     'New! Cloud consumption units',
@@ -55,7 +55,7 @@ const popupData ={
     // change plan
     `
     <h2>Congratulations</h2>
-    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> Use this <a class='csum' href='dev_app_12_12_2020.xml' download>new license summary file</a> to update the license state of your cluster.</p>
+    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> Use the new license summary file to update the license state of your cluster.</p>
       `,
 
     `
@@ -124,7 +124,7 @@ const popupData ={
 
     `<button class="primary reclaim btn-disabled">Reclaim</button>`,
 
-    `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
+    `<button class="primary"><a href='img/license-file.xml' download> Download </a></button>`,
 
     `<button class="secondary cancel"> Cancel </button>
      <button class="primary congrats"> Save Changes </button>`,
@@ -134,6 +134,8 @@ const popupData ={
     `<button class="primary add-node btn-disabled">Next</button>`,
 
     `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
+
+
   ]
 }
 
@@ -238,7 +240,7 @@ const layer2Data = {
     <p style='margin-bottom:20px;'> Their expiration date is 12/12/2020</p>
     <h3> You have reclaimed all the unused CCUs available on this cluster and they have been credited to your account.</h3>
   </div>
-  <div class="popup-footer">${popupData.footer[2]}</div>
+  <div class="popup-footer">${popupData.footer[6]}</div>
 `,]
 }
 

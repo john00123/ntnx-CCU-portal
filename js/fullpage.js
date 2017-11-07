@@ -37,7 +37,7 @@ const page={
   body:
   [
   `
-    <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/dev_app_13_12_2020.xml' download> cluster summary file.</a></p></a>
+    <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-file.xml' download> cluster summary file.</a></p></a>
 
     <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='home.html' target='_blank'> license page</a> action menu.</p>
     <div class='preview'></div>
