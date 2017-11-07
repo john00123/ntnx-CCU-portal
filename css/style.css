@@ -755,7 +755,7 @@ header .right {
 .tooltip-trigger::before, .tooltip-trigger2::before, .tooltip-trigger3::before {
   position: absolute;
   box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.02), 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 1px 0 rgba(0, 0, 0, 0.02);
-  content: "Total Sockets         100\A Total HDD             200\A Totla SSD              300 ";
+  content: "Total Sockets          40\A Total HDD(TB)      200\A Totla SSD(TB)          40";
   color: white;
   background-color: #22272E;
   padding: 15px;
@@ -785,7 +785,7 @@ header .right {
 }
 
 .tooltip-trigger2::before {
-  content: "CCU is a license  \A currency\A across products in our portfolio offerings";
+  content: "CCU is a licensing  \A currency\A to access all our software offerings.";
   left: -120px;
 }
 
@@ -1806,11 +1806,17 @@ input[type="file"] {
 }
 
 .video {
-  height: 200px;
+  height: 270px;
   width: 100%;
   box-sizing: border-box;
   background-color: #1E85EF;
   border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.video:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
 }
 
 /* ==========================================================================

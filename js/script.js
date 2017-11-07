@@ -94,6 +94,7 @@ function popupContent(i){
   uploadFile();
   popAnimate();
   applyLicense();
+  vid();
   // countNumbers();
 }
 
@@ -258,6 +259,13 @@ function countNumbers2(){
   },800);
 }
 
+
+function vid(){
+  const elem = document.getElementById("myvideo");
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  }
+}
 
 $(document).ready(function() {
 

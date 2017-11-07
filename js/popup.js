@@ -21,7 +21,7 @@ const popupData ={
     </h3>
 
     <p style='margin-bottom:20px; width:100%'>
-      This helps us find all available licenses for a selected cluster
+      This has the data needed to license your cluster.
     </p>
 
     <input type="file" id='file'>
@@ -40,7 +40,7 @@ const popupData ={
     </h3>
 
     <p style='margin-bottom:20px; width:100%'>
-      This helps us find all available licenses for a selected cluster
+      This has the data needed to license your cluster.
     </p>
 
     <input type="file" id='file'>
@@ -64,7 +64,7 @@ const popupData ={
     </h3>
 
     <p style='margin-bottom:20px; width:100%'>
-      This helps us find all available licenses for a selected cluster
+      This has the data needed to license your cluster.
     </p>
 
     <input type="file" id='file'>
@@ -79,7 +79,7 @@ const popupData ={
       </h3>
 
       <p style='margin-bottom:20px; width:100%'>
-        This helps us find all available licenses for a selected cluster
+        This has the data needed to license your cluster.
       </p>
 
       <input type="file" id='file'>
@@ -107,10 +107,14 @@ const popupData ={
     </div>`,
 
     `
-    <video class='video' width="320" height="240" controls>
-    <source src="img/ccu.mp4" type="video/mp4">
+    <video class='video' id='myvideo' controls>
+      <source src="img/ccu.mp4" type="video/mp4">
       Your browser does not support the video tag.
+
     </video>
+
+    <a class='link' href='img/ccu.mp4' target='_blank'>Watch fullscreen</a>
+
 
     `
   ],
@@ -232,7 +236,7 @@ const layer2Data = {
   <div class="popup-body">
     <span class='count money'>4000</span>
     <p style='margin-bottom:20px;'> Their expiration date is 12/12/2020</p>
-    <h3> You have reclaimed all the unused CCUs available on this cluster, and has been credited to your account.</h3>
+    <h3> You have reclaimed all the unused CCUs available on this cluster and they have been credited to your account.</h3>
   </div>
   <div class="popup-footer">${popupData.footer[2]}</div>
 `,]
