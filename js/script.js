@@ -214,8 +214,6 @@ function dropDown(){
   });
 }
 
-
-
 //counter
 function countNumbers(){
   $('.layer2 .popup-body').before(`<div class='banner'>4000 CCUs have been credited to your account.</div>`);
