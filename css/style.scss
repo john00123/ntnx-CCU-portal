@@ -157,7 +157,7 @@ header {
 
 //container
 .container {
-  @include size(100%, auto);
+  @include size(auto, auto);
   @include flex(center, flex-start, column);
   // max-width: 1280px;
   margin: 8px auto;
@@ -1074,7 +1074,6 @@ Media Queries
 
   .container{
     min-width: 320px;
-    min-height: 100%;
   }
 
   th:not(:first-child), td:not(:first-child){

@@ -584,7 +584,7 @@ header .right {
 }
 
 .container {
-  height: 100%;
+  height: auto;
   width: auto;
   box-sizing: border-box;
   display: flex;
@@ -1899,7 +1899,6 @@ Media Queries
   }
   .container {
     min-width: 320px;
-    min-height: 100%;
   }
   th:not(:first-child), td:not(:first-child) {
     width: 65px;
