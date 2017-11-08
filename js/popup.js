@@ -237,7 +237,7 @@ const layer2Data = {
   <div class="popup-header">${popupData.title[3]}</div>
   <div class="popup-body">
     <span class='count money'>4000</span>
-    <p style='margin-bottom:20px;'> Their expiration date is 12/12/2020</p>
+    <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>
     <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses available on this cluster have freed up CCUs. These have been credited to your account.</h3>
   </div>
   <div class="popup-footer">${popupData.footer[6]}</div>
