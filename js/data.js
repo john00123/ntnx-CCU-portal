@@ -12,6 +12,8 @@ const fsChecked = `
 
 const usageData ={
 
+  Name :['Ntnx_Marketing_001','Ntnx_test_001','Ntnx_test_002','Sql_databse_Product','Prosql_3002','Apex_deploy','Backup_Product_07747','Acropollis Ultimate','Ntnx_Marketing_001','Exchange-server-production','Ntnx_Marketing_001', 'Backup_Product_07747','Apex_deploy','Exchange-server-production'],
+
   Type :['Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropollis Ultimate','Acropollis Ultimate','Acropollis Ultimate','Calm','File Server','File Server', 'Software Encryption','Software Encryption','Prism Pro'],
 
   Purchased :['750','600','135','750','600','135','750','600','135','750','600','135','750','600','135'],

@@ -34,6 +34,7 @@ function tableData(){
   for(let i=0; i<usageData.Type.length; i++){
     $('.usage').append(
       `<tr>
+        <td> ${usageData.Name[i]}</td>
         <td> ${usageData.Type[i]}</td>
         <!--<td> ${usageData.Purchased[i]}</td>-->
         <td> ${usageData.Ammounts[i]}</td>
@@ -271,7 +272,9 @@ $(document).ready(function() {
       CheckoutData2();
       $('#fs').trigger('click');
       countNumbers2();
-      $('.panel2 h3').text(`Additional CCU needed`);
+      $('.panel2 h3').text(`Additional license costs`);
+      $('.panel2').css('height','250px');
+      $('.flexbox-stretch kbd:eq(0)').text('Pro');
     });
   });
   if($('body').hasClass('index')){

@@ -11,7 +11,7 @@ const addNodePopupBody= `
   <h3> SSD  <code> 300 </code></h3>
 </div>  -->
 
-<h4 style='margin-bottom:15px;'>Current cluster licensing costs</h4>
+<h4 style='margin-top:2px; margin-bottom:15px;'>Current license costs</h4>
 <p style='margin-bottom:20px;'> Cluster has in file the following licenses.</p>
 
 <div class='license-pair current-consumption' style='margin-left: 20px;'>
