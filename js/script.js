@@ -238,7 +238,7 @@ function countNumbers(){
 
 
 function countNumbers2(){
-  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, licensing costs have been adjusted.        <span class=' tooltip-trigger3'>Why?</span></div>`);
+  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, licensing costs have been adjusted. <span class=' tooltip-trigger3'>Why?</span></div>`);
   $('.banner-info').toggle();
 
   $('.popup-header').css('border-bottom','none');
@@ -271,4 +271,5 @@ $(document).ready(function() {
   if($('body').hasClass('index')){
     popupContent(6);
   }
+
 });

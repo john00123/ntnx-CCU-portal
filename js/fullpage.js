@@ -11,7 +11,7 @@ const pageData = `<div class="data-main-content">
 
     <div class="multi-button">
       <div class="data-button-grouping">
-        <button class='secondary' style='margin-top:20px;'> Change License </button><button class='primary reclaim-task2' style='margin-top:20px; margin-left:10px;'> Reclaim </button>
+        <button class='secondary reclaim-task2' style='margin-top:20px;'> Add Node </button><button class='primary reclaim-task2' style='margin-top:20px; margin-left:10px;'> Reclaim </button>
       </div>
     </div>
   </article>
@@ -42,7 +42,6 @@ const page={
     <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='home.html' target='_blank'> license page</a> action menu.</p>
     <div class='preview'></div>
     `
-
 
   ],
   footer:[`<button class="secondary cancel" style="margin-right:0"> Done </button>`],
@@ -95,7 +94,14 @@ function applyLicense(){
   $('.see-licenses').click(function(){
       banner(bannerData.license);
       $('.page-body').html(pageData);
-      $('.reclaim-task2').click(function(){popupRender(0,0,0)});
+      $('.reclaim-task2:eq(1)').click(function(){
+        popupRender(0,0,0)
+      });
+      $('.reclaim-task2:eq(0)').click(function(){
+        popupRender(0,0,0);
+        $('.popup-header').text('Add Node');
+        $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Add node through the <a href='home.html' target='_blank'> license page</a> action menu.</p>`);
+      });
   });
 }
 function selection(i){

@@ -148,7 +148,7 @@ const layer2Data = {
       <div class="popup-body panels">
 
         <div class='panel1'>
-        <p style='margin-bottom:20px; margin-top:-3px; color:#22272E'> Licensing costs have been calculated based on <kbd class='tooltip-trigger'>Dev_app's capacity </kbd></p>
+        <p style='margin-bottom:20px; margin-top:-3px; color:#22272E'> Licensing costs have been calculated based on <kbd class='tooltip-trigger'>this cluster's capacity </kbd></p>
 
         <h4 style='margin-bottom:15px;'>Acropolis License </h4>
 
