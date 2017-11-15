@@ -104,6 +104,7 @@ function applyLicense(){
       });
   });
 }
+
 function selection(i){
   if(i == 0){
     $(`.circle p code:not(${i})`)

@@ -463,6 +463,17 @@ aside h4 {
   color: #9AA5B5;
 }
 
+aside a {
+  color: #22272E;
+  text-decoration: none;
+}
+
+aside a:hover {
+  color: #22A5F7;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 aside .separator {
   height: 1px;
   width: 30px;
@@ -864,6 +875,19 @@ Cards
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.tr .card {
+  color: transparent;
+  height: 100px;
+}
+
+.tr .card:hover {
+  color: transparent;
+}
+
+.tr .card p {
+  color: inherit;
 }
 
 .card {

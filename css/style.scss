@@ -52,7 +52,15 @@ h4{
   color:$font-color-4;
 }
 
-
+a{
+  color:$font-color-1;
+  text-decoration: none;
+  &:hover{
+    color:$blue-1;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
 .separator{
   @include size(1px, 30px);
   background-color: $border-color-2;
@@ -365,6 +373,20 @@ Cards
   @include size(auto, 100%);
   @include flex(flex-start, space-between, row);
   flex-wrap: wrap;
+}
+.viz{
+
+}
+
+.tr .card{
+  color:transparent;
+  &:hover{
+    color:transparent;
+  }
+  p{
+    color:inherit;
+  }
+  height: 100px;
 }
 
 .card {

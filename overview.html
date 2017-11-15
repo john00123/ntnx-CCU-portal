@@ -29,53 +29,28 @@
     <h4>CCUs available</h4>
     <div class='separator'></div>
     <ul>
-      <li><a href='overview.html'>Overview</a></li>
-      <li><a href='purchases.html'>Purchases</a></li>
       <li class='sidebar-selected'>
-      <a href='index.html'>Usage</a></li>
+      <a href='overview.html'>Overview</a></li>
+      <li><a href='purchases.html'>Purchases</a></li>
+      <li><a href='index.html'>Usage</a></li>
       <!-- <li>Node licenses</li> -->
     </ul>
   </aside>
 
-  <article class="container">
-    <div class="actions">
-      <button class="primary cluster-license"><span> Cluster License</span></button>
-      <!-- <button class="primary cluster-license" style='margin-left:10px'><span> PC Licenses</span></button> -->
-      <button class="secondary actions-dropdown"><span>Actions</span>
-
-        <div class='floater'>
-        <a class='reclaim-popup'> Reclaim Licenses </a><br>
-        <a class='update-popup'> New node License</a>
-        </div>
-      </button>
-      <div class='spacer'></div>
-      <button class="secondary redeem"><span>Filter</span></button>
-    </div>
+  <article class="container" style='padding:0 20px;'>
 
     <!-- info cards -->
-    <div class="deck"></div>
-
-    <!-- table -->
-    <table class="table tusage">
-      <thead>
-        <tr class='table-header'>
-          <th>Cluster Name</th>
-          <th>License Type</th>
-          <!-- <th>CCUs Purchased</th> -->
-          <th>CCUs Consumed</th>
-          <th>Expiration date</th>
-        </tr>
-      </thead>
-      <tbody class='usage'></tbody>
-    </table>
+    <div class='card viz' style='min-height:400px; width:100%'></div>
+    <div class="deck tr"></div>
+    <div class="deck tr"></div>
+    <div class="deck tr"></div>
+    <div class="deck tr"></div>
 
   </article>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="js/script.js" charset="utf-8"></script>
   <script src="js/data.js" charset="utf-8"></script>
-  <script src="js/popup.js" charset="utf-8"></script>
-
 </body>
 
 </html>

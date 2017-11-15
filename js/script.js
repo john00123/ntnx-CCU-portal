@@ -188,12 +188,12 @@ $('#fs').change(function(){
 });
 }
 
-function sideBarSelection(){
-  $('li').click( function(){
-    $('li').removeClass('sidebar-selected');
-    $(this).addClass('sidebar-selected');
-  });
-}
+// function sideBarSelection(){
+//   $('li').click( function(){
+//     $('li').removeClass('sidebar-selected');
+//     $(this).addClass('sidebar-selected');
+//   });
+// }
 
 function dropDown(){
   $('.primary').click(function(){
@@ -253,7 +253,7 @@ function countNumbers2(){
 $(document).ready(function() {
 
   cardsData();
-  sideBarSelection();
+  // sideBarSelection();
   tableData();
   dropDown();
   $('.reclaim-popup').click(function(){popupContent(1)});
