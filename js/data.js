@@ -4,6 +4,12 @@ const cardData ={
   cardSecondary : ['Consumed CCUs',`Available CCUs`,'Last updated Oct 2016'],
 }
 
+const fsChecked = `
+  <input type='checkbox'
+  style='display:none;'
+  id='fs'
+  value='fs'>`
+
 const usageData ={
 
   Type :['Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropollis Ultimate','Acropollis Ultimate','Acropollis Ultimate','Calm','File Server','File Server', 'Software Encryption','Software Encryption','Prism Pro'],

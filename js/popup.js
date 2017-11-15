@@ -1,5 +1,28 @@
 
 // Popup
+const addNodePopupBody= `
+  <!--<h4 style='margin-bottom:15px;'>Capacity Changes</h4>
+
+<p style='margin-bottom:20px;'> This cluster has dected an additional ammount of resources, to be licensed to keep a valid licenses state.</p>
+
+<div class='license-pair current-consumption' style='margin-left: 20px;'>
+  <h3> Cores  <code> 30 </code></h3>
+  <h3> HHD  <code> 300 </code></h3>
+  <h3> SSD  <code> 300 </code></h3>
+</div>  -->
+
+<h4 style='margin-bottom:15px;'>Current cluster licensing costs</h4>
+<p style='margin-bottom:20px;'> Cluster has in file the following licenses.</p>
+
+<div class='license-pair current-consumption' style='margin-left: 20px;'>
+  <h3> Acropolis Pro  <code> 3000 CCUs </code></h3>
+  <h3> File Server  <code> 3000 CCUs </code></h3>
+</div>
+
+
+
+`
+
 
 const popupData ={
   title :[
@@ -190,7 +213,7 @@ const layer2Data = {
             style='margin-right: 10px;
             margin-bottom:10px;'
             id='fs'
-            value='fs'>
+            value='fs''>
             File Server <br>
 
             <input
@@ -214,7 +237,7 @@ const layer2Data = {
           <div class='separator prices'></div>
 
           <div class=flexbox-stretch>
-            <kbd>Subtotal</kbd>
+            <kbd>Total</kbd>
             <code class='subt'>${sum}</code>
           </div>
 

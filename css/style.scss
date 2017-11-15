@@ -998,6 +998,17 @@ input[type="file"]{
   margin-bottom: 20px;
 }
 
+.current-consumption{
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    @include size(calc(100% - 10px), 1px);
+    background-color: $border-color-2;
+    top: 5px;
+    left: -19px;
+  }
+}
 /* ==========================================================================
 Animation
 ========================================================================== */

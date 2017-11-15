@@ -1828,6 +1828,21 @@ input[type="file"] {
   margin-bottom: 20px;
 }
 
+.current-consumption {
+  position: relative;
+}
+
+.current-consumption::before {
+  content: '';
+  position: absolute;
+  height: calc(100% - 10px);
+  width: 1px;
+  box-sizing: border-box;
+  background-color: #D5DAE0;
+  top: 5px;
+  left: -19px;
+}
+
 /* ==========================================================================
 Animation
 ========================================================================== */

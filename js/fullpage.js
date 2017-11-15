@@ -100,7 +100,7 @@ function applyLicense(){
       $('.reclaim-task2:eq(0)').click(function(){
         popupRender(0,0,0);
         $('.popup-header').text('Add Node');
-        $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Add node through the <a href='home.html' target='_blank'> license page</a> action menu.</p>`);
+        $('.popup-body p:eq(1)').html(`<code class='option'> 2 </code> Add node through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
       });
   });
 }

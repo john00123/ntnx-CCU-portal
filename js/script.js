@@ -89,7 +89,7 @@ function popupContent(i){
   multiPopup();
   uploadFile();
   popAnimate();
-  applyLicense();
+  // applyLicense();
   // countNumbers();
 }
 
@@ -238,7 +238,7 @@ function countNumbers(){
 
 
 function countNumbers2(){
-  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, licensing costs have been adjusted. <span class=' tooltip-trigger3'>Why?</span></div>`);
+  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, additional CCU required. <span class=' tooltip-trigger3'>Why?</span></div>`);
   $('.banner-info').toggle();
 
   $('.popup-header').css('border-bottom','none');
@@ -264,8 +264,14 @@ $(document).ready(function() {
     $('.add-node').click(function() {
       $('.popup').addClass('second');
       layer2(0);
+      $('.overlay2 .popup-header').text('Additonal Node License');
+      $('.panel1').html(addNodePopupBody);
+
+      $('.panel1').append(fsChecked);
+      CheckoutData2();
+      $('#fs').trigger('click');
       countNumbers2();
-    $('.popup-header').text('License new hardware');
+      $('.panel2 h3').text(`Additional CCU needed`);
     });
   });
   if($('body').hasClass('index')){
