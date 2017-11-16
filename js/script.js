@@ -90,7 +90,7 @@ function popupContent(i){
   multiPopup();
   uploadFile();
   popAnimate();
-  // applyLicense();
+  applyLicense();
   // countNumbers();
 }
 
