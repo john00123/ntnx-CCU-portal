@@ -43,6 +43,18 @@ function tableData(){
   }
 }
 
+function purchaseData(){
+  for(let i=0; i<purchaseDataTable.id.length; i++){
+    $('.purchased').append(
+      `<tr>
+        <td> ${purchaseDataTable.id[i]}</td>
+        <td> ${purchaseDataTable.purchased[i]}</td>
+        <td> ${purchaseDataTable.use[i]}</td>
+        <td>${purchaseDataTable.Expiration[i]}</td>
+    </tr>`);
+  }
+}
+
 
 //multiPopup
 
@@ -90,7 +102,7 @@ function popupContent(i){
   multiPopup();
   uploadFile();
   popAnimate();
-  applyLicense();
+  // applyLicense();
   // countNumbers();
 }
 
@@ -263,6 +275,7 @@ $(document).ready(function() {
   tableData();
   dropDown();
   tablePopup();
+  purchaseData();
   $('.reclaim-popup').click(function(){popupContent(1)});
   $('.cluster-license').click(function(){popupContent(0)});
   $('.update-popup').click(function(){

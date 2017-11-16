@@ -65,6 +65,22 @@ function popupRender(i,j,k){
   // countNumbers();
 }
 
+function popupContent(i){
+  $('body').append(
+    `<div class="overlay" style='opacity:0'>
+      <div class="popup" style='opacity:0'>
+        <div class="popup-header">${popupData.title[i]}</div>
+        <div class="popup-body">${popupData.body[i]}</div>
+        <div class="popup-footer">${popupData.footer[i]}</div>
+      </div>
+    </div>`
+  );
+  multiPopup();
+  uploadFile();
+  popAnimate();
+  applyLicense();
+  // countNumbers();
+}
 
 function dropdown(){$('.blackbox').toggle()}
 function fullpage(){
@@ -92,16 +108,16 @@ function banner(i){
 
 function applyLicense(){
   $('.see-licenses').click(function(){
-      banner(bannerData.license);
-      $('.page-body').html(pageData);
-      $('.reclaim-task2:eq(1)').click(function(){
-        popupRender(0,0,0)
-      });
-      $('.reclaim-task2:eq(0)').click(function(){
-        popupRender(0,0,0);
-        $('.popup-header').text('Add Node');
-        $('.popup-body p:eq(1)').html(`<code class='option'> 2 </code> Add node through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
-      });
+    banner(bannerData.license);
+    $('.page-body').html(pageData);
+    $('.reclaim-task2:eq(1)').click(function(){
+      popupRender(0,0,0)
+    });
+    $('.reclaim-task2:eq(0)').click(function(){
+      popupRender(0,0,0);
+      $('.popup-header').text('Add Node');
+      $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Add node through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
+    });
   });
 }
 

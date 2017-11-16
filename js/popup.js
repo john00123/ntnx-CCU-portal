@@ -1,4 +1,4 @@
-HDD
+
 // Popup
 const addNodePopupBody= `
   <!--<h4 style='margin-bottom:15px;'>Capacity Changes</h4>
@@ -144,16 +144,16 @@ const popupData ={
     //7
 
     `
-    <h3 style='font-weight:500;'>Ntnx_Marketing_001<br><kbd style='font-weight:400;'>UUID : 123231231232132</kbd></h3>
+    <h3 style='font-weight:500;'>Ntnx_Marketing_001<br><kbd style='font-weight:400;'>UUID : 123231231232132<br>  ${capacityData.Nodes} Nodes</kbd></h3>
     <a class='pop-link'> See licensing History </a>
 
     <h3 style='margin-top:10px;'>Capacity</h3>
     <div class='deck' style='margin-bottom:20px;'>
-    <div class='popup-card'> <h3>120 <kbd>cores </kbd></h3></div>
+    <div class='popup-card'> <h3>${capacityData.Cores} <kbd>cores </kbd></h3></div>
 
-    <div class='popup-card'> <h3>800 <kbd>TiB HHD </kbd></h3></div>
+    <div class='popup-card'> <h3>${capacityData.HDD} <kbd>TiB HHD </kbd></h3></div>
 
-    <div class='popup-card'> <h3>600 <kbd>TiB SSD </kbd></h3></div>
+    <div class='popup-card'> <h3>${Math.round(capacityData.SSD)} <kbd>TiB SSD </kbd></h3></div>
     </div>
 
     <div class='separator'></div>
