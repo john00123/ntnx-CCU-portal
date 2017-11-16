@@ -11,12 +11,11 @@ const addNodePopupBody= `
   <h3> SSD  <code> 300 </code></h3>
 </div>  -->
 
-<h4 style='margin-top:2px; margin-bottom:15px;'>Current license costs</h4>
-<p style='margin-bottom:20px;'> Cluster has in file the following licenses.</p>
+<h4 style='margin-top:2px; margin-bottom:15px;'>Current Cluster CCU usage</h4>
 
-<div class='license-pair current-consumption' style='margin-left: 20px;'>
-  <h3> Acropolis Pro  <code> 3000 CCUs </code></h3>
-  <h3> File Server  <code> 3000 CCUs </code></h3>
+<div class='license-pair current-consumption' style='margin-left: 20px; margin-top:20px;'>
+  <h3><kbd> Acropolis Pro  12000 CCUs</kbd> </h3>
+  <h3><kbd> File Server 12000 CCUs</kbd> </h3>
 </div>`
 
 

@@ -239,7 +239,7 @@ function countNumbers(){
 
 
 function countNumbers2(){
-  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, additional CCU required. <span class=' tooltip-trigger3'>Why?</span></div>`);
+  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, additional CCUs required. <span class=' tooltip-trigger3'>Why?</span></div>`);
   $('.banner-info').toggle();
 
   $('.popup-header').css('border-bottom','none');
@@ -279,7 +279,7 @@ $(document).ready(function() {
       CheckoutData2();
       $('#fs').trigger('click');
       countNumbers2();
-      $('.panel2 h3').text(`Additional license costs`);
+      $('.panel2 h3').text(`Additional CCUs required`);
       $('.panel2').css('height','250px');
       $('.flexbox-stretch kbd:eq(0)').text('Pro');
     });
