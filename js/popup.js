@@ -1,4 +1,4 @@
-
+HDD
 // Popup
 const addNodePopupBody= `
   <!--<h4 style='margin-bottom:15px;'>Capacity Changes</h4>
@@ -7,7 +7,7 @@ const addNodePopupBody= `
 
 <div class='license-pair current-consumption' style='margin-left: 20px;'>
   <h3> Cores  <code> 30 </code></h3>
-  <h3> HHD  <code> 300 </code></h3>
+  <h3> HDD  <code> 300 </code></h3>
   <h3> SSD  <code> 300 </code></h3>
 </div>  -->
 
