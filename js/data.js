@@ -1,7 +1,7 @@
 const cardData ={
   cardInfo : [,`<kbd class='tooltip-trigger2'>CCUs</kbd> Consumed`,'Enviroment information'],
-  cardBody :[13000,50000 ,50 + ' Clusters Licensed', ],
-  cardSecondary : ['Consumed CCUs',`Available CCUs`,'Last updated Oct 2016'],
+  cardBody :[13000,50000 ],
+  cardSecondary : ['Consumed CCUs',`Available CCUs`],
 }
 
 const fsChecked = `
@@ -11,9 +11,9 @@ const fsChecked = `
   value='fs'>`
 
 const usageData ={
-  Name :['Ntnx_Marketing_001','Ntnx_test_001','Ntnx_test_002','Sql_databse_Product','Prosql_3002','Apex_deploy','Backup_Product_07747','Exchange-server-production','Ntnx_Marketing_001', 'Backup_Product_07747','Apex_deploy','Exchange-server-production'],
+  Name :['Ntnx_Marketing_001','Ntnx_test_001','Prism_Central_North','Sql_databse_Product','Prosql_3002','Apex_deploy','Backup_Product_07747','Exchange-server-production','Ntnx_Marketing_001', 'Backup_Product_07747','Apex_deploy','Exchange-server-production'],
 
-  Type :['Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropollis Ultimate','Acropollis Ultimate','Acropollis Ultimate','File Server','File Server', 'Software Encryption','Software Encryption'],
+  Type :['Acropolis Pro','Acropolis Pro','Prism Pro','Acropolis Pro','Acropolis Pro','Acropollis Ultimate','Acropollis Ultimate','Acropollis Ultimate','File Server','File Server', 'Software Encryption','Software Encryption'],
 
   Purchased :['750','600','135','750','600','600','135','750','600','135','750','600','135'],
 

@@ -267,9 +267,16 @@ function tablePopup(){
   });
 }
 
+function firstTime(){
+  $('.first-time').click(function(){
+    popupContent(6);
+  });
+}
+
+
 
 $(document).ready(function() {
-
+  firstTime();
   cardsData();
   // sideBarSelection();
   tableData();
