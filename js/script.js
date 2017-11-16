@@ -249,6 +249,12 @@ function countNumbers2(){
   },800);
 }
 
+function tablePopup(){
+  $('.tusage td:eq(0)').click(function(){
+    popupContent(7);
+  });
+}
+
 
 $(document).ready(function() {
 
@@ -256,6 +262,7 @@ $(document).ready(function() {
   // sideBarSelection();
   tableData();
   dropDown();
+  tablePopup();
   $('.reclaim-popup').click(function(){popupContent(1)});
   $('.cluster-license').click(function(){popupContent(0)});
   $('.update-popup').click(function(){
@@ -279,6 +286,7 @@ $(document).ready(function() {
   });
   if($('body').hasClass('index')){
     popupContent(6);
+
   }
 
 });

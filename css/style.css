@@ -1065,6 +1065,10 @@ tr:hover td {
   z-index: 2;
 }
 
+tr:hover td:first-child {
+  color: #22A5F7;
+}
+
 td {
   white-space: nowrap;
 }
@@ -1077,6 +1081,11 @@ td:last-child {
 
 .tusage td:last-child {
   right: 0;
+}
+
+.tusage td:first-child:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 td kbd {
@@ -1350,10 +1359,45 @@ Popup
 }
 
 .popup-body h3 code {
-  background-color: #e9f6fe;
+  background-color: light-blue-3;
   color: #1f88de;
   border-radius: 3px;
   padding: 0 5px;
+}
+
+.popup-body h3 kbd {
+  color: #627386;
+}
+
+.popup-body .pop-link {
+  color: #22A5F7;
+  font: 400 14px/10px "nutanix_soft", san-serif;
+  text-decoration: none;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.popup-body .pop-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.popup-body .popup-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #F2F4F6;
+  border-radius: 4px;
+  width: 25%;
+  margin-right: 0;
+}
+
+.popup-body .popup-card h3 {
+  text-align: center;
+  margin: 0;
 }
 
 .popup-body p {

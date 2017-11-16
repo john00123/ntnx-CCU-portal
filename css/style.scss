@@ -518,6 +518,10 @@ tr:hover{
     border-top: 1px double $semi-white-blue !important;
     z-index: 2;
   }
+
+  td:first-child{
+    color:$blue-1;
+  }
 }
 
 
@@ -533,6 +537,13 @@ td:last-child{
 
 .tusage td:last-child{
   right: 0;
+}
+
+.tusage td:first-child{
+  &:hover{
+  text-decoration: underline;
+  cursor: pointer
+  }
 }
 
 td kbd{
@@ -714,13 +725,33 @@ Popup
     margin-top: -8px;
     width: 100%;
     code{
-      background-color: $light-blue-3;
+      background-color: light-blue-3;
       color:$dark-blue-3;
       border-radius: 3px;
       padding: 0 5px;
     }
+    kbd{color:$font-color-2;}
   }
 
+.pop-link{
+  @include link;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.popup-card{
+  @include flex(center, center, column);
+  padding: 10px;
+  background-color: $background-color-3;
+  border-radius: 4px;
+  width: 25%;
+  margin-right: 0;
+
+  h3{
+    text-align: center;
+    margin:0;
+  }
+}
   p{
     line-height: 1.5;
     margin-bottom: -6px;

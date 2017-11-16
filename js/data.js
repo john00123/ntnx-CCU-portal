@@ -12,15 +12,15 @@ const fsChecked = `
 
 const usageData ={
 
-  Name :['Ntnx_Marketing_001','Ntnx_test_001','Ntnx_test_002','Sql_databse_Product','Prosql_3002','Apex_deploy','Backup_Product_07747','Acropollis Ultimate','Ntnx_Marketing_001','Exchange-server-production','Ntnx_Marketing_001', 'Backup_Product_07747','Apex_deploy','Exchange-server-production'],
+  Name :['Ntnx_Marketing_001','Ntnx_test_001','Ntnx_test_002','Sql_databse_Product','Prosql_3002','Apex_deploy','Backup_Product_07747','Exchange-server-production','Ntnx_Marketing_001', 'Backup_Product_07747','Apex_deploy','Exchange-server-production'],
 
-  Type :['Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropollis Ultimate','Acropollis Ultimate','Acropollis Ultimate','Calm','File Server','File Server', 'Software Encryption','Software Encryption','Prism Pro'],
+  Type :['Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropolis Pro','Acropollis Ultimate','Acropollis Ultimate','Acropollis Ultimate','File Server','File Server', 'Software Encryption','Software Encryption'],
 
-  Purchased :['750','600','135','750','600','135','750','600','135','750','600','135','750','600','135'],
+  Purchased :['750','600','135','750','600','600','135','750','600','135','750','600','135'],
 
-  Ammounts :['750','600','135','750','600','135','750','0','135','750','0','135','750','600','135'],
+  Ammounts :['750','600','135','750','600','135','750','135','750','135','750','600','135'],
 
-  Expiration :['12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022'],
+  Expiration :['12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2020','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022','12/12/2022'],
 }
 
 const licensePrices=[

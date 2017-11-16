@@ -29,11 +29,12 @@ const popupData ={
     'Upload License File',
     '',
     'New! Cloud consumption units',
+    'License Details'
   ],
 
   body: [
 
-    // License Cluster
+    //0
     `
     <h3 style='margin-bottom:0px'>
       Select your cluster summary file
@@ -52,7 +53,7 @@ const popupData ={
     </div>`,
 
 
-    //Reclaim data
+    //1
     `
     <h3 style='margin-bottom:0px'>
       Select your license summary file
@@ -71,12 +72,13 @@ const popupData ={
     </div>`,
 
 
-    // change plan
+    //2
     `
     <h2>Congratulations</h2>
     <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> Use the new license summary file to update the license state of your cluster.</p>
       `,
 
+    //3
     `
     <h3 style='margin-bottom:0px'>
       Select your license summary file
@@ -93,6 +95,8 @@ const popupData ={
       <input class='path' readonly type='text' id='path2'></input>
       <label class='file-button' for='file'>Select File</label>
     </div>`,
+
+    //4
     `  <h3 style='margin-bottom:0px'>
         Select your license summary file
       </h3>
@@ -108,6 +112,8 @@ const popupData ={
         <input class='path' readonly type='text' id='path2'></input>
         <label class='file-button' for='file'>Select File</label>
       </div>`,
+
+    //5
     `
     <h3 style='margin-bottom:0px'>
       Select your license file
@@ -125,6 +131,7 @@ const popupData ={
       <label class='file-button' for='file'>Select File</label>
     </div>`,
 
+    //6
     `
     <video class='video' id='myvideo' controls>
       <source src="img/ccu.mp4" type="video/mp4">
@@ -133,6 +140,42 @@ const popupData ={
     </video>
 
     <a class='link' href='img/ccu.mp4' target='_blank'>Watch fullscreen</a>
+    `,
+
+    //7
+
+    `
+    <h3 style='font-weight:500;'>Ntnx_Marketing_001<br><kbd style='font-weight:400;'>UUID : 123231231232132</kbd></h3>
+    <a class='pop-link'> See licensing History </a>
+
+    <h3 style='margin-top:10px;'>Capacity</h3>
+    <div class='deck' style='margin-bottom:20px;'>
+    <div class='popup-card'> <h3>120 <kbd>cores </kbd></h3></div>
+
+    <div class='popup-card'> <h3>800 <kbd>TiB HHD </kbd></h3></div>
+
+    <div class='popup-card'> <h3>600 <kbd>TiB SSD </kbd></h3></div>
+    </div>
+
+    <div class='separator'></div>
+
+    <h3>Cluster Licenses <kbd>&nbsp; 920 CCUs</kbd></h3>
+    <div class='deck' style='margin-bottom:30px;'>
+    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>Acropolis Pro <kbd>&nbsp;120 CCUs </kbd></h3></div>
+
+    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>File Server <kbd>&nbsp;800 CCUs </kbd></h3>
+    </div>
+
+    </div>
+
+
+    <h3 style='margin-top:60px;'>Cluster CCU consumption<kbd>&nbsp; 920 CCUs</kbd></h3>
+    <div class='deck'>
+    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;460 CCUs &nbsp; exp.12/12/2020</kbd></h3></div>
+
+    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;450 CCUs &nbsp; exp.12/12/2020</kbd></h3></div>
+
+    </div>
 
 
     `
@@ -154,7 +197,7 @@ const popupData ={
 
     `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
 
-
+    `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
   ]
 }
 
