@@ -5,6 +5,50 @@
 @import 'element.scss';
 
 
+*[title]{
+	border-bottom: 1px dotted $font-color-1;
+  position:relative;
+
+  &:hover{
+    text-decoration: none;
+    cursor: context-menu;
+
+    &::after{
+      content:attr(title);
+      position: absolute;
+      margin-left: 10px;
+      padding: 15px;
+      @include shadow;
+      border-radius: 4px;
+      line-height: 1.5;
+    }
+  }
+}
+
+*[title$='.']{
+
+  &::after{
+    color: $font-color-1;
+    background-color: $white;
+  }
+}
+
+*[title$=' ']{
+
+  &::after{
+    color: $white;
+    background-color: $background-color-1;
+  }
+}
+
+*[title$='  ']{
+  border-color: $blue-1;
+  &::after{
+    color: $white;
+    background-color: $background-color-1;
+  }
+}
+
 html {
   @include font;
   background-color: $light-grey-3;
