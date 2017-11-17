@@ -41,6 +41,8 @@ const page={
 
     <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='home.html' target='_blank'> license page</a> action menu.</p>
     <div class='preview'></div>
+
+    <p class='statement' style='margin-top:10px;'><code class='option'>3</code>Once the license file has been generated <a class='add-file'>upload it.</a></p>
     `
 
   ],
@@ -61,6 +63,7 @@ function popupRender(i,j,k){
   multiPopup();
   uploadFile();
   popAnimate();
+  intermission();
   applyLicense();
   // countNumbers();
 }
@@ -91,7 +94,6 @@ function fullpage(){
 
 const bannerData ={
   license: 'Congratulations licenses have been successfully applied.',
-
 }
 
 function banner(i){
@@ -158,3 +160,9 @@ selection(0);
 $('.summary').click(function(){selection(1)});
 $('.portal').click(function(){selection(2)});
 $('.up-file').click(function(){popupContent(4)});
+
+function intermission(){$('.add-file').click(function(){
+  $('.overlay').remove();
+  popupContent(4);
+});
+}
