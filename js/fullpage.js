@@ -93,7 +93,7 @@ function fullpage(){
 }
 
 const bannerData ={
-  license: 'Congratulations licenses have been successfully applied.',
+  license: 'Congratulations your cluster license state has been successfully updated.',
 }
 
 function banner(i){
