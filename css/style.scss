@@ -435,7 +435,7 @@ Cards
 
 .card {
   @include secondary-alt;
-  width: calc(33% - 10px);
+  width: calc(50% - 10px);
   font: $h3-alt;
   padding: 0;
   margin: $medium 0 0;

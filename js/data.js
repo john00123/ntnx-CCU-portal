@@ -1,5 +1,5 @@
 const cardData ={
-  cardInfo : [,`<kbd class='tooltip-trigger2'>CCUs</kbd> Consumed`,'Enviroment information'],
+  cardInfo : ['CCUs Consumed','Enviroment information'],
   cardBody :[13000,50000 ],
   cardSecondary : ['Consumed CCUs',`Available CCUs`],
 }
