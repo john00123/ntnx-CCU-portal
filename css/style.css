@@ -1277,6 +1277,20 @@ Popup
   justify-content: space-between;
 }
 
+.floater a {
+  width: 100%;
+  transition: none;
+  display: block;
+  margin: -5px -16px;
+  padding: 0px 16px;
+}
+
+.floater a:hover {
+  transition: none;
+  background-color: #22A5F7;
+  color: white;
+}
+
 .popup-header {
   display: flex;
   align-items: center;
