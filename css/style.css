@@ -102,7 +102,6 @@ p a {
 
 p a:hover {
   cursor: pointer;
-  color: #22A5F7;
   text-decoration: underline;
 }
 
@@ -1169,7 +1168,7 @@ td kbd:hover, td kbd:hover::before, td kbd:hover::after {
 
 .floater {
   display: none;
-  width: 130px;
+  width: 160px;
   border: 1px solid #D5DAE0;
   border-radius: 4px;
   padding: 11px 15px;
@@ -1239,7 +1238,6 @@ td kbd:hover, td kbd:hover::before, td kbd:hover::after {
 
 .link:hover {
   cursor: pointer;
-  color: #22A5F7;
   text-decoration: underline;
 }
 
@@ -1421,7 +1419,6 @@ Popup
 
 .popup-body .pop-link:hover {
   cursor: pointer;
-  color: #22A5F7;
   text-decoration: underline;
 }
 
