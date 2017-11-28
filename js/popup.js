@@ -55,7 +55,7 @@ const popupData ={
     //1
     `
     <h3 style='margin-bottom:0px'>
-      Select your license summary file
+      Select your cluster summary file
     </h3>
 
     <p style='margin-bottom:20px; width:100%'>
@@ -80,7 +80,7 @@ const popupData ={
     //3
     `
     <h3 style='margin-bottom:0px'>
-      Select your license summary file
+      Select your cluster summary file
     </h3>
 
     <p style='margin-bottom:20px; width:100%'>
@@ -97,7 +97,7 @@ const popupData ={
 
     //4
     `  <h3 style='margin-bottom:0px'>
-        Select your license summary file
+        Select your cluster summary file
       </h3>
 
       <p style='margin-bottom:20px; width:100%'>
@@ -181,28 +181,40 @@ const popupData ={
   ],
 
   footer:[
+    //0
     `<button class="primary redeem btn-disabled">Next</button>`,
 
+    //1
     `<button class="primary reclaim btn-disabled">Reclaim</button>`,
 
+    //2
     `<button class="primary"><a href='img/license-file.xml' download> Download </a></button>`,
 
+    //3
     `<button class="secondary cancel"> Cancel </button>
      <button class="primary congrats"> Save Changes </button>`,
 
+    //4
     `<button class="primary see-licenses btn-disabled"> Apply </button>`,
 
+    //5
     `<button class="primary add-node btn-disabled">Next</button>`,
 
+    //6
     `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
 
+    //7
     `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
+
+    //8
+    `<button class="primary manage-addons btn-disabled">Next</button>`,
   ]
 }
 
 
 const layer2Data = {
   body:[
+  //0
   `
     <div class="popup-header">${popupData.title[0]}</div>
 
@@ -211,21 +223,21 @@ const layer2Data = {
         <div class='panel1'>
         <p style='margin-bottom:20px; margin-top:-3px; color:#22272E'> Licensing costs have been calculated based on <kbd class='tooltip-trigger'>this cluster's capacity </kbd></p>
 
-        <h4 style='margin-bottom:15px;'>Acropolis License </h4>
+        <h4 class= 'aos-data'style='margin-bottom:15px;'>Acropolis License </h4>
 
-          <div class='license-pair'>
+          <div class='license-pair aos-data'>
 
             <input
             type='radio'
             checked='checked'
             value='starter'
-            style='margin-right: 10px;
+            style='margin-right: 10px;'
             id='acropolis-starter'>
 
             Starter
 
           </div>
-          <div class='license-pair'>
+          <div class='license-pair aos-data'>
             <input
             type='radio'
             value='pro'
@@ -233,34 +245,34 @@ const layer2Data = {
             id='acropolis-pro'>
             Pro
           </div>
-          <div class='license-pair' style='margin-bottom:30px;'>
+          <div class='license-pair aos-data' style='margin-bottom:30px;'>
           <input
            type='radio'
            value='ultimate'
            style='margin-right: 10px;'
            id='acropolis-ultimate'>
-           Ulitmate
+           Ultimate
           </div>
 
-        <div class='separator'></div>
+        <div class='separator aos-data'></div>
 
-        <h4 style='margin-bottom:15px;'>Additional Licenses </h4>
-          <div class='license-pair'>
-
+        <h4 style='margin-bottom:15px;' class='addon-data'>Additional Licenses </h4>
+          <div class='license-pair addon-data'>
             <input type='checkbox'
             style='margin-right: 10px;
             margin-bottom:10px;'
             id='fs'
-            value='fs''>
+            value='fs'>
             File Server <br>
+          </div>
 
+          <div class='license-pair addon-data'>
             <input
             type='checkbox'
             style='margin-right: 10px;'
             id='sw'
             value='sw'>
             Software Encryption<br>
-
           </div>
         </div>
 
@@ -293,7 +305,7 @@ const layer2Data = {
 
     <div class="popup-footer">${popupData.footer[3]}</div>
 `,
-
+//1
 `
   <div class="popup-header">${popupData.title[3]}</div>
   <div class="popup-body">
@@ -302,7 +314,8 @@ const layer2Data = {
     <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses available on this cluster have freed up CCUs. These have been credited to your account.</h3>
   </div>
   <div class="popup-footer">${popupData.footer[6]}</div>
-`,]
+`,
+]
 }
 
 // Cluster license
@@ -330,7 +343,7 @@ function layer2(i){
   popAnimate();
   CheckoutData();
   CheckoutData2();
-  CheckoutData3()
+  CheckoutData3();
 
   $('.congrats').click(function(){
     $('.popup').addClass('disappear');

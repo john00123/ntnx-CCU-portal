@@ -73,6 +73,13 @@ function multiPopup(){
     $('.card:eq(1) h4').text(cardData.cardBody[1]);
     $('aside h4').text(`${cardData.cardBody[1]} CCUs Available`);
   });
+
+  $('.manage-addons').click(() =>{
+    $('.popup').addClass('second');
+    layer2(0);
+    $('.popup-header').text('Manage Addons');
+    $('.aos-data').remove();
+  });
 }
 
 
@@ -200,12 +207,6 @@ $('#fs').change(function(){
 });
 }
 
-// function sideBarSelection(){
-//   $('li').click( function(){
-//     $('li').removeClass('sidebar-selected');
-//     $(this).addClass('sidebar-selected');
-//   });
-// }
 
 function dropDown(){
   $('.primary').click(function(){
@@ -242,9 +243,7 @@ function countNumbers(){
     $('.banner').slideUp();
     $('.popup-header').css('border-bottom','');
 
-    setTimeout(function(){
-      $('.banner').remove();
-    },300);
+    setTimeout(() => { $('.banner').remove() },300);
 
   },7000);
 }
@@ -262,15 +261,11 @@ function countNumbers2(){
 }
 
 function tablePopup(){
-  $('.tusage td:eq(0)').click(function(){
-    popupContent(7);
-  });
+  $('.tusage td:eq(0)').click(() => popupContent(7));
 }
 
 function firstTime(){
-  $('.first-time').click(function(){
-    popupContent(6);
-  });
+  $('.first-time').click(() => popupContent(6));
 }
 
 
@@ -278,35 +273,67 @@ function firstTime(){
 $(document).ready(function() {
   firstTime();
   cardsData();
-  // sideBarSelection();
   tableData();
   dropDown();
   tablePopup();
   purchaseData();
-  $('.reclaim-popup').click(function(){popupContent(1)});
-  $('.cluster-license').click(function(){popupContent(0)});
-  $('.update-popup').click(function(){
+  $('.reclaim-popup').click(() => popupContent(1));
+
+  $('.unlicense-cluster-popup').click(() => {
+    popupContent(1);
+    $('.popup-header').text('Unlicense Cluster');
+  });
+
+  $('.cluster-license').click(() => popupContent(0));
+
+  //adons
+  $('.manage-addons-popup').click(() => {
     popupContent(0);
-    $('.popup-footer').remove();
-    $('.popup-body').after(`<div class="popup-footer">${popupData.footer[5]}</div>`);
-    $('.add-node').click(function() {
+    $('.popup-header').text('Manage Addons');
+    $('.popup-footer').html(`${popupData.footer[8]}`);
+    $('.manage-addons').click(() =>{
+      $('.popup').addClass('second');
+      layer2(0);
+      Popurri.option = 0;
+      $('#fs').click();
+      $('.popup-header').text('Manage Addons');
+      $('.aos-data').hide();
+      $('.flexbox-stretch:eq(0)').hide();
+    });
+  }
+  );
+
+
+  $('.update-popup').click(() => {
+    popupContent(0);
+    $('.popup-footer').html(`${popupData.footer[5]}`);
+    $('.add-node').click(() => {
       $('.popup').addClass('second');
       layer2(0);
       $('.overlay2 .popup-header').text('Additonal Node License');
-      $('.panel1').html(addNodePopupBody);
+      $('#acropolis-pro').click();
+      $('#fs').click();
+      $('#sw').click();
+      $('.aos-data:eq(1), .aos-data:eq(3), .addon-data:eq(1), .addon-data:eq(2)').css('opacity','0.3').prop('disabled',true);
 
-      $('.panel1').append(fsChecked);
-      CheckoutData2();
-      $('#fs').trigger('click');
-      countNumbers2();
-      $('.panel2 h3').text(`Additional CCUs required`);
-      $('.panel2').css('height','250px');
-      $('.flexbox-stretch kbd:eq(0)').text('Pro');
+      // $('.overlay2 .popup-header').text('Additonal Node License');
+      // $('.panel1').html(addNodePopupBody);
+      // $('.panel1').append(fsChecked);
+      // CheckoutData2();
+      // $('#fs').trigger('click');
+      // countNumbers2();
+      // $('.panel2 h3').text(`Additional CCUs required`);
+      // $('.panel2').css('height','250px');
+      // $('.flexbox-stretch kbd:eq(0)').text('Pro');
     });
   });
-  if($('body').hasClass('index')){
-    popupContent(6);
 
+
+  //initial popup
+  if($('body').hasClass('index')){
+    if (!sessionStorage.alreadyClicked) {
+      popupContent(6);
+    sessionStorage.alreadyClicked = 1;}
   }
 
 });
