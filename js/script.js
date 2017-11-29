@@ -8,7 +8,7 @@ $(document).keyup( e => {
 // creates cards
 
 function cardsData() {
-  var cards = cardData.cardInfo.length;
+  var cards = cardData.cardBody.length;
   var index = 0;
   $('aside h4').text(`${cardData.cardBody[1]} CCUs Available`)
   // function
@@ -27,6 +27,23 @@ function cardsData() {
   }
 }
 
+function cardsData2() {
+  var cards = multiClusterData2.cardBody.length;
+  var index = 0;
+  // function
+  while (cards> 0){
+    $('.deck2').append(
+      `<div class='card'>
+        <div class='card-body'>
+          <h4>${multiClusterData2.cardBody[index]}</h4>
+          <p>${multiClusterData2.cardSecondary[index]}</p>
+        </div>
+      </div>`
+    );
+    cards--;
+    index++;
+}
+}
 
 // creates table
 
@@ -51,6 +68,18 @@ function purchaseData(){
         <td> ${purchaseDataTable.purchased[i]}</td>
         <td> ${purchaseDataTable.use[i]}</td>
         <td>${purchaseDataTable.Expiration[i]}</td>
+    </tr>`);
+  }
+}
+
+function multiClusterData(){
+  for(let i=0; i<multiClusterDataTable.id.length; i++){
+    $('.multi-cluster').append(
+      `<tr>
+        <td> ${multiClusterDataTable.id[i]}</td>
+        <td> ${multiClusterDataTable.purchased[i]}</td>
+        <td> ${multiClusterDataTable.use[i]}</td>
+        <td>${multiClusterDataTable.Expiration[i]}</td>
     </tr>`);
   }
 }
@@ -273,10 +302,12 @@ function firstTime(){
 $(document).ready(function() {
   firstTime();
   cardsData();
+  cardsData2();
   tableData();
   dropDown();
   tablePopup();
   purchaseData();
+  multiClusterData();
   $('.reclaim-popup').click(() => popupContent(1));
 
   $('.unlicense-cluster-popup').click(() => {
@@ -314,7 +345,7 @@ $(document).ready(function() {
       $('#acropolis-pro').click();
       $('#fs').click();
       $('#sw').click();
-      $('.aos-data:eq(1), .aos-data:eq(3), .addon-data:eq(1), .addon-data:eq(2)').css('opacity','0.3').prop('disabled',true);
+      $('.aos-data:eq(1), .aos-data:eq(3), .addon-data:eq(1), .addon-data:eq(2)').css({'opacity':'0.3','pointer-events':'none'});
 
       // $('.overlay2 .popup-header').text('Additonal Node License');
       // $('.panel1').html(addNodePopupBody);

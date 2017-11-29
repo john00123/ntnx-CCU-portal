@@ -31,9 +31,9 @@
     <ul>
       <!-- <li><a href='overview.html'>Overview</a></li> -->
       <li><a href='purchases.html'>Purchases</a></li>
-      <li class='sidebar-selected'>
+      <li >
       <a href='index.html'>Cluster Usage</a></li>
-      <li>
+      <li class='sidebar-selected'>
       <a href='multi-cluster.html'>Orchestration Usage</a></li>
       <!-- <li>Node licenses</li> -->
     </ul>
@@ -41,15 +41,14 @@
 
   <article class="container">
     <div class="actions">
-      <button class="primary cluster-license"><span> Cluster License</span></button>
+      <button class="primary pc-license"><span> Prism Central License</span></button>
+        <button style='margin-left:10px;' class="primary calm-license"><span> Calm Licenses</span></button>
       <!-- <button class="primary cluster-license" style='margin-left:10px'><span> PC Licenses</span></button> -->
       <button class="secondary actions-dropdown"><span>Actions</span>
 
-        <div class='floater'>
-        <a class='update-popup'> New Node License</a><br>
-        <a class='manage-addons-popup'> Manage Addons</a><br>
-        <a class= 'unlicense-cluster-popup'> Unlicense Cluster </a><br>
-        <a class='reclaim-popup'> Reclaim Unused Licenses </a>
+        <div style="padding-bottom:0;"class='floater'>
+        <a class= 'unlicense-pc'> Unlicense Prism Central </a><br>
+        <a class= 'unlicense-calm'> Unlicense Calm VMs </a><br>
         </div>
       </button>
       <div class='spacer'></div>
@@ -57,26 +56,27 @@
     </div>
 
     <!-- info cards -->
-    <div class="deck"></div>
+    <div class="deck2"></div>
 
     <!-- table -->
     <table class="table tusage">
       <thead>
         <tr class='table-header'>
-          <th>Name</th>
           <th>License Type</th>
+          <th>CCUs Purchased</th>
           <!-- <th>CCUs Purchased</th> -->
           <th>CCUs in use</th>
           <th>Expiration date</th>
         </tr>
       </thead>
-      <tbody class='usage'></tbody>
+      <tbody class='multi-cluster'></tbody>
     </table>
 
   </article>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="js/script.js" charset="utf-8"></script>
+  <script src="js/multi-cluster.js" charset="utf-8"></script>
   <script src="js/data.js" charset="utf-8"></script>
   <script src="js/popup.js" charset="utf-8"></script>
 

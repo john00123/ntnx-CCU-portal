@@ -413,7 +413,7 @@ button a{
 /* ==========================================================================
 Cards
 ========================================================================== */
-.deck {
+.deck ,.deck2{
   @include size(auto, 100%);
   @include flex(flex-start, space-between, row);
   flex-wrap: wrap;
