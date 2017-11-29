@@ -706,6 +706,37 @@ header .right {
   transform: rotate(90deg);
 }
 
+.actions .primary-alt {
+  margin: 0;
+  border-radius: 4px;
+  padding: 11px 15px;
+  color: #FFFFFF;
+  font: 400 14px/10px "nutanix_soft", san-serif;
+  border: none;
+  text-decoration: none;
+  background-color: #22A5F7;
+  outline: none;
+  position: relative;
+}
+
+.actions .primary-alt:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #1f88de;
+}
+
+.actions .primary-alt:active {
+  color: #FFFFFF;
+  background-color: #1b6dc6;
+}
+
+.actions .primary-alt span {
+  height: 10px;
+  display: block;
+  font-weight: 500;
+  line-height: 9pt;
+}
+
 .actions .secondary {
   border: 1px solid #D5DAE0;
   border-radius: 4px;
