@@ -308,7 +308,13 @@ $(document).ready(function() {
   tablePopup();
   purchaseData();
   multiClusterData();
-  $('.reclaim-popup').click(() => popupContent(1));
+  $('.reclaim-popup').click(() => {
+    popupContent(1)
+    $('.popup-header').after(`<div class='mutli-line-info'><p style='line-height:1.5;'> Make sure you update Prism Central licenses too, in order to retrieve all available CCUs.</p></div>`);
+    $('.banner').toggle();
+    $('.popup-header').css('border-bottom','none');
+    $('.banner').slideDown();
+  });
 
   $('.unlicense-cluster-popup').click(() => {
     popupContent(1);

@@ -464,7 +464,7 @@ body {
   flex-direction: row;
 }
 
-.banner {
+.banner, .mutli-line-info {
   height: 40px;
   width: 100%;
   box-sizing: border-box;
@@ -1728,7 +1728,7 @@ Popup
   color: #22272E;
 }
 
-.banner {
+.banner, .mutli-line-info {
   height: 40px;
   width: 100%;
   box-sizing: border-box;
@@ -1747,6 +1747,12 @@ Popup
 .error-ban {
   color: #dd4d57;
   background-color: #feeeee;
+}
+
+.mutli-line-info {
+  color: #1b6dc6;
+  height: 66px;
+  background-color: #f4fbff;
 }
 
 .popup-footer {

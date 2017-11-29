@@ -992,6 +992,12 @@ Popup
   background-color: $light-red-3;
 }
 
+.mutli-line-info{
+	@extend .banner;
+	color: $dark-blue-2;
+	height:66px;
+	background-color: $semi-white-blue;
+}
 
 .popup-footer{
   @include flex(center,flex-end,row);
