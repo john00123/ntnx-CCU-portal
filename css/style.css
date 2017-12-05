@@ -431,11 +431,11 @@ p a:hover {
   background-color: #22272E;
 }
 
-*[title$='  '] {
+*[title$=' '] {
   border-color: #22A5F7;
 }
 
-*[title$='  ']::after {
+*[title$=' ']::after {
   color: #FFFFFF;
   background-color: #22272E;
 }
@@ -518,7 +518,7 @@ aside .separator {
   width: 30px;
   box-sizing: border-box;
   background-color: #D5DAE0;
-  margin: 20px 20px -10px 20px;
+  margin: 20px 20px -10px;
   flex-shrink: 0;
 }
 
@@ -689,7 +689,7 @@ header .right {
   line-height: 9pt;
 }
 
-.actions .primary::before, .actions .primary::after {
+.actions .primary::after, .actions .primary::before {
   position: absolute;
   content: " ";
   background-color: #fff;
@@ -826,7 +826,7 @@ header .right {
   cursor: default;
 }
 
-.tooltip-trigger::before, .tooltip-trigger2::before, .tooltip-trigger3::before, .tooltip-trigger::after, .tooltip-trigger2::after, .tooltip-trigger3::after {
+.tooltip-trigger::after, .tooltip-trigger2::after, .tooltip-trigger3::after, .tooltip-trigger::before, .tooltip-trigger2::before, .tooltip-trigger3::before {
   font-size: 12px;
   opacity: 0;
   z-index: 20;
@@ -836,12 +836,12 @@ header .right {
 .tooltip-trigger::before, .tooltip-trigger2::before, .tooltip-trigger3::before {
   position: absolute;
   box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.02), 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 1px 0 rgba(0, 0, 0, 0.02);
-  content: "Total Sockets          40\A Total HDD(TB)      200\A Totla SSD(TB)          40";
+  content: "Total Sockets 40\A Total HDD(TB) 200\A Totla SSD(TB) 40";
   color: white;
   background-color: #22272E;
   padding: 15px;
   width: 120px;
-  left: 0px;
+  left: 0;
   top: 23px;
   margin-top: -1px;
   border-radius: 4px;
@@ -866,7 +866,7 @@ header .right {
 }
 
 .tooltip-trigger2::before {
-  content: "CCU is a licensing  \A currency\A to access all our software offerings.";
+  content: "CCU is a licensing \A currency\A to access all our software offerings.";
   left: -120px;
 }
 
@@ -905,7 +905,7 @@ button a {
   text-align: left;
 }
 
-.actions-dropdown::before, .actions-dropdown::after {
+.actions-dropdown::after, .actions-dropdown::before {
   position: absolute;
   content: " ";
   background-color: #22272E;
@@ -925,7 +925,7 @@ button a {
   transform: rotate(-45deg);
 }
 
-.actions-dropdown:hover::before, .actions-dropdown:hover::after {
+.actions-dropdown:hover::after, .actions-dropdown:hover::before {
   background-color: #22A5F7;
 }
 
@@ -936,7 +936,8 @@ button a {
 /* ==========================================================================
 Cards
 ========================================================================== */
-.deck, .deck2 {
+.deck,
+.deck2 {
   height: auto;
   width: 100%;
   box-sizing: border-box;
@@ -1071,12 +1072,12 @@ Table
 
 .table:hover tr:last-child {
   border-bottom: none;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 
 .table:hover tr:last-child td {
   border-bottom: 1px solid transparent;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 
 .table:hover thead tr:first-child {
@@ -1093,7 +1094,8 @@ th:not(:last-child) {
   border-right: 1px solid #F2F4F6;
 }
 
-th, td {
+td,
+th {
   height: 40px;
   text-align: left;
   padding-left: 20px;
@@ -1102,7 +1104,8 @@ th, td {
   border-bottom: 1px solid #F2F4F6;
 }
 
-th code, td code {
+td code,
+th code {
   background-color: #e9f6fe;
   border-radius: 2px;
   padding: 1px 5px;
@@ -1111,12 +1114,14 @@ th code, td code {
   margin-right: 15px;
 }
 
-th a, td a {
+td a,
+th a {
   color: #7C8D9F;
   margin-left: 5px;
 }
 
-th:not(:first-child), td:not(:first-child) {
+td:not(:first-child),
+th:not(:first-child) {
   text-align: right;
   vertical-align: middle;
   width: 110px;
@@ -1180,10 +1185,10 @@ td kbd::after {
   content: '•';
   position: absolute;
   top: 4px;
-  right: 0px;
+  right: 0;
 }
 
-td kbd:hover, td kbd:hover::before, td kbd:hover::after {
+td kbd:hover, td kbd:hover::after, td kbd:hover::before {
   color: #22A5F7;
   cursor: pointer;
 }
@@ -1212,7 +1217,7 @@ td kbd:hover, td kbd:hover::before, td kbd:hover::after {
   box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.02), 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 1px 0 rgba(0, 0, 0, 0.02);
   position: absolute;
   top: 34px;
-  left: 0px;
+  left: 0;
   z-index: 3000;
 }
 
@@ -1313,7 +1318,7 @@ Popup
   transition: none;
   display: block;
   margin: -5px -16px;
-  padding: 0px 16px;
+  padding: 0 16px;
 }
 
 .floater a:hover {
@@ -1340,7 +1345,7 @@ Popup
   line-height: 10px;
 }
 
-.popup-header:hover::before, .popup-header:hover::after {
+.popup-header:hover::after, .popup-header:hover::before {
   background-color: #22272E;
 }
 
@@ -1348,7 +1353,7 @@ Popup
   cursor: pointer;
 }
 
-.popup-header::before, .popup-header::after {
+.popup-header::after, .popup-header::before {
   content: '';
   position: absolute;
   top: 18px;
@@ -1679,7 +1684,8 @@ Popup
   line-height: 9pt;
 }
 
-.popup-body input[type="number"], .popup-body .term {
+.popup-body input[type="number"],
+.popup-body .term {
   margin-bottom: 10px !important;
 }
 
@@ -1794,7 +1800,7 @@ Popup
   height: 72px;
   width: 100%;
   box-sizing: border-box;
-  border-radius: 0   0 4px 4px;
+  border-radius: 0 0 4px 4px;
   border-top: 1px solid #F2F4F6;
   background-color: white;
   padding: 20px;
@@ -2068,7 +2074,8 @@ Media Queries
   .container {
     min-width: 320px;
   }
-  th:not(:first-child), td:not(:first-child) {
+  td:not(:first-child),
+  th:not(:first-child) {
     width: 65px;
   }
 }

@@ -1,6 +1,5 @@
-
 // Popup
-const addNodePopupBody= `
+const addNodePopupBody = `
   <!--<h4 style='margin-bottom:15px;'>Capacity Changes</h4>
 
 <p style='margin-bottom:20px;'> This cluster has dected an additional ammount of resources, to be licensed to keep a valid licenses state.</p>
@@ -19,8 +18,8 @@ const addNodePopupBody= `
 </div>`
 
 
-const popupData ={
-  title :[
+const popupData = {
+  title: [
     'License Cluster',
     'Reclaiming licenses',
     'Next Steps',
@@ -180,7 +179,7 @@ const popupData ={
     `
   ],
 
-  footer:[
+  footer: [
     //0
     `<button class="primary redeem btn-disabled">Next</button>`,
 
@@ -213,9 +212,9 @@ const popupData ={
 
 
 const layer2Data = {
-  body:[
-  //0
-  `
+  body: [
+    //0
+    `
     <div class="popup-header">${popupData.title[0]}</div>
 
       <div class="popup-body panels">
@@ -305,8 +304,8 @@ const layer2Data = {
 
     <div class="popup-footer">${popupData.footer[3]}</div>
 `,
-//1
-`
+    //1
+    `
   <div class="popup-header">${popupData.title[3]}</div>
   <div class="popup-body">
     <span class='count money'>4000</span>
@@ -315,12 +314,12 @@ const layer2Data = {
   </div>
   <div class="popup-footer">${popupData.footer[6]}</div>
 `,
-]
+  ]
 }
 
 // Cluster license
 
-function layer2(i){
+function layer2(i) {
   $('body').append(
     `<div class="overlay overlay2" style='background-color:transparent;'>
       <div class="popup layer2" style='opacity:0; width:500px;'>
@@ -329,15 +328,15 @@ function layer2(i){
     </div>`
   );
 
-  $('.back, .popup-header2').click(function(){
+  $('.back, .popup-header2').click(function() {
     $('.layer2').addClass('disappear');
-    $('.popup:not(.layer2)').css('animation','reverse-layer 600ms forwards');
+    $('.popup:not(.layer2)').css('animation', 'reverse-layer 600ms forwards');
     $('.popup:not(.layer2)').removeClass('second');
     $('.layer2, .overlay2').remove();
   });
 
-  if (i===1){
-    $('.layer2').css('width','400px');
+  if (i === 1) {
+    $('.layer2').css('width', '400px');
   }
 
   popAnimate();
@@ -345,14 +344,16 @@ function layer2(i){
   CheckoutData2();
   CheckoutData3();
 
-  $('.congrats').click(function(){
+  $('.congrats').click(function() {
     $('.popup').addClass('disappear');
     $('.overlay').removeClass('show');
-    $('html').css('overflow','');
-    setTimeout(function(){
+    $('html').css('overflow', '');
+    setTimeout(function() {
       $('.overlay').fadeOut('slow');
-      setTimeout(function(){popupContent(2).fadeIn();},200);
-    },600);
+      setTimeout(function() {
+        popupContent(2).fadeIn();
+      }, 200);
+    }, 600);
 
   });
 }

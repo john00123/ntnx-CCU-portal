@@ -32,11 +32,10 @@ const pageData = `<div class="data-main-content">
 </div>`
 
 
-const page={
-  title:['Reclaim unused'],
-  body:
-  [
-  `
+const page = {
+  title: ['Reclaim unused'],
+  body: [
+    `
     <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-file.xml' download> cluster summary file.</a></p></a>
 
     <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='home.html' target='_blank'> license page</a> action menu.</p>
@@ -46,11 +45,11 @@ const page={
     `
 
   ],
-  footer:[`<button class="secondary cancel" style="margin-right:0"> Done </button>`],
+  footer: [`<button class="secondary cancel" style="margin-right:0"> Done </button>`],
 }
 
 
-function popupRender(i,j,k){
+function popupRender(i, j, k) {
   $('.page-body').append(
     `<div class="overlay" style='opacity:0'>
       <div class="popup" style='opacity:0'>
@@ -68,7 +67,7 @@ function popupRender(i,j,k){
   // countNumbers();
 }
 
-function popupContent(i){
+function popupContent(i) {
   $('body').append(
     `<div class="overlay" style='opacity:0'>
       <div class="popup" style='opacity:0'>
@@ -85,63 +84,71 @@ function popupContent(i){
   // countNumbers();
 }
 
-function dropdown(){$('.blackbox').toggle()}
-function fullpage(){
+function dropdown() {
+  $('.blackbox').toggle()
+}
+
+function fullpage() {
   $('.page').fadeToggle();
   selection(0);
   $('html').toggleClass('overflow');
 }
 
-const bannerData ={
+const bannerData = {
   license: 'Congratulations your cluster license state has been successfully updated.',
 }
 
-function banner(i){
+function banner(i) {
   $('.page-header').after(`<div class='banner'>${i}</div>`);
-  $('.banner').css('height','50px');
+  $('.banner').css('height', '50px');
   $('.banner').toggle();
-  setTimeout(function(){$('.banner').slideDown();},400);
-  $('.banner').css('border-top','1px solid #CEF6DE');
+  setTimeout(function() {
+    $('.banner').slideDown();
+  }, 400);
+  $('.banner').css('border-top', '1px solid #CEF6DE');
 
-  setTimeout(function(){
-    $('.banner').slideUp(); setTimeout(function(){ $('.banner').remove();},300);
-  },5000);
+  setTimeout(function() {
+    $('.banner').slideUp();
+    setTimeout(function() {
+      $('.banner').remove();
+    }, 300);
+  }, 5000);
 }
 
-function applyLicense(){
-  $('.see-licenses').click(function(){
+function applyLicense() {
+  $('.see-licenses').click(function() {
     banner(bannerData.license);
     $('.page-body').html(pageData);
-    $('.reclaim-task2:eq(1)').click(function(){
-      popupRender(0,0,0)
+    $('.reclaim-task2:eq(1)').click(function() {
+      popupRender(0, 0, 0)
     });
-    $('.reclaim-task2:eq(0)').click(function(){
-      popupRender(0,0,0);
+    $('.reclaim-task2:eq(0)').click(function() {
+      popupRender(0, 0, 0);
       $('.popup-header').text('Add Node');
       $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Add node through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
     });
   });
 }
 
-function selection(i){
-  if(i == 0){
+function selection(i) {
+  if (i == 0) {
     $(`.circle p code:not(${i})`)
-    .removeClass('current-option past-option').addClass('future-option');
+      .removeClass('current-option past-option').addClass('future-option');
   }
 
-  if(i == 1){
+  if (i == 1) {
     $(`.circle p code:eq(${i-1})`)
-    .removeClass('current-option future-option').addClass('past-option');
+      .removeClass('current-option future-option').addClass('past-option');
 
     $(`.circle p code:eq(${i+1})`)
-    .removeClass('current-option past-option').addClass('future-option');
+      .removeClass('current-option past-option').addClass('future-option');
   }
-  if(i == 2){
+  if (i == 2) {
     $(`.circle p code:not(${i})`)
-    .removeClass('current-option future-option').addClass('past-option');
+      .removeClass('current-option future-option').addClass('past-option');
   }
   $(`.circle p code:eq(${i})`)
-  .removeClass('future-option past-option').addClass('current-option');
+    .removeClass('future-option past-option').addClass('current-option');
 }
 
 dropdown();
@@ -157,12 +164,19 @@ $('.license, .close').click(fullpage);
 $('.license').click(dropdown);
 selection(0);
 
-$('.summary').click(function(){selection(1)});
-$('.portal').click(function(){selection(2)});
-$('.up-file').click(function(){popupContent(4)});
-
-function intermission(){$('.add-file').click(function(){
-  $('.overlay').remove();
-  popupContent(4);
+$('.summary').click(function() {
+  selection(1)
 });
+$('.portal').click(function() {
+  selection(2)
+});
+$('.up-file').click(function() {
+  popupContent(4)
+});
+
+function intermission() {
+  $('.add-file').click(function() {
+    $('.overlay').remove();
+    popupContent(4);
+  });
 }
