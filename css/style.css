@@ -401,6 +401,10 @@ p a:hover {
   letter-spacing: 2px;
 }
 
+.widget-img {
+  padding: 10px;
+}
+
 *[title] {
   border-bottom: 1px dotted #22272E;
   position: relative;
