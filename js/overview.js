@@ -59,8 +59,8 @@
 //
 // $('.coin-body').str.replace(",", "");
 
-const pie= $('.widget-img:eq(0)');
-const trend= $('.widget-img:eq(2)');
+const pie= $('.graph:eq(0)');
+const trend= $('.graph:eq(1)');
 let index = 0;
 let indext = 0;
 
