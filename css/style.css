@@ -402,7 +402,17 @@ p a:hover {
 }
 
 .widget-img {
-  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  transition: shadow 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.widget-img:hover {
+  box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.02), 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 1px 0 rgba(0, 0, 0, 0.02);
+}
+
+.graph:hover {
+  cursor: pointer;
 }
 
 *[title] {
