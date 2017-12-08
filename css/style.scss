@@ -347,7 +347,7 @@ header {
 	@extend .tooltip-trigger;
 
 	&::before {
-		content: "CCU is a licensing \A currency\A to access all our software offerings.";
+		content: "Credit is a licensing \A currency\A to access all our software offerings.";
 		left: -120px;
 	}
 }
@@ -908,7 +908,7 @@ Popup
 		justify-content: center;
 
 		&::after {
-			content: ' CCUs';
+			content: ' Credits';
 		}
 	}
 

@@ -10,11 +10,11 @@ const addNodePopupBody = `
   <h3> SSD  <code> 300 </code></h3>
 </div>  -->
 
-<h4 style='margin-top:2px; margin-bottom:15px;'>Current Cluster CCU usage</h4>
+<h4 style='margin-top:2px; margin-bottom:15px;'>Current Cluster Credit usage</h4>
 
 <div class='license-pair current-consumption' style='margin-left: 20px; margin-top:20px;'>
-  <h3><kbd> Acropolis Pro  12000 CCUs</kbd> </h3>
-  <h3><kbd> File Server 12000 CCUs</kbd> </h3>
+  <h3><kbd> Acropolis Pro  12000 Credits</kbd> </h3>
+  <h3><kbd> File Server 12000 Credits</kbd> </h3>
 </div>`
 
 
@@ -157,21 +157,21 @@ const popupData = {
 
     <div class='separator'></div>
 
-    <h3>Cluster Licenses <kbd>&nbsp; 920 CCUs</kbd></h3>
+    <h3>Cluster Licenses <kbd>&nbsp; 920 Credits</kbd></h3>
     <div class='deck' style='margin-bottom:30px;'>
-    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>Acropolis Pro <kbd>&nbsp;120 CCUs </kbd></h3></div>
+    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>Acropolis Pro <kbd>&nbsp;120 Credits </kbd></h3></div>
 
-    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>File Server <kbd>&nbsp;800 CCUs </kbd></h3>
+    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>File Server <kbd>&nbsp;800 Credits </kbd></h3>
     </div>
 
     </div>
 
 
-    <h3 style='margin-top:60px;'>Cluster CCU consumption<kbd>&nbsp; 920 CCUs</kbd></h3>
+    <h3 style='margin-top:60px;'>Cluster Credit consumption<kbd>&nbsp; 920 Credits</kbd></h3>
     <div class='deck'>
-    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;460 CCUs &nbsp; exp.12/12/2020</kbd></h3></div>
+    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;460 Credits &nbsp; exp.12/12/2020</kbd></h3></div>
 
-    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;450 CCUs &nbsp; exp.12/12/2020</kbd></h3></div>
+    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;450 Credits &nbsp; exp.12/12/2020</kbd></h3></div>
 
     </div>
 
@@ -276,7 +276,7 @@ const layer2Data = {
         </div>
 
         <div class='panel2'>
-          <h3 style='margin-bottom:19px;''>Cluster licensing costs in <kbd class='tooltip-trigger2'>CCUs </kbd></h3>
+          <h3 style='margin-bottom:19px;''>Cluster licensing costs in <kbd class='tooltip-trigger2'>Credits </kbd></h3>
 
           <div class=flexbox-stretch>
             <kbd>${licensePrices[0].key}</kbd> <code>${licensePrices[0].price}</code>
@@ -297,7 +297,7 @@ const layer2Data = {
               <div class='grower'></div>
           <div class='separator' style='margin-top:0px;'></div>
 
-          <p>Licensed until 12/12/20<br>based on CCU validity dates.</p>
+          <p>Licensed until 12/12/20<br>based on Credit validity dates.</p>
         </div>
 
       </div>
@@ -310,7 +310,7 @@ const layer2Data = {
   <div class="popup-body">
     <span class='count money'>4000</span>
     <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>
-    <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses available on this cluster have freed up CCUs. These have been credited to your account.</h3>
+    <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses available on this cluster have freed up Credits. These have been credited to your account.</h3>
   </div>
   <div class="popup-footer">${popupData.footer[6]}</div>
 `,

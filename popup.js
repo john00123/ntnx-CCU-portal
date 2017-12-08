@@ -15,8 +15,8 @@ const addNodePopupBody= `
 <p style='margin-bottom:20px;'> Cluster has in file the following licenses.</p>
 
 <div class='license-pair current-consumption' style='margin-left: 20px;'>
-  <h3> Acropolis Pro  <code> 3000 CCUs </code></h3>
-  <h3> File Server  <code> 3000 CCUs </code></h3>
+  <h3> Acropolis Pro  <code> 3000 Credits </code></h3>
+  <h3> File Server  <code> 3000 Credits </code></h3>
 </div>`
 
 
@@ -223,7 +223,7 @@ const layer2Data = {
         </div>
 
         <div class='panel2'>
-          <h3 style='margin-bottom:19px;''>Cluster licensing costs in <kbd class='tooltip-trigger2'>CCUs </kbd></h3>
+          <h3 style='margin-bottom:19px;''>Cluster licensing costs in <kbd class='tooltip-trigger2'>s </kbd></h3>
 
           <div class=flexbox-stretch>
             <kbd>${licensePrices[0].key}</kbd> <code>${licensePrices[0].price}</code>
@@ -244,7 +244,7 @@ const layer2Data = {
               <div class='grower'></div>
           <div class='separator' style='margin-top:0px;'></div>
 
-          <p>Licensed until 12/12/20<br>based on CCU validity dates.</p>
+          <p>Licensed until 12/12/20<br>based on  validity dates.</p>
         </div>
 
       </div>
@@ -257,7 +257,7 @@ const layer2Data = {
   <div class="popup-body">
     <span class='count money'>4000</span>
     <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>
-    <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses available on this cluster have freed up CCUs. These have been credited to your account.</h3>
+    <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses available on this cluster have freed up s. These have been credited to your account.</h3>
   </div>
   <div class="popup-footer">${popupData.footer[6]}</div>
 `,]

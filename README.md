@@ -1,2 +1,2 @@
-# ntnx-CCU
-CCU - alternatives
+#Credit
+Credit - alternatives
