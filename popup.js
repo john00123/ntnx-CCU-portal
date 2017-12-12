@@ -15,8 +15,8 @@ const addNodePopupBody= `
 <p style='margin-bottom:20px;'> Cluster has in file the following licenses.</p>
 
 <div class='license-pair current-consumption' style='margin-left: 20px;'>
-  <h3> Acropolis Pro  <code> 3000 Credits </code></h3>
-  <h3> File Server  <code> 3000 Credits </code></h3>
+  <h3> Acropolis Pro  <code> 3000 Coins </code></h3>
+  <h3> File Server  <code> 3000 Coins </code></h3>
 </div>`
 
 

@@ -10,7 +10,7 @@ $(document).keyup(e => {
 function cardsData() {
   var cards = cardData.cardBody.length;
   var index = 0;
-  $('aside h4').text(`${cardData.cardBody[1]} Credits Available`)
+  $('aside h4').text(`${cardData.cardBody[1]} Coins Available`)
   // function
   while (cards > 0) {
     $('.deck').append(
@@ -100,7 +100,7 @@ function multiPopup() {
     setTimeout(countNumbers(), 600);
     cardData.cardBody[1] += 40000;
     $('.card:eq(1) h4').text(cardData.cardBody[1]);
-    $('aside h4').text(`${cardData.cardBody[1]} Credits Available`);
+    $('aside h4').text(`${cardData.cardBody[1]} Coins Available`);
   });
 
   $('.manage-addons').click(() => {
@@ -253,7 +253,7 @@ function dropDown() {
 
 //counter
 function countNumbers() {
-  $('.layer2 .popup-body').before(`<div class='banner'>4000 Credits have been credited to your account.</div>`);
+  $('.layer2 .popup-body').before(`<div class='banner'>4000 Coins have been credited to your account.</div>`);
   $('.banner').toggle();
   $('.money').css('color', '#18BE5F');
   $('.popup-header').css('border-bottom', 'none');
@@ -284,7 +284,7 @@ function countNumbers() {
 
 
 function countNumbers2() {
-  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, additional Credits required. <span class=' tooltip-trigger3'>Why?</span></div>`);
+  $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, additional coins required. <span class=' tooltip-trigger3'>Why?</span></div>`);
   $('.banner-info').toggle();
 
   $('.popup-header').css('border-bottom', 'none');
@@ -315,7 +315,7 @@ $(document).ready(function() {
   multiClusterData();
   $('.reclaim-popup').click(() => {
     popupContent(1)
-    $('.popup-header').after(`<div class='mutli-line-info'><p style='line-height:1.5;'> Make sure you update Prism Central licenses too, in order to retrieve all available Credits.</p></div>`);
+    $('.popup-header').after(`<div class='mutli-line-info'><p style='line-height:1.5;'> Make sure you update Prism Central licenses too, in order to retrieve all available coins.</p></div>`);
     $('.banner').toggle();
     $('.popup-header').css('border-bottom', 'none');
     $('.banner').slideDown();
@@ -366,7 +366,7 @@ $(document).ready(function() {
       // CheckoutData2();
       // $('#fs').trigger('click');
       // countNumbers2();
-      // $('.panel2 h3').text(`Additional Credits required`);
+      // $('.panel2 h3').text(`Additional coins required`);
       // $('.panel2').css('height','250px');
       // $('.flexbox-stretch kbd:eq(0)').text('Pro');
     });

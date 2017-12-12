@@ -1,11 +1,11 @@
 const multiClusterData2 = {
   cardBody: [13000, 50000, 3000, 1000],
-  cardSecondary: ['Total Consumed Credits', `Available Credits`, 'Consumed by Prism Central ', 'Consumed by Calm'],
+  cardSecondary: ['Total Consumed Coins', `Available Coins`, 'Consumed by Prism Central ', 'Consumed by Calm'],
 }
 
 const cardData = {
   cardBody: [13000, 50000, 4000, 2000],
-  cardSecondary: ['Total Consumed Credits', 'Available Credits', 'Consumed in Acropolis', 'Consumed in Add-Ons'],
+  cardSecondary: ['Total Consumed Coins', 'Available Coins', 'Consumed in Acropolis', 'Consumed in Add-Ons'],
 }
 
 const fsChecked = `
