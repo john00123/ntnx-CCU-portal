@@ -52,6 +52,7 @@ const purchaseDataTable = {
 const multiClusterDataTable = {
 
   id: ['Prism Central West', 'Prism Central East', 'Prism Central Global', 'Calm  License PC West', 'Calm License PC East', 'Calm License PC Global'],
+  type: ['Prism Central', 'Prism Central', 'Prism Central', 'Calm  License', 'Calm License', 'Calm License'],
   purchased: [9246, 11383, 7436, 5400, 7966, 9328, 6373, 10253, 9246, 11383, 7436, 5400, 7966, 9328, 6373, 10253],
   use: [9046, 11383, 7436, 5400, 7966, 9328, 6373, 10253, 9046, 11383, 7436, 5400, 7966, 9328, 6373, 10253],
   Expiration: ['12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020']

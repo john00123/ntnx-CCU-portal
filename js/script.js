@@ -77,6 +77,7 @@ function multiClusterData() {
     $('.multi-cluster').append(
       `<tr>
         <td> ${multiClusterDataTable.id[i]}</td>
+        <td> ${multiClusterDataTable.type[i]}</td>
         <td> ${multiClusterDataTable.purchased[i]}</td>
         <td> ${multiClusterDataTable.use[i]}</td>
         <td>${multiClusterDataTable.Expiration[i]}</td>
