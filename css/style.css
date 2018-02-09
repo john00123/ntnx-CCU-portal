@@ -57,6 +57,11 @@
   font-weight: 500;
 }
 
+.element-banner {
+  background-color: #F55656;
+  color: 'white';
+}
+
 .gear {
   opacity: 0.6;
   transition: opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -960,6 +965,18 @@ Cards
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.element-banner {
+  background-color: #F55656;
+  width: calc(100% + 40px);
+  margin: -0px -20px 10px -20px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
 }
 
 .tr .card {

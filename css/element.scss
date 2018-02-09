@@ -12,6 +12,11 @@
   font-weight: 500;
 }
 
+.element-banner{
+  background-color: $red-1;
+  color:'white';
+}
+
 .gear{
   opacity: 0.6;
   @include transition(opacity);
