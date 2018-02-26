@@ -15,15 +15,15 @@ const fsChecked = `
   value='fs'>`
 
 const usageData = {
-  Name: ['Ntnx_Marketing_001', 'Ntnx_test_001', 'Sql_databse_Product', 'Prosql_3002', 'Apex_deploy', 'Backup_Product_07747', 'Exchange-server-production', 'Ntnx_Marketing_001', 'Backup_Product_07747', 'Apex_deploy', 'Exchange-server-production'],
+  Name: ['Ntnx_Marketing_001', 'Ntnx_test_001', 'Sql_databse_Product', 'Prosql_3002', 'Apex_deploy', 'Backup_Product_07747', 'Exchange-server-production', 'Ntnx_Marketing_001', 'Backup_Product_07747', 'Apex_deploy', 'Exchange-server-production','Prism Central West', 'Prism Central East', 'Prism Central Global', 'Calm  License PC West', 'Calm License PC East', 'Calm License PC Global'],
 
-  Type: ['Acropolis Pro', 'Acropolis Pro', 'Acropolis Pro', 'Acropolis Pro', 'Acropolis Pro', 'Acropollis Ultimate', 'Acropollis Ultimate', 'Acropollis Ultimate', 'File Server', 'File Server', 'Software Encryption', 'Software Encryption'],
+  Type: ['Acropolis Pro', 'Acropolis Pro', 'Acropolis Pro', 'Acropolis Pro', 'Acropolis Pro', 'Acropollis Ultimate', 'Acropollis Ultimate', 'Acropollis Ultimate', 'File Server', 'File Server', 'Software Encryption', 'Software Encryption','Prism Central', 'Prism Central', 'Prism Central', 'Calm  License', 'Calm License', 'Calm License'],
 
-  Purchased: ['750', '600', '135', '750', '600', '440', '750', '600', '135', '750', '600', '135'],
+  Purchased: ['750', '600', '135', '750', '600', '440', '750', '600', '135', '750', '600', '135', 9246, 11383, 7436, 5400, 7966, 9328, 6373, 10253, 9246, 11383, 7436, 5400, 7966, 9328, 6373, 10253],
 
-  Ammounts: ['750', '600', '135', '600', '200', '750', '135', '750', '135', '750', '600', '135'],
+  Ammounts: ['750', '600', '135', '600', '200', '750', '135', '750', '135', '750', '600', '135',9046, 11383, 7436, 5400, 7966, 9328, 6373, 10253, 9046, 11383, 7436, 5400, 7966, 9328, 6373, 10253],
 
-  Expiration: ['12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022'],
+  Expiration: ['12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022', '12/12/2022','12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020', '12/12/2020'],
 }
 
 const licensePrices = [{
