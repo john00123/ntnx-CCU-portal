@@ -795,6 +795,10 @@ span {
   border-radius: 1px;
 }
 
+.exp td:last-child {
+  right: 0;
+}
+
 .status {
   display: flex;
   align-items: center;
@@ -1361,20 +1365,29 @@ th:not(:first-child) {
   padding-right: 20px;
 }
 
-tr:hover {
+tr:not(:first-child):hover {
   background-color: #f4fbff;
   cursor: default;
+  color: #22A5F7;
 }
 
-tr:hover td {
+tr:not(:first-child):hover td {
   box-shadow: 0 -1px 0 #f4fbff;
   border-color: #f4fbff;
   border-top: 1px double #f4fbff !important;
   z-index: 2;
 }
 
-tr:hover td:first-child {
+tr:first-child:hover {
+  background-color: #f4fbff;
+  cursor: default;
   color: #22A5F7;
+}
+
+tr:first-child:hover td {
+  box-shadow: 0 -1px 0 #f4fbff;
+  border-color: #f4fbff;
+  z-index: 2;
 }
 
 td {

@@ -270,6 +270,12 @@ span {
   }
 }
 
+.exp{
+	td:last-child{
+		right: 0;
+	}
+}
+
 .status{
   @include flex(center, flex-end, row);
 
@@ -685,7 +691,7 @@ th:not(:first-child) {
 //   text-align: left;
 // }
 
-tr:hover {
+tr:not(:first-child):hover{
 	background-color: $semi-white-blue;
 	cursor: default;
 
@@ -695,10 +701,20 @@ tr:hover {
 		border-top: 1px double $semi-white-blue !important;
 		z-index: 2;
 	}
+	color:$blue-1;
+}
 
-	td:first-child {
-		color: $blue-1;
+
+tr:first-child:hover{
+	background-color: $semi-white-blue;
+	cursor: default;
+
+	td {
+		box-shadow: 0 -1px 0 $semi-white-blue;
+		border-color: $semi-white-blue;
+		z-index: 2;
 	}
+	color:$blue-1;
 }
 
 td {
