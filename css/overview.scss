@@ -1,49 +1,55 @@
 
+.card{
+  position: relative;
+}
 
-// .card{
-//   position: relative;
-// }
-//
-// .card-header{
-//   @include size(40px,100%);
-//   @include flex(center, space-between, row);
-//   padding: 8px 20px;
-//   position: absolute;
-//   top:0;
-//   border-bottom: 1px solid $border-color-3;
-//   h5{
-//     font:$h3;
-//   }
-// }
-//
-// .dropdown{
-//   position: relative;
-//   margin-right: 12px;
-//   &::before {
-//     content: '';
-//     @include size(8px, 4px);
-//     position: absolute;
-//     background: url('../img/double-arrow.svg');
-//     display: block;
-//     top:0;
-//     right:-12px;
-//   }
-// }
-//
-// .card-body{
-//   padding: 20px;
-//   margin-top: 40px;
-// }
-//
-// .coin-body{
-//   @include flex(center, space-between, row);
-// }
+.card-header{
+  @include size(40px,100%);
+  @include flex(center, space-between, row);
+  padding: 8px 20px;
+  position: absolute;
+  top:0;
+  border-bottom: 1px solid $border-color-3;
+  h5{
+    font:$h3;
+  }
+}
+
+.dropdown{
+  position: relative;
+  margin-right: 12px;
+  &::before {
+    content: '';
+    @include size(8px, 4px);
+    position: absolute;
+    background: url('../img/double-arrow.svg');
+    display: block;
+    top:0;
+    right:-12px;
+  }
+}
+
+.card-body{
+  padding: 20px;
+  // margin-top: 40px;
+  height: 100%;
+  table{
+    width: 100%;
+  }
+  td{
+    border-bottom: 1px solid $border-color-3;
+  }
+}
+
+.coin-body{
+  @include flex(center, space-between, row);
+}
 
 .widget-img{
   margin: 10px;
   border-radius: 4px;
   @include transition(shadow);
-  
+
   &:hover{
     @include shadow();
   }
@@ -52,5 +58,12 @@
 .graph{
   &:hover{
     cursor: pointer;
+  }
+}
+
+//media
+@media (max-width: 1024px) {
+  .card {
+    width: calc(50% - 10px);
   }
 }
