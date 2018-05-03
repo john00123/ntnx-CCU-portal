@@ -486,15 +486,90 @@ p a:hover {
   }
 }
 
+.sp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
 .coin-holder {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  margin-bottom: 30px;
 }
 
 .coin {
+  height: auto;
+  width: 70px;
+  box-sizing: border-box;
+}
+
+.coin-image h2, .coin-image p {
+  text-align: center;
+  line-height: 1.5 !important;
+  margin-bottom: 0  !important;
+}
+
+.coin:nth-child(1) {
   position: relative;
+  animation: floatc 800ms ease-in-out 100ms infinite;
+}
+
+.coin:nth-child(1):after {
+  content: 'hi' !important;
+}
+
+.coin:nth-child(2) {
+  position: relative;
+  animation: floatb 800ms ease-in-out 110ms infinite;
+  margin-bottom: -28px;
+}
+
+.coin:nth-child(3) {
+  position: relative;
+  animation: float 800ms ease-in-out 130ms infinite;
+  margin-bottom: -25px;
+}
+
+.coin:nth-child(4) {
+  position: relative;
+  animation: rotate 800ms ease-in-out 160ms infinite;
+  margin-bottom: -22px;
+}
+
+.coin::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes float {
+  50% {
+    transform: translatey(20px);
+  }
+}
+
+@keyframes floatb {
+  50% {
+    transform: rotate(1deg) translatey(15px);
+  }
+}
+
+@keyframes floatc {
+  50% {
+    transform: rotate(-2deg) translatey(10px);
+  }
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(2deg) translatey(20px);
+  }
 }
 
 *[title] {

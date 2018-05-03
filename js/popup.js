@@ -127,13 +127,20 @@ const popupData = {
 
     //6 First Time
     `
-      <div class='coin-holder'>
-        <img class='coin' src='./img/coins.svg'/>
-        <img class='coin' src='./img/coins.svg'/>
-        <img class='coin' src='./img/coins.svg'/>
-        <img class='coin' src='./img/coins.svg'/>
+      <div class='coin-image'>
+        <div class='coin-holder'>
+          <img class='coin' src='./img/coins.svg'/>
+          <img class='coin' src='./img/coins.svg'/>
+          <img class='coin' src='./img/coins.svg'/>
+          <img class='coin' src='./img/coins.svg'/>
+        </div>
+
+        <h2 id='coin-title'>
+          A new way to license Nutanix products
+        </h2>
+        <p class='coin-text'> Here's why they are great </p>
       </div>
-      <a class='link' href='img/ccu.mp4' target='_blank'>Watch fullscreen</a>`,
+      `,
 
     //7 Cluster Details
     `
@@ -188,10 +195,14 @@ const popupData = {
     `<button class="primary see-licenses btn-disabled"> Apply </button>`,
 
     //5
-    `<button class="primary add-node btn-disabled">Next</button>`,
+    `
+      <button class="primary add-node btn-disabled">Next</button>`,
 
     //6
-    `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
+    `<div class='sp'>
+      <button class="secondary cancel"> Cancel </button>
+      <button class="primary next-coin"> Next</button>
+     </div>`,
 
     //7
     `<button class="secondary cancel" style="margin-right:0"> Done </button>`,
