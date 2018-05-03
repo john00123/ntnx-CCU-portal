@@ -305,7 +305,10 @@ function firstTime() {
 
 
 $(document).ready(function() {
-  firstTime();
+  // firstTime();
+  popupContent(6);
+
+
   cardsData();
   cardsData2();
   tableData();
