@@ -1,9 +1,12 @@
 //esc
+
 $(document).keyup(e => {
   if (e.keyCode === 27) $('.popup-header').click(); //esc key
 });
 
+
 // creates cards
+
 function cardsData() {
   var cards = cardData.cardBody.length;
   var index = 0;
@@ -23,6 +26,7 @@ function cardsData() {
     index++;
   }
 }
+
 function cardsData2() {
   var cards = multiClusterData2.cardBody.length;
   var index = 0;
@@ -42,6 +46,7 @@ function cardsData2() {
 }
 
 // creates table
+
 function tableData() {
   for (let i = 0; i < usageData.Type.length; i++) {
     $('.usage').append(
@@ -54,6 +59,7 @@ function tableData() {
     </tr>`);
   }
 }
+
 function purchaseData() {
   for (let i = 0; i < purchaseDataTable.id.length; i++) {
     $('.purchased').append(
@@ -65,6 +71,7 @@ function purchaseData() {
     </tr>`);
   }
 }
+
 function multiClusterData() {
   for (let i = 0; i < multiClusterDataTable.id.length; i++) {
     $('.multi-cluster').append(
@@ -77,7 +84,9 @@ function multiClusterData() {
   }
 }
 
+
 //multiPopup
+
 function multiPopup() {
   $('.redeem').click(function() {
     $('.popup').addClass('second');
@@ -101,6 +110,24 @@ function multiPopup() {
     $('.aos-data').remove();
   });
 }
+
+
+
+//upload input component
+
+function uploadFile() {
+  $("input[type='file']").change(uploadPath);
+}
+
+function uploadPath() {
+  let path = $(this).val().replace("C:\\fakepath\\", '');
+  $('.path').val(path);
+  $('button').removeClass('btn-disabled');
+}
+
+
+//popup data
+
 function popupContent(i) {
   $('body').append(
     `<div class="overlay" style='opacity:0'>
@@ -117,6 +144,10 @@ function popupContent(i) {
   // applyLicense();
   // countNumbers();
 }
+
+
+//popup animation
+
 function popAnimate() {
   window.scroll(0, 0);
   $('.overlay').css('opacity', '1');
@@ -139,15 +170,6 @@ function popAnimate() {
   });
 }
 
-//upload input component
-function uploadFile() {
-  $("input[type='file']").change(uploadPath);
-}
-function uploadPath() {
-  let path = $(this).val().replace("C:\\fakepath\\", '');
-  $('.path').val(path);
-  $('button').removeClass('btn-disabled');
-}
 
 //checkout functions
 
@@ -174,6 +196,8 @@ function CheckoutData() {
     $('.subt').text(sum);
   });
 }
+
+
 function CheckoutData3() {
   $('#sw').change(function() {
     if ($('#sw').is(':checked')) {
@@ -193,6 +217,8 @@ function CheckoutData3() {
     $('.subt').text(sum);
   });
 }
+
+
 function CheckoutData2() {
   $('#fs').change(function() {
 
@@ -212,6 +238,8 @@ function CheckoutData2() {
     $('.subt').text(sum);
   });
 }
+
+
 function dropDown() {
   $('.primary').click(function() {
     $('.floater').hide();
@@ -253,6 +281,8 @@ function countNumbers() {
 
   }, 7000);
 }
+
+
 function countNumbers2() {
   $('.layer2 .popup-body').before(`<div class='banner-info'>Capacity changes detected, additional coins required. <span class=' tooltip-trigger3'>Why?</span></div>`);
   $('.banner-info').toggle();
@@ -272,6 +302,8 @@ function firstTime() {
   $('.first-time').click(() => popupContent(6));
 }
 
+
+
 $(document).ready(function() {
   purchaseData();
   popupContent(6);
@@ -288,10 +320,12 @@ $(document).ready(function() {
     $('.popup-header').css('border-bottom', 'none');
     $('.banner').slideDown();
   });
+
   $('.unlicense-cluster-popup').click(() => {
     popupContent(1);
     $('.popup-header').text('Unlicense Cluster');
   });
+
   $('.cluster-license').click(() => popupContent(0));
 
   //adons
@@ -309,6 +343,8 @@ $(document).ready(function() {
       $('.flexbox-stretch:eq(0)').hide();
     });
   });
+
+
   $('.update-popup').click(() => {
     popupContent(0);
     $('.popup-footer').html(`${popupData.footer[5]}`);
@@ -335,6 +371,7 @@ $(document).ready(function() {
       // $('.flexbox-stretch kbd:eq(0)').text('Pro');
     });
   });
+
 
   //initial popup
   if ($('body').hasClass('index')) {
