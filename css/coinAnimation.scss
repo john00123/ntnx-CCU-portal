@@ -1,0 +1,14 @@
+.coin-holder{
+  @include flex(center, center, column);
+}
+
+.coin{
+  position: relative;
+}
+
+.coin::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0
+}

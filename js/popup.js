@@ -30,7 +30,6 @@ const popupData = {
   ],
 
   body: [
-
     //0 Upload
     `
       <h3 style='margin-bottom:0px'>
@@ -128,12 +127,12 @@ const popupData = {
 
     //6 First Time
     `
-      <video class='video' id='myvideo' controls>
-        <source src="img/ccu.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-
-      </video>
-
+      <div class='coin-holder'>
+        <img class='coin' src='./img/coins.svg'/>
+        <img class='coin' src='./img/coins.svg'/>
+        <img class='coin' src='./img/coins.svg'/>
+        <img class='coin' src='./img/coins.svg'/>
+      </div>
       <a class='link' href='img/ccu.mp4' target='_blank'>Watch fullscreen</a>`,
 
     //7 Cluster Details
