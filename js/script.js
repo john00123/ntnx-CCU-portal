@@ -77,10 +77,12 @@ function multiClusterData() {
   }
 }
 
+///💸
 function coinImages(){
   $('.next-coin').click(()=>{
     $('.coin-image h2').text(`They ensure fair pricing`);
     $('.coin-image p').text(`Coins are consumed based on the power of the cluster and the type of software license being applied`);
+    $('.coin-image').append(`<img class=hourglass src='./img/hourglass.svg'/>`)
   });
 }
 

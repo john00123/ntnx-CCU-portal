@@ -3,13 +3,30 @@
   @include flex(center, space-between, row);
   width: 100%;
 }
+
+.hourglass{
+    animation: rotate 2000ms ease-in-out 100ms infinite;
+    animation-direction: normal;
+    transform-origin: 50% 50%;
+}
+
 .coin-holder{
   @include flex(center, center, column-reverse);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .coin{
   @include size(auto, 70px);
+}
+
+.coin-shadow{
+  background-color: $border-color-3;
+  @include size(70px,70px);
+  display: block;
+  transform:rotateX(55deg);
+  border-radius: 3pc;
+  animation: grow 1100ms ease-in-out 100ms infinite;
+  opacity: 0.6;
 }
 
 .coin-image h2, .coin-image p{
@@ -18,42 +35,32 @@
   margin-bottom: 0  !important;
 }
 
-.coin:nth-child(1){
-  position: relative;
-  animation: floatc 800ms ease-in-out 100ms infinite;
-  &:after{
-    content:'hi' !important;
-  }
-}
 .coin:nth-child(2){
   position: relative;
-  animation: floatb 800ms ease-in-out 110ms infinite;
-  margin-bottom: -28px;
+  animation: floatc 1100ms ease-in-out 100ms infinite;
+  margin-bottom: -45px;
 }
 .coin:nth-child(3){
   position: relative;
-  animation: float 800ms ease-in-out 130ms infinite;
-  margin-bottom: -25px;
+  animation: floatb 1100ms ease-in-out 110ms infinite;
+  margin-bottom: -26px;
 }
 .coin:nth-child(4){
   position: relative;
-  animation: rotate 800ms ease-in-out 160ms infinite;
-  margin-bottom: -22px;
+  animation: float 1100ms ease-in-out 130ms infinite;
+  margin-bottom: -25px;
+}
+.coin:nth-child(5){
+  position: relative;
+  animation: rotate 1100ms ease-in-out 160ms infinite;
+  margin-bottom: -25px;
 }
 
-.coin::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0
-}
 
 
+@keyframes float { 47% { transform: rotate(-1deg)translatey(20px); }}
+@keyframes floatb{ 45% { transform: rotate(1deg)translatey(15px); }}
+@keyframes floatc{ 40% { transform: translatey(5px); }}
+@keyframes rotate{ 49% { transform: rotate(2deg) translatey(20px); }}
 
-@keyframes float{ 50% { transform:translatey(20px); } }
-@keyframes floatb{ 50% { transform: rotate(1deg)translatey(15px); } }
-@keyframes floatc{ 50% { transform: rotate(-2deg)translatey(10px); } }
-
-@keyframes rotate{
-  50% { transform: rotate(2deg) translatey(20px);}
-}
+@keyframes grow{ 49% { opacity: 1; transform: scaleX(1.08) rotateX(55deg); }}
