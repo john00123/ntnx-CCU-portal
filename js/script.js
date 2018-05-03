@@ -305,16 +305,13 @@ function firstTime() {
 
 
 $(document).ready(function() {
-  // firstTime();
+  purchaseData();
   popupContent(6);
-
-
   cardsData();
   cardsData2();
   tableData();
   dropDown();
   tablePopup();
-  purchaseData();
   multiClusterData();
   $('.reclaim-popup').click(() => {
     popupContent(1)

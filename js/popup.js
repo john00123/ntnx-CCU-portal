@@ -2,21 +2,20 @@
 const addNodePopupBody = `
   <!--<h4 style='margin-bottom:15px;'>Capacity Changes</h4>
 
-<p style='margin-bottom:20px;'> This cluster has dected an additional ammount of resources, to be licensed to keep a valid licenses state.</p>
+  <p style='margin-bottom:20px;'> This cluster has dected an additional ammount of resources, to be licensed to keep a valid licenses state.</p>
 
-<div class='license-pair current-consumption' style='margin-left: 20px;'>
-  <h3> Cores  <code> 30 </code></h3>
-  <h3> HDD  <code> 300 </code></h3>
-  <h3> SSD  <code> 300 </code></h3>
-</div>  -->
+  <div class='license-pair current-consumption' style='margin-left: 20px;'>
+    <h3> Cores  <code> 30 </code></h3>
+    <h3> HDD  <code> 300 </code></h3>
+    <h3> SSD  <code> 300 </code></h3>
+  </div>  -->
 
-<h4 style='margin-top:2px; margin-bottom:15px;'>Current Coin usage</h4>
+  <h4 style='margin-top:2px; margin-bottom:15px;'>Current Coin usage</h4>
 
-<div class='license-pair current-consumption' style='margin-left: 20px; margin-top:20px;'>
-  <h3><kbd> Acropolis Pro  12000 Coins</kbd> </h3>
-  <h3><kbd> File Server 12000 Coins</kbd> </h3>
-</div>`
-
+  <div class='license-pair current-consumption' style='margin-left: 20px; margin-top:20px;'>
+    <h3><kbd> Acropolis Pro  12000 Coins</kbd> </h3>
+    <h3><kbd> File Server 12000 Coins</kbd> </h3>
+  </div>`
 
 const popupData = {
   title: [
@@ -32,70 +31,9 @@ const popupData = {
 
   body: [
 
-    //0
+    //0 Upload
     `
-    <h3 style='margin-bottom:0px'>
-      Select your cluster summary file
-    </h3>
-
-    <p style='margin-bottom:20px; width:100%'>
-      This has the data needed to license your cluster.
-    </p>
-
-    <input type="file" id='file'>
-    <label for='path2'>Select file</label>
-
-    <div class='upload-file'>
-      <input class='path' readonly type='text' id='path2'></input>
-      <label class='file-button' for='file'>Select File</label>
-    </div>`,
-
-
-    //1
-    `
-    <h3 style='margin-bottom:0px'>
-      Select your cluster summary file
-    </h3>
-
-    <p style='margin-bottom:20px; width:100%'>
-      This has the data needed to license your cluster.
-    </p>
-
-    <input type="file" id='file'>
-    <label for='path2'>Select file</label>
-
-    <div class='upload-file'>
-      <input class='path' readonly type='text' id='path2'></input>
-      <label class='file-button' for='file'>Select File</label>
-    </div>`,
-
-
-    //2
-    `
-    <h2>Congratulations</h2>
-    <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> Use the new license summary file to update the license state of your cluster.</p>
-      `,
-
-    //3
-    `
-    <h3 style='margin-bottom:0px'>
-      Select your cluster summary file
-    </h3>
-
-    <p style='margin-bottom:20px; width:100%'>
-      This has the data needed to license your cluster.
-    </p>
-
-    <input type="file" id='file'>
-    <label for='path2'>Select file</label>
-
-    <div class='upload-file'>
-      <input class='path' readonly type='text' id='path2'></input>
-      <label class='file-button' for='file'>Select File</label>
-    </div>`,
-
-    //4
-    `  <h3 style='margin-bottom:0px'>
+      <h3 style='margin-bottom:0px'>
         Select your cluster summary file
       </h3>
 
@@ -111,72 +49,126 @@ const popupData = {
         <label class='file-button' for='file'>Select File</label>
       </div>`,
 
-    //5
+    //1 Upload
     `
-    <h3 style='margin-bottom:0px'>
-      Select your license file
-    </h3>
+      <h3 style='margin-bottom:0px'>
+        Select your cluster summary file
+      </h3>
 
-    <p style='margin-bottom:20px; width:100%'>
-      This will update your cluster licensing state
-    </p>
+      <p style='margin-bottom:20px; width:100%'>
+        This has the data needed to license your cluster.
+      </p>
 
-    <input type="file" id='file'>
-    <label for='path2'>Select file</label>
+      <input type="file" id='file'>
+      <label for='path2'>Select file</label>
 
-    <div class='upload-file'>
-      <input class='path' readonly type='text' id='path2'></input>
-      <label class='file-button' for='file'>Select File</label>
-    </div>`,
+      <div class='upload-file'>
+        <input class='path' readonly type='text' id='path2'></input>
+        <label class='file-button' for='file'>Select File</label>
+      </div>`,
 
-    //6
+    //2 Congratulations
     `
-    <video class='video' id='myvideo' controls>
-      <source src="img/ccu.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+      <h2>Congratulations</h2>
+      <p style='color:#22272E; margin-bottom:10px;' > Your license changes have been successfully saved.</p><p> Use the new license summary file to update the license state of your cluster.</p>`,
 
-    </video>
-
-    <a class='link' href='img/ccu.mp4' target='_blank'>Watch fullscreen</a>
-    `,
-
-    //7
-
+    //3 Upload
     `
-    <h3 style='font-weight:500;'>Ntnx_Marketing_001<br><kbd style='font-weight:400;'>UUID : 123231231232132<br>  ${capacityData.Nodes} Nodes</kbd></h3>
-    <a class='pop-link'> See licensing History </a>
+      <h3 style='margin-bottom:0px'>
+        Select your cluster summary file
+      </h3>
 
-    <h3 style='margin-top:10px;'>Capacity</h3>
-    <div class='deck' style='margin-bottom:20px;'>
-    <div class='popup-card'> <h3>${capacityData.Cores} <kbd>cores </kbd></h3></div>
+      <p style='margin-bottom:20px; width:100%'>
+        This has the data needed to license your cluster.
+      </p>
 
-    <div class='popup-card'> <h3>${capacityData.HDD} <kbd>TiB HHD </kbd></h3></div>
+      <input type="file" id='file'>
+      <label for='path2'>Select file</label>
 
-    <div class='popup-card'> <h3>${Math.round(capacityData.SSD)} <kbd>TiB SSD </kbd></h3></div>
-    </div>
+      <div class='upload-file'>
+        <input class='path' readonly type='text' id='path2'></input>
+        <label class='file-button' for='file'>Select File</label>
+      </div>`,
 
-    <div class='separator'></div>
-
-    <h3>Cluster Licenses <kbd>&nbsp; 920 Coins</kbd></h3>
-    <div class='deck' style='margin-bottom:30px;'>
-    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>Acropolis Pro <kbd>&nbsp;120 Coins </kbd></h3></div>
-
-    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>File Server <kbd>&nbsp;800 Coins </kbd></h3>
-    </div>
-
-    </div>
-
-
-    <h3 style='margin-top:60px;'>Cluster Coin consumption<kbd>&nbsp; 920 Coins</kbd></h3>
-    <div class='deck'>
-    <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;460 Coins &nbsp; exp.12/12/2020</kbd></h3></div>
-
-    <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;450 Coins &nbsp; exp.12/12/2020</kbd></h3></div>
-
-    </div>
-
-
+    //4 Upload
     `
+      <h3 style='margin-bottom:0px'>
+        Select your cluster summary file
+      </h3>
+
+      <p style='margin-bottom:20px; width:100%'>
+        This has the data needed to license your cluster.
+      </p>
+
+      <input type="file" id='file'>
+      <label for='path2'>Select file</label>
+
+      <div class='upload-file'>
+        <input class='path' readonly type='text' id='path2'></input>
+        <label class='file-button' for='file'>Select File</label>
+      </div>`,
+
+    //5 Upload
+    `
+      <h3 style='margin-bottom:0px'>
+        Select your license file
+      </h3>
+
+      <p style='margin-bottom:20px; width:100%'>
+        This will update your cluster licensing state
+      </p>
+
+      <input type="file" id='file'>
+      <label for='path2'>Select file</label>
+
+      <div class='upload-file'>
+        <input class='path' readonly type='text' id='path2'></input>
+        <label class='file-button' for='file'>Select File</label>
+      </div>`,
+
+    //6 First Time
+    `
+      <video class='video' id='myvideo' controls>
+        <source src="img/ccu.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+
+      </video>
+
+      <a class='link' href='img/ccu.mp4' target='_blank'>Watch fullscreen</a>`,
+
+    //7 Cluster Details
+    `
+      <h3 style='font-weight:500;'>Ntnx_Marketing_001<br><kbd style='font-weight:400;'>UUID : 123231231232132<br>  ${capacityData.Nodes} Nodes</kbd></h3>
+      <a class='pop-link'> See licensing History </a>
+
+      <h3 style='margin-top:10px;'>Capacity</h3>
+      <div class='deck' style='margin-bottom:20px;'>
+      <div class='popup-card'> <h3>${capacityData.Cores} <kbd>cores </kbd></h3></div>
+
+      <div class='popup-card'> <h3>${capacityData.HDD} <kbd>TiB HHD </kbd></h3></div>
+
+      <div class='popup-card'> <h3>${Math.round(capacityData.SSD)} <kbd>TiB SSD </kbd></h3></div>
+      </div>
+
+      <div class='separator'></div>
+
+      <h3>Cluster Licenses <kbd>&nbsp; 920 Coins</kbd></h3>
+      <div class='deck' style='margin-bottom:30px;'>
+      <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>Acropolis Pro <kbd>&nbsp;120 Coins </kbd></h3></div>
+
+      <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>File Server <kbd>&nbsp;800 Coins </kbd></h3>
+      </div>
+
+      </div>
+
+
+      <h3 style='margin-top:60px;'>Cluster Coin consumption<kbd>&nbsp; 920 Coins</kbd></h3>
+      <div class='deck'>
+      <div class='popup-card' style='width:100%;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;460 Coins &nbsp; exp.12/12/2020</kbd></h3></div>
+
+      <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;450 Coins &nbsp; exp.12/12/2020</kbd></h3></div>
+
+      </div>`
   ],
 
   footer: [
@@ -216,7 +208,6 @@ const layer2Data = {
     //0
     `
     <div class="popup-header">${popupData.title[0]}</div>
-
       <div class="popup-body panels">
 
         <div class='panel1'>
@@ -298,27 +289,23 @@ const layer2Data = {
           <div class='separator' style='margin-top:0px;'></div>
 
           <p>Licensed until 12/12/20<br>based on Coin validity dates.</p>
-        </div>
+        </div></div>
+    <div class="popup-footer">${popupData.footer[3]}</div>`,
 
-      </div>
-
-    <div class="popup-footer">${popupData.footer[3]}</div>
-`,
     //1
     `
-  <div class="popup-header">${popupData.title[3]}</div>
-  <div class="popup-body">
-    <span class='count money'>4000</span>
-    <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>
-    <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses have been credited coins to your account.</h3>
-  </div>
-  <div class="popup-footer">${popupData.footer[6]}</div>
-`,
+      <div class="popup-header">${popupData.title[3]}</div>
+      <div class="popup-body">
+        <span class='count money'>4000</span>
+        <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>
+        <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses have been credited coins to your account.</h3>
+      </div>
+      <div class="popup-footer">${popupData.footer[6]}</div>
+    `,
   ]
 }
 
 // Cluster license
-
 function layer2(i) {
   $('body').append(
     `<div class="overlay overlay2" style='background-color:transparent;'>
