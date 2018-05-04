@@ -4,6 +4,25 @@
   width: 100%;
 }
 
+.col{@include flex(flex-start, flex-start, column-reverse);
+}
+
+.node{
+  transform: scale(0.75);
+}
+
+.node:not(:first-child){
+  margin-bottom: -12px;
+  transform: scale(0.75);
+}
+
+.second-screen{
+  transform: translateX(-10px) scale(1.2);
+}
+
+.license-img{
+  transform: scale(0.9);
+}
 .hourglass{
     animation: rotate 2000ms ease-in-out 1100ms infinite;
     animation-direction: normal;
@@ -12,7 +31,6 @@
 
 .coin-holder{
   @include flex(center, center, column-reverse);
-  margin-bottom: 20px;
   overflow: hidden;
   @include transition(all);
 }
@@ -38,6 +56,11 @@
   text-align: center;
   line-height: 1.5 !important;
   margin-bottom: 0  !important;
+}
+
+.coin-image .sp{
+  @include flex(center, space-around, row);
+  margin-bottom: 30px;
 }
 
 .coin:nth-child(2){

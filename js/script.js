@@ -82,9 +82,16 @@ function coinImages(){
   $('.next-coin').click(()=>{
     $('.coin-image h2').text(`They ensure fair pricing`);
     $('.coin-image p').text(`Coins are consumed based on the power of the cluster and the type of software license being applied`);
-    $('.coin-image').append(`<img class=hourglass src='./img/hourglass.svg'/>`)
-    $('.coin-holder').addClass('second-view');
-    $('.coin-shadow').remove();
+    $('.coin-holder').css('overflow','initial').before(`
+      <div class='col'>
+        <img class='node' src='./img/node.svg'/>
+        <img class='node' src='./img/node.svg'/>
+        <img class='node' src='./img/node.svg'/>
+      </div>`).after(`<img class='license-img' src='./img/single license.svg'/>`).html(`
+        <img class='coin second-screen' src='./img/coins.svg'/>
+        `);
+    // $('.coin-holder').addClass('second-view');
+    $('.next-coin').unbind('click').bind('click', ()=>alert('Hi'));
   });
 }
 

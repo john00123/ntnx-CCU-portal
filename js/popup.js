@@ -128,14 +128,16 @@ const popupData = {
     //6 First Time
     `
       <div class='coin-image'>
-        <div class='coin-holder'>
-          <div class='coin-shadow'></div>
-          <img class='coin' src='./img/coins.svg'/>
-          <img class='coin' src='./img/coins.svg'/>
-          <img class='coin' src='./img/coins.svg'/>
-          <img class='coin' src='./img/coins.svg'/>
-        </div>
 
+        <div class='sp'>
+          <div class='coin-holder'>
+            <div class='coin-shadow'></div>
+            <img class='coin' src='./img/coins.svg'/>
+            <img class='coin' src='./img/coins.svg'/>
+            <img class='coin' src='./img/coins.svg'/>
+            <img class='coin' src='./img/coins.svg'/>
+          </div>
+        </div>
         <h2 id='coin-title'>
           A new way to license Nutanix products
         </h2>
