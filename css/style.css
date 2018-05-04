@@ -449,9 +449,14 @@ p a:hover {
   margin-bottom: 10px;
 }
 
+.cb-right a:hover {
+  color: #22A5F7;
+}
+
 .cb-left {
   display: flex;
   flex-grow: 1;
+  margin-top: -20px;
   flex-direction: column-reverse !important;
 }
 
