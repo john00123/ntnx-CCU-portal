@@ -515,7 +515,7 @@ p a:hover {
 }
 
 .license-img {
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 
 .hourglass {
@@ -563,7 +563,7 @@ p a:hover {
 .coin-image .sp {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   margin-bottom: 30px;
 }

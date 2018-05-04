@@ -21,7 +21,7 @@
 }
 
 .license-img{
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 .hourglass{
     animation: rotate 2000ms ease-in-out 1100ms infinite;
@@ -59,7 +59,7 @@
 }
 
 .coin-image .sp{
-  @include flex(center, space-around, row);
+  @include flex(center, center, row);
   margin-bottom: 30px;
 }
 
