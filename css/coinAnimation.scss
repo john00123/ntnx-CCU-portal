@@ -5,7 +5,7 @@
 }
 
 .hourglass{
-    animation: rotate 2000ms ease-in-out 100ms infinite;
+    animation: rotate 2000ms ease-in-out 1100ms infinite;
     animation-direction: normal;
     transform-origin: 50% 50%;
 }
@@ -13,19 +13,24 @@
 .coin-holder{
   @include flex(center, center, column-reverse);
   margin-bottom: 20px;
+  overflow: hidden;
+  @include transition(all);
 }
 
 .coin{
   @include size(auto, 70px);
 }
 
+.second-view{
+  transform: scale(0.8)!important;
+}
+
 .coin-shadow{
+  display: block;
   background-color: $border-color-3;
   @include size(70px,70px);
-  display: block;
   transform:rotateX(55deg);
   border-radius: 3pc;
-  animation: grow 1100ms ease-in-out 100ms infinite;
   opacity: 0.6;
 }
 
@@ -36,31 +41,50 @@
 }
 
 .coin:nth-child(2){
-  position: relative;
-  animation: floatc 1100ms ease-in-out 100ms infinite;
+  transform: translateY(-200px);
+  margin-left: 2px;
+  animation: floata 2000ms cubic-bezier(.16,.01,.58,1)  600ms forwards;
   margin-bottom: -45px;
 }
 .coin:nth-child(3){
-  position: relative;
-  animation: floatb 1100ms ease-in-out 110ms infinite;
-  margin-bottom: -26px;
+  transform: translateY(-200px);
+  margin-left: -2px;
+  animation: floatb 2000ms cubic-bezier(.36,.01,.58,1)  620ms forwards;
+  margin-bottom: -30px;
 }
 .coin:nth-child(4){
-  position: relative;
-  animation: float 1100ms ease-in-out 130ms infinite;
-  margin-bottom: -25px;
+  transform: translateY(-200px);
+  margin-left: 2px;
+  animation: floatc 2000ms cubic-bezier(.48,.01,.58,1)  640ms forwards;
+  margin-bottom: -30px;
 }
 .coin:nth-child(5){
-  position: relative;
-  animation: rotate 1100ms ease-in-out 160ms infinite;
-  margin-bottom: -25px;
+  transform: translateY(-200px);
+  margin-left: -2px;
+  animation: floatd 2000ms cubic-bezier(.5,.08,.68,.61) 650ms forwards;
+  margin-bottom: -35px;
 }
 
+@keyframes floata {
+  20%{ transform: rotate(10deg) translatey(0px);}
+  25% { transform: rotate(2deg) translatey(5px);}
+  100% { transform: rotate(2deg) translatey(5px);}
 
+}
+@keyframes floatb{
+  20%{ transform:rotate(-3deg)  translatey(0px);}
+  25% { transform: rotate(1deg) translatey(8px); }
+  100% { transform:rotate(1deg)  translatey(8px); }
 
-@keyframes float { 47% { transform: rotate(-1deg)translatey(20px); }}
-@keyframes floatb{ 45% { transform: rotate(1deg)translatey(15px); }}
-@keyframes floatc{ 40% { transform: translatey(5px); }}
-@keyframes rotate{ 49% { transform: rotate(2deg) translatey(20px); }}
+}
+@keyframes floatc{
+  20%{ transform: rotate(-4deg) translatey(0px);}
+  25% { transform: rotate(-1deg) translatey(9px); }
+  100% { transform: rotate(-1deg) translatey(9px); }
 
-@keyframes grow{ 49% { opacity: 1; transform: scaleX(1.08) rotateX(55deg); }}
+}
+@keyframes floatd{
+  20%{ transform: rotate(7deg) translatey(0px);}
+  25% { transform: rotate(0deg) translatey(8px); }
+  100% { transform: rotate(0deg) translatey(8px); }
+}
