@@ -15,6 +15,27 @@
   }
 }
 
+.row{
+  @include flex(center, space-between, row);
+  margin-top: 0 !important;
+  padding: 0 20px;
+}
+
+.cb-right{
+    @include flex(flex-start, flex-start, column);
+    > * {
+      margin-bottom: 10px;
+    }
+}
+
+.cb-left{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column-reverse !important;
+  > * {
+    margin-bottom: -20px;
+  }
+}
 .dropdown{
   position: relative;
   margin-right: 12px;

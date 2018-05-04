@@ -429,6 +429,36 @@ p a:hover {
   font: 500 14px/10px "nutanix_soft", san-serif;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 0 !important;
+  padding: 0 20px;
+}
+
+.cb-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.cb-right > * {
+  margin-bottom: 10px;
+}
+
+.cb-left {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column-reverse !important;
+}
+
+.cb-left > * {
+  margin-bottom: -20px;
+}
+
 .dropdown {
   position: relative;
   margin-right: 12px;
