@@ -422,7 +422,7 @@ span {
 	&::before {
 		position: absolute;
 		@include shadow;
-		content: "Total Sockets 40\A Total HDD(TB) 200\A Totla SSD(TB) 40";
+		content: "Total Cores 40\A Total HDD(TB) 200\A Total Flash(TB) 40";
 		color: white;
 		background-color: $background-color-1;
 		padding: 15px;
@@ -457,7 +457,7 @@ span {
 	@extend .tooltip-trigger;
 
 	&::before {
-		content: "Credit is a licensing \A currency\A to access all our software offerings.";
+		content: "Coins allows you to purchase licenses for all our software offerings.";
 		left: -120px;
 	}
 }

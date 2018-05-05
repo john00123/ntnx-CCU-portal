@@ -1236,7 +1236,7 @@ span {
 .tooltip-trigger::before, .tooltip-trigger2::before, .tooltip-trigger3::before {
   position: absolute;
   box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.02), 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 1px 0 rgba(0, 0, 0, 0.02);
-  content: "Total Sockets 40\A Total HDD(TB) 200\A Totla SSD(TB) 40";
+  content: "Total Cores 40\A Total HDD(TB) 200\A Total Flash(TB) 40";
   color: white;
   background-color: #22272E;
   padding: 15px;
@@ -1266,7 +1266,7 @@ span {
 }
 
 .tooltip-trigger2::before {
-  content: "Credit is a licensing \A currency\A to access all our software offerings.";
+  content: "Coins allows you to purchase licenses for all our software offerings.";
   left: -120px;
 }
 

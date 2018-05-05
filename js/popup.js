@@ -7,7 +7,7 @@ const addNodePopupBody = `
   <div class='license-pair current-consumption' style='margin-left: 20px;'>
     <h3> Cores  <code> 30 </code></h3>
     <h3> HDD  <code> 300 </code></h3>
-    <h3> SSD  <code> 300 </code></h3>
+    <h3> Flash  <code> 300 </code></h3>
   </div>  -->
 
   <h4 style='margin-top:2px; margin-bottom:15px;'>Current Coin usage</h4>
@@ -19,11 +19,11 @@ const addNodePopupBody = `
 
 const popupData = {
   title: [
-    'License Cluster',
-    'Reclaiming licenses',
+    'Manage License',
+    'Manage License',
     'Next Steps',
     'Licenses Reclaimed',
-    'Upload License File',
+    'Manage License',
     '',
     'Introducing Coins',
     'License Details'
@@ -33,11 +33,11 @@ const popupData = {
     //0 Upload
     `
       <h3 style='margin-bottom:0px'>
-        Select your cluster summary file
+        Upload summary file downloaded from Prism element or Prism Central
       </h3>
 
       <p style='margin-bottom:20px; width:100%'>
-        This has the data needed to license your cluster.
+        This file has the data needed to license your cluster or license other Prism products.
       </p>
 
       <input type="file" id='file'>
@@ -51,11 +51,11 @@ const popupData = {
     //1 Upload
     `
       <h3 style='margin-bottom:0px'>
-        Select your cluster summary file
+        Upload summary file downloaded from Prism element or Prism Central
       </h3>
 
       <p style='margin-bottom:20px; width:100%'>
-        This has the data needed to license your cluster.
+        This file has the data needed to license your cluster or license other Prism products.
       </p>
 
       <input type="file" id='file'>
@@ -74,11 +74,11 @@ const popupData = {
     //3 Upload
     `
       <h3 style='margin-bottom:0px'>
-        Select your cluster summary file
+        Upload summary file downloaded from Prism element or Prism Central
       </h3>
 
       <p style='margin-bottom:20px; width:100%'>
-        This has the data needed to license your cluster.
+        This file has the data needed to license your cluster or license other Prism products.
       </p>
 
       <input type="file" id='file'>
@@ -92,11 +92,11 @@ const popupData = {
     //4 Upload
     `
       <h3 style='margin-bottom:0px'>
-        Select your cluster summary file
+        Upload summary file downloaded from Prism element or Prism Central
       </h3>
 
       <p style='margin-bottom:20px; width:100%'>
-        This has the data needed to license your cluster.
+        This file has the data needed to license your cluster or license other Prism products.
       </p>
 
       <input type="file" id='file'>
@@ -156,7 +156,7 @@ const popupData = {
 
       <div class='popup-card'> <h3>${capacityData.HDD} <kbd>TiB HHD </kbd></h3></div>
 
-      <div class='popup-card'> <h3>${Math.round(capacityData.SSD)} <kbd>TiB SSD </kbd></h3></div>
+      <div class='popup-card'> <h3>${Math.round(capacityData.SSD)} <kbd>TiB Flash </kbd></h3></div>
       </div>
 
       <div class='separator'></div>
