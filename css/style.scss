@@ -535,14 +535,21 @@ Cards
 .deck,
 .deck2, .deck3, .deck4 {
 	@include size(auto, 100%);
-	@include flex(flex-start, space-between, row);
+	@include flex(flex-start, flex-start, row);
 	flex-wrap: wrap;
+	> * {
+		min-width: 250px;
+		margin: 10px !important;
+		flex-grow: 1;
+	}
+
 }
 
 .deck4{
 	padding: 20px;
 	padding-left: 240px;
 	padding-right: 0;
+	margin-top: -20px;
 }
 
 .element-banner{
@@ -1363,6 +1370,14 @@ Media Queries
 @media (max-width: 800px) {
 	aside {
 		display: none;
+	}
+	 .deck, .deck1, .deck2, .deck3,.deck4{
+		padding-left: 0;
+		margin-left: 0px;
+		width: calc(100% + 20px);
+	}
+	.container{
+		padding: 20px 15px;
 	}
 }
 @media (max-width: 420px) {

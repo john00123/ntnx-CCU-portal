@@ -22,23 +22,22 @@
 }
 
 .cb-right{
-    @include flex(flex-start, flex-start, column);
-    > * {
-      margin-bottom: 10px;
-    }
-
-    a:hover{color:$blue-1;}
+  @include flex(flex-start, flex-start, column);
+  > * { margin-bottom: 10px; }
+  a:hover{color:$blue-1;}
 }
 
 .cb-left{
   display: flex;
   flex-grow: 1;
   margin-top: -20px;
+  align-items: center;
   flex-direction: column-reverse !important;
   > * {
     margin-bottom: -20px;
   }
 }
+
 .dropdown{
   position: relative;
   margin-right: 12px;
