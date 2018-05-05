@@ -752,6 +752,20 @@ td:last-child {
 	}
 }
 
+.purchased{
+	tr:hover{
+		text-decoration: none !important;
+		color:initial;
+		cursor: initial !important;
+		text-decoration-color: transparent;
+	}
+	td:hover{
+		text-decoration: none !important;
+		cursor: initial !important;
+		color:initial;
+	}
+}
+
 td kbd {
 	margin-left: 10px;
 	color: $grey-2;

@@ -1604,6 +1604,19 @@ td:last-child {
   cursor: pointer;
 }
 
+.purchased tr:hover {
+  text-decoration: none !important;
+  color: initial;
+  cursor: initial !important;
+  text-decoration-color: transparent;
+}
+
+.purchased td:hover {
+  text-decoration: none !important;
+  cursor: initial !important;
+  color: initial;
+}
+
 td kbd {
   margin-left: 10px;
   color: #7C8D9F;
