@@ -534,9 +534,12 @@ Cards
 ========================================================================== */
 .deck,
 .deck2, .deck3, .deck4 {
-	@include size(auto, 100%);
+	@include size(auto, calc(100% + 20px));
 	@include flex(flex-start, flex-start, row);
 	flex-wrap: wrap;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 10px;
 	> * {
 		min-width: 250px;
 		margin: 10px !important;
@@ -546,8 +549,9 @@ Cards
 }
 
 .deck4{
-	padding: 20px;
-	padding-left: 240px;
+	@include size(auto, calc(100% + 70px));
+	padding: 20px 0;
+	padding-left: 230px;
 	padding-right: 0;
 	margin-top: -20px;
 }
