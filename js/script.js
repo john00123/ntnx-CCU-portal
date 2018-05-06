@@ -77,17 +77,17 @@ function multiClusterData() {
   }
 }
 
+
 ///💸
 function coinImages(){
+  let i = 0;
+  let y = [page1, page2];
   $('.next-coin').click(()=>{
-    $('.coin-image').html(page4);
-    
-    $('.next-coin').unbind('click').bind('click', ()=>alert('Hi'));
+    $('.coin-image').html(y[i]);
+    i+=1;
+    // $('.next-coin').unbind('click').bind('click', ()=>[alert('Hi')]);
   });
 }
-
-
-
 
 //multiPopup
 function multiPopup() {
@@ -276,14 +276,10 @@ function countNumbers2() {
     $('.banner-info').slideDown();
   }, 800);
 }
-
 function tablePopup() {
   $('.tusage td:eq(0)').click(() => popupContent(7));
 }
-
-function firstTime() {
-  $('.first-time').click(() => popupContent(6));
-}
+function firstTime() {$('.first-time').click(() => popupContent(6));}
 
 $(document).ready(function() {
   purchaseData();
@@ -293,6 +289,7 @@ $(document).ready(function() {
   tableData();
   dropDown();
   tablePopup();
+
   multiClusterData();
   $('.reclaim-popup').click(() => {
     popupContent(1)

@@ -1,4 +1,18 @@
-const page1=`
+const page0 =`
+  <div class='sp'>
+    <div class='coin-holder'>
+      <div class='coin-shadow'></div>
+      <img class='coin' src='./img/coins.svg'/>
+      <img class='coin' src='./img/coins.svg'/>
+      <img class='coin' src='./img/coins.svg'/>
+      <img class='coin' src='./img/coins.svg'/>
+    </div>
+  </div>
+  <h2 id='coin-title'>
+    A new way to license Nutanix products
+  </h2>
+  <p class='coin-text'> Here's why they are great </p>`;
+const page1 =`
 
     <div class='sp'>
       <div class='coin-holder'>
@@ -8,11 +22,8 @@ const page1=`
     <h2 id='coin-title'>
       They ensure fair pricing
     </h2>
-    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>
-
-`;
-
-const page2=`
+    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>`;
+const page2 =`
 
     <div class='sp'>
       <div class='coin-holder'>
@@ -22,10 +33,7 @@ const page2=`
     <h2 id='coin-title'>
       They ensure fair pricing
     </h2>
-    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>
-
-`;
-
+    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>`;
 const page3=`
 
     <div class='sp'>
@@ -36,11 +44,8 @@ const page3=`
     <h2 id='coin-title'>
       They ensure fair pricing
     </h2>
-    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>
-
-`;
-
-const page4=`
+    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>`;
+const page4 =`
 
     <div class='sp'>
       <div class='coin-holder'>
@@ -50,6 +55,4 @@ const page4=`
     <h2 id='coin-title'>
       They ensure fair pricing
     </h2>
-    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>
-
-`;
+    <p class='coin-text'> Coins are consumed based on the power of the cluster and the type of software license being applied </p>`;

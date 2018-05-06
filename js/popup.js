@@ -214,8 +214,6 @@ const popupData = {
     `<button class="primary manage-addons btn-disabled">Next</button>`,
   ]
 }
-
-
 const layer2Data = {
   body: [
     //0
@@ -357,3 +355,4 @@ function layer2(i) {
 
   });
 }
+var ani = [page0, page1,page2,page3,page4];
