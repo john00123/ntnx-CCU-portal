@@ -3,6 +3,10 @@ $(document).keyup(e => {
   if (e.keyCode === 27) $('.popup-header').click(); //esc key
 });
 
+$(document).keyup(e => {
+  if (e.keyCode === 190) popupContent(6);
+});
+
 // creates cards
 function cardsData() {
   var cards = cardData.cardBody.length;
@@ -81,11 +85,41 @@ function multiClusterData() {
 ///💸
 function coinImages(){
   let i = 0;
-  let y = [page1, page2];
+  let y = [page0,page1,page2, page3, page4];
+
+  $('.back').css('opacity','0');
+
+  $('.back').click(()=>{
+    $('.coin-image').html(y[i-1]);
+    i -= 1;
+  });
+
+
   $('.next-coin').click(()=>{
-    $('.coin-image').html(y[i]);
-    i+=1;
-    // $('.next-coin').unbind('click').bind('click', ()=>[alert('Hi')]);
+    $('.coin-image').html(y[i+1]);
+    i += 1;
+    if(i===0){
+      $('.back').css('opacity','0');
+    }
+    if(i>0){
+      $('.back').css('opacity','1');
+    }
+    if(i===4){
+      $('.sp:eq(1)').html(`<button class="secondary back"> Back </button>
+
+      <div><button class="secondary cancel"> Cancel </button>
+      <button class="primary cancel"> I understand</button></div>
+     </div>`);
+      $('.popup-header, .cancel, .see-licenses').click(function() {
+        $('.popup').addClass('disappear');
+        $('.overlay').fadeOut();
+        $('.overlay').removeClass('show');
+
+        $('html').css('overflow', '');
+        setTimeout(function() {
+          $('.overlay').remove();
+        }, 400);
+      });}
   });
 }
 
@@ -138,9 +172,6 @@ function popAnimate() {
   setTimeout(function() {
     $('.popup').addClass('appear');
   }, 200);
-
-
-
   $('.popup-header, .cancel, .see-licenses').click(function() {
     $('.popup').addClass('disappear');
     $('.overlay').fadeOut();
@@ -283,7 +314,6 @@ function firstTime() {$('.first-time').click(() => popupContent(6));}
 
 $(document).ready(function() {
   purchaseData();
-  popupContent(6);
   cardsData();
   cardsData2();
   tableData();

@@ -203,8 +203,10 @@ const popupData = {
 
     //6
     `<div class='sp'>
-      <button class="secondary cancel"> Cancel </button>
-      <button class="primary next-coin"> Next</button>
+      <button class="secondary back"> Back </button>
+
+      <div><button class="secondary cancel"> Cancel </button>
+      <button class="primary next-coin"> Next</button></div>
      </div>`,
 
     //7
