@@ -555,7 +555,7 @@ p a:hover {
 }
 
 .hourglass {
-  animation: rotate 2000ms ease-in-out 1100ms infinite;
+  animation: rotate 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 1100ms infinite;
   animation-direction: normal;
   transform-origin: 50% 50%;
 }
@@ -607,28 +607,28 @@ p a:hover {
 .coin:nth-child(2) {
   transform: translateY(-200px);
   margin-left: 2px;
-  animation: floata 2000ms cubic-bezier(0.16, 0.01, 0.58, 1) 600ms forwards;
+  animation: floata 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 600ms forwards;
   margin-bottom: -45px;
 }
 
 .coin:nth-child(3) {
   transform: translateY(-200px);
   margin-left: -2px;
-  animation: floatb 2000ms cubic-bezier(0.36, 0.01, 0.58, 1) 620ms forwards;
+  animation: floatb 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 620ms forwards;
   margin-bottom: -30px;
 }
 
 .coin:nth-child(4) {
   transform: translateY(-200px);
   margin-left: 2px;
-  animation: floatc 2000ms cubic-bezier(0.48, 0.01, 0.58, 1) 640ms forwards;
+  animation: floatc 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 640ms forwards;
   margin-bottom: -30px;
 }
 
 .coin:nth-child(5) {
   transform: translateY(-200px);
   margin-left: -2px;
-  animation: floatd 2000ms cubic-bezier(0.5, 0.08, 0.68, 0.61) 650ms forwards;
+  animation: floatd 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 650ms forwards;
   margin-bottom: -35px;
 }
 
@@ -1236,7 +1236,7 @@ span {
 .tooltip-trigger::before, .tooltip-trigger2::before, .tooltip-trigger3::before {
   position: absolute;
   box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.02), 0 3px 3px 0 rgba(0, 0, 0, 0.02), 0 1px 1px 0 rgba(0, 0, 0, 0.02);
-  content: "Total Cores 40\A Total HDD(TB) 200\A Total Flash(TB) 40";
+  content: "Total Sockets 40\A Total HDD(TB) 200\A Totla SSD(TB) 40";
   color: white;
   background-color: #22272E;
   padding: 15px;
@@ -1266,7 +1266,7 @@ span {
 }
 
 .tooltip-trigger2::before {
-  content: "Coins allows you to purchase licenses for all our software offerings.";
+  content: "Credit is a licensing \A currency\A to access all our software offerings.";
   left: -120px;
 }
 
