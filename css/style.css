@@ -429,6 +429,63 @@ p a:hover {
   font: 500 14px/10px "nutanix_soft", san-serif;
 }
 
+.card-footer {
+  border-top: 1px solid #F2F4F6;
+  padding: 20px;
+  height: 32px;
+  border-color: #F2F4F6;
+  width: calc(100% - 40px);
+  bottom: 6px;
+  left: 0;
+  justify-content: center !important;
+}
+
+.card-footer kbd {
+  position: relative;
+}
+
+.card-footer kbd:before {
+  content: '·';
+  color: transparent;
+  height: 6px;
+  width: 6px;
+  display: block;
+  left: -15px;
+  top: 2px;
+  position: absolute;
+  border-radius: 4pc;
+  background-color: #22A5F7;
+}
+
+.card-footer kbd:last-child:before {
+  background-color: #91d2fb;
+}
+
+.used-coins {
+  height: 6px;
+  width: 47%;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #22A5F7;
+  border-radius: 1px 0 0 1px;
+}
+
+.used-coins:before {
+  content: '50% used';
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+.free-coins {
+  height: 6px;
+  width: 50%;
+  box-sizing: border-box;
+  margin-top: -20px;
+  background-color: #91d2fb;
+  border-radius: 0 1px 1px 0;
+}
+
 .row {
   display: flex;
   align-items: center;
@@ -555,7 +612,7 @@ p a:hover {
 }
 
 .hourglass {
-  animation: rotate 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 1100ms infinite;
+  animation: rotate 4500ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 1100ms infinite;
   animation-direction: normal;
   transform-origin: 50% 50%;
 }
@@ -607,28 +664,28 @@ p a:hover {
 .coin:nth-child(2) {
   transform: translateY(-200px);
   margin-left: 2px;
-  animation: floata 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 600ms forwards;
+  animation: floata 4500ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 600ms forwards;
   margin-bottom: -45px;
 }
 
 .coin:nth-child(3) {
   transform: translateY(-200px);
   margin-left: -2px;
-  animation: floatb 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 620ms forwards;
+  animation: floatb 4500ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 620ms forwards;
   margin-bottom: -30px;
 }
 
 .coin:nth-child(4) {
   transform: translateY(-200px);
   margin-left: 2px;
-  animation: floatc 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 640ms forwards;
+  animation: floatc 4500ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 640ms forwards;
   margin-bottom: -30px;
 }
 
 .coin:nth-child(5) {
   transform: translateY(-200px);
   margin-left: -2px;
-  animation: floatd 3000ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 650ms forwards;
+  animation: floatd 4500ms cubic-bezier(0.05, 0.29, 0.84, 0.18) 650ms forwards;
   margin-bottom: -35px;
 }
 
@@ -2086,7 +2143,7 @@ Popup
   margin: 0 auto 10px 0;
 }
 
-.popup-body .money {
+.popup-body s .money {
   font: 200 29px/20px "nutanix_soft", san-serif;
   font-weight: 200;
   color: #22272E;
@@ -2098,8 +2155,8 @@ Popup
   justify-content: center;
 }
 
-.popup-body .money::after {
-  content: ' Credits';
+.popup-body s .money::after {
+  content: ' Coins';
 }
 
 .popup-body .term {

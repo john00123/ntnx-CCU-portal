@@ -127,7 +127,12 @@ function coinImages(){
 function multiPopup() {
   $('.redeem').click(function() {
     $('.popup').addClass('second');
-    layer2(0);
+    $('#path2').val().length === 12 ? layer2(0) :
+    layer2(1);
+    setTimeout(countNumbers(), 600);
+    cardData.cardBody[1] += 40000;
+    $('.card:eq(1) h4').text(cardData.cardBody[1]);
+    $('aside h4').text(`${cardData.cardBody[1]} Coins Available`);
   });
 
 
@@ -332,7 +337,10 @@ $(document).ready(function() {
     popupContent(1);
     $('.popup-header').text('Unlicense Cluster');
   });
-  $('.cluster-license').click(() => popupContent(0));
+  $('.cluster-license').click(() => {
+    popupContent(0);
+    $('.popup-body').before(`<h1> Hi</h1>`);
+  });
 
   //adons
   $('.manage-addons-popup').click(() => {

@@ -313,7 +313,7 @@ const layer2Data = {
         <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>
         <h3 style='text-align:center; margin-bottom:0;'> Your unused licenses have been credited coins to your account.</h3>
       </div>
-      <div class="popup-footer">${popupData.footer[6]}</div>
+      <div class="popup-footer">${popupData.footer[7]}</div>
     `,
   ]
 }

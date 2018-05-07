@@ -1054,7 +1054,7 @@ Popup
 		font-size: 12px;
 		text-align: left;
 		margin: 0 auto 10px 0;
-	}
+	}s
 
 	.money {
 		font: $h1;
@@ -1068,7 +1068,7 @@ Popup
 		justify-content: center;
 
 		&::after {
-			content: ' Credits';
+			content: ' Coins';
 		}
 	}
 

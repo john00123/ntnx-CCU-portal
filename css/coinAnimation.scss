@@ -24,7 +24,7 @@
   transform: scale(0.83);
 }
 .hourglass{
-    animation: rotate 3000ms cubic-bezier(.05,.29,.84,.18) 1100ms infinite;
+    animation: rotate 4500ms cubic-bezier(.05,.29,.84,.18) 1100ms infinite;
     animation-direction: normal;
     transform-origin: 50% 50%;
 }
@@ -66,25 +66,25 @@
 .coin:nth-child(2){
   transform: translateY(-200px);
   margin-left: 2px;
-  animation: floata 3000ms cubic-bezier(.05,.29,.84,.18)  600ms forwards;
+  animation: floata 4500ms cubic-bezier(.05,.29,.84,.18)  600ms forwards;
   margin-bottom: -45px;
 }
 .coin:nth-child(3){
   transform: translateY(-200px);
   margin-left: -2px;
-  animation: floatb 3000ms cubic-bezier(.05,.29,.84,.18)  620ms forwards;
+  animation: floatb 4500ms cubic-bezier(.05,.29,.84,.18)  620ms forwards;
   margin-bottom: -30px;
 }
 .coin:nth-child(4){
   transform: translateY(-200px);
   margin-left: 2px;
-  animation: floatc 3000ms cubic-bezier(.05,.29,.84,.18)  640ms forwards;
+  animation: floatc 4500ms cubic-bezier(.05,.29,.84,.18)  640ms forwards;
   margin-bottom: -30px;
 }
 .coin:nth-child(5){
   transform: translateY(-200px);
   margin-left: -2px;
-  animation: floatd 3000ms cubic-bezier(.05,.29,.84,.18) 650ms forwards;
+  animation: floatd 4500ms cubic-bezier(.05,.29,.84,.18) 650ms forwards;
   margin-bottom: -35px;
 }
 
