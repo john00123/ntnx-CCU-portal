@@ -38,10 +38,10 @@
       border-radius: 4pc;
       background-color: $blue-1;
     }
+    // &:nth-child(2):before{
+    //   background-color: $blue-3;
+    // }
     &:nth-child(2):before{
-      background-color: $blue-3;
-    }
-    &:nth-child(3):before{
       background-color: #8A77ED;
     }
   }
@@ -51,6 +51,7 @@
   @include size(6px, 47%);
   position: relative;
   background-color: $blue-1;
+  outline: 5px solid transparent;
   border-radius: 1px 0 0 1px;
   &:before{
     content: '50% used';
@@ -59,19 +60,47 @@
     left: 0;
   }
 
-  // &:after{
-  //   content: '160';
-  //   position: absolute;
-  //   top:-25px;
-  //   right:0;
-  // }
+  &:hover{
+    background-color: $dark-blue-3;
+    outline-color: $light-blue-3;
+    cursor: pointer;
+    z-index: 1;
+    &:after{
+     content: '160';
+     position: absolute;
+     top:-25px;
+     right:0;
+     font-size: 12px;
+     color:$font-color-2;
+
+   }
+  }
+
 }
 
 .free-coins{
   @include size(6px, 50%);
   margin-top: -20px;
+
   background-color: $blue-3;
   border-radius: 0 1px 1px 0;
+  outline: 5px solid transparent;
+  position: relative;
+
+  &:hover{
+    background-color: $blue-3;
+    cursor: pointer;
+    outline-color: $light-blue-3;
+    &:after{
+     content: '160';
+     position: absolute;
+     top:-25px;
+     right:0;
+     font-size: 12px;
+     color:$font-color-2;
+
+   }
+  }
 }
 
 .row{
@@ -140,6 +169,40 @@
 .graph{
   &:hover{
     cursor: pointer;
+  }
+}
+
+.graph-footer{
+  width: 80%;
+  font-size: 12px;
+  position: absolute;
+  color: $font-color-2;
+  bottom: 50px;
+  padding: 10px;
+  border-top: 1px solid $border-color-3;
+
+  kbd{
+    position: relative;
+    &:before{
+      content: '2';
+      color: transparent;
+      position: absolute;
+      top:-40px;
+      left: 10px;
+      height: 30px;
+      background-color: $blue-1;
+    }
+
+    &:after{
+      content: '2';
+      position: absolute;
+      top:-70px;
+      color: transparent;
+      left: 10px;
+      border-radius: 1px 1px 0 0;
+      height: 30px;
+      background-color: #8A77ED;
+    }
   }
 }
 

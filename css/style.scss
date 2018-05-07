@@ -457,7 +457,7 @@ span {
 	@extend .tooltip-trigger;
 
 	&::before {
-		content: "Credit is a licensing \A currency\A to access all our software offerings.";
+		content: "Coins is a licensing \A currency\A to access all our software offerings.";
 		left: -120px;
 	}
 }
@@ -640,7 +640,6 @@ Table
 	background-color: white;
 	border-radius: 6px;
 }
-
 .table:hover {
 	@include shadow;
 
@@ -658,17 +657,14 @@ Table
 		background: none;
 	}
 }
-
 th {
 	font: $h4;
 	color: $font-color-2;
 	font-weight: 500;
 }
-
 th:not(:last-child) {
 	border-right: 1px solid $border-color-3;
 }
-
 td,
 th {
 	height: 40px;
@@ -692,7 +688,6 @@ th {
 		margin-left: 5px;
 	}
 }
-
 td:not(:first-child),
 th:not(:first-child) {
 	text-align: right;
@@ -717,8 +712,6 @@ tr:not(:first-child):hover{
 	}
 	color:$blue-1;
 }
-
-
 tr:first-child:hover{
 	background-color: $semi-white-blue;
 	cursor: default;
@@ -730,11 +723,9 @@ tr:first-child:hover{
 	}
 	color:$blue-1;
 }
-
 td {
 	white-space: nowrap;
 }
-
 td:last-child {
 	margin-left: -50px;
 	position: relative;
@@ -744,14 +735,12 @@ td:last-child {
 .tusage td:last-child {
 	right: 0;
 }
-
 .tusage td:first-child {
 	&:hover {
 		text-decoration: underline;
 		cursor: pointer;
 	}
 }
-
 .purchased{
 	tr:hover{
 		text-decoration: none !important;
@@ -765,7 +754,6 @@ td:last-child {
 		color:initial;
 	}
 }
-
 td kbd {
 	margin-left: 10px;
 	color: $grey-2;
@@ -802,13 +790,11 @@ td kbd {
 	background-color: white;
 	cursor: initial;
 }
-
 .prev-bills td:first-child {
 	&:hover {
 		color: $blue-1;
 	}
 }
-
 .floater {
 	display: none;
 	width: 160px;
@@ -848,13 +834,13 @@ td kbd {
 		display: block;
 	}
 }
-
 .link {
 	@include link;
 }
 /* ==========================================================================
 Popup
 ========================================================================== */
+
 .overlay {
 	@include size(100%, 100vw);
 	@include flex(center, center, column);
@@ -864,12 +850,10 @@ Popup
 	z-index: 100;
 	@include transition(opacity);
 }
-
 .popup {
 	@include size(auto,400px);
 	@include shadow;
 }
-
 .flexbox-stretch {
 	display: flex;
 	width: 100%;
@@ -878,7 +862,6 @@ Popup
 	color: $font-color-3;
 	justify-content: space-between;
 }
-
 .floater a {
 	width: 100%;
 	transition: none;
@@ -886,13 +869,11 @@ Popup
 	margin: -5px -16px;
 	padding: 0 16px;
 }
-
 .floater a:hover {
 	transition: none;
 	background-color: $blue-1;
 	color: white;
 }
-
 .popup-header {
 	@include flex(center, center ,row);
 	@include size(auto, 100%);
@@ -932,7 +913,6 @@ Popup
 		transform: rotate(-45deg);
 	}
 }
-
 .popup-body {
 	@include size(auto,100%);
 	@include flex(center, flex-start, column);
@@ -1054,7 +1034,7 @@ Popup
 		font-size: 12px;
 		text-align: left;
 		margin: 0 auto 10px 0;
-	}s
+	}
 
 	.money {
 		font: $h1;
@@ -1090,7 +1070,6 @@ Popup
 		margin-bottom: 10px !important;
 	}
 }
-
 .panels {
 	@include flex(flex-start,'',row);
 	margin: 0;
@@ -1157,7 +1136,6 @@ Popup
 		}
 	}
 }
-
 .banner {
 	@include size(40px, 100%);
 	@include flex(center,'','');
@@ -1168,19 +1146,16 @@ Popup
 	z-index: 1;
 	background-color: $light-green-3;
 }
-
 .error-ban {
 	color: $dark-red-3;
 	background-color: $light-red-3;
 }
-
 .mutli-line-info {
 	@extend .banner;
 	color: $dark-blue-2;
 	height: 66px;
 	background-color: $semi-white-blue;
 }
-
 .popup-footer {
 	@include flex(center,flex-end,row);
 	@include size(72px, 100%);
@@ -1249,6 +1224,64 @@ input[type="file"] {
 		margin-bottom: 0;
 		line-height: 9pt;
 	}
+}
+
+.steps-popup{
+	@include size(40px, calc(100% + 80px));
+	@include flex(flex-start, flex-start, row);
+	border-bottom: 1px solid $border-color-3;
+	padding: 15px 20px;
+	margin-top: -30px;
+	margin-left: 30px;
+	margin-bottom:30px;
+	h3{
+		width: auto;
+		margin-right: 30px;
+	}
+}
+
+.steps-popup2{
+	@include size(40px, 100%);
+	@include flex(center, flex-start, row);
+	border-bottom: 1px solid $border-color-3;
+	padding: 15px 20px;
+	background-color: white;
+	h3{
+		width: auto;
+		margin-right: 30px;
+	}
+}
+
+.badge{
+	@include size(20px, 20px);
+	@include flex(center, center, row);
+	display: inline-flex;
+	margin-right: 15px;
+	font-size: 12px;
+	font-weight: 500;
+	background-color: white;
+	border-radius:4pc;
+	border:1px solid transparent;
+	transition:
+		background-color 0.2s $animation,
+		color            0.3s $animation,
+		border-color     0.3s $animation;
+}
+
+
+.active{
+	color:white !important;
+	background-color: $blue-1 !important;
+}
+
+.inactive{
+	color:        $font-color-2 !important;
+	border-color: $border-color-2 !important;
+}
+
+.completed{
+	color:  $blue-1 !important;
+	border: 1px solid $blue-3 !important;
 }
 
 .show {

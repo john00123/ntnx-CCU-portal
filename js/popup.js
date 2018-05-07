@@ -31,7 +31,10 @@ const popupData = {
 
   body: [
     //0 Upload
-    `
+    ` <div class='steps-popup'>
+        <h3><p class='active badge'>1</p> Upload Summary File</h3>
+        <h3><p class='inactive badge'>2</p> Manage License</h3>
+      </div>
       <h3 style='margin-bottom:0px'>
         Upload summary file downloaded from Prism element or Prism Central
       </h3>
@@ -221,6 +224,10 @@ const layer2Data = {
     //0
     `
     <div class="popup-header">${popupData.title[0]}</div>
+    <div class='steps-popup2'>
+        <h3><p class='completed badge'>1</p> Upload Summary File</h3>
+        <h3><p class='active badge'>2</p> Manage License</h3>
+      </div>
       <div class="popup-body panels">
 
         <div class='panel1'>

@@ -458,10 +458,6 @@ p a:hover {
 }
 
 .card-footer kbd:nth-child(2):before {
-  background-color: #91d2fb;
-}
-
-.card-footer kbd:nth-child(3):before {
   background-color: #8A77ED;
 }
 
@@ -471,6 +467,7 @@ p a:hover {
   box-sizing: border-box;
   position: relative;
   background-color: #22A5F7;
+  outline: 5px solid transparent;
   border-radius: 1px 0 0 1px;
 }
 
@@ -481,6 +478,22 @@ p a:hover {
   left: 0;
 }
 
+.used-coins:hover {
+  background-color: #1f88de;
+  outline-color: #e9f6fe;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.used-coins:hover:after {
+  content: '160';
+  position: absolute;
+  top: -25px;
+  right: 0;
+  font-size: 12px;
+  color: #627386;
+}
+
 .free-coins {
   height: 6px;
   width: 50%;
@@ -488,6 +501,23 @@ p a:hover {
   margin-top: -20px;
   background-color: #91d2fb;
   border-radius: 0 1px 1px 0;
+  outline: 5px solid transparent;
+  position: relative;
+}
+
+.free-coins:hover {
+  background-color: #91d2fb;
+  cursor: pointer;
+  outline-color: #e9f6fe;
+}
+
+.free-coins:hover:after {
+  content: '160';
+  position: absolute;
+  top: -25px;
+  right: 0;
+  font-size: 12px;
+  color: #627386;
 }
 
 .row {
@@ -575,6 +605,41 @@ p a:hover {
 
 .graph:hover {
   cursor: pointer;
+}
+
+.graph-footer {
+  width: 80%;
+  font-size: 12px;
+  position: absolute;
+  color: #627386;
+  bottom: 50px;
+  padding: 10px;
+  border-top: 1px solid #F2F4F6;
+}
+
+.graph-footer kbd {
+  position: relative;
+}
+
+.graph-footer kbd:before {
+  content: '2';
+  color: transparent;
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  height: 30px;
+  background-color: #22A5F7;
+}
+
+.graph-footer kbd:after {
+  content: '2';
+  position: absolute;
+  top: -70px;
+  color: transparent;
+  left: 10px;
+  border-radius: 1px 1px 0 0;
+  height: 30px;
+  background-color: #8A77ED;
 }
 
 @media (max-width: 1024px) {
@@ -1327,7 +1392,7 @@ span {
 }
 
 .tooltip-trigger2::before {
-  content: "Credit is a licensing \A currency\A to access all our software offerings.";
+  content: "Coins is a licensing \A currency\A to access all our software offerings.";
   left: -120px;
 }
 
@@ -2147,7 +2212,7 @@ Popup
   margin: 0 auto 10px 0;
 }
 
-.popup-body s .money {
+.popup-body .money {
   font: 200 29px/20px "nutanix_soft", san-serif;
   font-weight: 200;
   color: #22272E;
@@ -2159,7 +2224,7 @@ Popup
   justify-content: center;
 }
 
-.popup-body s .money::after {
+.popup-body .money::after {
   content: ' Coins';
 }
 
@@ -2466,6 +2531,77 @@ input[type="file"] {
   margin-left: 10px;
   margin-bottom: 0;
   line-height: 9pt;
+}
+
+.steps-popup {
+  height: 40px;
+  width: calc(100% + 80px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-bottom: 1px solid #F2F4F6;
+  padding: 15px 20px;
+  margin-top: -30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.steps-popup h3 {
+  width: auto;
+  margin-right: 30px;
+}
+
+.steps-popup2 {
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  border-bottom: 1px solid #F2F4F6;
+  padding: 15px 20px;
+  background-color: white;
+}
+
+.steps-popup2 h3 {
+  width: auto;
+  margin-right: 30px;
+}
+
+.badge {
+  height: 20px;
+  width: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: inline-flex;
+  margin-right: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 4pc;
+  border: 1px solid transparent;
+  transition: background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), border-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.active {
+  color: white !important;
+  background-color: #22A5F7 !important;
+}
+
+.inactive {
+  color: #627386 !important;
+  border-color: #D5DAE0 !important;
+}
+
+.completed {
+  color: #22A5F7 !important;
+  border: 1px solid #91d2fb !important;
 }
 
 .show {
