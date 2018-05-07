@@ -32,8 +32,8 @@ const popupData = {
   body: [
     //0 Upload
     ` <div class='steps-popup'>
-        <h3><p class='active badge'>1</p> Upload Summary File</h3>
-        <h3><p class='inactive badge'>2</p> Manage License</h3>
+        <h3><p class='active badge'>1</p>Upload</h3>
+        <h3><p class='inactive badge'>2</p>Manage</h3>
       </div>
       <h3 style='margin-bottom:0px'>
         Upload summary file downloaded from Prism element or Prism Central
@@ -224,9 +224,9 @@ const layer2Data = {
     //0
     `
     <div class="popup-header">${popupData.title[0]}</div>
-    <div class='steps-popup2'>
-        <h3><p class='completed badge'>1</p> Upload Summary File</h3>
-        <h3><p class='active badge'>2</p> Manage License</h3>
+      <div class='steps-popup2'>
+        <h3><p class='completed badge'>1</p>Upload</h3>
+        <h3><p class='active badge'>2</p>Manage</h3>
       </div>
       <div class="popup-body panels">
 
@@ -315,6 +315,10 @@ const layer2Data = {
     //1
     `
       <div class="popup-header">${popupData.title[3]}</div>
+      <div class='steps-popup2'>
+        <h3><p class='completed badge'>1</p>Upload</h3>
+        <h3><p class='active badge'>2</p>Manage</h3>
+      </div>
       <div class="popup-body">
         <span class='count money'>4000</span>
         <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>

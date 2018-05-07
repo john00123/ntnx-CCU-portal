@@ -81,7 +81,6 @@ function multiClusterData() {
   }
 }
 
-
 ///💸
 function coinImages(){
   let i = 0;
@@ -128,12 +127,12 @@ function multiPopup() {
   $('.redeem').click(function() {
     $('.popup').addClass('second');
     $('#path2').val().length === 12 ? layer2(0) :
-    layer2(1);
-    setTimeout(countNumbers(), 600);
-    cardData.cardBody[1] += 40000;
-    $('.card:eq(1) h4').text(cardData.cardBody[1]);
-    $('aside h4').text(`${cardData.cardBody[1]} Coins Available`);
-
+    ( layer2(1),
+      setTimeout(countNumbers(), 600),
+      cardData.cardBody[1] += 40000,
+      $('.card:eq(1) h4').text(cardData.cardBody[1]),
+      $('aside h4').text(`${cardData.cardBody[1]} Coins Available`)
+    )
   });
   $('.reclaim').click(function() {
     $('.popup').addClass('second');
@@ -273,7 +272,7 @@ function dropDown() {
 
 //counter
 function countNumbers() {
-  $('.layer2 .steps-popup2').before(`<div class='banner'>4000 Coins have been credited to your account.</div>`);
+  $('.layer2 .popup-header').after(`<div class='banner'>4000 Coins have been credited to your account.</div>`);
   $('.banner').toggle();
   $('.money').css('color', '#18BE5F');
   $('.popup-header').css('border-bottom', 'none');
