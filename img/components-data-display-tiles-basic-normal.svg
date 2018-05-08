@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="283px" viewBox="0 0 300 283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>components-data-display-tiles-basic-normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="300" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="78" width="299.99707" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-5" x="0" y="78" width="299.99707" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="78" width="299.99707" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Single-Cluster-view" transform="translate(-646.000000, -89.000000)">
+            <g id="tile-copy-6" transform="translate(646.000000, 89.000000)">
+                <g id="basic-normal">
+                    <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="300" height="283" rx="4"></rect>
+                    <g id="Header">
+                        <g fill="black" fill-opacity="1">
+                            <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="Health" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                            <tspan x="20" y="29">Health</tspan>
+                        </text>
+                    </g>
+                    <g id="Content" transform="translate(0.000000, 55.000000)">
+                        <g id="VM">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            </g>
+                            <text id="Hosts" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Hosts</tspan>
+                            </text>
+                            <text id="28.22%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                        <g id="VM" transform="translate(0.000000, 40.000000)">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            </g>
+                            <text id="Virtual-Machines" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Virtual Machines</tspan>
+                            </text>
+                            <text id="16.49%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                        <g id="VM" transform="translate(0.000000, 80.000000)">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            </g>
+                            <text id="Disks" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Disks</tspan>
+                            </text>
+                            <text id="12.95%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,1146 +1,688 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1241 585" style="enable-background:new 0 0 1241 585;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:none;stroke:#DBDFE1;}
-	.st2{fill:#6F787E;}
-	.st3{font-family:'ProximaNovaSoft-Medium';}
-	.st4{font-size:12px;}
-	.st5{filter:url(#filter-4);}
-	.st6{fill:#89949B;}
-	.st7{font-size:10px;}
-	.st8{fill:#3F4142;}
-	.st9{fill:#C2D69E;}
-	.st10{fill:none;stroke:#8CA75E;}
-	.st11{font-family:'ProximaNovaSoft-Bold';}
-	.st12{font-size:36px;}
-	.st13{filter:url(#filter-10);}
-	.st14{filter:url(#filter-12);}
-	.st15{filter:url(#filter-14);}
-	.st16{filter:url(#filter-16);}
-	.st17{fill:#CE6062;}
-	.st18{fill:none;stroke:#AB4749;}
-	.st19{fill:#FFD145;}
-	.st20{fill:none;stroke:#FFBD00;}
-	.st21{filter:url(#filter-32);}
-	.st22{filter:url(#filter-34);}
-	.st23{filter:url(#filter-36);}
-	.st24{filter:url(#filter-38);}
-	.st25{fill:#F3F4F5;}
-	.st26{filter:url(#filter-42);}
-	.st27{fill:none;}
-	.st28{font-size:11px;}
-	.st29{filter:url(#Adobe_OpacityMaskFilter);}
-	.st30{mask:url(#mask-46);fill:#F7E6E7;stroke:#DA8385;}
-	.st31{font-size:29px;}
-	.st32{filter:url(#Adobe_OpacityMaskFilter_1_);}
-	.st33{mask:url(#mask-52);fill:#FFF6DC;stroke:#FFD145;}
-	.st34{filter:url(#filter-63);}
-	.st35{filter:url(#filter-58);}
-	.st36{fill:#DBDFE1;}
-	.st37{fill:none;stroke:#C4C9CD;}
-	.st38{fill:none;stroke:#DAA200;}
-	.st39{filter:url(#filter-67);}
-	.st40{filter:url(#filter-69);}
-	.st41{fill:#9AA8B1;}
-	.st42{filter:url(#Adobe_OpacityMaskFilter_2_);}
-	.st43{mask:url(#mask-81);fill:#D4F1FC;stroke:#7DD6F6;}
-</style>
-<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-69" width="100.7%" x="-0.3%" y="-1.7%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-67" width="100.7%" x="-0.3%" y="-1.7%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-63" width="100.7%" x="-0.3%" y="-1.7%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-58" width="100.7%" x="-0.3%" y="-1.7%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="103.3%" id="filter-42" width="100.7%" x="-0.3%" y="-1.7%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-4" width="100.3%" x="-0.2%" y="-1.2%">
-	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-38" width="100.3%" x="-0.2%" y="-1.2%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner4"></feOffset>
-	<feComposite  in="shadowOffsetInner4" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner4">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner4" result="shadowMatrixInner4" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner4"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-36" width="100.3%" x="-0.2%" y="-1.2%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="105.0%" id="filter-34" width="100.3%" x="-0.2%" y="-2.5%">
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-32" width="100.3%" x="-0.2%" y="-1.2%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-16" width="100.3%" x="-0.2%" y="-1.2%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner4"></feOffset>
-	<feComposite  in="shadowOffsetInner4" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner4">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner4" result="shadowMatrixInner4" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner4"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-14" width="100.3%" x="-0.2%" y="-1.2%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="105.0%" id="filter-12" width="100.3%" x="-0.2%" y="-2.5%">
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-	</feMerge>
-</filter>
-<filter  filterUnits="objectBoundingBox" height="102.5%" id="filter-10" width="100.3%" x="-0.2%" y="-1.2%">
-	<feOffset  dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-	<feComposite  in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner1" result="shadowMatrixInner1" type="matrix" values="0 0 0 0 0.952941176   0 0 0 0 0.956862745   0 0 0 0 0.960784314  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
-	<feComposite  in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner2" result="shadowMatrixInner2" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feOffset  dx="1" dy="0" in="SourceAlpha" result="shadowOffsetInner3"></feOffset>
-	<feComposite  in="shadowOffsetInner3" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner3">
-		</feComposite>
-	
-		<feColorMatrix  in="shadowInnerInner3" result="shadowMatrixInner3" type="matrix" values="0 0 0 0 0.858823529   0 0 0 0 0.874509804   0 0 0 0 0.882352941  0 0 0 1 0">
-		</feColorMatrix>
-	<feMerge>
-		<feMergeNode  in="shadowMatrixInner1"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner2"></feMergeNode>
-		<feMergeNode  in="shadowMatrixInner3"></feMergeNode>
-	</feMerge>
-</filter>
-<title>Group 7</title>
-<desc>Created with Sketch.</desc>
-<g id="Dashboard-PE">
-	<g id="Dashboard-PE-Color" transform="translate(-20.000000, -85.000000)">
-		<g id="Group-7" transform="translate(19.000000, 85.000000)">
-			<g id="LATENCY" transform="translate(629.000000, 300.000000)">
-				<g id="_x32_-x-2">
-					<g>
-						<g id="Rectangle-1-Copy-3">
-							<g>
-								<path id="path-1" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v277c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v276c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head">
-							<g id="Rectangle-1-Copy-3_1_">
-								<g>
-									<path id="path-2" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster Latency</text>
-						</g>
-					</g>
-				</g>
-				<g id="Rectangle-2">
-					<g class="st5">
-						<rect id="path-3_1_" y="245" width="299" height="40"/>
-					</g>
-				</g>
-				<g id="Rectangle-89">
-					<g>
-						<path id="path-5" class="st0" d="M248,257h28c1.7,0,3,1.3,3,3v13c0,1.7-1.3,3-3,3h-28c-1.7,0-3-1.3-3-3v-13
-							C245,258.3,246.3,257,248,257z"/>
-					</g>
-					<path class="st1" d="M248.5,257.5h27c1.7,0,3,1.3,3,3v12c0,1.7-1.3,3-3,3h-27c-1.7,0-3-1.3-3-3v-12
-						C245.5,258.8,246.8,257.5,248.5,257.5z"/>
-				</g>
-				<text transform="matrix(1 0 0 1 252.5 271)" class="st6 st3 st7">YES</text>
-				<text transform="matrix(1 0 0 1 34 268)" class="st8 st3 st4">Rebuild capacity available</text>
-				<g id="Rectangle">
-					<g>
-						<path id="path-6" class="st9" d="M25,261L25,261c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-							C21,262.8,22.8,261,25,261z"/>
-					</g>
-					<path class="st10" d="M25,261.5L25,261.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-						C21.5,263.1,23.1,261.5,25,261.5z"/>
-				</g>
-				<g id="Green-2" transform="translate(0.000000, 83.000000)">
-					<g id="Black" transform="translate(72.021127, 30.000000)">
-						<text transform="matrix(1 0 0 1 51.9789 28)" class="st9 st11 st12">OK</text>
-						<text transform="matrix(1 0 0 1 0.4789 47)" class="st6 st3 st4">DATA RESILENCY POSSIBLE</text>
-					</g>
-				</g>
-				<g id="Green-2_1_" transform="translate(0.000000, 83.000000)">
-					<g id="Black_1_" transform="translate(72.021127, 30.000000)">
-						<text transform="matrix(1 0 0 1 51.9789 28)" class="st9 st11 st12">OK</text>
-						<text transform="matrix(1 0 0 1 0.4789 47)" class="st6 st3 st4">DATA RESILENCY POSSIBLE</text>
-					</g>
-				</g>
-			</g>
-			<g id="HEALTH" transform="translate(629.000000, 0.000000)">
-				<g id="_x32_-x-2_1_">
-					<g>
-						<g id="Rectangle-1-Copy-3_2_">
-							<g>
-								<path id="path-7" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v277c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v276c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_1_">
-							<g id="Rectangle-1-Copy-3_3_">
-								<g>
-									<path id="path-8" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Health</text>
-						</g>
-					</g>
-				</g>
-				<g id="Details" transform="translate(0.000000, 132.000000)">
-					<g id="Rectangle-2_1_">
-						<g class="st13">
-							<rect id="path-9_1_" y="82" width="299" height="40"/>
-						</g>
-					</g>
-					<g id="Rectangle-2-Copy">
-						<g class="st14">
-							<rect id="path-11_1_" y="122" width="299" height="20"/>
-						</g>
-					</g>
-					<g id="Rectangle-2_2_">
-						<g class="st15">
-							<rect id="path-13_1_" y="42" width="299" height="40"/>
-						</g>
-					</g>
-					<g id="Rectangle-2_3_">
-						<g class="st16">
-							<rect id="path-15_1_" y="2" width="299" height="40"/>
-						</g>
-					</g>
-					<g id="Red" transform="translate(181.000000, 0.000000)">
-						<g transform="translate(0.000000, 18.000000)">
-							<g id="Rectangle-Copy-6">
-								<g>
-									<path id="path-17" class="st17" d="M4,80L4,80c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,81.8,1.8,80,4,80z"/>
-								</g>
-								<path class="st18" d="M4,80.5L4,80.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,82.1,2.1,80.5,4,80.5z"/>
-							</g>
-							<g id="Rectangle-Copy-7">
-								<g>
-									<path id="path-18" class="st17" d="M4,120L4,120c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,121.8,1.8,120,4,120z"/>
-								</g>
-								<path class="st18" d="M4,120.5L4,120.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,122.1,2.1,120.5,4,120.5z"/>
-							</g>
-							<g id="Rectangle-Copy-5">
-								<g>
-									<path id="path-19" class="st17" d="M4,41L4,41c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,42.8,1.8,41,4,41z"/>
-								</g>
-								<path class="st18" d="M4,41.5L4,41.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,43.1,2.1,41.5,4,41.5z"/>
-							</g>
-							<g id="Rectangle-Copy-4">
-								<g>
-									<path id="path-20" class="st17" d="M4,0L4,0c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0C1.8,8,0,6.2,0,4l0,0C0,1.8,1.8,0,4,0
-										z"/>
-								</g>
-								<path class="st18" d="M4,0.5L4,0.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0C2.1,7.5,0.5,5.9,0.5,4l0,0
-									C0.5,2.1,2.1,0.5,4,0.5z"/>
-							</g>
-						</g>
-						<text transform="matrix(1 0 0 1 12.632 26)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 9)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 66)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 49)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 106)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 89)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 146)" class="st2 st3 st4">0</text>
-					</g>
-					<text transform="matrix(1 0 0 1 20 26)" class="st8 st3 st4">Hosts</text>
-					<text transform="matrix(1 0 0 1 50.3836 9)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 20 66)" class="st8 st3 st4">VMs</text>
-					<text transform="matrix(1 0 0 1 43.4478 49)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 20 106)" class="st8 st3 st4">Disks</text>
-					<text transform="matrix(1 0 0 1 48.7272 89)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 20 146)" class="st8 st3 st4">Remote Sites</text>
-					<g id="Green" transform="translate(259.000000, 0.000000)">
-						<text transform="matrix(1 0 0 1 12.632 26)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 9)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 66)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 49)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 106)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 89)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 146)" class="st2 st3 st4">0</text>
-						<g transform="translate(0.000000, 18.000000)">
-							<g id="Rectangle_1_">
-								<g>
-									<path id="path-21" class="st9" d="M4,80L4,80c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,81.8,1.8,80,4,80z"/>
-								</g>
-								<path class="st10" d="M4,80.5L4,80.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,82.1,2.1,80.5,4,80.5z"/>
-							</g>
-							<g id="Rectangle-Copy-9">
-								<g>
-									<path id="path-22" class="st9" d="M4,120L4,120c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,121.8,1.8,120,4,120z"/>
-								</g>
-								<path class="st10" d="M4,120.5L4,120.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,122.1,2.1,120.5,4,120.5z"/>
-							</g>
-							<g id="Rectangle_2_">
-								<g>
-									<path id="path-23" class="st9" d="M4,41L4,41c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,42.8,1.8,41,4,41z"/>
-								</g>
-								<path class="st10" d="M4,41.5L4,41.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,43.1,2.1,41.5,4,41.5z"/>
-							</g>
-							<g id="Rectangle_3_">
-								<g>
-									<path id="path-24" class="st9" d="M4,0L4,0c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0C1.8,8,0,6.2,0,4l0,0C0,1.8,1.8,0,4,0z
-										"/>
-								</g>
-								<path class="st10" d="M4,0.5L4,0.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0C2.1,7.5,0.5,5.9,0.5,4l0,0
-									C0.5,2.1,2.1,0.5,4,0.5z"/>
-							</g>
-						</g>
-					</g>
-					<g id="Yellow" transform="translate(220.000000, 0.000000)">
-						<text transform="matrix(1 0 0 1 12.632 26)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 9)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 66)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 49)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 106)" class="st2 st3 st4">0</text>
-						<text transform="matrix(1 0 0 1 20 89)" class="st2 st3 st4"> </text>
-						<text transform="matrix(1 0 0 1 12.632 146)" class="st2 st3 st4">0</text>
-						<g transform="translate(0.000000, 18.000000)">
-							<g id="Rectangle-Copy-3">
-								<g>
-									<path id="path-25" class="st19" d="M4,80L4,80c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,81.8,1.8,80,4,80z"/>
-								</g>
-								<path class="st20" d="M4,80.5L4,80.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,82.1,2.1,80.5,4,80.5z"/>
-							</g>
-							<g id="Rectangle-Copy-8">
-								<g>
-									<path id="path-26" class="st19" d="M4,120L4,120c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,121.8,1.8,120,4,120z"/>
-								</g>
-								<path class="st20" d="M4,120.5L4,120.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,122.1,2.1,120.5,4,120.5z"/>
-							</g>
-							<g id="Rectangle-Copy-2">
-								<g>
-									<path id="path-27" class="st19" d="M4,41L4,41c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-										C0,42.8,1.8,41,4,41z"/>
-								</g>
-								<path class="st20" d="M4,41.5L4,41.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-									C0.5,43.1,2.1,41.5,4,41.5z"/>
-							</g>
-							<g id="Rectangle-Copy">
-								<g>
-									<path id="path-28" class="st19" d="M4,0L4,0c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0C1.8,8,0,6.2,0,4l0,0C0,1.8,1.8,0,4,0
-										z"/>
-								</g>
-								<path class="st20" d="M4,0.5L4,0.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0C2.1,7.5,0.5,5.9,0.5,4l0,0
-									C0.5,2.1,2.1,0.5,4,0.5z"/>
-							</g>
-						</g>
-					</g>
-				</g>
-				<g id="Green-Copy" transform="translate(79.000000, 29.000000)">
-					<g id="Black_2_" transform="translate(53.000000, 30.000000)">
-						<path id="Fill-48" class="st9" d="M15.7,14.2c0.4,0,0.7-0.2,0.9-0.5l1.6-2.7l1.7,3.5c0.2,0.3,0.5,0.6,0.9,0.6h0
-							c0.4,0,0.7-0.2,0.9-0.6l2.6-5.3l2.4,4.4c0.2,0.3,0.5,0.5,0.9,0.5h2c-0.9,1.4-2.1,3.1-3.8,5c-2.6,2.8-5.8,5.3-7.8,5.3
-							c-2.2,0-5.4-2.4-7.9-5.3c-1.7-1.9-3-3.6-3.9-5H15.7z M31.9,9c-0.1,0.9-0.4,1.8-0.8,2.6c-0.1,0.2-0.2,0.4-0.3,0.6h-2.5
-							l-3.1-5.6c-0.2-0.3-0.5-0.5-0.9-0.5c-0.4,0-0.7,0.2-0.9,0.6l-2.6,5.2l-1.7-3.4c-0.2-0.3-0.5-0.6-0.9-0.6
-							c-0.4,0-0.7,0.2-0.9,0.5l-2.2,3.8h-10c-0.2-0.4-0.3-0.7-0.5-1.1C4.2,10.1,4,9,4,7.9C4,3.5,7.5,0,11.9,0c2.5,0,4.7,1.1,6.1,2.9
-							C19.4,1.1,21.6,0,24.1,0C28.4,0,32,3.5,32,7.9v0h0C32,7.9,32,8.3,31.9,9L31.9,9z"/>
-						<text transform="matrix(1 0 0 1 0 47)" class="st9 st3 st4">GOOD</text>
-					</g>
-				</g>
-			</g>
-			<g id="CRITICAL" transform="translate(943.000000, 0.000000)">
-				<g id="_x32_-x-2_2_">
-					<g>
-						<g id="Rectangle-1-Copy-3_4_">
-							<g>
-								<path id="path-29" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v277c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v276c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_2_">
-							<g id="Rectangle-1-Copy-3_5_">
-								<g>
-									<path id="path-30" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Critical Alerts</text>
-						</g>
-					</g>
-				</g>
-				<g id="Group" transform="translate(0.000000, 132.000000)">
-					<g id="Rectangle-2_4_">
-						<g class="st21">
-							<rect id="path-31_1_" y="82" width="299" height="40"/>
-						</g>
-					</g>
-					<g id="Rectangle-2-Copy_1_">
-						<g class="st22">
-							<rect id="path-33_1_" y="122" width="299" height="20"/>
-						</g>
-					</g>
-					<g id="Rectangle-2_5_">
-						<g class="st23">
-							<rect id="path-35_1_" y="42" width="299" height="40"/>
-						</g>
-					</g>
-					<g id="Rectangle-2_6_">
-						<g class="st24">
-							<rect id="path-37_1_" y="2" width="299" height="40"/>
-						</g>
-					</g>
-					<text transform="matrix(1 0 0 1 20 25)" class="st8 st3 st4">Snapshot partially crash consistent</text>
-					<text transform="matrix(1 0 0 1 203.9568 9)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 20 65)" class="st8 st3 st4">Protected VM not found</text>
-					<text transform="matrix(1 0 0 1 146.8743 49)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 20 105)" class="st8 st3 st4">Diskspace usage high</text>
-					<text transform="matrix(1 0 0 1 136.3379 89)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 20 145)" class="st8 st3 st4">Controller VM rebooted</text>
-					<text transform="matrix(1 0 0 1 244.728 25)" class="st2 st3 st4">1h ago</text>
-					<text transform="matrix(1 0 0 1 278.9995 9)" class="st2 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 241.8719 65)" class="st2 st3 st4">6h ago</text>
-					<text transform="matrix(1 0 0 1 278.9995 49)" class="st2 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 237.588 105)" class="st2 st3 st4">15h ago</text>
-					<text transform="matrix(1 0 0 1 278.9993 89)" class="st2 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 241.668 145)" class="st2 st3 st4">5d ago</text>
-				</g>
-				<g id="Red_1_" transform="translate(79.000000, 29.000000)">
-					<g id="Yellow_1_" transform="translate(42.000000, 30.000000)">
-						<text transform="matrix(1 0 0 1 18 28)" class="st17 st11 st12">4</text>
-						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">1 Hour ago</text>
-					</g>
-				</g>
-			</g>
-			<g id="WARNING" transform="translate(943.000000, 300.000000)">
-				<g id="_x32_-x-1-half">
-					<g id="_x32_-x-1-copy-3">
-						<g id="Rectangle-1-Copy-3_6_">
-							<g>
-								<path id="path-39" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_3_">
-							<g id="Rectangle-1-Copy-3_7_">
-								<g>
-									<path id="path-40" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Warning Alerts</text>
-						</g>
-					</g>
-					<rect id="Rectangle-3-Copy" x="149" y="30" class="st25" width="1" height="104"/>
-				</g>
-				<g id="Group-3" transform="translate(150.000000, 51.000000)">
-					<g id="Rectangle-2_7_">
-						<g class="st26">
-							<rect id="path-41_1_" y="2" width="148" height="30"/>
-						</g>
-					</g>
-					<rect id="Rectangle-2-Copy-2" y="32" class="st27" width="148" height="30"/>
-					<text transform="matrix(1 0 0 1 15 21)" class="st8 st3 st4">License failure</text>
-					<text transform="matrix(1 0 0 1 91.7384 9)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 15 51)" class="st8 st3 st4">Time Drift Check</text>
-				</g>
-				<g id="Yellow_2_" transform="translate(0.000000, 29.000000)">
-					<g transform="translate(43.000000, 26.000000)">
-						<text transform="matrix(1 0 0 1 17 28)" class="st19 st11 st12">2</text>
-						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">WARNING</text>
-						<text transform="matrix(1 0 0 1 0 59)" class="st6 st3 st28">1 hours ago</text>
-					</g>
-				</g>
-			</g>
-			<g id="CLUSTER-AVG-IO-LATENCY" transform="translate(315.000000, 300.000000)">
-				<g id="_x32_-x-1-">
-					<g id="_x32_-x-1-copy-3_1_">
-						<g id="Rectangle-1-Copy-3_8_">
-							<g>
-								<path id="path-43" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_4_">
-							<g id="Rectangle-1-Copy-3_9_">
-								<g>
-									<path id="path-44" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster avg. IO Latency</text>
-						</g>
-					</g>
-				</g>
-				<g id="Group-4" transform="translate(1.000000, 44.000000)">
-					<g id="Rectangle-3">
-						<rect id="path-45_1_" class="st0" width="297" height="69"/>
-					</g>
-					<defs>
-						<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-1.5" y="1" width="300" height="69">
-							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-						</filter>
-					</defs>
-					<mask maskUnits="userSpaceOnUse" x="-1.5" y="1" width="300" height="69" id="mask-46">
-						<g class="st29">
-							<rect id="path-45" class="st0" width="297" height="69"/>
-						</g>
-					</mask>
-					<path id="Path-4" class="st30" d="M-1,70l0-46l3-3l2,26l3-23l2-4l1,8l2-3l1,5l2-2l2-15l1,1l1,8l2-8l4,14l1-11l4,7l1-13l4,18
-						l3-12l2,10c0,0,0-8,1-7s3,7,3,7l4-5l2,6l1-8l1,9l2,1l2-6l2-2l1,5h2l3,2c0,0,1-4,2-3s4,5,4,5l1,2l2-3l3,1l2-8l1,7l3-1l2-28l2,28
-						l2-2l1-7l2,21l2-13v-4l2,5h7l1-5l1,4l2,1l1,5l3-5l4-7l1,6l4-18l1.9,17.1L121,28h3l2-14l1,15l3,2l1-2l2,13l1-25l2,13v5l3,6l2-19
-						l1,6l3,3l3-1l5,1l2-1l3-1l3-4l2,5l2-5l2,4l4-1l2-1l3,8l2-6h3l3-10l1,10l2,5l2-6l2,1l3-8v7l5-15l-1,9l3,3l1,3l3-4l3,13l4-15l1,7
-						l3-3h3l3-8l0.6,5.8L223,27l5,4c0,0,1-11,2-10s3,3,3,3l3-15l1,16l2,3l2-8l4,8l1-8l2,7l3-4l1,5l1-5l2,5l1-4c0,0,3,2,3,1s1-3,1-3
-						l1,5l1-5l3,1l1-3l4,9c0,0,2-11,2-9s2,9,2,9l2-18l4,12l1-9l4,11l1-11l2,10l1-8c0,0,2,6,2,5s1-10,1-10l2,16l2,2l2-1v42"/>
-				</g>
-				<g id="Graph-over" transform="translate(0.000000, 10.000000)">
-					<rect id="Rectangle-4" x="0.5" y="103.5" class="st1" width="298" height="1"/>
-					<text transform="matrix(1 0 0 1 239.332 9)" class="st8 st3 st4">2.19 ms</text>
-					<text transform="matrix(1 0 0 1 10 33)" class="st6 st3 st7">2.45 ms</text>
-					<text transform="matrix(1 0 0 1 20 119)" class="st6 st3 st7">4:00 PM</text>
-					<text transform="matrix(1 0 0 1 131 119)" class="st6 st3 st7">5:00 PM</text>
-					<text transform="matrix(1 0 0 1 242 119)" class="st6 st3 st7">6:00 PM</text>
-				</g>
-			</g>
-			<g id="HYPERVISOR-SUMMARU">
-				<g id="_x32_-x-1-half_1_" transform="translate(1.000000, 0.000000)">
-					<g id="_x32_-x-1-copy-3_2_">
-						<g id="Rectangle-1-Copy-3_10_">
-							<g>
-								<path id="path-47" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_5_">
-							<g id="Rectangle-1-Copy-3_11_">
-								<g>
-									<path id="path-48" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Hypervisor Summary</text>
-						</g>
-					</g>
-					<rect id="Rectangle-3-Copy_2_" x="149" y="30" class="st25" width="1" height="104"/>
-				</g>
-				<g id="Half-Black" transform="translate(0.000000, 29.000000)">
-					<g id="Black_3_" transform="translate(35.000000, 32.000000)">
-						<text transform="matrix(1 0 0 1 0 28)" class="st8 st11 st12">AHV</text>
-						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">HYPERVISOR</text>
-					</g>
-				</g>
-				<g id="Black-Copy-11" transform="translate(170.000000, 61.000000)">
-					<g id="Black_4_">
-						<text transform="matrix(1 0 0 1 3 22)" class="st8 st11 st31">Nutanix</text>
-						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">20150730 VERSION</text>
-					</g>
-				</g>
-			</g>
-			<g id="CLUSTER-IO-BANDWIDTH" transform="translate(315.000000, 150.000000)">
-				<g id="_x32_-x-1-_1_">
-					<g id="_x32_-x-1-copy-3_3_">
-						<g id="Rectangle-1-Copy-3_12_">
-							<g>
-								<path id="path-49" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_6_">
-							<g id="Rectangle-1-Copy-3_13_">
-								<g>
-									<path id="path-50" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster IO Bandwidth</text>
-						</g>
-					</g>
-				</g>
-				<g id="Group-5" transform="translate(1.000000, 48.000000)">
-					<g id="Rectangle-4_1_">
-						<rect id="path-51_1_" class="st0" width="297" height="65"/>
-					</g>
-					<defs>
-						<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-1.5" y="2.3" width="300" height="63.7">
-							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-						</filter>
-					</defs>
-					<mask maskUnits="userSpaceOnUse" x="-1.5" y="2.3" width="300" height="63.7" id="mask-52">
-						<g class="st32">
-							<rect id="path-51" class="st0" width="297" height="65"/>
-						</g>
-					</mask>
-					<path id="Path-3" class="st33" d="M-1,66l0-23h1l5,11l3-4l3-6l3,1l1,4l1,5l3-4l3,6l3-5l2,2l2-4l2,1l1-1l1-5l2-3l2,8l2-3v-5l2-3
-						V27l3-4l2,5l1,6l2-10l4-2l4-3l1,5l5-9v25l5,2l1,2h4l3,7l4-5l2-11l1-1V19l7-2l6,1l1,2l5-1l5,3l4-1l5,5l4-7l6,1l4-1l3,3l4-2l5,1
-						l2,3l7-3l5,2l1-3l3,2l2-2l3-5l5,8l4-3l3,2l3-2l2,3l4-5l1,2l4-1h4l5,8l-1,11l3,3l1,9h4l1,5l4-5l3,4l8-11l3,8l3-8l2,3l2-5l3,5
-						l3-19l3-1l3-9l1,3l1,8l4-8l2,4l5,6l2,2v7v4l4,3l3-5l5,10l2-5l5,5l2-3l4,1l2,6l3-50c0,0,1-3,2-2s4,5,4,5l2-5v63"/>
-				</g>
-				<g id="Graph-over_1_" transform="translate(0.000000, 10.000000)">
-					<rect id="Rectangle-4_2_" x="0.5" y="103.5" class="st1" width="298" height="1"/>
-					<text transform="matrix(1 0 0 1 222.832 9)" class="st8 st3 st4">10.6 GiBps</text>
-					<text transform="matrix(1 0 0 1 10 33)" class="st6 st3 st7">12.41 GiBps</text>
-					<text transform="matrix(1 0 0 1 20 119)" class="st6 st3 st7">4:00 PM</text>
-					<text transform="matrix(1 0 0 1 131 119)" class="st6 st3 st7">5:00 PM</text>
-					<text transform="matrix(1 0 0 1 242 119)" class="st6 st3 st7">6:00 PM</text>
-				</g>
-			</g>
-			<g id="HARDWARE-SUMMARY" transform="translate(1.000000, 450.000000)">
-				<g id="_x32_-x-1-half_2_">
-					<g id="_x32_-x-1-copy-3_4_">
-						<g id="Rectangle-1-Copy-3_14_">
-							<g>
-								<path id="path-53" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_7_">
-							<g id="Rectangle-1-Copy-3_15_">
-								<g>
-									<path id="path-54" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Hardware Summary</text>
-						</g>
-					</g>
-					<rect id="Rectangle-3-Copy_4_" x="149" y="30" class="st25" width="1" height="104"/>
-				</g>
-				<rect id="Rectangle-2-Copy-5" x="150" y="67" class="st27" width="148" height="30"/>
-				<text transform="matrix(1 0 0 1 165 86)" class="st8 st3 st4">NX30450</text>
-				<text transform="matrix(1 0 0 1 227.1 86)" class="st2 st3 st4">7 BLOCKS</text>
-				<g id="Half-Black_1_" transform="translate(10.000000, 29.000000)">
-					<g id="Black_5_" transform="translate(16.000000, 32.000000)">
-						<text transform="matrix(1 0 0 1 2 28)" class="st8 st11 st12">14</text>
-						<text transform="matrix(1 0 0 1 0.5 47)" class="st6 st3 st4">HOSTS</text>
-					</g>
-				</g>
-				<g id="Half-Black_2_" transform="translate(70.000000, 29.000000)">
-					<g id="Black_6_" transform="translate(13.000000, 32.000000)">
-						<text transform="matrix(1 0 0 1 13.5 28)" class="st8 st11 st12">7</text>
-						<text transform="matrix(1 0 0 1 0 47)" class="st6 st3 st4">BLOCKS</text>
-					</g>
-				</g>
-			</g>
-			<g id="VM-SUMMARY" transform="translate(1.000000, 300.000000)">
-				<g id="_x32_-x-1-half_3_">
-					<g id="_x32_-x-1-copy-3_5_">
-						<g id="Rectangle-1-Copy-3_16_">
-							<g>
-								<path id="path-55" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_8_">
-							<g id="Rectangle-1-Copy-3_17_">
-								<g>
-									<path id="path-56" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">VM Summary</text>
-						</g>
-					</g>
-					<rect id="Rectangle-3-Copy_5_" x="149" y="30" class="st25" width="1" height="104"/>
-				</g>
-				<g id="Group-2" transform="translate(150.000000, 36.000000)">
-					<g id="Rectangle-2-Copy-4">
-						<g class="st34">
-							<rect id="path-62_1_" y="32" width="148" height="30"/>
-						</g>
-					</g>
-					<g id="Rectangle-2-Copy-5_1_">
-						<g class="st35">
-							<rect id="path-57_1_" y="3" width="148" height="30"/>
-						</g>
-					</g>
-					<rect id="Rectangle-2-Copy-3" y="62" class="st27" width="148" height="30"/>
-					<text transform="matrix(1 0 0 1 28 19.4663)" class="st8 st3 st4">Off</text>
-					<text transform="matrix(1 0 0 1 44.2599 9)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 28 51)" class="st8 st3 st4">On</text>
-					<text transform="matrix(1 0 0 1 43.8879 39)" class="st8 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 28 81)" class="st8 st3 st4">Suspen…</text>
-					<g id="Rectangle_4_">
-						<g>
-							<path id="path-59" class="st36" d="M19,11L19,11c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-								C15,12.8,16.8,11,19,11z"/>
-						</g>
-						<path class="st37" d="M19,11.6L19,11.6c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-							C15.5,13.1,17.1,11.6,19,11.6z"/>
-					</g>
-					<g id="Rectangle-Copy_1_">
-						<g>
-							<path id="path-60" class="st9" d="M19,43L19,43c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-								C15,44.8,16.8,43,19,43z"/>
-						</g>
-						<path class="st10" d="M19,43.5L19,43.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-							C15.5,45.1,17.1,43.5,19,43.5z"/>
-					</g>
-					<g id="Rectangle-Copy-2_1_">
-						<g>
-							<path id="path-61" class="st19" d="M19,73L19,73c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4l0,0
-								C15,74.8,16.8,73,19,73z"/>
-						</g>
-						<path class="st38" d="M19,73.5L19,73.5c1.9,0,3.5,1.6,3.5,3.5l0,0c0,1.9-1.6,3.5-3.5,3.5l0,0c-1.9,0-3.5-1.6-3.5-3.5l0,0
-							C15.5,75.1,17.1,73.5,19,73.5z"/>
-					</g>
-					<text transform="matrix(1 0 0 1 113.796 19.4663)" class="st2 st3 st4">421</text>
-					<text transform="matrix(1 0 0 1 131.9996 9)" class="st2 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 118.044 51)" class="st2 st3 st4">54</text>
-					<text transform="matrix(1 0 0 1 131.9998 39)" class="st2 st3 st4"> </text>
-					<text transform="matrix(1 0 0 1 124.632 81)" class="st2 st3 st4">0</text>
-				</g>
-				<g id="Half-Black_3_" transform="translate(0.000000, 29.000000)">
-					<g id="Black_7_" transform="translate(41.000000, 32.000000)">
-						<text transform="matrix(1 0 0 1 0.5 28)" class="st8 st11 st12">475</text>
-						<text transform="matrix(1 0 0 1 19 47)" class="st6 st3 st4">VMs</text>
-					</g>
-				</g>
-			</g>
-			<g id="STORAGE" transform="translate(1.000000, 150.000000)">
-				<g id="_x32_-x-1-half_4_">
-					<g id="_x32_-x-1-copy-3_6_">
-						<g id="Rectangle-1-Copy-3_18_">
-							<g>
-								<path id="path-64" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_9_">
-							<g id="Rectangle-1-Copy-3_19_">
-								<g>
-									<path id="path-65" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Storage Summary</text>
-						</g>
-					</g>
-					<rect id="Rectangle-3-Copy_6_" x="149" y="30" class="st25" width="1" height="104"/>
-				</g>
-				<g id="Rectangle-2-Copy-4_1_">
-					<g class="st39">
-						<rect id="path-66_1_" x="150" y="68" width="148" height="30"/>
-					</g>
-				</g>
-				<g id="Rectangle-2-Copy-5_2_">
-					<g class="st40">
-						<rect id="path-68_1_" x="150" y="39" width="148" height="30"/>
-					</g>
-				</g>
-				<rect id="Rectangle-2-Copy-3_1_" x="150" y="98" class="st27" width="148" height="30"/>
-				<text transform="matrix(1 0 0 1 165 58)" class="st8 st3 st4">Free</text>
-				<text transform="matrix(1 0 0 1 189.1679 45)" class="st8 st3 st4"> </text>
-				<text transform="matrix(1 0 0 1 165 88)" class="st8 st3 st4">Used</text>
-				<text transform="matrix(1 0 0 1 192.7797 75)" class="st8 st3 st4"> </text>
-				<text transform="matrix(1 0 0 1 165 118)" class="st8 st3 st4">Total</text>
-				<text transform="matrix(1 0 0 1 233.112 58)" class="st2 st3 st4">29.12 TiB</text>
-				<text transform="matrix(1 0 0 1 280.655 45)" class="st2 st3 st4"> </text>
-				<text transform="matrix(1 0 0 1 233.184 88)" class="st2 st3 st4">19.88 TiB</text>
-				<text transform="matrix(1 0 0 1 281.6632 75)" class="st2 st3 st4"> </text>
-				<text transform="matrix(1 0 0 1 237.408 118)" class="st2 st3 st4">49.0 TiB</text>
-				<g id="Half-Black_4_" transform="translate(0.000000, 29.000000)">
-					<g id="Black_8_" transform="translate(18.000000, 32.000000)">
-						<text transform="matrix(1 0 0 1 7 28)" class="st8 st11 st12">59.43</text>
-						<text transform="matrix(1 0 0 1 0 47)" class="st6 st3 st4">% OF Free (Physical)</text>
-					</g>
-				</g>
-			</g>
-			<g id="CLUSTER-CPU" transform="translate(315.000000, 450.000000)">
-				<g id="_x31_-x-1-c">
-					<g id="_x31_-x-1-copy-2">
-						<g id="Rectangle-1-Copy-7">
-							<g>
-								<path id="path-70" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_10_">
-							<g id="Rectangle-1-Copy-3_20_">
-								<g>
-									<path id="path-71" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster CPU Usage</text>
-						</g>
-					</g>
-				</g>
-				<g id="Half-Black_5_" transform="translate(0.000000, 29.000000)">
-					<g id="Black_9_" transform="translate(25.000000, 32.000000)">
-						<text transform="matrix(1 0 0 1 0.5 28)" class="st8 st11 st12">32.32</text>
-						<text transform="matrix(1 0 0 1 8.5 47)" class="st6 st3 st4">% OF 1.09 THz</text>
-					</g>
-				</g>
-			</g>
-			<g id="CLUSTER-MEMORY" transform="translate(472.000000, 450.000000)">
-				<g id="_x31_-x-1-c_1_">
-					<g id="_x31_-x-1-copy-2_1_">
-						<g id="Rectangle-1-Copy-7_1_">
-							<g>
-								<path id="path-72" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_11_">
-							<g id="Rectangle-1-Copy-3_21_">
-								<g>
-									<path id="path-73" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster Memory Usa...</text>
-						</g>
-					</g>
-				</g>
-				<g id="Half-Black_6_" transform="translate(0.000000, 29.000000)">
-					<g id="Black_10_" transform="translate(25.000000, 32.000000)">
-						<text transform="matrix(1 0 0 1 0 28)" class="st8 st11 st12">43.56</text>
-						<text transform="matrix(1 0 0 1 8.5 47)" class="st6 st3 st4">% OF 1.09 THz</text>
-					</g>
-				</g>
-			</g>
-			<g id="EVENTS" transform="translate(1100.000000, 450.000000)">
-				<g id="_x31_-x-1-c_2_">
-					<g id="_x31_-x-1-copy-2_2_">
-						<g id="Rectangle-1-Copy-7_2_">
-							<g>
-								<path id="path-74" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_12_">
-							<g id="Rectangle-1-Copy-3_22_">
-								<g>
-									<path id="path-75" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Events</text>
-						</g>
-					</g>
-				</g>
-				<g id="Black_11_" transform="translate(0.000000, 29.000000)">
-					<g transform="translate(42.000000, 26.000000)">
-						<text transform="matrix(1 0 0 1 0.5 28)" class="st8 st11 st12">716</text>
-						<text transform="matrix(1 0 0 1 10 47)" class="st6 st3 st4">EVENT</text>
-						<text transform="matrix(1 0 0 1 3.5 59)" class="st6 st3 st28">1 hour ago</text>
-					</g>
-				</g>
-			</g>
-			<g id="INFO-ALERTS" transform="translate(943.000000, 450.000000)">
-				<g id="_x31_-x-1-c_3_">
-					<g id="_x31_-x-1-copy-2_3_">
-						<g id="Rectangle-1-Copy-7_3_">
-							<g>
-								<path id="path-76" class="st0" d="M4,0h134c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h133c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_13_">
-							<g id="Rectangle-1-Copy-3_23_">
-								<g>
-									<path id="path-77" class="st0" d="M0,4c0-2.2,1.8-4,4-4h134c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h141V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Info Alerts</text>
-						</g>
-					</g>
-				</g>
-				<g id="Gray" transform="translate(0.000000, 29.000000)">
-					<g id="Black_12_" transform="translate(42.000000, 26.000000)">
-						<text transform="matrix(1 0 0 1 14 28)" class="st41 st11 st12">11</text>
-						<text transform="matrix(1 0 0 1 15 47)" class="st6 st3 st4">INFO</text>
-						<text transform="matrix(1 0 0 1 0 59)" class="st6 st3 st28">7 hours ago</text>
-					</g>
-				</g>
-			</g>
-			<g id="CLUSTER-IOPS" transform="translate(315.000000, 0.000000)">
-				<g id="_x32_-x-1-_2_">
-					<g id="_x32_-x-1-copy-3_7_">
-						<g id="Rectangle-1-Copy-3_24_">
-							<g>
-								<path id="path-78" class="st0" d="M4,0h291c2.2,0,4,1.8,4,4v127c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z"/>
-							</g>
-							<path class="st1" d="M4.5,0.5h290c2.2,0,4,1.8,4,4v126c0,2.2-1.8,4-4,4H4.5c-2.2,0-4-1.8-4-4V4.5C0.5,2.3,2.3,0.5,4.5,0.5z"
-								/>
-						</g>
-						<g id="Tile-head_14_">
-							<g id="Rectangle-1-Copy-3_25_">
-								<g>
-									<path id="path-79" class="st0" d="M0,4c0-2.2,1.8-4,4-4h291c2.2,0,4,1.8,4,4v26H0V4z"/>
-								</g>
-								<path class="st1" d="M0.5,29.5h298V4c0-1.9-1.6-3.5-3.5-3.5H4C2.1,0.5,0.5,2.1,0.5,4V29.5z"/>
-							</g>
-							<text transform="matrix(1 0 0 1 10 20)" class="st2 st3 st4">Cluster IOPS</text>
-						</g>
-					</g>
-				</g>
-				<g id="Group-6" transform="translate(1.000000, 43.000000)">
-					<g id="Rectangle-5">
-						<rect id="path-80_1_" class="st0" width="297" height="70"/>
-					</g>
-					<defs>
-						<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="-1.5" y="4" width="300" height="67">
-							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-						</filter>
-					</defs>
-					<mask maskUnits="userSpaceOnUse" x="-1.5" y="4" width="300" height="67" id="mask-81">
-						<g class="st42">
-							<rect id="path-80" class="st0" width="297" height="70"/>
-						</g>
-					</mask>
-					<path id="Path-2" class="st43" d="M-1,71l0-55l2-1l1,22l2-10l1,7l1,2l3,21V21l2-13l2,28l2-16l1,13l2-19l2,11l3-1l2,17l2-30l2,7
-						l2,15l2.4-11l0.6-3l4,26l3-22l3,14l3-14l1,9l2-10l1,12l3-30l1,43l2-14l3,13l1-29l2,28l1-20l2,2l2-15v35l4-23v24l3-17l1,13l5-6
-						l1,7l2-5l2,24l3-48l2,50l3-61l3,21l2-8l3,16l2-11l2,9l3-20l2,18l2-9l1,15l3-13l1,21l3-14c0,0,1,22,1,21s2-34,2-34l2,31l1-23
-						l1,19l2-19l3,39l1-40l3,29V12l2,32l2-11l4,12l4-28l5,32l2-18l1,12l2-21l1,14l3-11v16l2-33l1,43l5-37v52l4-43l1,43l3-47l2,10
-						l1-10l1,26l4-30l3,18l2-23l3,20l4-10l1,16l3.3-11.7L204,22l3,22l5-19l1,3l1-7l1,6l3-18l2,13l4,22l4-26l2,13l1-6l1,11l3-5v6v7
-						l2,11l2.5-20.2L240,31l4-7l2,10l1-14l3,10l2-9l3,11V17l4-4c0,0,1,40,1,39s2-31,2-31l3,16l1-19l6,14l2-27l2,26l2-15l5,14l2-13
-						l1,30l2-37l1,32l2-25l2,22l1-22l4,12v42"/>
-				</g>
-				<g id="Graph-over_2_" transform="translate(0.000000, 10.000000)">
-					<polyline id="Rectangle-3_1_" class="st1" points="38.5,103.5 37.5,103.5 37.5,19.5 					"/>
-					<rect id="Rectangle-4_3_" x="0.5" y="103.5" class="st1" width="298" height="1"/>
-					<text transform="matrix(1 0 0 1 204.48 9)" class="st8 st3 st4">309,820 IOPS</text>
-					<text transform="matrix(1 0 0 1 10 33)" class="st6 st3 st7">325,449 IOPS</text>
-					<text transform="matrix(1 0 0 1 20 119)" class="st6 st3 st7">4:00 PM</text>
-					<text transform="matrix(1 0 0 1 131 119)" class="st6 st3 st7">5:00 PM</text>
-					<text transform="matrix(1 0 0 1 242 119)" class="st6 st3 st7">6:00 PM</text>
-				</g>
-			</g>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1241px" height="577px" viewBox="0 0 1241 577" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="300" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="145" height="40"></rect>
+        <filter x="-0.3%" y="-1.2%" width="100.7%" height="102.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="303" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="303" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-9">
+            <stop stop-color="#E7E2FC" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#CAC1F7" stop-opacity="0.17931952" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-10" x="0" y="0" width="303" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-12">
+            <stop stop-color="#FBFFFC" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#36D068" stop-opacity="0.166694973" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-13" x="0" y="0" width="145" height="40"></rect>
+        <filter x="-0.3%" y="-1.2%" width="100.7%" height="102.5%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-15" x="0" y="0" width="145" height="40"></rect>
+        <filter x="-0.3%" y="-1.2%" width="100.7%" height="102.5%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-17" x="0" y="0" width="145" height="40"></rect>
+        <filter x="-0.3%" y="-1.2%" width="100.7%" height="102.5%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-19" x="0" y="0" width="300" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-21" x="0" y="0" width="300" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-23" x="0" y="0" width="300" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-25" x="152" y="335" width="149" height="31"></rect>
+        <filter x="-0.3%" y="-1.6%" width="100.7%" height="106.5%" filterUnits="objectBoundingBox" id="filter-26">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-27" x="152" y="367" width="149" height="31"></rect>
+        <filter x="-0.3%" y="-1.6%" width="100.7%" height="106.5%" filterUnits="objectBoundingBox" id="filter-28">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-29" x="0" y="0" width="302" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-30">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-31" x="1091" y="337" width="149" height="31"></rect>
+        <filter x="-0.3%" y="-1.6%" width="100.7%" height="106.5%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-33" x="1091" y="369" width="149" height="31"></rect>
+        <filter x="-0.3%" y="-1.6%" width="100.7%" height="106.5%" filterUnits="objectBoundingBox" id="filter-34">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-35" x="151" y="482" width="149" height="31"></rect>
+        <filter x="-0.3%" y="-1.6%" width="100.7%" height="106.5%" filterUnits="objectBoundingBox" id="filter-36">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-37" x="0" y="0" width="300" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-38">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-39" x="0" y="78" width="299.99707" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-40">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-41" x="0" y="78" width="299.99707" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-42">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-43" x="0" y="78" width="299.99707" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-44">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-45" x="0" y="0" width="302" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-46">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-47" x="0" y="78" width="301.997051" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-48">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-49" x="0" y="78" width="301.997051" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-50">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-51" x="0" y="78" width="301.997051" height="40"></rect>
+        <filter x="-0.2%" y="-1.2%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-52">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-53" x="0" y="0" width="300" height="39.7192982"></rect>
+        <filter x="-0.2%" y="-1.3%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-54">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-55" x="0" y="187.666667" width="299.99707" height="39.7192982"></rect>
+        <filter x="-0.2%" y="-1.3%" width="100.3%" height="102.5%" filterUnits="objectBoundingBox" id="filter-56">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.956862745   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-57">
+            <stop stop-color="#DCEEFD" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#B6D9FA" stop-opacity="0.213060462" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="50%" y2="50%" id="linearGradient-58">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Single-Cluster-view" transform="translate(-19.000000, -89.000000)">
+            <g id="Group" transform="translate(19.000000, 89.000000)">
+                <g id="one" transform="translate(0.000000, 1.000000)">
+                    <g id="basic-normal" stroke-width="1" fill-rule="evenodd">
+                        <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="300" height="135" rx="4"></rect>
+                        <g id="Header">
+                            <g fill="black" fill-opacity="1">
+                                <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <text id="Hypervisor-Summary" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="29">Hypervisor</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="AHV" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="24" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                        <tspan x="48.5" y="89">AHV</tspan>
+                    </text>
+                    <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                        <tspan x="39.5" y="114">Hypervisor</tspan>
+                    </text>
+                    <path d="M150.367188,39.9648438 L150.367188,134.160645" id="Path-8" stroke="#F2F4F6" stroke-width="1"></path>
+                </g>
+                <g id="two" transform="translate(313.000000, 442.000000)">
+                    <g id="one-copy-4">
+                        <g id="basic-normal">
+                            <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="145" height="135" rx="4"></rect>
+                            <g id="Header">
+                                <g fill="black" fill-opacity="1">
+                                    <use filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                </g>
+                                <text id="CPU-usage" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                    <tspan x="20" y="29">CPU usage</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="1" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="28" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                            <tspan x="35.0666667" y="92">32.32</tspan>
+                        </text>
+                        <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                            <tspan x="29.0666667" y="114">% of 1.09 THz</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="two" transform="translate(312.000000, 1.000000)">
+                    <g id="one-copy-4">
+                        <g id="basic-normal">
+                            <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="303" height="135" rx="4"></rect>
+                            <g id="Header">
+                                <g fill="black" fill-opacity="1">
+                                    <use filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                </g>
+                                <text id="CPU-usage" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                    <tspan x="20" y="29">IOPS</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="1" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="28" font-style="condensed" font-weight="300" line-spacing="20"></text>
+                        <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                    </g>
+                </g>
+                <g id="two" transform="translate(312.000000, 148.000000)">
+                    <g id="one-copy-4">
+                        <g id="basic-normal">
+                            <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="303" height="135" rx="4"></rect>
+                            <g id="Header">
+                                <g fill="black" fill-opacity="1">
+                                    <use filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                </g>
+                                <text id="CPU-usage" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                    <tspan x="20" y="29">I/O Bandwidth</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="1" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="28" font-style="condensed" font-weight="300" line-spacing="20"></text>
+                        <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                    </g>
+                </g>
+                <path d="M313,258 L315.839623,241.984862 L318.679245,241.984862 L321.518868,249.641634 L324.358491,246.857353 L327.198113,242.680932 L330.037736,243.377002 L332.877358,246.161283 L335.716981,249.641634 L338.556604,246.857353 L341.396226,251.033774 L344.235849,247.553423 L347.075472,248.945564 L349.915094,246.161283 L352.754717,246.857353 L355.59434,246.161283 L358.433962,242.680932 L361.273585,240.592722 L364.113208,246.161283 L366.95283,244.073073 L369.792453,240.592722 L372.632075,238.504511 L375.471698,230.847739 L378.311321,228.063459 L381.150943,231.543809 L383.990566,235.72023 L386.830189,228.759529 L389.669811,227.367388 L392.509434,225.279178 L395.349057,228.759529 L398.188679,222.494897 L401.028302,239.896652 L403.867925,241.288792 L406.707547,242.680932 L409.54717,242.680932 L412.386792,247.553423 L415.226415,244.073073 L418.066038,236.416301 L420.90566,235.72023 L423.745283,225.279178 L426.584906,223.887038 L429.424528,224.583108 L432.264151,225.975248 L435.103774,225.279178 L437.943396,227.367388 L440.783019,226.671318 L443.622642,230.151669 L446.462264,225.279178 L449.301887,225.975248 L452.141509,225.279178 L454.981132,227.367388 L457.820755,225.975248 L460.660377,226.671318 L463.5,228.759529 L466.339623,226.671318 L469.179245,228.063459 L472.018868,225.975248 L474.858491,227.367388 L477.698113,225.975248 L480.537736,222.494897 L483.377358,228.063459 L486.216981,225.975248 L489.056604,227.367388 L491.896226,225.975248 L494.735849,228.063459 L497.575472,224.583108 L500.415094,225.975248 L503.254717,225.279178 L506.09434,225.279178 L511.773585,230.847739 L508.933962,238.504511 L514.613208,240.592722 L517.45283,246.857353 L520.292453,246.857353 L523.132075,250.337704 L525.971698,246.857353 L528.811321,249.641634 L531.650943,241.984862 L534.490566,247.553423 L537.330189,241.984862 L540.169811,244.073073 L543.009434,240.592722 L545.849057,244.073073 L548.688679,230.847739 L551.528302,230.151669 L554.367925,223.887038 L557.207547,225.975248 L560.04717,231.543809 L562.886792,225.975248 L565.726415,228.759529 L568.566038,232.93595 L571.40566,234.32809 L574.245283,239.200581 L577.084906,241.984862 L579.924528,244.073073 L582.764151,240.592722 L585.603774,247.553423 L588.443396,244.073073 L591.283019,247.553423 L594.122642,245.465213 L596.962264,246.161283 L599.801887,250.337704 L602.641509,215.534195 C602.641509,215.534195 604.474449,213.445985 605.481132,214.142055 C606.487815,214.838125 608.320755,217.622406 608.320755,217.622406 L611.160377,214.142055 L614,258" id="Path-3" stroke="#8A77ED" fill="url(#linearGradient-9)"></path>
+                <g id="two" transform="translate(312.000000, 295.000000)">
+                    <g id="one-copy-4">
+                        <g id="basic-normal">
+                            <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="303" height="135" rx="4"></rect>
+                            <g id="Header">
+                                <g fill="black" fill-opacity="1">
+                                    <use filter="url(#filter-11)" xlink:href="#path-10"></use>
+                                </g>
+                                <text id="CPU-usage" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                    <tspan x="20" y="29">Avg. I/O Latency</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="1" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="28" font-style="condensed" font-weight="300" line-spacing="20"></text>
+                        <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                    </g>
+                </g>
+                <path d="M313,403 L315.119718,363 L317.239437,360.391304 L319.359155,379 L321.478873,363 L323.598592,359.521739 L325.71831,366.478261 L327.838028,363.869565 L329.957746,368.217391 L332.077465,366.478261 L334.197183,359.434783 L336.316901,360.304348 L338.43662,361.26087 L340.556338,360.304348 L342.676056,366.478261 L344.795775,356.913043 L346.915493,363 L349.035211,357.695652 L351.15493,367.347826 L353.274648,356.913043 L355.394366,365.608696 C355.394366,365.608696 356.507418,358.652174 357.514085,359.521739 C358.520751,360.391304 359.633803,365.608696 359.633803,365.608696 L361.753521,361.26087 L363.873239,366.478261 L365.992958,359.521739 L368.112676,367.347826 L370.232394,368.217391 L372.352113,363 L374.471831,361.26087 L376.591549,365.608696 L378.711268,365.608696 L380.830986,367.347826 C380.830986,367.347826 381.944038,363.869565 382.950704,364.73913 C383.957371,365.608696 385.070423,369.086957 385.070423,369.086957 L387.190141,370.826087 L389.309859,368.217391 L391.429577,369.086957 L393.549296,362.130435 L395.669014,368.217391 L397.788732,367.347826 L399.908451,349 L402.028169,367.347826 L404.147887,365.608696 L406.267606,359.521739 L408.387324,373.782609 L410.507042,366.478261 L412.626761,363 L414.746479,367.347826 L416.866197,367.347826 L418.985915,363 L421.105634,366.478261 L423.225352,367.347826 L425.34507,367.695652 L427.464789,367.347826 L429.584507,361.26087 L431.704225,366.478261 L433.823944,356.826087 L435.943662,365.692371 L438.06338,366.478261 L440.183099,366.478261 L442.302817,360.304348 L444.422535,367.347826 L446.542254,369.086957 L448.661972,367.347826 L450.78169,374.652174 L452.901408,356.913043 L455.021127,368.217391 L457.140845,368.565217 L459.260563,373.782609 L461.380282,361.26087 L463.5,366.478261 L465.619718,369.086957 L467.739437,368.217391 L469.859155,369.086957 L471.978873,368.217391 L474.098592,367.347826 L476.21831,363.869565 L478.338028,368.217391 L480.457746,363.869565 L482.577465,367.347826 L484.697183,366.478261 L486.816901,365.608696 L488.93662,368.565217 L491.056338,367.347826 L493.176056,367.347826 L495.295775,358.652174 L497.415493,367.347826 L499.535211,367.695652 L501.65493,366.478261 L503.774648,367.347826 L505.894366,360.391304 L508.014085,366.478261 L511.133803,361.26087 L514.373239,363.869565 L516.492958,366.478261 L518.612676,363 L520.732394,370.304348 L522.852113,361.26087 L524.971831,367.347826 L527.091549,364.73913 L529.211268,364.73913 L531.330986,357.782609 L533.450704,362.795636 L535.570423,365.608696 L537.690141,369.086957 C537.690141,369.086957 538.803193,359.521739 539.809859,360.391304 C540.816526,361.26087 541.929577,363 541.929577,363 L544.049296,355.956522 L546.169014,363.869565 L548.288732,366.478261 L550.408451,359.521739 L552.528169,366.478261 L554.647887,359.521739 L556.767606,365.608696 L558.887324,362.130435 L561.007042,366.478261 L563.126761,362.130435 L565.246479,366.478261 L567.366197,363 C567.366197,363 569.485915,364.73913 569.485915,363.869565 C569.485915,363 571.605634,361.26087 571.605634,361.26087 L573.725352,365.608696 L575.84507,361.26087 L577.964789,362.130435 L580.084507,359.521739 L582.204225,367.347826 C582.204225,367.347826 584.323944,357.782609 584.323944,359.521739 C584.323944,361.26087 586.443662,367.347826 586.443662,367.347826 L588.56338,357.695652 L590.683099,362.130435 L592.802817,360.304348 L594.922535,363.869565 L597.042254,360.304348 L599.161972,363 L601.28169,356.043478 C601.28169,356.043478 603.401408,361.26087 603.401408,360.391304 C603.401408,359.521739 605.521127,357.695652 605.521127,357.695652 L607.640845,365.608696 L609.760563,367.347826 L611.880282,366.478261 L614,403" id="Path-4" stroke="#36D068" fill="url(#linearGradient-12)"></path>
+                <rect id="Rectangle-2" fill="#F2F4F6" x="313" y="106" width="308" height="1"></rect>
+                <text id="2-AM-6-AM-10-AM-2-PM" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="11" font-weight="400" line-spacing="10" fill="#B8BFCA">
+                    <tspan x="327.241" y="126.012">2 AM        6 AM       10 AM       2 PM       6 PM       10 PM</tspan>
+                </text>
+                <text id="1000" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#9AA5B4">
+                    <tspan x="321" y="60">1000</tspan>
+                </text>
+                <rect id="Rectangle-2-Copy" fill="#F2F4F6" x="313" y="258" width="308" height="1"></rect>
+                <text id="2-AM-6-AM-10-AM-2-PM-Copy" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="11" font-weight="400" line-spacing="10" fill="#B8BFCA">
+                    <tspan x="327.241" y="278.012">2 AM        6 AM       10 AM       2 PM       6 PM       10 PM</tspan>
+                </text>
+                <rect id="Rectangle-2-Copy-2" fill="#F2F4F6" x="313" y="402" width="308" height="1"></rect>
+                <text id="2-AM-6-AM-10-AM-2-PM-Copy-2" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="11" font-weight="400" line-spacing="10" fill="#B8BFCA">
+                    <tspan x="327.241" y="422.012">2 AM        6 AM       10 AM       2 PM       6 PM       10 PM</tspan>
+                </text>
+                <g id="two" transform="translate(470.000000, 442.000000)">
+                    <g id="one-copy-4">
+                        <g id="basic-normal">
+                            <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="145" height="135" rx="4"></rect>
+                            <g id="Header">
+                                <g fill="black" fill-opacity="1">
+                                    <use filter="url(#filter-14)" xlink:href="#path-13"></use>
+                                </g>
+                                <text id="CPU-usage" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                    <tspan x="20" y="29">Memory Usage</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="1" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="28" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                            <tspan x="34.5666667" y="92">46.56</tspan>
+                        </text>
+                        <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                            <tspan x="31.5666667" y="114">% of 1.09 TiB</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="one-copy-4" transform="translate(939.000000, 442.000000)">
+                    <g id="basic-normal">
+                        <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="145" height="135" rx="4"></rect>
+                        <g id="Header">
+                            <g fill="black" fill-opacity="1">
+                                <use filter="url(#filter-16)" xlink:href="#path-15"></use>
+                            </g>
+                            <text id="Info-Alerts" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                <tspan x="36" y="29">Info Alerts</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="1" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="28" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                        <tspan x="65.5666667" y="92">1</tspan>
+                    </text>
+                    <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                        <tspan x="34.0666667" y="114">7 hours ago</tspan>
+                    </text>
+                </g>
+                <g id="one-copy-4" transform="translate(1096.000000, 442.000000)">
+                    <g id="basic-normal">
+                        <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="145" height="135" rx="4"></rect>
+                        <g id="Header">
+                            <g fill="black" fill-opacity="1">
+                                <use filter="url(#filter-18)" xlink:href="#path-17"></use>
+                            </g>
+                            <text id="Events" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                <tspan x="36" y="29">Events</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="1" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="28" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                        <tspan x="50.0666667" y="92">716</tspan>
+                    </text>
+                    <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                        <tspan x="38.5666667" y="114">1 hour ago</tspan>
+                    </text>
+                </g>
+                <text id="Nutanix" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="24" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                    <tspan x="184" y="90">Nutanix</tspan>
+                </text>
+                <text id="201504043-Ver" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                    <tspan x="176" y="115">201504043 Ver</tspan>
+                </text>
+                <g id="one-copy" transform="translate(0.000000, 148.000000)">
+                    <g id="basic-normal">
+                        <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="300" height="135" rx="4"></rect>
+                        <g id="Header">
+                            <g fill="black" fill-opacity="1">
+                                <use filter="url(#filter-20)" xlink:href="#path-19"></use>
+                            </g>
+                            <text id="Storage" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="29">Storage</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="#F2F4F6" x="20" y="248" width="260" height="5" rx="2.5"></rect>
+                <path d="M22.5,248 L152,248 L152,253 L22.5,253 C21.1192881,253 20,251.880712 20,250.5 L20,250.5 C20,249.119288 21.1192881,248 22.5,248 Z" id="Rectangle-Copy" fill="#68CD73"></path>
+                <g id="one" transform="translate(1.000000, 295.000000)">
+                    <g id="basic-normal" stroke-width="1" fill-rule="evenodd">
+                        <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="300" height="135" rx="4"></rect>
+                        <g id="Header">
+                            <g fill="black" fill-opacity="1">
+                                <use filter="url(#filter-22)" xlink:href="#path-21"></use>
+                            </g>
+                            <text id="Hypervisor-Summary" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="29">Virtual Machines</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="AHV" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="24" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                        <tspan x="53" y="89">475</tspan>
+                    </text>
+                    <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                        <tspan x="22" y="114">Virtual Machines</tspan>
+                    </text>
+                    <path d="M150.367188,39.9648438 L150.367188,134.160645" id="Path-8" stroke="#F2F4F6" stroke-width="1"></path>
+                </g>
+                <g id="one" transform="translate(0.000000, 442.000000)">
+                    <g id="basic-normal" stroke-width="1" fill-rule="evenodd">
+                        <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="300" height="135" rx="4"></rect>
+                        <g id="Header">
+                            <g fill="black" fill-opacity="1">
+                                <use filter="url(#filter-24)" xlink:href="#path-23"></use>
+                            </g>
+                            <text id="Hypervisor-Summary" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="29">Hardware</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="AHV" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="24" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                        <tspan x="39" y="89">14   07</tspan>
+                    </text>
+                    <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                        <tspan x="32.5" y="114">Host     Block</tspan>
+                    </text>
+                    <path d="M150.367188,39.9648438 L150.367188,134.160645" id="Path-8" stroke="#F2F4F6" stroke-width="1"></path>
+                </g>
+                <g id="Rectangle-6-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-26)" xlink:href="#path-25"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-25"></use>
+                </g>
+                <g id="Rectangle-6-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-27"></use>
+                </g>
+                <path d="M188.616,350.004 C188.616,352.38 186.96,354.144 184.584,354.144 C182.196,354.144 180.552,352.38 180.552,350.004 C180.552,347.628 182.196,345.864 184.584,345.864 C186.96,345.864 188.616,347.628 188.616,350.004 Z M187.392,350.004 C187.392,348.228 186.288,346.92 184.584,346.92 C182.868,346.92 181.788,348.228 181.788,350.004 C181.788,351.768 182.868,353.088 184.584,353.088 C186.288,353.088 187.392,351.768 187.392,350.004 Z M193.284,346.464 C193.284,346.728 193.08,346.884 192.876,346.884 C192.684,346.884 192.504,346.74 192.252,346.74 C191.7,346.74 191.388,347.112 191.388,347.796 L191.388,348.204 L192.18,348.204 C192.432,348.204 192.636,348.408 192.636,348.684 C192.636,348.936 192.432,349.14 192.18,349.14 L191.388,349.14 L191.388,353.544 C191.388,353.832 191.148,354.072 190.848,354.072 C190.56,354.072 190.32,353.832 190.32,353.544 L190.32,349.14 L189.744,349.14 C189.492,349.14 189.288,348.936 189.288,348.66 C189.288,348.408 189.492,348.204 189.744,348.204 L190.32,348.204 L190.32,347.796 C190.32,346.596 191.004,345.876 192.072,345.876 C192.588,345.876 193.284,346.056 193.284,346.464 Z M196.824,346.464 C196.824,346.728 196.62,346.884 196.416,346.884 C196.224,346.884 196.044,346.74 195.792,346.74 C195.24,346.74 194.928,347.112 194.928,347.796 L194.928,348.204 L195.72,348.204 C195.972,348.204 196.176,348.408 196.176,348.684 C196.176,348.936 195.972,349.14 195.72,349.14 L194.928,349.14 L194.928,353.544 C194.928,353.832 194.688,354.072 194.388,354.072 C194.1,354.072 193.86,353.832 193.86,353.544 L193.86,349.14 L193.284,349.14 C193.032,349.14 192.828,348.936 192.828,348.66 C192.828,348.408 193.032,348.204 193.284,348.204 L193.86,348.204 L193.86,347.796 C193.86,346.596 194.544,345.876 195.612,345.876 C196.128,345.876 196.824,346.056 196.824,346.464 Z M188.616,382.004 C188.616,384.38 186.96,386.144 184.584,386.144 C182.196,386.144 180.552,384.38 180.552,382.004 C180.552,379.628 182.196,377.864 184.584,377.864 C186.96,377.864 188.616,379.628 188.616,382.004 Z M187.392,382.004 C187.392,380.228 186.288,378.92 184.584,378.92 C182.868,378.92 181.788,380.228 181.788,382.004 C181.788,383.768 182.868,385.088 184.584,385.088 C186.288,385.088 187.392,383.768 187.392,382.004 Z M195.024,382.28 L195.024,385.544 C195.024,385.832 194.784,386.072 194.484,386.072 C194.196,386.072 193.956,385.832 193.956,385.544 L193.956,382.64 C193.956,381.68 193.428,381.008 192.564,381.008 C191.64,381.008 191.112,381.776 191.112,382.76 L191.112,385.544 C191.112,385.832 190.872,386.072 190.572,386.072 C190.284,386.072 190.044,385.832 190.044,385.544 L190.044,380.648 C190.044,380.372 190.284,380.132 190.596,380.132 C190.872,380.132 191.112,380.372 191.112,380.648 L191.112,381.02 C191.388,380.552 191.904,380.06 192.912,380.06 C194.136,380.06 195.024,381.056 195.024,382.28 Z M186.576,415.732 C186.576,416.98 185.712,418.144 183.552,418.144 C182.376,418.144 181.308,417.748 180.684,417.136 C180.588,417.028 180.54,416.896 180.54,416.764 C180.54,416.464 180.768,416.176 181.092,416.176 C181.2,416.176 181.332,416.212 181.428,416.284 C181.98,416.752 182.724,417.1 183.6,417.1 C184.896,417.1 185.352,416.416 185.352,415.852 C185.352,413.956 180.648,415.048 180.648,412.156 C180.648,410.836 181.824,409.876 183.48,409.876 C184.476,409.876 185.496,410.188 186.096,410.74 C186.204,410.836 186.252,410.98 186.252,411.112 C186.252,411.412 185.988,411.664 185.688,411.664 C185.58,411.664 185.46,411.628 185.364,411.556 C184.776,411.124 184.08,410.92 183.384,410.92 C182.484,410.92 181.872,411.388 181.872,412.072 C181.872,413.728 186.576,412.744 186.576,415.732 Z M192.936,412.648 L192.936,417.544 C192.936,417.832 192.696,418.072 192.396,418.072 C192.108,418.072 191.868,417.832 191.868,417.544 L191.868,417.208 C191.556,417.7 191.052,418.144 190.044,418.144 C188.82,418.144 187.956,417.172 187.956,415.948 L187.956,412.648 C187.956,412.372 188.196,412.132 188.508,412.132 C188.784,412.132 189.024,412.372 189.024,412.648 L189.024,415.576 C189.024,416.536 189.516,417.196 190.38,417.196 C191.244,417.196 191.868,416.392 191.868,415.408 L191.868,412.648 C191.868,412.372 192.108,412.132 192.42,412.132 C192.696,412.132 192.936,412.372 192.936,412.648 Z M198.9,416.248 C198.96,417.352 198.084,418.144 196.548,418.144 C195.756,418.144 194.88,417.916 194.352,417.388 C194.268,417.316 194.22,417.22 194.22,417.1 C194.22,416.848 194.436,416.656 194.688,416.656 C194.796,416.656 194.88,416.68 194.964,416.74 C195.396,417.052 195.996,417.292 196.596,417.292 C197.424,417.292 197.904,416.92 197.856,416.392 C197.736,415.108 194.424,415.708 194.316,413.764 C194.256,412.732 195.108,412.06 196.524,412.06 C197.352,412.06 198.084,412.312 198.54,412.756 C198.612,412.828 198.648,412.924 198.648,413.02 C198.648,413.26 198.444,413.44 198.228,413.44 C198.132,413.44 198.048,413.416 197.976,413.356 C197.604,413.092 197.088,412.912 196.536,412.912 C195.804,412.912 195.3,413.26 195.348,413.728 C195.468,414.772 198.792,414.208 198.9,416.248 Z M205.824,415.096 C205.824,416.98 204.756,418.144 203.244,418.144 C202.476,418.144 201.804,417.796 201.336,417.16 L201.336,419.764 C201.336,420.04 201.096,420.28 200.796,420.28 C200.508,420.28 200.268,420.04 200.268,419.764 L200.268,412.648 C200.268,412.372 200.508,412.132 200.82,412.132 C201.096,412.132 201.336,412.372 201.336,412.648 L201.336,413.032 C201.756,412.456 202.452,412.06 203.244,412.06 C204.756,412.06 205.824,413.2 205.824,415.096 Z M204.696,415.096 C204.696,413.884 204.156,413.008 203.064,413.008 C202.056,413.008 201.336,413.872 201.336,415.06 L201.336,415.132 C201.336,416.32 202.056,417.196 203.064,417.196 C204.156,417.196 204.696,416.308 204.696,415.096 Z M212.52,414.904 C212.52,415.192 212.268,415.48 211.968,415.48 L207.936,415.48 C208.02,416.476 208.74,417.28 209.916,417.28 C210.408,417.28 211.056,416.992 211.476,416.68 C211.74,416.548 212.148,416.644 212.148,417.052 C212.148,417.7 210.66,418.144 209.808,418.144 C208.08,418.144 206.82,416.92 206.82,415.096 C206.82,413.416 208.032,412.06 209.712,412.06 C211.116,412.06 212.076,412.936 212.412,414.232 C212.46,414.424 212.52,414.676 212.52,414.904 Z M207.936,414.688 L211.488,414.688 C211.464,413.908 210.936,412.924 209.7,412.924 C208.548,412.924 207.984,413.884 207.936,414.688 Z M218.868,414.28 L218.868,417.544 C218.868,417.832 218.628,418.072 218.328,418.072 C218.04,418.072 217.8,417.832 217.8,417.544 L217.8,414.64 C217.8,413.68 217.272,413.008 216.408,413.008 C215.484,413.008 214.956,413.776 214.956,414.76 L214.956,417.544 C214.956,417.832 214.716,418.072 214.416,418.072 C214.128,418.072 213.888,417.832 213.888,417.544 L213.888,412.648 C213.888,412.372 214.128,412.132 214.44,412.132 C214.716,412.132 214.956,412.372 214.956,412.648 L214.956,413.02 C215.232,412.552 215.748,412.06 216.756,412.06 C217.98,412.06 218.868,413.056 218.868,414.28 Z M225.804,410.44 L225.804,417.544 C225.804,417.832 225.564,418.072 225.264,418.072 C224.976,418.072 224.736,417.832 224.736,417.544 L224.736,417.172 C224.292,417.748 223.728,418.144 222.828,418.144 C221.328,418.144 220.248,417.004 220.248,415.108 C220.248,413.248 221.316,412.06 222.828,412.06 C223.704,412.06 224.268,412.42 224.736,413.044 L224.736,410.44 C224.736,410.164 224.976,409.924 225.288,409.924 C225.564,409.924 225.804,410.164 225.804,410.44 Z M224.736,415.144 L224.736,415.072 C224.736,413.884 224.136,413.008 223.104,413.008 C222.024,413.008 221.352,413.896 221.352,415.108 C221.352,416.32 222.024,417.196 223.104,417.196 C224.136,417.196 224.736,416.344 224.736,415.144 Z M232.884,414.904 C232.884,415.192 232.632,415.48 232.332,415.48 L228.3,415.48 C228.384,416.476 229.104,417.28 230.28,417.28 C230.772,417.28 231.42,416.992 231.84,416.68 C232.104,416.548 232.512,416.644 232.512,417.052 C232.512,417.7 231.024,418.144 230.172,418.144 C228.444,418.144 227.184,416.92 227.184,415.096 C227.184,413.416 228.396,412.06 230.076,412.06 C231.48,412.06 232.44,412.936 232.776,414.232 C232.824,414.424 232.884,414.676 232.884,414.904 Z M228.3,414.688 L231.852,414.688 C231.828,413.908 231.3,412.924 230.064,412.924 C228.912,412.924 228.348,413.884 228.3,414.688 Z M239.46,410.44 L239.46,417.544 C239.46,417.832 239.22,418.072 238.92,418.072 C238.632,418.072 238.392,417.832 238.392,417.544 L238.392,417.172 C237.948,417.748 237.384,418.144 236.484,418.144 C234.984,418.144 233.904,417.004 233.904,415.108 C233.904,413.248 234.972,412.06 236.484,412.06 C237.36,412.06 237.924,412.42 238.392,413.044 L238.392,410.44 C238.392,410.164 238.632,409.924 238.944,409.924 C239.22,409.924 239.46,410.164 239.46,410.44 Z M238.392,415.144 L238.392,415.072 C238.392,413.884 237.792,413.008 236.76,413.008 C235.68,413.008 235.008,413.896 235.008,415.108 C235.008,416.32 235.68,417.196 236.76,417.196 C237.792,417.196 238.392,416.344 238.392,415.144 Z" id="Off-On-Suspended" fill="#687383"></path>
+                <circle id="Colour" fill="#F55656" cx="170" cy="351" r="3"></circle>
+                <circle id="Colour" fill="#FFBC0B" cx="170" cy="415" r="3"></circle>
+                <circle id="Colour" fill="#68CD73" cx="170" cy="383" r="3"></circle>
+                <path d="M274.324,351.552 C274.324,351.84 274.096,352.068 273.82,352.068 L273.16,352.068 L273.16,353.484 C273.16,353.808 272.896,354.072 272.548,354.072 C272.224,354.072 271.972,353.808 271.972,353.484 L271.972,352.068 L268.684,352.068 C268.372,352.068 268.084,351.804 268.084,351.42 C268.084,351.3 268.132,351.156 268.204,351.036 L271.264,346.392 C271.456,346.104 271.792,345.924 272.14,345.924 C272.668,345.888 273.16,346.272 273.16,346.8 L273.16,351.024 L273.82,351.024 C274.096,351.024 274.324,351.264 274.324,351.552 Z M271.972,347.076 L269.332,351.024 L271.972,351.024 L271.972,347.076 Z M280.948,353.46 C280.948,353.772 280.72,354 280.432,354 L275.692,354 C275.404,354 275.14,353.76 275.14,353.424 C275.14,353.244 275.224,353.076 275.368,352.956 C278.224,350.784 279.628,349.512 279.628,348.288 C279.628,347.352 278.836,346.932 278.056,346.932 C277.3,346.932 276.676,347.184 276.196,347.604 C276.1,347.7 275.98,347.736 275.86,347.736 C275.584,347.736 275.32,347.508 275.32,347.208 C275.32,347.1 275.356,346.98 275.44,346.884 C276.028,346.236 277.06,345.876 278.044,345.876 C279.472,345.876 280.828,346.692 280.828,348.288 C280.828,349.848 279.316,351.252 277.132,352.944 L280.432,352.944 C280.72,352.944 280.948,353.184 280.948,353.46 Z M285.112,346.596 L285.112,353.484 C285.112,353.808 284.848,354.072 284.512,354.072 C284.188,354.072 283.924,353.808 283.924,353.484 L283.924,347.556 L282.904,348.612 C282.808,348.708 282.7,348.756 282.568,348.756 C282.316,348.756 282.064,348.54 282.064,348.252 C282.064,348.12 282.112,348 282.208,347.892 L283.948,346.128 C284.068,345.996 284.236,345.936 284.428,345.936 C284.788,345.936 285.112,346.224 285.112,346.596 Z M278.608,383.468 C278.608,385.124 277.372,386.144 275.668,386.144 C274.54,386.144 273.58,385.784 273.028,385.148 C272.956,385.052 272.92,384.944 272.92,384.824 C272.92,384.56 273.148,384.272 273.448,384.272 C273.568,384.272 273.7,384.32 273.796,384.404 C274.3,384.848 274.912,385.088 275.668,385.088 C276.724,385.088 277.42,384.404 277.42,383.516 C277.42,382.556 276.724,381.932 275.692,381.932 C275.116,381.932 274.576,382.1 274.12,382.46 C273.976,382.556 273.808,382.628 273.64,382.628 C273.304,382.628 273.028,382.376 273.028,382.04 L273.028,378.776 C273.028,378.344 273.388,377.996 273.82,377.996 L277.648,377.996 C277.936,377.996 278.164,378.224 278.164,378.536 C278.164,378.812 277.936,379.052 277.648,379.052 L274.216,379.052 L274.216,381.608 C274.6,381.224 275.272,380.9 276.064,380.9 C277.396,380.9 278.608,381.836 278.608,383.468 Z M285.712,383.552 C285.712,383.84 285.484,384.068 285.208,384.068 L284.548,384.068 L284.548,385.484 C284.548,385.808 284.284,386.072 283.936,386.072 C283.612,386.072 283.36,385.808 283.36,385.484 L283.36,384.068 L280.072,384.068 C279.76,384.068 279.472,383.804 279.472,383.42 C279.472,383.3 279.52,383.156 279.592,383.036 L282.652,378.392 C282.844,378.104 283.18,377.924 283.528,377.924 C284.056,377.888 284.548,378.272 284.548,378.8 L284.548,383.024 L285.208,383.024 C285.484,383.024 285.712,383.264 285.712,383.552 Z M283.36,379.076 L280.72,383.024 L283.36,383.024 L283.36,379.076 Z M285.244,417.46 C285.244,417.772 285.016,418 284.728,418 L279.988,418 C279.7,418 279.436,417.76 279.436,417.424 C279.436,417.244 279.52,417.076 279.664,416.956 C282.52,414.784 283.924,413.512 283.924,412.288 C283.924,411.352 283.132,410.932 282.352,410.932 C281.596,410.932 280.972,411.184 280.492,411.604 C280.396,411.7 280.276,411.736 280.156,411.736 C279.88,411.736 279.616,411.508 279.616,411.208 C279.616,411.1 279.652,410.98 279.736,410.884 C280.324,410.236 281.356,409.876 282.34,409.876 C283.768,409.876 285.124,410.692 285.124,412.288 C285.124,413.848 283.612,415.252 281.428,416.944 L284.728,416.944 C285.016,416.944 285.244,417.184 285.244,417.46 Z" id="421-54-2" fill="#3F4142"></path>
+                <g id="one-copy-2" transform="translate(939.000000, 295.000000)">
+                    <g id="basic-normal">
+                        <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="302" height="135" rx="4"></rect>
+                        <g id="Header">
+                            <g fill="black" fill-opacity="1">
+                                <use filter="url(#filter-30)" xlink:href="#path-29"></use>
+                            </g>
+                            <text id="Warning-Alerts" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                                <tspan x="35" y="29">Warning Alerts</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text id="AHV" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="24" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                        <tspan x="65.9866667" y="89">2</tspan>
+                    </text>
+                    <text id="Hypervisor" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                        <tspan x="41.2733333" y="114">1 hour ago</tspan>
+                    </text>
+                    <path d="M151.369635,39.9648438 L151.369635,134.160645" id="Path-8" stroke="#F2F4F6"></path>
+                </g>
+                <g id="Rectangle-6-Copy-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-32)" xlink:href="#path-31"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
+                </g>
+                <text id="License-Failure" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="32" fill="#3F4142">
+                    <tspan x="1111" y="348">License Failure</tspan>
+                </text>
+                <g id="Rectangle-6-Copy-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-33"></use>
+                </g>
+                <text id="Time-drift-check" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="32" fill="#3F4142">
+                    <tspan x="1111" y="380">Time drift check</tspan>
+                </text>
+                <circle id="Colour" fill="#B8BFCA" cx="962" cy="464" r="3"></circle>
+                <circle id="Colour" fill="#FFBC0B" cx="962" cy="318" r="3"></circle>
+                <circle id="Colour" fill="#22A5F7" cx="1119" cy="464" r="3"></circle>
+                <g id="Rectangle-6-Copy-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-36)" xlink:href="#path-35"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-35"></use>
+                </g>
+                <path d="M173.668,494.5 L173.668,501.388 C173.668,501.736 173.368,502.072 172.948,502.072 C172.72,502.072 172.492,501.964 172.36,501.772 L168.088,495.928 L168.088,501.484 C168.088,501.808 167.824,502.072 167.488,502.072 C167.164,502.072 166.9,501.808 166.9,501.484 L166.9,494.656 C166.9,494.272 167.224,493.924 167.668,493.924 C167.908,493.924 168.16,494.044 168.304,494.248 L172.48,499.924 L172.48,494.5 C172.48,494.188 172.744,493.924 173.092,493.924 C173.404,493.924 173.668,494.188 173.668,494.5 Z M181.828,501.496 C181.828,501.796 181.588,502.084 181.252,502.084 C181.084,502.084 180.916,502 180.808,501.856 L178.504,498.724 L176.188,501.856 C176.092,502 175.924,502.084 175.744,502.084 C175.432,502.084 175.168,501.844 175.168,501.508 C175.168,501.4 175.204,501.28 175.276,501.172 L177.724,497.896 L175.456,494.812 C175.384,494.716 175.348,494.608 175.348,494.5 C175.348,494.224 175.576,493.924 175.924,493.924 C176.104,493.924 176.272,494.02 176.392,494.164 L178.504,497.08 L180.616,494.164 C180.712,494.008 180.88,493.924 181.072,493.924 C181.372,493.924 181.66,494.176 181.66,494.5 C181.66,494.608 181.624,494.716 181.552,494.824 L179.284,497.884 L181.732,501.172 C181.804,501.268 181.828,501.388 181.828,501.496 Z M187.468,497.871999 C187.468,497.871999 187.468,497.871999 187.468,497.871999 C187.468,497.871999 187.468,497.871999 187.468,497.871999 Z M187.468004,497.872002 C187.470548,497.873021 188.608,498.329677 188.608,499.828 C188.608,501.172 187.492,502.144 185.692,502.144 C184.54,502.144 183.508,501.7 182.992,501.088 C182.908,501.004 182.872,500.896 182.872,500.788 C182.872,500.512 183.112,500.248 183.4,500.248 C183.508,500.248 183.628,500.284 183.724,500.368 C184.24,500.812 184.924,501.088 185.656,501.088 C186.76,501.088 187.432,500.56 187.432,499.72 C187.432,498.82 186.7,498.436 185.776,498.436 C185.344,498.46 184.84,498.424 184.84,497.896 C184.84,497.608 185.056,497.38 185.356,497.38 C186.52,497.392 187.3,497.2 187.3,496.192 C187.3,495.364 186.52,494.932 185.584,494.932 C184.9,494.932 184.312,495.16 183.796,495.592 C183.712,495.664 183.604,495.7 183.496,495.7 C183.244,495.7 182.98,495.484 182.98,495.196 C182.98,495.064 183.04,494.92 183.136,494.836 C183.772,494.248 184.612,493.876 185.692,493.876 C187.312,493.876 188.488,494.668 188.488,496.024 C188.488,497.378707 187.469945,497.871061 187.468003,497.871999 L187.468004,497.872002 Z M196.036,498.004 C196.036,499.984 195.112,502.144 192.904,502.144 C190.684,502.144 189.772,499.984 189.772,498.004 C189.772,496.024 190.684,493.876 192.904,493.876 C195.112,493.876 196.036,496.024 196.036,498.004 Z M194.824,498.004 C194.824,496.444 194.32,494.932 192.904,494.932 C191.476,494.932 190.984,496.444 190.984,498.004 C190.984,499.564 191.476,501.088 192.904,501.088 C194.32,501.088 194.824,499.564 194.824,498.004 Z M203.116,499.552 C203.116,499.84 202.888,500.068 202.612,500.068 L201.952,500.068 L201.952,501.484 C201.952,501.808 201.688,502.072 201.34,502.072 C201.016,502.072 200.764,501.808 200.764,501.484 L200.764,500.068 L197.476,500.068 C197.164,500.068 196.876,499.804 196.876,499.42 C196.876,499.3 196.924,499.156 196.996,499.036 L200.056,494.392 C200.248,494.104 200.584,493.924 200.932,493.924 C201.46,493.888 201.952,494.272 201.952,494.8 L201.952,499.024 L202.612,499.024 C202.888,499.024 203.116,499.264 203.116,499.552 Z M200.764,495.076 L198.124,499.024 L200.764,499.024 L200.764,495.076 Z M209.968,499.468 C209.968,501.124 208.732,502.144 207.028,502.144 C205.9,502.144 204.94,501.784 204.388,501.148 C204.316,501.052 204.28,500.944 204.28,500.824 C204.28,500.56 204.508,500.272 204.808,500.272 C204.928,500.272 205.06,500.32 205.156,500.404 C205.66,500.848 206.272,501.088 207.028,501.088 C208.084,501.088 208.78,500.404 208.78,499.516 C208.78,498.556 208.084,497.932 207.052,497.932 C206.476,497.932 205.936,498.1 205.48,498.46 C205.336,498.556 205.168,498.628 205,498.628 C204.664,498.628 204.388,498.376 204.388,498.04 L204.388,494.776 C204.388,494.344 204.748,493.996 205.18,493.996 L209.008,493.996 C209.296,493.996 209.524,494.224 209.524,494.536 C209.524,494.812 209.296,495.052 209.008,495.052 L205.576,495.052 L205.576,497.608 C205.96,497.224 206.632,496.9 207.424,496.9 C208.756,496.9 209.968,497.836 209.968,499.468 Z M217.36,498.004 C217.36,499.984 216.436,502.144 214.228,502.144 C212.008,502.144 211.096,499.984 211.096,498.004 C211.096,496.024 212.008,493.876 214.228,493.876 C216.436,493.876 217.36,496.024 217.36,498.004 Z M216.148,498.004 C216.148,496.444 215.644,494.932 214.228,494.932 C212.8,494.932 212.308,496.444 212.308,498.004 C212.308,499.564 212.8,501.088 214.228,501.088 C215.644,501.088 216.148,499.564 216.148,498.004 Z M227.416,499.108 C227.416,501.004 226.336,502.144 224.836,502.144 C224.056,502.144 223.36,501.748 222.928,501.172 L222.928,501.544 C222.928,501.832 222.688,502.072 222.388,502.072 C222.1,502.072 221.86,501.832 221.86,501.544 L221.86,494.44 C221.86,494.164 222.1,493.924 222.412,493.924 C222.688,493.924 222.928,494.164 222.928,494.44 L222.928,497.044 C223.396,496.42 224.068,496.06 224.956,496.06 C226.456,496.06 227.416,497.248 227.416,499.108 Z M226.3,499.108 C226.3,497.896 225.76,497.008 224.656,497.008 C223.648,497.008 222.928,497.884 222.928,499.072 L222.928,499.156 C222.928,500.356 223.888,501.196 224.656,501.196 C225.76,501.196 226.3,500.32 226.3,499.108 Z M229.864,494.44 L229.864,501.544 C229.864,501.832 229.624,502.072 229.324,502.072 C229.036,502.072 228.796,501.832 228.796,501.544 L228.796,494.44 C228.796,494.164 229.036,493.924 229.348,493.924 C229.624,493.924 229.864,494.164 229.864,494.44 Z M237.088,499.096 C237.088,500.764 235.972,502.144 234.16,502.144 C232.36,502.144 231.244,500.764 231.244,499.096 C231.244,497.428 232.36,496.06 234.16,496.06 C235.972,496.06 237.088,497.428 237.088,499.096 Z M235.972,499.096 C235.972,497.992 235.324,497.008 234.16,497.008 C233.008,497.008 232.348,497.992 232.348,499.096 C232.348,500.212 233.008,501.196 234.16,501.196 C235.324,501.196 235.972,500.212 235.972,499.096 Z M243.088,501.124 C243.088,501.232 243.04,501.352 242.944,501.436 C242.512,501.856 241.924,502.144 241.06,502.144 C239.32,502.144 238.12,500.836 238.12,499.096 C238.12,497.368 239.32,496.06 241.06,496.06 C241.948,496.06 242.596,496.372 242.992,496.828 C243.052,496.9 243.076,496.984 243.076,497.08 C243.076,497.344 242.848,497.56 242.584,497.56 C242.464,497.56 242.344,497.512 242.248,497.428 C241.924,497.14 241.54,497.008 241.12,497.008 C239.968,497.008 239.224,497.884 239.224,499.096 C239.224,500.308 239.968,501.196 241.12,501.196 C241.552,501.196 241.924,501.052 242.248,500.764 C242.344,500.692 242.464,500.656 242.584,500.656 C242.836,500.656 243.088,500.848 243.088,501.124 Z M249.16,501.544 C249.16,501.796 248.956,502.084 248.632,502.084 C248.476,502.084 248.308,502.012 248.212,501.868 L246.376,499.492 L245.488,500.392 L245.488,501.544 C245.488,501.832 245.248,502.072 244.948,502.072 C244.66,502.072 244.42,501.832 244.42,501.544 L244.42,494.44 C244.42,494.164 244.66,493.924 244.972,493.924 C245.248,493.924 245.488,494.164 245.488,494.44 L245.488,499.156 L248.224,496.276 C248.32,496.18 248.452,496.12 248.572,496.12 C248.836,496.12 249.076,496.36 249.076,496.624 C249.076,496.744 249.028,496.852 248.944,496.948 L247.144,498.832 L249.052,501.232 C249.124,501.316 249.16,501.436 249.16,501.544 Z M254.908,500.248 C254.968,501.352 254.092,502.144 252.556,502.144 C251.764,502.144 250.888,501.916 250.36,501.388 C250.276,501.316 250.228,501.22 250.228,501.1 C250.228,500.848 250.444,500.656 250.696,500.656 C250.804,500.656 250.888,500.68 250.972,500.74 C251.404,501.052 252.004,501.292 252.604,501.292 C253.432,501.292 253.912,500.92 253.864,500.392 C253.744,499.108 250.432,499.708 250.324,497.764 C250.264,496.732 251.116,496.06 252.532,496.06 C253.36,496.06 254.092,496.312 254.548,496.756 C254.62,496.828 254.656,496.924 254.656,497.02 C254.656,497.26 254.452,497.44 254.236,497.44 C254.14,497.44 254.056,497.416 253.984,497.356 C253.612,497.092 253.096,496.912 252.544,496.912 C251.812,496.912 251.308,497.26 251.356,497.728 C251.476,498.772 254.8,498.208 254.908,500.248 Z" id="NX30450-blocks" fill="#687383"></path>
+                <path d="M280.748,494.572 C280.748,494.644 280.724,494.728 280.7,494.788 L277.604,501.724 C277.508,501.94 277.292,502.072 277.064,502.072 C276.704,502.072 276.452,501.784 276.452,501.484 C276.452,501.412 276.476,501.328 276.512,501.256 L279.308,495.052 L275.516,495.052 C275.228,495.052 275,494.812 275,494.512 C275,494.224 275.228,493.996 275.516,493.996 L280.184,493.996 C280.448,493.996 280.748,494.224 280.748,494.572 Z" id="7" fill="#3F4142"></path>
+                <text id="3-TiB-free-physical" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="14" font-weight="400" line-spacing="10">
+                    <tspan x="20" y="237" fill="#3F4142">3 TiB </tspan>
+                    <tspan x="55.322" y="237" fill="#687383">free physical of 6 TiB</tspan>
+                </text>
+                <g id="basic-normal" transform="translate(627.000000, 0.000000)">
+                    <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="300" height="283" rx="4"></rect>
+                    <g id="Header">
+                        <g fill="black" fill-opacity="1">
+                            <use filter="url(#filter-38)" xlink:href="#path-37"></use>
+                        </g>
+                        <text id="Health" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                            <tspan x="20" y="29">Health</tspan>
+                        </text>
+                    </g>
+                    <g id="Content" transform="translate(0.000000, 55.000000)">
+                        <g id="VM">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-40)" xlink:href="#path-39"></use>
+                            </g>
+                            <text id="Hosts" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Hosts</tspan>
+                            </text>
+                            <text id="28.22%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                        <g id="VM" transform="translate(0.000000, 40.000000)">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-42)" xlink:href="#path-41"></use>
+                            </g>
+                            <text id="Virtual-Machines" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Virtual Machines</tspan>
+                            </text>
+                            <text id="16.49%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                        <g id="VM" transform="translate(0.000000, 80.000000)">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-44)" xlink:href="#path-43"></use>
+                            </g>
+                            <text id="Disks" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Disks</tspan>
+                            </text>
+                            <text id="12.95%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Colour" transform="translate(795.000000, 149.000000)">
+                    <circle fill="#F55656" cx="3" cy="4" r="3"></circle>
+                    <text id="0" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="16" y="12">0</tspan>
+                    </text>
+                    <circle fill="#FFBC0B" cx="49" cy="4" r="3"></circle>
+                    <text id="8" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="62" y="12">8</tspan>
+                    </text>
+                    <circle fill="#B8BFCA" cx="95" cy="4" r="3"></circle>
+                    <text id="1" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="108" y="12">1</tspan>
+                    </text>
+                </g>
+                <g id="Colour-Copy" transform="translate(795.000000, 190.000000)">
+                    <circle id="Colour" fill="#F55656" cx="3" cy="4" r="3"></circle>
+                    <text id="0" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="16" y="12">0</tspan>
+                    </text>
+                    <circle id="Colour" fill="#FFBC0B" cx="49" cy="4" r="3"></circle>
+                    <text id="8" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="62" y="12">8</tspan>
+                    </text>
+                    <circle id="Colour" fill="#B8BFCA" cx="95" cy="4" r="3"></circle>
+                    <text id="1" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="108" y="12">1</tspan>
+                    </text>
+                </g>
+                <g id="Colour-Copy-2" transform="translate(795.000000, 230.000000)">
+                    <circle id="Colour" fill="#F55656" cx="3" cy="4" r="3"></circle>
+                    <text id="0" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="16" y="12">0</tspan>
+                    </text>
+                    <circle id="Colour" fill="#FFBC0B" cx="49" cy="4" r="3"></circle>
+                    <text id="8" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="62" y="12">8</tspan>
+                    </text>
+                    <circle id="Colour" fill="#B8BFCA" cx="95" cy="4" r="3"></circle>
+                    <text id="1" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="8" fill="#627386">
+                        <tspan x="108" y="12">1</tspan>
+                    </text>
+                </g>
+                <g id="basic-normal-copy-2" transform="translate(939.000000, 0.000000)">
+                    <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="302" height="283" rx="4"></rect>
+                    <g id="Header">
+                        <g fill="black" fill-opacity="1">
+                            <use filter="url(#filter-46)" xlink:href="#path-45"></use>
+                        </g>
+                        <text id="Critical-Alerts" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                            <tspan x="34" y="29">Critical Alerts</tspan>
+                        </text>
+                    </g>
+                    <g id="Content" transform="translate(0.000000, 55.000000)">
+                        <g id="VM">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-48)" xlink:href="#path-47"></use>
+                            </g>
+                            <text id="Snapshot-partially-c" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Snapshot partially crash</tspan>
+                            </text>
+                            <text id="1h-ago" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#627386">
+                                <tspan x="247" y="105">1h ago</tspan>
+                            </text>
+                            <text id="28.22%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                        <g id="VM" transform="translate(0.000000, 40.000000)">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-50)" xlink:href="#path-49"></use>
+                            </g>
+                            <text id="Protected-VM-not-fou" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Protected VM not found</tspan>
+                            </text>
+                            <text id="2h-ago" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#627386">
+                                <tspan x="244" y="105">2h ago</tspan>
+                            </text>
+                            <text id="16.49%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                        <g id="VM" transform="translate(0.000000, 80.000000)">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-52)" xlink:href="#path-51"></use>
+                            </g>
+                            <text id="Diskspace-usage-high" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="20" y="107">Diskspace usage high</tspan>
+                            </text>
+                            <text id="3h-ago" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#627386">
+                                <tspan x="245" y="105">3h ago</tspan>
+                            </text>
+                            <text id="12.95%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                    </g>
+                </g>
+                <g id="basic-normal-copy" transform="translate(627.000000, 295.000000)">
+                    <rect id="Tile" fill="#FFFFFF" x="0" y="0" width="300" height="282" rx="4"></rect>
+                    <g id="Header">
+                        <g fill="black" fill-opacity="1">
+                            <use filter="url(#filter-54)" xlink:href="#path-53"></use>
+                        </g>
+                        <text id="Latency" font-family="NutanixSoft-Semibold, Nutanix Soft" font-size="14" font-weight="500" line-spacing="10" fill="#22272E">
+                            <tspan x="20" y="28.8596491">Latency</tspan>
+                        </text>
+                    </g>
+                    <g id="Content" transform="translate(0.000000, 53.614035)">
+                        <g id="VM" transform="translate(0.000000, 0.000000)">
+                            <g id="Row" fill="black" fill-opacity="1">
+                                <use filter="url(#filter-56)" xlink:href="#path-55"></use>
+                            </g>
+                            <text id="Rebuild-Capacity" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                                <tspan x="36" y="218.526316">Rebuild Capacity</tspan>
+                            </text>
+                            <ellipse id="Colour" fill="#68CD73" cx="23" cy="210.526316" rx="3" ry="2.97894737"></ellipse>
+                            <text id="28.22%" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10"></text>
+                        </g>
+                        <g id="VM" transform="translate(164.000000, 40.719298)" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10">
+                            <text id="16.49%"></text>
+                        </g>
+                        <g id="VM" transform="translate(164.000000, 80.438596)" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10">
+                            <text id="12.95%"></text>
+                        </g>
+                    </g>
+                </g>
+                <circle id="Colour-Copy-4" fill="#F55656" cx="963" cy="21" r="3"></circle>
+                <text id="Data-resiliency-poss" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                    <tspan x="704" y="464">Data resiliency possible</tspan>
+                </text>
+                <text id="OK" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="24" font-style="condensed" font-weight="300" line-spacing="17" fill="#262B32">
+                    <tspan x="761" y="441">OK</tspan>
+                </text>
+                <path d="M775.117395,88.4889299 C775.49228,88.4889299 775.842859,88.2924354 776.032638,87.9695572 L777.640625,85.2550738 L779.451947,88.8726937 C779.632378,89.228321 779.997447,89.452952 780.400846,89.452952 L780.405521,89.452952 C780.803778,89.452952 781.173521,89.228321 781.353952,88.8773063 L784.095009,83.5050738 L786.604216,87.9880074 C786.788854,88.320572 787.144574,88.5309041 787.533482,88.5309041 L789.586937,88.5309041 C788.66702,90.0050738 787.40073,91.7135609 785.650642,93.6319188 C783.00915,96.5336716 779.594516,99 777.521896,99 C775.254822,99 771.968265,96.5336716 769.326773,93.6416052 C767.538823,91.6808118 766.253368,89.9630996 765.33345,88.4889299 L775.117395,88.4889299 Z M791.90169,83.1489852 C791.773612,84.0991697 791.474919,84.9976937 791.038332,85.8168819 C790.953259,86.0179889 790.853227,86.2237085 790.748988,86.4391144 L788.154707,86.4391144 L784.977532,80.7578413 C784.787752,80.4160517 784.422215,80.2103321 784.028632,80.2149446 C783.63505,80.2241697 783.279329,80.4441882 783.099366,80.7905904 L780.405521,86.0599631 L778.660107,82.5830258 C778.489492,82.2366236 778.138446,82.0166052 777.744864,82.0027675 C777.355955,81.9884686 776.990886,82.1895756 776.791758,82.5221402 L774.49617,86.3971402 L764.157376,86.3971402 C763.967597,86.00369 763.811005,85.6342251 763.678253,85.297048 C763.241665,84.3099631 763,83.2144834 763,82.0682657 C763,77.6130074 766.651626,74 771.15726,74 C773.703862,74 775.980753,75.1559041 777.479359,76.9672509 C778.973291,75.1559041 781.249714,74 783.80099,74 C788.306625,74 791.958718,77.6130074 791.958718,82.0682657 L791.958718,82.0867159 L791.986764,82.0867159 C792.001255,82.0821033 792.029768,82.447417 791.90169,83.1489852 L791.90169,83.1489852 Z" id="Fill-48" fill="#69CC73"></path>
+                <text id="5" font-family="NutanixSoft-Thin, Nutanix Soft" font-size="24" font-style="condensed" font-weight="300" line-spacing="20" fill="#3F4142">
+                    <tspan x="1083" y="87">5</tspan>
+                </text>
+                <text id="1-hour-ago" font-family="NutanixSoft-Regular, Nutanix Soft" font-size="14" font-weight="normal" line-spacing="10" fill="#22272E">
+                    <tspan x="1058" y="112">1 hour ago</tspan>
+                </text>
+                <g id="Group-6" transform="translate(313.000000, 66.000000)" fill="url(#linearGradient-57)" stroke="#4FA4F1">
+                    <polyline id="Path-2" points="0 40 0.00460658923 7.88059701 5.57859536 7.2238806 11.1525841 17.6716418 16.7265729 11.1044776 22.3005617 15.7014925 27.8745504 17.0149254 33.4485392 21.8059701 39.022528 14.1641791 44.5965167 7.62686567 50.1705055 17.0149254 55.7444943 6.50746269 61.318483 15.0447761 66.8924718 2.56716418 72.4664606 9.79104478 78.0404493 9.13432836 83.6144381 20.2985075 89.1884269 0.597014925 94.7624156 5.19402985 100.336404 15.0447761 105.910393 7.79374716 111.484382 5.85074627 117.058371 20.9253731 122.632359 8.47761194 128.206348 17.6716418 133.780337 8.47761194 139.354326 14.3880597 144.928315 7.82089552 150.502303 15.7014925 156.076292 10 161.650281 20.238806 167.22427 15.0447761 172.798258 19.5820896 178.372247 9.53731343 183.946236 20.9253731 189.520225 9.79104478 195.094213 11.1044776 200.668202 6.25373134 206.242191 20.238806 211.81618 9.13432836 217.390168 18.8955224 222.964157 13.7313433 228.538146 20.2686567 234.112135 18.3283582 239.686124 20.9253731 245.260112 19.641791 250.834101 21.4029851 256.40809 13.880597 261.982079 20.7164179 267.556067 9.65671642 273.130056 10.4477612 278.704045 5.19402985 284.278034 15.7014925 289.852022 8.47761194 295.426011 14.3880597 301 1.25373134 301 40"></polyline>
+                </g>
+                <rect id="Rectangle-6" fill="url(#linearGradient-58)" x="312" y="65" width="25" height="41"></rect>
+                <rect id="Rectangle-6-Copy" fill="url(#linearGradient-58)" transform="translate(602.500000, 85.500000) rotate(-180.000000) translate(-602.500000, -85.500000) " x="590" y="65" width="25" height="41"></rect>
+                <rect id="Rectangle-6-Copy-7" fill="url(#linearGradient-58)" x="312" y="212" width="25" height="46"></rect>
+                <rect id="Rectangle-6-Copy-6" fill="url(#linearGradient-58)" transform="translate(602.500000, 234.000000) rotate(-180.000000) translate(-602.500000, -234.000000) " x="590" y="211" width="25" height="46"></rect>
+                <rect id="Rectangle-6-Copy-9" fill="url(#linearGradient-58)" x="312" y="356" width="25" height="46"></rect>
+                <rect id="Rectangle-6-Copy-8" fill="url(#linearGradient-58)" transform="translate(602.500000, 379.000000) rotate(-180.000000) translate(-602.500000, -379.000000) " x="590" y="356" width="25" height="46"></rect>
+                <text id="1000-copy" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#9AA5B4">
+                    <tspan x="321" y="212">1000</tspan>
+                </text>
+                <text id="0-copy" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#9AA5B4">
+                    <tspan x="321" y="252">0</tspan>
+                </text>
+                <text id="1000-copy-2" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#9AA5B4">
+                    <tspan x="321" y="356">1000</tspan>
+                </text>
+                <text id="0-copy-2" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#9AA5B4">
+                    <tspan x="321" y="396">0</tspan>
+                </text>
+                <text id="0" font-family="NutanixSoft-Medium, Nutanix Soft" font-size="12" font-weight="400" line-spacing="10" fill="#9AA5B4">
+                    <tspan x="321" y="100">0</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
 </svg>

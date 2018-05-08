@@ -78,7 +78,7 @@ p a{
   @include flex(center, space-between, row);
   @include size(60px, 100%);
   background-color: $background-color-3;
-  padding:20px;
+  padding:0 20px;
   font-weight: 500;
   color:$font-color-2;
 }
@@ -155,10 +155,11 @@ p a{
 
 ///
 
-.data-main-content{
-  @include flex(center, center, '');
-  height: calc(100vh - 50px);
+.data-main-container{}
 
+.data-main-content{
+  @include flex(center, center, row);
+  height: auto;
 }
 
 .popup-body{
@@ -210,8 +211,14 @@ p a{
   box-sizing: content-box!important;
 }
 
+.flex{
+  @include flex(center, center, row);
+  padding: 50px;
+  border-top: 1px solid $border-color-3;
+}
+
 .data-block{
-  @include size(500px, 400px);
+  @include size(auto, 400px);
   @include flex(center, flex-start, column);
   padding: 60px;
 

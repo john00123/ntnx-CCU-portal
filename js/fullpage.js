@@ -1,35 +1,29 @@
-const pageData = `<div class="data-main-content">
-  <article class="data-block">
-    <h1>Acropolis License</h1>
+const pageData = `
+  <div class='data-main-container'>
+    <div class="data-main-content">
+      <article class="data-block">
+        <h1>Acropolis License</h1>
+        <div class="icon-group">
+          <div class="img-license" style='transform:translateX(-10px);'> <code>Pro</code> </div>
+        </div>
 
-    <div class="icon-group">
-      <div class="img-license" style='transform:translateX(-10px);'> <code>Pro</code> </div>
+        <h5 class='exp' >Expires 12/12/2020</h5>
+        <div class="separator"></div>
+      </article>
+
+      <article class="data-block">
+        <h1>Add-On</h1>
+        <div class="icon-group">
+          <div class="img-license addon"> <code>File Server</code> </div>
+        </div>
+        <h5 class='exp'>Expires 12/12/2020</h5>
+        <div class="separator"></div>
+      </article>
     </div>
 
-    <h5 class='exp' >Expires 12/12/2020</h5>
-    <div class="separator"></div>
-
-    <div class="multi-button">
-      <div class="data-button-grouping">
-        <button class='secondary reclaim-task2' style='margin-top:20px;'> Add Node </button><button class='primary reclaim-task2' style='margin-top:20px; margin-left:10px;'> Reclaim </button>
-      </div>
-    </div>
-  </article>
-
-  <article class="data-block">
-    <h1>Add-On</h1>
-    <div class="icon-group">
-      <div class="img-license addon"> <code>File Server</code> </div>
-    </div>
-    <h5 class='exp'>Expires 12/12/2020</h5>
-    <div class="separator"></div>
-    <div class="multi-button">
-      <div class="data-button-grouping">
-        <button class='secondary' style='margin-top:20px;'> Change Add-ons </button>
-      </div>
-    </div>
-  </article>
-</div>`
+    <div class='fw flex' ><button class='primary reclaim-task2' style='margin:auto;'> Reclaim </button></div>
+  </div>
+`
 
 
 const page = {
@@ -91,6 +85,15 @@ function dropdown() {
 function fullpage() {
   $('.page').fadeToggle();
   selection(1);
+  $('.page-body').html(pageData);
+  $('.reclaim-task2:eq(1)').click(function() {
+    popupRender(0, 0, 0)
+  });
+  $('.reclaim-task2:eq(0)').click(function() {
+    popupRender(0, 0, 0);
+    $('.popup-header').text('Manage License');
+    $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Manage License through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
+  });
   $('html').toggleClass('overflow');
 }
 
@@ -115,6 +118,8 @@ function banner(i) {
   }, 5000);
 }
 
+
+//applied license
 function applyLicense() {
   $('.see-licenses').click(function() {
     banner(bannerData.license);
@@ -124,8 +129,8 @@ function applyLicense() {
     });
     $('.reclaim-task2:eq(0)').click(function() {
       popupRender(0, 0, 0);
-      $('.popup-header').text('Add Node');
-      $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Add node through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
+      $('.popup-header').text('Manage Licenses');
+      $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Manage License through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
     });
   });
 }
@@ -160,7 +165,10 @@ fullpage();
 
 $('html').toggleClass('overflow');
 $('.gear').click(dropdown);
-$('.license, .close').click(fullpage);
+$('.license, .close').click(()=>{
+  fullpage();
+  $('header').fadeToggle();
+});
 $('.license').click(dropdown);
 selection(0);
 
