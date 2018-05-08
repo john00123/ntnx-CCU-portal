@@ -191,7 +191,7 @@ const popupData = {
     `<button class="primary reclaim btn-disabled">Reclaim</button>`,
 
     //2
-    `<button class="primary"><a href='img/license-file.xml' download> Download </a></button>`,
+    `<a href='img/license-file.xml' download><button class="primary"> Download </button></a>`,
 
     //3
     `<button class="secondary cancel"> Cancel </button>
