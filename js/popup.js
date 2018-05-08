@@ -31,10 +31,10 @@ const popupData = {
 
   body: [
     //0 Upload
-    ` <div class='steps-popup'>
+    ` <!-- <div class='steps-popup'>
         <h3><p class='active badge'>1</p>Upload</h3>
         <h3><p class='inactive badge'>2</p>Manage</h3>
-      </div>
+      </div> -->
       <h3 style='margin-bottom:0px'>
         Upload summary file downloaded from Prism element or Prism Central
       </h3>
@@ -191,7 +191,7 @@ const popupData = {
     `<button class="primary reclaim btn-disabled">Reclaim</button>`,
 
     //2
-    `<a href='img/license-file.xml' download><button class="primary"> Download </button></a>`,
+    `<button class="primary"><a href='img/license-file.xml' download> Download </a></button>`,
 
     //3
     `<button class="secondary cancel"> Cancel </button>
@@ -224,10 +224,10 @@ const layer2Data = {
     //0
     `
     <div class="popup-header">${popupData.title[0]}</div>
-      <div class='steps-popup2'>
+        <!-- <div class='steps-popup2'>
         <h3><p class='completed badge'>1</p>Upload</h3>
         <h3><p class='active badge'>2</p>Manage</h3>
-      </div>
+      </div>-->
       <div class="popup-body panels">
 
         <div class='panel1'>
@@ -315,10 +315,10 @@ const layer2Data = {
     //1
     `
       <div class="popup-header">${popupData.title[3]}</div>
-      <div class='steps-popup2'>
+        <!-- <div class='steps-popup2'>
         <h3><p class='completed badge'>1</p>Upload</h3>
         <h3><p class='active badge'>2</p>Manage</h3>
-      </div>
+      </div> -->
       <div class="popup-body">
         <span class='count money'>4000</span>
         <p style='margin-bottom:30px;'> Their expiration date is 12/12/2020</p>
@@ -326,6 +326,14 @@ const layer2Data = {
       </div>
       <div class="popup-footer">${popupData.footer[7]}</div>
     `,
+
+    //2
+    `<p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-file.xml' download> cluster summary file.</a></p></a>
+
+    <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='home.html' target='_blank'> license page</a> action menu.</p>
+    <div class='preview'></div>
+
+    <p class='statement' style='margin-top:10px;'><code class='option'>3</code>Once the license file has been generated <a class='add-file'>upload it.</a></p>`
   ]
 }
 
