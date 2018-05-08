@@ -126,7 +126,7 @@ function coinImages(){
 function multiPopup() {
   $('.redeem').click(function() {
     $('.popup').addClass('second');
-    $('#path2').val().length === 25 ? layer2(0) :
+    $('#path2').val().length === 11 ? layer2(0) :
     ( layer2(1),
       setTimeout(countNumbers(), 600),
       cardData.cardBody[1] += 40000,
