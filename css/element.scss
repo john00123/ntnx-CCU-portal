@@ -19,6 +19,7 @@
 
 .gear{
   opacity: 0.6;
+
   @include transition(opacity);
   &:hover{
     cursor: pointer;
@@ -27,12 +28,14 @@
 }
 
 .blackbox{
+  position: fixed;
   padding: 0px 20px;
   background-color: $background-color-3;
   width: 350px;
-  top:35px;
-  left:-370px;
-  position: absolute;
+  font-weight: 500;
+  top:50px;
+  right: 0;
+
   @include flex(flex-start, space-between, row);
   line-height: 1.75;
   color:$font-color-3;

@@ -90,7 +90,7 @@ function dropdown() {
 
 function fullpage() {
   $('.page').fadeToggle();
-  selection(0);
+  selection(1);
   $('html').toggleClass('overflow');
 }
 
