@@ -30,7 +30,7 @@ const page = {
   title: ['Reclaim unused'],
   body: [
     `
-    <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-file.xml' download> cluster summary file.</a></p></a>
+    <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-file.xml' download> cluster summary file.</a></p>
 
     <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='./overview.html' target='_blank'> license page</a> action menu.</p>
     <div class='preview'></div>
@@ -86,14 +86,20 @@ function fullpage() {
   $('.page').fadeToggle();
   selection(1);
   $('.page-body').html(pageData);
-  $('.reclaim-task2:eq(1)').click(function() {
-    popupRender(0, 0, 0)
+  $('.reclaim-task2').click(()=>popupRender(0, 0, 0));
+
+  $(document).keyup(e => {
+    if (e.keyCode === 49) {
+      banner('Cluster needs additional licenses');
+      $('.flex').html(`<button class='primary expand-task' style='margin:auto;'> License </button>`);
+      $('.expand-task').click(function() {
+        popupRender(0, 0, 0);
+        $('.popup-header').text('Manage License');
+        $('.popup-body p:eq(0)').html(`<code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-expand.xml' download> cluster summary file.</a>`);
+      });
+    }//esc key
   });
-  $('.reclaim-task2:eq(0)').click(function() {
-    popupRender(0, 0, 0);
-    $('.popup-header').text('Manage License');
-    $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Manage License through the <a href='./overview.html' target='_blank'> license page </a> action menu.</p>`);
-  });
+
   $('html').toggleClass('overflow');
 }
 
@@ -109,7 +115,6 @@ function banner(i) {
     $('.banner').slideDown();
   }, 400);
   $('.banner').css('border-top', '1px solid #CEF6DE');
-
   setTimeout(function() {
     $('.banner').slideUp();
     setTimeout(function() {
