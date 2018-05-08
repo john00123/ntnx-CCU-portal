@@ -960,6 +960,12 @@ body {
   background-color: #ebfaf0;
 }
 
+.critical {
+  color: #dd4d57 !important;
+  background-color: #fff7f7 !important;
+  border-color: #feeeee !important;
+}
+
 aside {
   height: 100vh;
   width: 240px;

@@ -90,12 +90,14 @@ function fullpage() {
 
   $(document).keyup(e => {
     if (e.keyCode === 49) {
-      banner('Cluster needs additional licenses');
+      $('.banner').remove();
+      banner2('Cluster needs additional licenses');
+
       $('.flex').html(`<button class='primary expand-task' style='margin:auto;'> License </button>`);
       $('.expand-task').click(function() {
         popupRender(0, 0, 0);
         $('.popup-header').text('Manage License');
-        $('.popup-body p:eq(0)').html(`<code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-expand.xml' download> cluster summary file.</a>`);
+        $('.popup-body p:eq(0)').html(`<code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='./img/cluster-summary-expand.xml' download> cluster summary file.</a>`);
       });
     }//esc key
   });
@@ -123,12 +125,23 @@ function banner(i) {
   }, 5000);
 }
 
+function banner2(i) {
+  $('.page-header').after(`<div class='banner critical'>${i}</div>`);
+  $('.banner').css('height', '50px');
+  $('.banner').toggle();
+  setTimeout(function() {
+    $('.banner').slideDown();
+  }, 400);
+}
 
 //applied license
 function applyLicense() {
   $('.see-licenses').click(function() {
     banner(bannerData.license);
+
     $('.page-body').html(pageData);
+    $('.reclaim-task2').text('Manage Licenses');
+    $('.critical').remove();
     $('.reclaim-task2:eq(1)').click(function() {
       popupRender(0, 0, 0)
     });

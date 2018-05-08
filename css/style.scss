@@ -76,6 +76,12 @@ body {
 	background-color: $light-green-3;
 }
 
+.critical{
+	color: $dark-red-3 !important;
+	background-color: $semi-white-red !important;
+	border-color: $light-red-3 !important;
+}
+
 aside {
 	@include size(100vh, 240px);
 	display: block;
