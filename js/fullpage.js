@@ -32,7 +32,7 @@ const page = {
     `
     <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-file.xml' download> cluster summary file.</a></p></a>
 
-    <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='home.html' target='_blank'> license page</a> action menu.</p>
+    <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='./overview.html' target='_blank'> license page</a> action menu.</p>
     <div class='preview'></div>
 
     <p class='statement' style='margin-top:10px;'><code class='option'>3</code>Once the license file has been generated <a class='add-file'>upload it.</a></p>
@@ -92,7 +92,7 @@ function fullpage() {
   $('.reclaim-task2:eq(0)').click(function() {
     popupRender(0, 0, 0);
     $('.popup-header').text('Manage License');
-    $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Manage License through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
+    $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Manage License through the <a href='./overview.html' target='_blank'> license page </a> action menu.</p>`);
   });
   $('html').toggleClass('overflow');
 }
@@ -130,7 +130,7 @@ function applyLicense() {
     $('.reclaim-task2:eq(0)').click(function() {
       popupRender(0, 0, 0);
       $('.popup-header').text('Manage Licenses');
-      $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Manage License through the <a href='home.html' target='_blank'> license page </a> action menu.</p>`);
+      $('.popup-body p:eq(1)').html(`<code class='option'>2</code>Manage License through the <a href='./overview.html' target='_blank'> license page </a> action menu.</p>`);
     });
   });
 }
