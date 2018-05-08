@@ -333,11 +333,79 @@ const layer2Data = {
     <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='home.html' target='_blank'> license page</a> action menu.</p>
     <div class='preview'></div>
 
-    <p class='statement' style='margin-top:10px;'><code class='option'>3</code>Once the license file has been generated <a class='add-file'>upload it.</a></p>`
+    <p class='statement' style='margin-top:10px;'><code class='option'>3</code>Once the license file has been generated <a class='add-file'>upload it.</a></p>`,
+
+    //3 expand
+    `
+    <div class="popup-header">${popupData.title[0]}</div>
+        <!-- <div class='steps-popup2'>
+        <h3><p class='completed badge'>1</p>Upload</h3>
+        <h3><p class='active badge'>2</p>Manage</h3>
+      </div>-->
+      <div class="popup-body panels">
+
+        <div class='panel1'>
+        <p style='margin-bottom:20px; margin-top:-3px; color:#22272E'> Licensing costs have been calculated based on <kbd class='tooltip-trigger'>this cluster's capacity </kbd></p>
+
+        <h4 class= 'aos-data'style='margin-bottom:15px;'>Acropolis License </h4>
+
+          <div class='license-pair aos-data'>
+            <input
+            checked='checked'
+            type='radio'
+            value='pro'
+            style='margin-right: 10px;'
+            id='acropolis-pro'>
+            Pro
+          </div>
+
+        <div class='separator aos-data'></div>
+
+        <h4 style='margin-bottom:15px;' class='addon-data'>Additional Licenses </h4>
+          <div class='license-pair addon-data'>
+            <input type='checkbox'
+            style='margin-right: 10px;
+            margin-bottom:10px;'
+            id='fs'
+            value='fs'>
+            File Server <br>
+          </div>
+
+        </div>
+
+        <div class='panel2'>
+          <h3 style='margin-bottom:19px;''>Cluster licensing costs in <kbd class='tooltip-trigger2'>Coins </kbd></h3>
+
+          <div class=flexbox-stretch>
+            <kbd>${licensePrices[0].key}</kbd> <code>${licensePrices[0].price}</code>
+          </div>
+
+
+          <div class='separator prices'></div>
+
+          <div class=flexbox-stretch>
+            <kbd>Total</kbd>
+            <code class='subt'>${sum}</code>
+          </div>
+
+          <div class=flexbox-stretch>
+            <kbd>Available</kbd>
+            <code class='av'>${cardData.cardBody[1]} </code>
+          </div>
+              <div class='grower'></div>
+          <div class='separator' style='margin-top:0px;'></div>
+
+          <p>Licensed until 12/12/20<br>based on Coin validity dates.</p>
+        </div></div>
+    <div class="popup-footer">${popupData.footer[3]}</div>`,
+
   ]
 }
 
 // Cluster license
+
+
+
 function layer2(i) {
   $('body').append(
     `<div class="overlay overlay2" style='background-color:transparent;'>

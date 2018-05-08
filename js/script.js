@@ -127,12 +127,14 @@ function multiPopup() {
   $('.redeem').click(function() {
     $('.popup').addClass('second');
     $('#path2').val().length === 11 ? layer2(0) :
+    $('#path2').val().length === 26 ? layer2(3) :
     ( layer2(1),
       setTimeout(countNumbers(), 600),
       cardData.cardBody[1] += 40000,
       $('.card:eq(1) h4').text(cardData.cardBody[1]),
       $('aside h4').text(`${cardData.cardBody[1]} Coins Available`)
     )
+
   });
   $('.reclaim').click(function() {
     $('.popup').addClass('second');
