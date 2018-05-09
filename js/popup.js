@@ -194,7 +194,7 @@ const popupData = {
 
     <p style='margin-bottom:20px;'> 3. Use the cluster-summary-expand.xml file downloaded from the license flow to trigger the expand flow </p>
 
-    <code style='font-size:14px; line-height:1.5; padding: 8px 16px;'> Once the reclaim flow has been completed </br> <b>(PRESS 1 on the keyboard)</b> to move to the expand flow.</code>
+    <code style='font-size:14px; line-height:1.5; padding: 8px 16px;'> Once the reclaim flow has been completed </br> <span style='font-weight:500; color: #2068CA; margin: 10px 0;'>(PRESS 1 on the keyboard)</span> to move to the expand flow in the licesing page in Prism Element</code>
     `
   ],
 
