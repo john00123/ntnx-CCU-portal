@@ -26,7 +26,8 @@ const popupData = {
     'Manage License',
     '',
     'Introducing Coins',
-    'License Details'
+    'License Details',
+    'Cheat Sheet'
   ],
 
   body: [
@@ -181,6 +182,20 @@ const popupData = {
       <div class='popup-card' style='width:100%; margin-top:10px;'> <h3 style='text-align:left; margin-left:15px;'>LIC-123123123 <kbd>&nbsp;&nbsp;450 Coins &nbsp; exp.12/12/2020</kbd></h3></div>
 
       </div>`
+
+    ,
+    //8 cheatSheet
+    `
+    <h3> Trigger initial flow by using <a style='color:#22A5F7;' href='http://ntnx.design/new-orleans' target='_blank'>Registration</a></h3>
+
+    <p style='margin-bottom:20px;'> 1. Use the cluster.xml file downloaded from the registration flow to trigger cluster licensing flow </p>
+
+    <p style='margin-bottom:20px;'> 2. Use the cluster-summary-file.xml file downloaded from the reclaim flow to trigger reclaim flow </p>
+
+    <p style='margin-bottom:20px;'> 3. Use the cluster-summary-expand.xml file downloaded from the license flow to trigger the expand flow </p>
+
+    <code style='font-size:14px; line-height:1.5; padding: 8px 16px;'> Once the reclaim flow has been completed </br> <b>(PRESS 1 on the keyboard)</b> to move to the expand flow.</code>
+    `
   ],
 
   footer: [

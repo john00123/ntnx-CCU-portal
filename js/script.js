@@ -4,7 +4,8 @@ $(document).keyup(e => {
 });
 
 $(document).keyup(e => {
-  if (e.keyCode === 190) popupContent(6);
+  if (e.keyCode === 190) popupContent(8);
+  $('.popup-footer button').remove();
 });
 
 // creates cards
