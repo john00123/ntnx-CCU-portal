@@ -21,21 +21,20 @@ const pageData = `
       </article>
     </div>
 
-    <div class='fw flex' ><button class='primary reclaim-task2' style='margin:auto;'> Reclaim </button></div>
+    <div class='fw flex' ><button class='primary reclaim-task2' style='margin:auto;'> Manage Licenses </button></div>
   </div>
 `
 
 
 const page = {
-  title: ['Reclaim unused'],
+  title: ['Manage Licenses'],
   body: [
     `
     <p class='statement'><code class='option' style='padding: 2px 6.5px;'>1</code>Generate a <a class='summary' href='img/cluster-summary-file.xml' download> cluster summary file.</a></p>
 
-    <p class='statement'><code class='option'>2</code>Reclaim it through the <a href='./overview.html' target='_blank'> license page</a> action menu.</p>
-    <div class='preview'></div>
+    <p class='statement'><code class='option'>2</code>Access it through the <a href='/ntnx-attribute/overview.html' target='_blank'> license page</a> action menu.</p>
 
-    <p class='statement' style='margin-top:10px;'><code class='option'>3</code>Once the license file has been generated <a class='add-file'>upload it.</a></p>
+    <p class='statement'><code class='option'>3</code>Once the license file has been generated <a class='add-file'>upload it.</a></p>
     `
 
   ],
